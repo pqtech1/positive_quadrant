@@ -1,0 +1,833 @@
+[22-Jan-2018 12:45:08 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Welcome.php on line 2
+[22-Jan-2018 12:45:48 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Welcome.php on line 2
+[22-Jan-2018 12:48:30 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Welcome.php on line 2
+[22-Jan-2018 12:54:35 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 12:57:41 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:01:57 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:01:59 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:03:26 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:09:04 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:17:05 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:20:23 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:26:31 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:30:18 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[22-Jan-2018 13:31:56 Etc/GMT] PHP Fatal error:  Class 'MY_Controller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 2
+[25-Jan-2018 06:12:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '$atemplate' (T_VARIABLE) in /home/togglebits/public_html/adminearthessence/application/config/constants.php on line 90
+[25-Jan-2018 11:53:39 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:30 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:30 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:48 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:54 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:54 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:54 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:55 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:55 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:55 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:55 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:54:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:04 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:05 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:05 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:05 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:15 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:15 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:15 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:27 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:29 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:29 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:29 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:29 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:36 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:36 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:36 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:37 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:37 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:44 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:52 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:52 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:52 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:54 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:55:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:03 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:04 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:04 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:09 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:10 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:11 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:11 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:11 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:22 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:22 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:44 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:44 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:45 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:45 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:45 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:45 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:46 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:46 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:46 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:48 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:57 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:57 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:58 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:56:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:01 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:02 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:07 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:07 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:07 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:08 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:08 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:08 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:15 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:19 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:19 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:19 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:20 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:20 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:32 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:57:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:58:06 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:58:10 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:58:10 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:58:11 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 90
+[25-Jan-2018 11:58:27 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::check_cookie_cart_data() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 105
+[25-Jan-2018 11:58:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::check_cookie_cart_data() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 105
+[25-Jan-2018 11:58:28 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::check_cookie_cart_data() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 105
+[25-Jan-2018 12:04:59 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:05:00 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:07:51 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:11:26 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:11:31 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:11:40 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:11:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:11:49 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:11:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:13 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:14 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:22 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:22 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:23 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:24 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:24 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:24 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:24 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:12:26 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:13:06 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 89
+[25-Jan-2018 12:15:53 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:15:55 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:15:56 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:15:56 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:16:03 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:16:03 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:16:03 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 12:16:21 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::check_cookie_cart_data() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 95
+[25-Jan-2018 12:36:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 79
+[25-Jan-2018 14:14:20 Etc/GMT] PHP Fatal error:  Cannot redeclare Login::send_mail() in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 203
+[25-Jan-2018 14:15:47 Etc/GMT] PHP Fatal error:  Cannot redeclare Login_model::check_email() in /home/togglebits/public_html/adminearthessence/application/models/Login_model.php on line 41
+[25-Jan-2018 14:15:48 Etc/GMT] PHP Fatal error:  Cannot redeclare Login_model::check_email() in /home/togglebits/public_html/adminearthessence/application/models/Login_model.php on line 41
+[25-Jan-2018 14:15:50 Etc/GMT] PHP Fatal error:  Cannot redeclare Login::send_mail() in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 203
+[25-Jan-2018 14:16:08 Etc/GMT] PHP Fatal error:  Cannot redeclare Login_model::check_email() in /home/togglebits/public_html/adminearthessence/application/models/Login_model.php on line 41
+[25-Jan-2018 14:16:24 Etc/GMT] PHP Fatal error:  Cannot redeclare Login_model::check_email() in /home/togglebits/public_html/adminearthessence/application/models/Login_model.php on line 41
+[25-Jan-2018 14:16:25 Etc/GMT] PHP Fatal error:  Cannot redeclare Login_model::check_email() in /home/togglebits/public_html/adminearthessence/application/models/Login_model.php on line 41
+[25-Jan-2018 14:16:34 Etc/GMT] PHP Fatal error:  Cannot redeclare Login_model::check_email() in /home/togglebits/public_html/adminearthessence/application/models/Login_model.php on line 41
+[25-Jan-2018 14:17:36 Etc/GMT] PHP Fatal error:  Cannot redeclare Login::send_mail() in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 208
+[25-Jan-2018 14:19:15 Etc/GMT] PHP Fatal error:  Cannot redeclare Login::send_mail() in /home/togglebits/public_html/adminearthessence/application/controllers/Login.php on line 210
+[26-Jan-2018 13:23:16 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 141
+[26-Jan-2018 13:24:27 Etc/GMT] PHP Fatal error:  Cannot redeclare Cart_model::update_cookie_quantity() in /home/togglebits/public_html/adminearthessence/application/models/Cart_model.php on line 141
+[29-Jan-2018 08:04:06 Etc/GMT] PHP Fatal error:  Class 'CI_Contorller' not found in /home/togglebits/public_html/adminearthessence/application/controllers/CCRequestHandler.php on line 2
+[05-Feb-2018 07:58:40 Etc/GMT] PHP Warning:  include(/home/tgbitsin/public_html/adminhumtea/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/tgbitsin/public_html/adminhumtea/system/core/Exceptions.php on line 268
+[05-Feb-2018 07:58:40 Etc/GMT] PHP Warning:  include(): Failed opening '/home/tgbitsin/public_html/adminhumtea/application/views/errors/html/error_php.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/tgbitsin/public_html/adminhumtea/system/core/Exceptions.php on line 268
+[05-Feb-2018 07:58:40 Etc/GMT] PHP Warning:  include(/home/tgbitsin/public_html/adminhumtea/application/views/errors/html/error_php.php): failed to open stream: No such file or directory in /home/tgbitsin/public_html/adminhumtea/system/core/Exceptions.php on line 268
+[05-Feb-2018 07:58:40 Etc/GMT] PHP Warning:  include(): Failed opening '/home/tgbitsin/public_html/adminhumtea/application/views/errors/html/error_php.php' for inclusion (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/tgbitsin/public_html/adminhumtea/system/core/Exceptions.php on line 268
+[05-Feb-2018 08:02:49 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 08:03:08 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 08:03:57 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 08:04:26 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 08:05:18 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 08:07:11 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 08:08:25 Etc/GMT] PHP Fatal error:  Call to undefined function form_error() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 53
+[05-Feb-2018 08:08:59 Etc/GMT] PHP Fatal error:  Call to undefined function set_value() in /home/tgbitsin/public_html/adminhumtea/application/views/Login/login.php on line 51
+[05-Feb-2018 18:54:37 Asia/Kolkata] PHP Fatal error:  Call to undefined method MY_Loader::mast_load() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 14
+[05-Feb-2018 18:54:54 Asia/Kolkata] PHP Fatal error:  Call to undefined method MY_Loader::mast_load() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 14
+[06-Feb-2018 07:25:31 Etc/GMT] PHP Fatal error:  Call to undefined method MY_Loader::template1() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 9
+[06-Feb-2018 07:26:14 Etc/GMT] PHP Fatal error:  Call to undefined method MY_Loader::template() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 9
+[06-Feb-2018 07:26:29 Etc/GMT] PHP Fatal error:  Call to undefined method MY_Loader::template() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 9
+[06-Feb-2018 08:01:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 111
+[06-Feb-2018 08:02:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting '{' in /home/tgbitsin/public_html/adminhumtea/application/models/Category_model.php on line 2
+[06-Feb-2018 08:46:30 Etc/GMT] PHP Fatal error:  Call to undefined method Category_model::getdata() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 115
+[06-Feb-2018 08:47:08 Etc/GMT] PHP Fatal error:  Call to undefined method Category_model::getdata() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 115
+[06-Feb-2018 10:12:28 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 325
+[06-Feb-2018 11:47:12 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 34
+[07-Feb-2018 16:44:23 Asia/Kolkata] PHP Fatal error:  Call to undefined function get_thumb_image() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 208
+[07-Feb-2018 16:46:25 Asia/Kolkata] PHP Fatal error:  Call to undefined function get_thumb_image() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 208
+[07-Feb-2018 16:49:35 Asia/Kolkata] PHP Fatal error:  Call to undefined function get_thumb_image() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 208
+[07-Feb-2018 17:17:31 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''?>">Subscription Details</a><' (T_ENCAPSED_AND_WHITESPACE) in /home/tgbitsin/public_html/adminhumtea/application/views/Subscription/viewsubscription.php on line 114
+[07-Feb-2018 17:18:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''?>">Subscription Details</a><' (T_ENCAPSED_AND_WHITESPACE) in /home/tgbitsin/public_html/adminhumtea/application/views/Subscription/viewsubscription.php on line 114
+[08-Feb-2018 06:38:38 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Category.php on line 116
+[08-Feb-2018 06:49:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '>' in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 338
+[08-Feb-2018 08:01:34 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 339
+[08-Feb-2018 08:12:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 66
+[08-Feb-2018 08:13:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 66
+[08-Feb-2018 08:14:28 Etc/GMT] PHP Fatal error:  Call to undefined function data() in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 66
+[08-Feb-2018 08:14:31 Etc/GMT] PHP Fatal error:  Call to undefined function data() in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 66
+[08-Feb-2018 08:15:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 66
+[08-Feb-2018 08:16:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '[' in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 66
+[08-Feb-2018 08:34:31 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 223
+[08-Feb-2018 15:32:58 Asia/Kolkata] PHP Fatal error:  Call to undefined method Subscripion_model::save_subs() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Subscription.php on line 55
+[08-Feb-2018 15:33:05 Asia/Kolkata] PHP Fatal error:  Call to undefined method Subscripion_model::save_subs() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Subscription.php on line 55
+[08-Feb-2018 15:34:18 Asia/Kolkata] PHP Fatal error:  Call to undefined method Subscripion_model::save_subs() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Subscription.php on line 55
+[08-Feb-2018 15:37:33 Asia/Kolkata] PHP Fatal error:  Call to undefined method Subscripion_model::save_subs() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Subscription.php on line 55
+[08-Feb-2018 11:42:30 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Category/viewcategory.php on line 226
+[08-Feb-2018 13:21:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Subscripion_model.php on line 27
+[09-Feb-2018 05:52:15 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 7
+[09-Feb-2018 05:52:46 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 7
+[09-Feb-2018 05:52:48 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 7
+[09-Feb-2018 05:53:20 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 7
+[09-Feb-2018 07:06:49 Etc/GMT] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 103
+[09-Feb-2018 07:15:55 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 101
+[09-Feb-2018 07:16:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 101
+[09-Feb-2018 07:32:40 Etc/GMT] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Nonsubscription.php on line 34
+[09-Feb-2018 07:43:40 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 89
+[09-Feb-2018 07:44:50 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 96
+[09-Feb-2018 07:45:10 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 97
+[09-Feb-2018 07:45:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Test/test.php on line 97
+[09-Feb-2018 09:56:29 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 09:56:44 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 15:26:59 Asia/Kolkata] PHP Fatal error:  Call to a member function view_product() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Inventory.php on line 15
+[09-Feb-2018 09:57:41 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 09:57:43 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 09:57:44 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 09:57:44 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 09:58:56 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 15:30:01 Asia/Kolkata] PHP Fatal error:  Call to a member function view_all() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Inventory.php on line 15
+[09-Feb-2018 15:31:31 Asia/Kolkata] PHP Fatal error:  Call to a member function view_all() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Inventory.php on line 15
+[09-Feb-2018 15:31:32 Asia/Kolkata] PHP Fatal error:  Call to a member function view_all() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Inventory.php on line 15
+[09-Feb-2018 10:01:54 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 10:01:59 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 8
+[09-Feb-2018 10:24:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Order_model.php on line 55
+[09-Feb-2018 10:24:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Order_model.php on line 55
+[09-Feb-2018 10:24:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Order_model.php on line 55
+[09-Feb-2018 10:24:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Order_model.php on line 55
+[10-Feb-2018 06:06:46 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 32
+[10-Feb-2018 06:07:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 32
+[10-Feb-2018 06:09:04 Etc/GMT] PHP Parse error:  syntax error, unexpected 'quantity' (T_STRING) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 32
+[10-Feb-2018 06:09:07 Etc/GMT] PHP Parse error:  syntax error, unexpected 'quantity' (T_STRING) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 32
+[10-Feb-2018 06:10:07 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Orders.php on line 32
+[10-Feb-2018 09:23:41 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Successfull.php on line 5
+[10-Feb-2018 09:24:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Successfull.php on line 5
+[10-Feb-2018 09:24:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Successfull.php on line 5
+[10-Feb-2018 09:24:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Successfull.php on line 5
+[10-Feb-2018 09:24:18 Etc/GMT] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Successfull.php on line 5
+[10-Feb-2018 10:33:21 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Unsuccessfull.php on line 14
+[12-Feb-2018 18:09:04 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:06 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:06 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:24 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[12-Feb-2018 18:09:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=' in /home/tgbitsin/public_html/adminhumtea/application/views/User/viewuser.php on line 192
+[14-Feb-2018 12:39:32 Asia/Kolkata] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 158
+[14-Feb-2018 16:52:47 Asia/Kolkata] PHP Fatal error:  Call to a member function logged_in() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 218
+[14-Feb-2018 16:53:13 Asia/Kolkata] PHP Fatal error:  Call to undefined method Test_model::getList() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 245
+[15-Feb-2018 06:20:09 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/core/MY_Controller.php on line 102
+[15-Feb-2018 06:37:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '"/index"' (T_CONSTANT_ENCAPSED_STRING) in /home/tgbitsin/public_html/adminhumtea/application/core/MY_Controller.php on line 22
+[15-Feb-2018 10:57:04 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 26
+[15-Feb-2018 16:33:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/footfallorder.php on line 312
+[15-Feb-2018 16:33:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/footfallorder.php on line 312
+[15-Feb-2018 16:33:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/footfallorder.php on line 312
+[15-Feb-2018 16:33:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/footfallorder.php on line 312
+[15-Feb-2018 16:33:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/footfallorder.php on line 312
+[15-Feb-2018 11:36:13 Etc/GMT] PHP Fatal error:  Class 'PDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 193
+[15-Feb-2018 11:36:28 Etc/GMT] PHP Fatal error:  Class 'mPDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 193
+[15-Feb-2018 11:36:49 Etc/GMT] PHP Fatal error:  Class 'mPDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 248
+[15-Feb-2018 11:52:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '"' in /home/tgbitsin/public_html/adminhumtea/application/third_party/mpdf/mpdf.php on line 1
+[15-Feb-2018 12:00:53 Etc/GMT] PHP Fatal error:  Class 'pdf' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 194
+[15-Feb-2018 12:01:14 Etc/GMT] PHP Fatal error:  Class name must be a valid object or a string in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 194
+[15-Feb-2018 12:03:38 Etc/GMT] PHP Fatal error:  Class 'mPDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 195
+[15-Feb-2018 12:03:48 Etc/GMT] PHP Fatal error:  Class 'mPDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 195
+[15-Feb-2018 12:03:51 Etc/GMT] PHP Fatal error:  Class 'mPDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 195
+[15-Feb-2018 12:04:04 Etc/GMT] PHP Fatal error:  Class 'PDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 195
+[15-Feb-2018 12:04:53 Etc/GMT] PHP Fatal error:  Class 'PDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 195
+[15-Feb-2018 12:31:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 91
+[15-Feb-2018 12:31:51 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 91
+[15-Feb-2018 13:03:31 Etc/GMT] PHP Fatal error:  Class 'mPDF' not found in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 203
+[15-Feb-2018 18:51:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/viewcourier.php on line 214
+[15-Feb-2018 14:00:03 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 53
+[15-Feb-2018 19:34:11 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::lastquery() in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 170
+[16-Feb-2018 06:13:15 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:13:19 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:13:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:13:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:13:52 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:13:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:13:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:14:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:14:52 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/core/MY_Controller.php on line 18
+[16-Feb-2018 06:14:52 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/core/MY_Controller.php on line 18
+[16-Feb-2018 06:15:08 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:15:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:15:39 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:16:32 Etc/GMT] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 329
+[16-Feb-2018 06:22:35 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 36
+[16-Feb-2018 06:25:35 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/viewfootfallorder.php on line 105
+[16-Feb-2018 06:28:41 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 36
+[16-Feb-2018 06:28:57 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 36
+[16-Feb-2018 06:53:08 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:13 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:19 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:19 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:21 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:24 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:25 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:27 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:53:27 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:08 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:11 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:11 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:11 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:54:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:20 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:21 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:22 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:22 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:22 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:22 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:24 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:56:25 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:17 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:18 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:18 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 06:57:19 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/models/My_model.php on line 144
+[16-Feb-2018 13:43:28 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32 bytes) in /home/tgbitsin/public_html/adminhumtea/application/views/errors/html/error_php.php on line 19
+[16-Feb-2018 14:57:17 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32 bytes) in /home/tgbitsin/public_html/adminhumtea/application/views/errors/html/error_php.php on line 19
+[16-Feb-2018 10:32:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 160
+[16-Feb-2018 16:20:19 Asia/Kolkata] PHP Fatal error:  Call to a member function uploadData() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 149
+[16-Feb-2018 10:52:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 66
+[16-Feb-2018 10:52:57 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 66
+[16-Feb-2018 16:23:23 Asia/Kolkata] PHP Fatal error:  Call to undefined method Footfall_model::viewfootfall() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 17
+[16-Feb-2018 10:55:27 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:55:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:25 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:28 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:29 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:30 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 10:56:31 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 20
+[16-Feb-2018 16:27:04 Asia/Kolkata] PHP Fatal error:  Call to undefined method Footfall_model::viewfootfall() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 17
+[16-Feb-2018 11:10:45 Etc/GMT] PHP Fatal error:  Call to a member function getdata() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 39
+[16-Feb-2018 17:20:31 Asia/Kolkata] PHP Fatal error:  Call to undefined function photo_path() in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:50:49 Etc/GMT] PHP Fatal error:  Call to undefined function sum() in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 29
+[16-Feb-2018 11:51:33 Etc/GMT] PHP Parse error:  syntax error, unexpected 'fo' (T_STRING) in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 29
+[16-Feb-2018 11:51:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:51:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:52:14 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:52:15 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:52:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:52:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:52:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 11:52:37 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/models/Courier_model.php on line 258
+[16-Feb-2018 12:27:26 Etc/GMT] PHP Fatal error:  Call to undefined function sum() in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/viewfootfallorder.php on line 106
+[16-Feb-2018 18:19:59 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 61
+[16-Feb-2018 18:20:44 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 61
+[16-Feb-2018 18:22:27 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 61
+[16-Feb-2018 18:23:00 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 61
+[16-Feb-2018 18:23:25 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 75
+[16-Feb-2018 18:24:27 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 75
+[16-Feb-2018 18:41:40 Asia/Kolkata] PHP Fatal error:  Call to undefined function stript() in /home/tgbitsin/public_html/adminhumtea/application/views/Courier/editcourier.php on line 90
+[16-Feb-2018 13:20:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 136
+[16-Feb-2018 18:54:36 Asia/Kolkata] PHP Fatal error:  Call to undefined method Product_model::delete() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 204
+[16-Feb-2018 18:55:40 Asia/Kolkata] PHP Fatal error:  Call to undefined method Product_model::delete() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Courier.php on line 204
+[16-Feb-2018 13:56:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 72
+[17-Feb-2018 05:41:25 Etc/GMT] PHP Fatal error:  Call to a member function query() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 38
+[17-Feb-2018 05:41:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 38
+[17-Feb-2018 05:42:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 38
+[17-Feb-2018 05:42:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 38
+[17-Feb-2018 05:42:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 38
+[17-Feb-2018 05:58:44 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 164
+[17-Feb-2018 06:00:17 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 164
+[17-Feb-2018 06:00:19 Etc/GMT] PHP Parse error:  syntax error, unexpected end of file in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 164
+[17-Feb-2018 06:36:19 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/edit_footfall.php on line 144
+[17-Feb-2018 07:48:33 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 67
+[17-Feb-2018 07:48:55 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 67
+[17-Feb-2018 07:48:57 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 67
+[17-Feb-2018 07:49:34 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 87
+[17-Feb-2018 07:49:53 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 87
+[17-Feb-2018 07:50:17 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 88
+[17-Feb-2018 07:53:21 Etc/GMT] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 88
+[17-Feb-2018 11:24:34 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 53
+[17-Feb-2018 11:24:54 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 53
+[17-Feb-2018 11:25:05 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 53
+[17-Feb-2018 11:26:03 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 55
+[17-Feb-2018 11:43:18 Etc/GMT] PHP Fatal error:  Call to undefined function alert() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Test.php on line 83
+[17-Feb-2018 12:05:46 Etc/GMT] PHP Fatal error:  Call to undefined function alert() in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 58
+[17-Feb-2018 12:28:51 Etc/GMT] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 65
+[17-Feb-2018 12:29:20 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 73
+[17-Feb-2018 12:29:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 73
+[17-Feb-2018 12:29:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/models/Test_model.php on line 73
+[17-Feb-2018 12:37:26 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 36
+[17-Feb-2018 12:47:10 Etc/GMT] PHP Parse error:  syntax error, unexpected 'style' (T_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Footfallorders/viewfootfallorder.php on line 87
+[20-Feb-2018 10:47:58 Etc/GMT] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/models/Footfall_model.php on line 88
+[20-Feb-2018 17:21:55 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 184
+[20-Feb-2018 17:22:49 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 185
+[20-Feb-2018 17:29:54 Asia/Kolkata] PHP Fatal error:  Function name must be a string in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 116
+[20-Feb-2018 17:31:38 Asia/Kolkata] PHP Fatal error:  Function name must be a string in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 116
+[20-Feb-2018 17:42:07 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 190
+[20-Feb-2018 18:37:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 200
+[20-Feb-2018 13:16:20 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 138
+[20-Feb-2018 18:47:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:48:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:49:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:49:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:49:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:49:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:49:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:50:01 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 196
+[20-Feb-2018 18:50:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 192
+[20-Feb-2018 13:23:25 Etc/GMT] PHP Parse error:  syntax error, unexpected ''ft_paymode'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 103
+[20-Feb-2018 13:24:38 Etc/GMT] PHP Parse error:  syntax error, unexpected ''ft_paymode'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 104
+[20-Feb-2018 13:25:00 Etc/GMT] PHP Parse error:  syntax error, unexpected ''ft_paymode'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 104
+[20-Feb-2018 13:25:04 Etc/GMT] PHP Parse error:  syntax error, unexpected ''ft_paymode'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 104
+[20-Feb-2018 18:55:52 Asia/Kolkata] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /home/tgbitsin/public_html/adminhumtea/application/models/Offers_model.php on line 107
+[20-Feb-2018 19:02:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 195
+[20-Feb-2018 19:03:07 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 195
+[20-Feb-2018 19:04:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 195
+[20-Feb-2018 19:12:31 Asia/Kolkata] PHP Fatal error:  Call to a member function where() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/models/Category_model.php on line 53
+[20-Feb-2018 19:12:36 Asia/Kolkata] PHP Fatal error:  Call to a member function where() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/models/Category_model.php on line 53
+[20-Feb-2018 19:15:55 Asia/Kolkata] PHP Fatal error:  Call to a member function where() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/models/Category_model.php on line 53
+[20-Feb-2018 13:47:10 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/tgbitsin/public_html/adminhumtea/application/models/Category_model.php on line 51
+[20-Feb-2018 13:47:12 Etc/GMT] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING), expecting variable (T_VARIABLE) or '$' in /home/tgbitsin/public_html/adminhumtea/application/models/Category_model.php on line 51
+[21-Feb-2018 11:06:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/editoffers.php on line 84
+[21-Feb-2018 11:50:02 Asia/Kolkata] PHP Fatal error:  [] operator not supported for strings in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/editoffers.php on line 106
+[21-Feb-2018 11:59:31 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/editoffers.php on line 113
+[21-Feb-2018 12:00:04 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/editoffers.php on line 113
+[21-Feb-2018 12:19:03 Asia/Kolkata] PHP Fatal error:  Call to undefined function fill() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 103
+[21-Feb-2018 12:19:59 Asia/Kolkata] PHP Fatal error:  Call to undefined function fill() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 103
+[21-Feb-2018 12:21:50 Asia/Kolkata] PHP Fatal error:  Call to undefined function fill() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 103
+[21-Feb-2018 06:54:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ':', expecting ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 102
+[21-Feb-2018 06:54:33 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 105
+[21-Feb-2018 06:54:36 Etc/GMT] PHP Parse error:  syntax error, unexpected '}' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 105
+[21-Feb-2018 12:32:31 Asia/Kolkata] PHP Fatal error:  Unsupported operand types in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 102
+[21-Feb-2018 12:32:54 Asia/Kolkata] PHP Fatal error:  Unsupported operand types in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 102
+[21-Feb-2018 12:35:55 Asia/Kolkata] PHP Fatal error:  Function name must be a string in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 102
+[21-Feb-2018 10:28:00 Etc/GMT] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 103
+[21-Feb-2018 10:44:35 Etc/GMT] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 114
+[21-Feb-2018 10:45:06 Etc/GMT] PHP Parse error:  syntax error, unexpected '$count' (T_VARIABLE), expecting function (T_FUNCTION) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 114
+[21-Feb-2018 11:41:30 Etc/GMT] PHP Fatal error:  Cannot redeclare class Order_model in /home/tgbitsin/public_html/adminhumtea/application/models/Dashboard_model.php on line 29
+[21-Feb-2018 11:41:42 Etc/GMT] PHP Fatal error:  Cannot redeclare class Order_model in /home/tgbitsin/public_html/adminhumtea/application/models/Dashboard_model.php on line 29
+[21-Feb-2018 11:41:44 Etc/GMT] PHP Fatal error:  Cannot redeclare class Order_model in /home/tgbitsin/public_html/adminhumtea/application/models/Dashboard_model.php on line 29
+[21-Feb-2018 11:41:44 Etc/GMT] PHP Fatal error:  Cannot redeclare class Order_model in /home/tgbitsin/public_html/adminhumtea/application/models/Dashboard_model.php on line 29
+[21-Feb-2018 11:41:45 Etc/GMT] PHP Fatal error:  Cannot redeclare class Order_model in /home/tgbitsin/public_html/adminhumtea/application/models/Dashboard_model.php on line 29
+[21-Feb-2018 11:41:53 Etc/GMT] PHP Fatal error:  Cannot redeclare class Order_model in /home/tgbitsin/public_html/adminhumtea/application/models/Dashboard_model.php on line 29
+[21-Feb-2018 17:18:37 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 333
+[21-Feb-2018 17:27:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 333
+[21-Feb-2018 17:38:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 339
+[21-Feb-2018 17:38:32 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 339
+[22-Feb-2018 05:39:26 Etc/GMT] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 246
+[22-Feb-2018 05:55:59 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 349
+[22-Feb-2018 05:56:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 349
+[22-Feb-2018 06:23:16 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/models/Offers_model.php on line 93
+[22-Feb-2018 06:43:15 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Offers.php on line 20
+[22-Feb-2018 06:50:25 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/tgbitsin/public_html/adminhumtea/application/models/Offers_model.php on line 107
+[22-Feb-2018 06:50:44 Etc/GMT] PHP Fatal error:  Cannot redeclare Offers_model::getRow2() in /home/tgbitsin/public_html/adminhumtea/application/models/Offers_model.php on line 134
+[22-Feb-2018 07:22:42 Etc/GMT] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/models/Offers_model.php on line 94
+[22-Feb-2018 07:31:24 Etc/GMT] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 258
+[22-Feb-2018 07:32:16 Etc/GMT] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 258
+[22-Feb-2018 13:10:40 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 13:11:31 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 13:16:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 07:51:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ''product_unit'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 166
+[22-Feb-2018 14:00:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '','' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 176
+[22-Feb-2018 14:01:47 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 176
+[22-Feb-2018 14:04:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$p' (T_VARIABLE), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 14:05:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$p' (T_VARIABLE), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 14:07:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '.' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 14:07:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$p' (T_VARIABLE), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 15:19:22 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 15:19:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 15:21:08 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''<span>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 15:21:08 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''<span>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 15:21:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/viewoffers.php on line 178
+[22-Feb-2018 15:31:42 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Offers/editoffers.php on line 119
+[22-Feb-2018 16:12:39 Asia/Kolkata] PHP Fatal error:  Call to undefined function alert() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 47
+[22-Feb-2018 16:14:51 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 412
+[22-Feb-2018 16:29:51 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysubscription.php on line 422
+[22-Feb-2018 16:30:12 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysubscription.php on line 422
+[22-Feb-2018 16:30:25 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysubscription.php on line 422
+[22-Feb-2018 16:30:54 Asia/Kolkata] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/tgbitsin/public_html/adminhumtea/application/controllers/Offers.php on line 53
+[22-Feb-2018 16:33:55 Asia/Kolkata] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/tgbitsin/public_html/adminhumtea/application/controllers/Offers.php on line 53
+[22-Feb-2018 16:36:53 Asia/Kolkata] PHP Fatal error:  Call to a member function result() on a non-object in /home/tgbitsin/public_html/adminhumtea/application/controllers/Offers.php on line 53
+[22-Feb-2018 19:01:47 Asia/Kolkata] PHP Fatal error:  Call to undefined method Offers_model::get_thumb_image() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Offers.php on line 191
+[22-Feb-2018 19:04:16 Asia/Kolkata] PHP Fatal error:  Call to undefined method Offers_model::get_description_image() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Offers.php on line 244
+[23-Feb-2018 11:23:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'callme' (T_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 327
+[23-Feb-2018 11:26:00 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 327
+[23-Feb-2018 11:27:36 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 327
+[23-Feb-2018 11:29:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 327
+[23-Feb-2018 13:20:45 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '" type='checkbox' value='"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 326
+[23-Feb-2018 13:20:58 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '" type='checkbox' value='"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 326
+[23-Feb-2018 13:21:07 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '" type='checkbox' value='"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysorders.php on line 326
+[23-Feb-2018 09:50:41 Etc/GMT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 56
+[23-Feb-2018 16:02:45 Asia/Kolkata] PHP Fatal error:  Call to undefined method Dashboard_model::getdata() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 132
+[23-Feb-2018 17:15:01 Asia/Kolkata] PHP Fatal error:  Call to undefined method Order_model::getOrderDetails() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 133
+[23-Feb-2018 11:54:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '5' (T_LNUMBER) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 241
+[23-Feb-2018 12:00:04 Etc/GMT] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 140
+[23-Feb-2018 13:05:09 Etc/GMT] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:05:11 Etc/GMT] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:05:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:06:18 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:06:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:06:36 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:09:23 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:09:43 Etc/GMT] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 147
+[23-Feb-2018 13:22:53 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:22:55 Etc/GMT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:30:29 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:30:31 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:30:33 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:30:34 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:33:49 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:33:50 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:33:50 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:34:12 Etc/GMT] PHP Parse error:  syntax error, unexpected ',' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:38:05 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:39:11 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:39:12 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:39:13 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:39:13 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:39:14 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:39:30 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:41:25 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:42:12 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:42:59 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:45:34 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:45:36 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:46:43 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:46:44 Etc/GMT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 30
+[23-Feb-2018 13:50:12 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:14 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:15 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:16 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:17 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:32 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:33 Etc/GMT] PHP Parse error:  syntax error, unexpected ')' in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 13:50:50 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/tgbitsin/public_html/adminhumtea/application/controllers/Product.php on line 25
+[23-Feb-2018 19:32:44 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Product/viewproduct.php on line 293
+[23-Feb-2018 19:32:46 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Product/viewproduct.php on line 293
+[23-Feb-2018 19:32:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Product/viewproduct.php on line 293
+[23-Feb-2018 19:34:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Product/viewproduct.php on line 293
+[24-Feb-2018 10:44:47 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Footfall.php on line 245
+[24-Feb-2018 12:37:15 Etc/GMT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 167
+[24-Feb-2018 19:05:43 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$val' (T_VARIABLE), expecting ',' or ';' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/todaysubscription.php on line 329
+[27-Feb-2018 10:14:13 Etc/GMT] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE) in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 40
+[27-Feb-2018 15:54:08 Asia/Kolkata] PHP Fatal error:  Call to undefined method Dashboard_model::update() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 44
+[27-Feb-2018 16:17:47 Asia/Kolkata] PHP Fatal error:  Call to undefined method Dashboard::getListTable() in /home/tgbitsin/public_html/adminhumtea/application/controllers/Dashboard.php on line 36
+[27-Feb-2018 16:45:56 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/settings.php on line 76
+[27-Feb-2018 16:52:03 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/settings.php on line 77
+[27-Feb-2018 17:05:55 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?>' in /home/tgbitsin/public_html/adminhumtea/application/views/Dashboard/settings.php on line 81
+[07-Mar-2018 17:14:11 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:14:15 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:14:17 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:14:47 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:15:44 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:16:16 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:16:22 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 17:16:45 Asia/Kolkata] PHP Fatal error:  Call to undefined function base_code() in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/viewchemist.php on line 585
+[07-Mar-2018 12:25:45 Etc/GMT] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/tgbitsin/public_html/adminmeyer/application/controllers/Chemist.php on line 66
+[07-Mar-2018 12:26:10 Etc/GMT] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/tgbitsin/public_html/adminmeyer/application/controllers/Chemist.php on line 66
+[08-Mar-2018 12:32:34 Asia/Kolkata] PHP Fatal error:  Call to a member function viewall() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/User.php on line 15
+[08-Mar-2018 12:36:23 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting variable (T_VARIABLE) or '$' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 161
+[08-Mar-2018 07:08:22 Etc/GMT] PHP Parse error:  syntax error, unexpected '>' in /home/tgbitsin/public_html/adminmeyer/application/models/Chemist_model.php on line 38
+[08-Mar-2018 12:53:39 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 12:54:23 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 12:54:24 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 12:54:24 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 12:54:25 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 12:54:25 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 12:54:25 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/User/viewuser.php on line 163
+[08-Mar-2018 13:11:22 Asia/Kolkata] PHP Fatal error:  Cannot access empty property in /home/tgbitsin/public_html/adminmeyer/application/models/User_model.php on line 63
+[08-Mar-2018 13:14:31 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 189
+[08-Mar-2018 13:14:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 189
+[08-Mar-2018 13:15:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 189
+[08-Mar-2018 13:16:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 189
+[08-Mar-2018 09:48:30 Etc/GMT] PHP Fatal error:  Call to a member function getUserDetails() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 8
+[08-Mar-2018 15:45:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ';' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 169
+[08-Mar-2018 10:17:14 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:18:20 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:18:22 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:18:22 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:18:23 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:18:23 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:14 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:15 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:15 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:16 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:16 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:16 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:17 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:17 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 219
+[08-Mar-2018 10:19:49 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 309
+[08-Mar-2018 10:21:37 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 309
+[08-Mar-2018 10:22:20 Etc/GMT] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/successfull.php on line 309
+[08-Mar-2018 10:49:59 Etc/GMT] PHP Fatal error:  Call to undefined method Region::checkdetails() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Region.php on line 9
+[08-Mar-2018 16:40:17 Asia/Kolkata] PHP Fatal error:  Call to a member function getCount() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/core/MY_Controller.php on line 25
+[08-Mar-2018 16:44:41 Asia/Kolkata] PHP Fatal error:  Call to a member function getCount() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/core/MY_Controller.php on line 25
+[08-Mar-2018 16:45:12 Asia/Kolkata] PHP Fatal error:  Call to a member function getCount() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/core/MY_Controller.php on line 25
+[08-Mar-2018 16:45:15 Asia/Kolkata] PHP Fatal error:  Call to a member function getCount() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/core/MY_Controller.php on line 25
+[08-Mar-2018 16:45:28 Asia/Kolkata] PHP Fatal error:  Call to a member function getCount() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/core/MY_Controller.php on line 25
+[08-Mar-2018 17:00:00 Asia/Kolkata] PHP Fatal error:  Call to undefined function delete() in /home/tgbitsin/public_html/adminmeyer/application/models/Region_model.php on line 43
+[08-Mar-2018 11:36:45 Etc/GMT] PHP Fatal error:  Call to undefined method Order_model::getListTable1() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 17
+[08-Mar-2018 11:56:51 Etc/GMT] PHP Parse error:  syntax error, unexpected '$_GET' (T_VARIABLE), expecting ')' in /home/tgbitsin/public_html/adminmeyer/application/controllers/Chemist.php on line 46
+[08-Mar-2018 17:34:55 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 230
+[08-Mar-2018 17:36:38 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 258
+[08-Mar-2018 17:37:07 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 265
+[08-Mar-2018 17:38:15 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 265
+[08-Mar-2018 17:38:52 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 265
+[08-Mar-2018 12:57:04 Etc/GMT] PHP Fatal error:  Call to a member function getList() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 121
+[08-Mar-2018 12:57:11 Etc/GMT] PHP Fatal error:  Call to a member function getList() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 121
+[08-Mar-2018 12:57:57 Etc/GMT] PHP Fatal error:  Call to undefined method Order_model::getList() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 121
+[09-Mar-2018 10:47:35 Asia/Kolkata] PHP Parse error:  syntax error, unexpected end of file in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 300
+[09-Mar-2018 06:50:45 Etc/GMT] PHP Parse error:  syntax error, unexpected ''.status'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /home/tgbitsin/public_html/adminmeyer/application/models/Chemist_model.php on line 196
+[09-Mar-2018 11:14:43 Etc/GMT] PHP Fatal error:  Call to undefined method Orders::export() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 199
+[09-Mar-2018 11:14:48 Etc/GMT] PHP Fatal error:  Call to undefined method Orders::export() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 199
+[09-Mar-2018 11:37:01 Etc/GMT] PHP Parse error:  syntax error, unexpected '{' in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 28
+[09-Mar-2018 12:31:30 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:10 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:36 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:36 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:37 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:37 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:39 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:32:47 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:34:10 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:34:45 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:35:20 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:35:20 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:35:23 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:36:16 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:36:50 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:34 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:34 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:40:35 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:41:27 Etc/GMT] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 93
+[09-Mar-2018 12:44:56 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:45:22 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:45:23 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:45:23 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:45:23 Etc/GMT] PHP Fatal error:  Call to undefined function base_url() in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 111
+[09-Mar-2018 12:49:11 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:50:11 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:28 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:28 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:29 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:29 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:29 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:29 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:29 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 12:52:29 Etc/GMT] PHP Fatal error:  Call to a member function v_fields() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 23
+[09-Mar-2018 13:29:38 Etc/GMT] PHP Fatal error:  Call to a member function config() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/views/Orders/reports.php on line 242
+[12-Mar-2018 06:18:37 Etc/GMT] PHP Fatal error:  Call to a member function getList() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 825
+[12-Mar-2018 06:20:04 Etc/GMT] PHP Fatal error:  Call to a member function getList() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Orders.php on line 825
+[12-Mar-2018 16:30:49 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 165
+[12-Mar-2018 16:30:55 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 165
+[12-Mar-2018 16:30:56 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 165
+[12-Mar-2018 16:30:57 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 165
+[12-Mar-2018 16:42:57 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:45:25 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:45:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:45:26 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:11 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:14 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:46:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:47:30 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 16:47:31 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?' in /home/tgbitsin/public_html/adminmeyer/application/views/Chemist/showchemist.php on line 176
+[12-Mar-2018 17:21:07 Asia/Kolkata] PHP Fatal error:  Call to a member function dashboard_all() on a non-object in /home/tgbitsin/public_html/adminmeyer/application/controllers/Dashboard.php on line 14
+[12-Mar-2018 17:55:05 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?' in /home/tgbitsin/public_html/adminmeyer/application/views/Dashboard/dashboard.php on line 18
+[12-Mar-2018 17:56:17 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tgbitsin/public_html/adminmeyer/application/views/Dashboard/dashboard.php on line 18
+[12-Mar-2018 17:58:03 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/tgbitsin/public_html/adminmeyer/application/views/Dashboard/dashboard.php on line 18
+[26-Mar-2018 09:33:42 Etc/GMT] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/togglebits/public_html/adminchrome/application/controllers/Film.php on line 155
+[26-Mar-2018 09:33:44 Etc/GMT] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/togglebits/public_html/adminchrome/application/controllers/Film.php on line 155
+[26-Mar-2018 12:50:53 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/togglebits/public_html/adminchrome/application/controllers/Director.php on line 50
+[27-Mar-2018 12:25:05 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/togglebits/public_html/adminchrome/application/controllers/Director.php on line 165
+[30-Mar-2018 11:24:27 Etc/GMT] PHP Fatal error:  Can't use function return value in write context in /home/togglebits/public_html/adminchrome/application/controllers/Director.php on line 96
+[30-Mar-2018 11:24:28 Etc/GMT] PHP Fatal error:  Can't use function return value in write context in /home/togglebits/public_html/adminchrome/application/controllers/Director.php on line 96
+[02-Apr-2018 14:23:49 Etc/GMT] PHP Fatal error:  Cannot use [] for reading in /home/togglebits/public_html/adminchrome/application/controllers/User.php on line 39
+[22-Jun-2018 08:06:14 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Services/serviceDetails/add_service_detail.php on line 230
+[22-Jun-2018 12:24:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Services_model.php on line 118
+[22-Jun-2018 12:38:13 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Services.php on line 238
+[22-Jun-2018 12:39:39 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Services.php on line 238
+[28-Jun-2018 10:58:51 UTC] PHP Parse error:  syntax error, unexpected 'edit_desc' (T_STRING), expecting ',' or ';' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Services/viewservices.php on line 193
+[17-Jul-2018 17:00:46 UTC] PHP Fatal error:  Call to undefined method Courses::checkdetails() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 8
+[17-Jul-2018 22:31:10 Asia/Kolkata] PHP Fatal error:  Call to undefined method Courses_model::viewall() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 21
+[17-Jul-2018 17:22:30 UTC] PHP Parse error:  syntax error, unexpected 'extends' (T_EXTENDS), expecting identifier (T_STRING) in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 2
+[17-Jul-2018 17:23:14 UTC] PHP Parse error:  syntax error, unexpected 'extends' (T_EXTENDS), expecting identifier (T_STRING) in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 2
+[17-Jul-2018 17:55:00 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Courses_model.php on line 19
+[17-Jul-2018 23:25:20 Asia/Kolkata] PHP Fatal error:  Call to a member function view_single_course() on null in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 43
+[17-Jul-2018 23:26:32 Asia/Kolkata] PHP Fatal error:  Call to a member function view_single_course() on null in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 43
+[17-Jul-2018 23:27:36 Asia/Kolkata] PHP Fatal error:  Call to a member function view_single_course() on null in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 43
+[18-Jul-2018 04:50:08 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 56
+[18-Jul-2018 04:50:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 64
+[18-Jul-2018 04:52:06 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 65
+[18-Jul-2018 11:17:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Courses/editcourse.php on line 112
+[18-Jul-2018 11:19:03 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Courses/editcourse.php on line 112
+[18-Jul-2018 06:52:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 54
+[18-Jul-2018 07:52:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 47
+[18-Jul-2018 08:08:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Courses_model.php on line 31
+[18-Jul-2018 09:10:35 UTC] PHP Parse error:  syntax error, unexpected ''cdiscount'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 116
+[18-Jul-2018 09:11:06 UTC] PHP Parse error:  syntax error, unexpected ''cdiscount'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 116
+[20-Jul-2018 18:02:17 UTC] PHP Fatal error:  Cannot redeclare Courses_model::save_course() in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Courses_model.php on line 38
+[20-Jul-2018 23:33:31 Asia/Kolkata] PHP Fatal error:  Call to undefined method Courses_model::save_syllabus() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 283
+[20-Jul-2018 23:33:43 Asia/Kolkata] PHP Fatal error:  Call to undefined method Courses_model::save_syllabus() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 283
+[21-Jul-2018 05:13:24 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 66
+[21-Jul-2018 05:54:00 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Courses_model.php on line 80
+[21-Jul-2018 06:05:52 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Courses_model.php on line 76
+[21-Jul-2018 06:08:04 UTC] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/krishnamrit/public_html/adminpositivequadrant/application/models/Courses_model.php on line 76
+[21-Jul-2018 11:58:02 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '.' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Courses/viewsyllabus.php on line 292
+[21-Jul-2018 12:00:35 Asia/Kolkata] PHP Parse error:  syntax error, unexpected ':' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Courses/viewsyllabus.php on line 228
+[21-Jul-2018 12:58:44 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Courses/editsyllabus.php on line 13
+[21-Jul-2018 12:59:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Courses/editsyllabus.php on line 13
+[21-Jul-2018 10:02:10 UTC] PHP Fatal error:  Call to undefined method UpcomingBatches::checkdetails() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/UpcomingBatches.php on line 9
+[21-Jul-2018 17:18:18 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ',' or ';' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Batches/viewbatches.php on line 294
+[25-Jul-2018 20:39:40 Asia/Kolkata] PHP Fatal error:  Call to undefined method MY_Loader::get12ZoneTime() in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Batches/viewbatches.php on line 297
+[25-Jul-2018 20:55:32 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '?' in /home/krishnamrit/public_html/adminpositivequadrant/application/views/Batches/editbatches.php on line 88
+[25-Jul-2018 22:18:31 Asia/Kolkata] PHP Fatal error:  Call to undefined method UpcomingBatches::checkBatcheExist() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/UpcomingBatches.php on line 101
+[25-Jul-2018 22:18:40 Asia/Kolkata] PHP Fatal error:  Call to undefined method UpcomingBatches::checkBatcheExist() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/UpcomingBatches.php on line 101
+[26-Jul-2018 16:06:26 UTC] PHP Parse error:  syntax error, unexpected ''c_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/Courses.php on line 197
+[27-Jul-2018 16:06:36 UTC] PHP Fatal error:  Call to undefined method About::checkdetails() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/About.php on line 11
+[27-Jul-2018 16:19:37 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/About.php on line 163
+[27-Jul-2018 16:28:21 UTC] PHP Fatal error:  Cannot redeclare About_model::update_about() in /home/krishnamrit/public_html/adminpositivequadrant/application/models/About_model.php on line 45
+[27-Jul-2018 21:59:49 Asia/Kolkata] PHP Fatal error:  Call to undefined method About_model::update_home() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/About.php on line 159
+[27-Jul-2018 21:59:51 Asia/Kolkata] PHP Fatal error:  Call to undefined method About_model::update_home() in /home/krishnamrit/public_html/adminpositivequadrant/application/controllers/About.php on line 159
+[15-Mar-2020 22:19:58 Asia/Kolkata] PHP Fatal error:  Call to a member function get_user() on null in /home/ei73pg4h9q5h/public_html/adminpositivequadrant/application/controllers/College.php on line 21
+[26-Apr-2025 14:48:45 UTC] PHP Notice:  Undefined index: log_path in /home/ei73pg4h9q5h/public_html/admin/system/core/Log.php on line 127
+[26-Apr-2025 14:48:45 UTC] PHP Notice:  Undefined index: log_path in /home/ei73pg4h9q5h/public_html/admin/system/core/Log.php on line 127
+[26-Apr-2025 14:48:45 UTC] PHP Warning:  mkdir(): Invalid path in /home/ei73pg4h9q5h/public_html/admin/system/core/Log.php on line 131
+[26-Apr-2025 14:48:45 UTC] PHP Notice:  Undefined index: log_threshold in /home/ei73pg4h9q5h/public_html/admin/system/core/Log.php on line 138
+[26-Apr-2025 14:48:45 UTC] PHP Notice:  Undefined index: log_threshold in /home/ei73pg4h9q5h/public_html/admin/system/core/Log.php on line 142
+[29-May-2025 12:35:55 UTC] PHP Fatal error:  Call to undefined function compressImage() in /home/ei73pg4h9q5h/public_html/admin/application/controllers/Team.php on line 40
+[29-May-2025 12:35:56 UTC] PHP Fatal error:  Call to undefined function compressImage() in /home/ei73pg4h9q5h/public_html/admin/application/controllers/Team.php on line 40

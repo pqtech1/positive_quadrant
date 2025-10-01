@@ -84,11 +84,16 @@
         </div>
 
         <div class="col-md-6">
-            <img 
-  data-src="<?php echo base_url() . 'assets/img/ecommerce2.png' ?>" 
-  alt="E-Commerce" 
-  class="lazyload" 
-/>
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/img/ecommerce2.webp'); ?>" type="image/webp">
+
+                <!-- PNG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/ecommerce2.png'); ?>" 
+                    alt="E-Commerce" 
+                    class="lazyload">
+            </picture>
+
 
 
         </div>

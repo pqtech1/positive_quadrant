@@ -128,11 +128,18 @@
         success.</p>
     </div>
     <div class="trainingPageMainContainerTopRight">
-<img 
-  class="lazyload img-responsive" 
-  data-src="<?= base_url() ?>/assets/img/trainingimage.png" 
-  alt="Training Image" 
-/>
+    <picture class="lazyload">
+        <!-- WebP version -->
+        <source data-srcset="<?= base_url('assets/img/trainingimage.webp') ?>" type="image/webp">
+        
+        <!-- PNG fallback -->
+        <img 
+            data-src="<?= base_url('noWebpAssets/assets/img/trainingimage.png') ?>" 
+            alt="Training Image" 
+            class="lazyload img-responsive" 
+        />
+    </picture>
+
     </div>
   </div>
 </div>
@@ -349,59 +356,80 @@
   <div class="slider-wrapper">
     <div class="slider-track" id="slider">
 
-      <!-- Slide 1 -->
-      <div class="slider-item">
-        <div class="slider-item-inner">
+    <!-- Slide 1 -->
+    <div class="slider-item">
+      <div class="slider-item-inner">
+        <picture class="lazyload">
+          <!-- WebP version -->
+          <source data-srcset="assets/new_img/learning.webp" type="image/webp">
+          <!-- PNG fallback -->
           <img data-src="assets/new_img/learning.png" alt="Industry-Aligned Practical Knowledge" class="lazyload img-responsive">
-          <h3>Industry-Aligned Practical Knowledge</h3>
-          <p>80% practical & 20% theory to get you job-ready fast.</p>
-        </div>
+        </picture>
+        <h3>Industry-Aligned Practical Knowledge</h3>
+        <p>80% practical & 20% theory to get you job-ready fast.</p>
       </div>
+    </div>
 
-      <!-- Slide 2 -->
-      <div class="slider-item">
-        <div class="slider-item-inner">
+    <!-- Slide 2 -->
+    <div class="slider-item">
+      <div class="slider-item-inner">
+        <picture class="lazyload">
+          <source data-srcset="assets/new_img/network.webp" type="image/webp">
           <img data-src="assets/new_img/network.png" alt="Real-World Applications" class="lazyload img-responsive">
-          <h3>Real-World Applications</h3>
-          <p>Skills aligned with real industry problems and roles.</p>
-        </div>
+        </picture>
+        <h3>Real-World Applications</h3>
+        <p>Skills aligned with real industry problems and roles.</p>
       </div>
+    </div>
 
-      <!-- Slide 3 -->
-      <div class="slider-item">
-        <div class="slider-item-inner">
+    <!-- Slide 3 -->
+    <div class="slider-item">
+      <div class="slider-item-inner">
+        <picture class="lazyload">
+          <source data-srcset="assets/new_img/soft-skills.webp" type="image/webp">
           <img data-src="assets/new_img/soft-skills.png" alt="Placement Assistance" class="lazyload img-responsive">
-          <h3>Placement Assistance</h3>
-          <p>Ongoing support from our committed placement cell.</p>
-        </div>
+        </picture>
+        <h3>Placement Assistance</h3>
+        <p>Ongoing support from our committed placement cell.</p>
       </div>
+    </div>
 
-      <!-- Slide 4 -->
-      <div class="slider-item">
-        <div class="slider-item-inner">
+    <!-- Slide 4 -->
+    <div class="slider-item">
+      <div class="slider-item-inner">
+        <picture class="lazyload">
+          <source data-srcset="assets/new_img/career-development.webp" type="image/webp">
           <img data-src="assets/new_img/career-development.png" alt="Tailored Guidance" class="lazyload img-responsive">
-          <h3>Tailored Guidance</h3>
-          <p>Dedicated career coach throughout your learning journey.</p>
-        </div>
+        </picture>
+        <h3>Tailored Guidance</h3>
+        <p>Dedicated career coach throughout your learning journey.</p>
       </div>
+    </div>
 
-      <!-- Slide 5 -->
-      <div class="slider-item">
-        <div class="slider-item-inner">
+    <!-- Slide 5 -->
+    <div class="slider-item">
+      <div class="slider-item-inner">
+        <picture class="lazyload">
+          <source data-srcset="assets/new_img/route.webp" type="image/webp">
           <img data-src="assets/new_img/route.png" alt="Career Roadmap" class="lazyload img-responsive">
-          <h3>Career Roadmap</h3>
-          <p>Guided path to upskilling and achieving career goals.</p>
-        </div>
+        </picture>
+        <h3>Career Roadmap</h3>
+        <p>Guided path to upskilling and achieving career goals.</p>
       </div>
+    </div>
 
-      <!-- Slide 6 -->
-      <div class="slider-item">
-        <div class="slider-item-inner">
+    <!-- Slide 6 -->
+    <div class="slider-item">
+      <div class="slider-item-inner">
+        <picture class="lazyload">
+          <source data-srcset="assets/new_img/flexible.webp" type="image/webp">
           <img data-src="assets/new_img/flexible.png" alt="Flexible Learning" class="lazyload img-responsive">
-          <h3>Flexible Learning</h3>
-          <p>Access course materials anytime, from any device.</p>
-        </div>
+        </picture>
+        <h3>Flexible Learning</h3>
+        <p>Access course materials anytime, from any device.</p>
       </div>
+    </div>
+
 
     </div>
   </div>

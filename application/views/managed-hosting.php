@@ -57,12 +57,15 @@
         </div>
 
         <div class="col-md-6 wow animate__animated animate__zoomIn" data-wow-delay="0.3s">
-            <img 
-  data-src="<?php echo base_url() . 'assets/img/managed-hosting.jpg' ?>" 
-  alt="Managed Hosting" 
-  class="lazyload img-responsive" 
-/>
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/img/managed-hosting.webp'); ?>" type="image/webp">
 
+                <!-- JPG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/managed-hosting.jpg'); ?>" 
+                    alt="Managed Hosting" 
+                    class="lazyload img-responsive">
+            </picture>
         </div>
     </div>
 

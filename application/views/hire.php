@@ -119,26 +119,102 @@
         <h1>Our Clients</h1>
         <div class="clientsImages">
             <div class="image-container">
-    <img data-src="<?= base_url() ?>/assets/new_img/alcon.png" alt="Alcon" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/new_img/bank_logo.png" alt="Bank Logo" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/new_img/canara_logo.jpg" alt="Canara Logo" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/abbott.png" alt="Abbott" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/client.jpeg" alt="Client" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/client2.jpeg" alt="Client 2" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/crezvatic.png" alt="Crezvatic" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/ebrandz.png" alt="Ebrandz" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/toggle.png" alt="Toggle" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/sun_pharma.png" alt="Sun Pharma" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/abbott.png" alt="Abbott Duplicate" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/flexi-logo.png" alt="Flexi" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/idolize.jpeg" alt="Idolize" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/jklogo.jpg" alt="JK Logo" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/logo-sbfc.png" alt="SBFC Logo" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/ourpartner1.png" alt="Our Partner" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/pharmasquire_logo.png" alt="Pharma Squire" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/promethes_logo.png" alt="Promethes" class="lazyload img-responsive">
-    <img data-src="<?= base_url() ?>/assets/placement_partner/public.png" alt="Public" class="lazyload img-responsive">
-</div>
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/new_img/alcon.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/new_img/alcon.png') ?>" alt="Alcon" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/new_img/bank_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/new_img/bank_logo.png') ?>" alt="Bank Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/new_img/canara_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/new_img/canara_logo.jpg') ?>" alt="Canara Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/abbott.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/abbott.png') ?>" alt="Abbott" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/client.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/client.jpeg') ?>" alt="Client" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/client2.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/client2.jpeg') ?>" alt="Client 2" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/crezvatic.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/crezvatic.png') ?>" alt="Crezvatic" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/ebrandz.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/ebrandz.png') ?>" alt="Ebrandz" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/toggle.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/toggle.png') ?>" alt="Toggle" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/sun_pharma.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/sun_pharma.png') ?>" alt="Sun Pharma" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/abbott.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/abbott.png') ?>" alt="Abbott Duplicate" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/flexi-logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/flexi-logo.png') ?>" alt="Flexi" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/idolize.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/idolize.jpeg') ?>" alt="Idolize" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/jklogo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/jklogo.jpg') ?>" alt="JK Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/logo-sbfc.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/logo-sbfc.png') ?>" alt="SBFC Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/ourpartner1.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/ourpartner1.png') ?>" alt="Our Partner" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/pharmasquire_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/pharmasquire_logo.png') ?>" alt="Pharma Squire" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/promethes_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/promethes_logo.png') ?>" alt="Promethes" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/public.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/public.png') ?>" alt="Public" class="lazyload img-responsive">
+                </picture>
+            </div>
+
 
         </div>
     </div>
@@ -274,21 +350,34 @@
             in 1 Hour
         </h1>
 
-       <img 
-  id="desktop-ring-img" 
-  data-src="<?= base_url() ?>/assets/img/onboarding-infographic-updated-new.svg" 
-  alt="" 
-  class="lazyload" 
-  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-/>
+        <!-- Desktop Image -->
+        <picture class="lazyload">
+            <!-- WebP version -->
+            <source data-srcset="<?= base_url('assets/img/onboarding-infographic-updated-new.webp') ?>" type="image/webp">
+            
+            <!-- SVG fallback -->
+            <img 
+                id="desktop-ring-img"
+                data-src="<?= base_url('noWebpAssets/assets/img/onboarding-infographic-updated-new.svg') ?>" 
+                alt="" 
+                class="lazyload" 
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            />
+        </picture>
 
-<img 
-  id="mobile-ring-img" 
-  data-src="<?= base_url() ?>/assets/img/onboardin1hrmobile.webp" 
-  alt="" 
-  class="lazyload" 
-  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-/>
+        <!-- Mobile Image -->
+        <picture class="lazyload">
+            <source data-srcset="<?= base_url('assets/img/onboardin1hrmobile.webp') ?>" type="image/webp">
+            
+            <img 
+                id="mobile-ring-img"
+                data-src="<?= base_url('noWebpAssets/assets/img/onboardin1hrmobile.jpg') ?>" 
+                alt="" 
+                class="lazyload" 
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            />
+        </picture>
+
 
     </div>
 
@@ -330,121 +419,104 @@
                 future-ready software, web, and mobile applications.</p>
             <h3>Join The Elite Force</h3>
             <div class="client-logos">
-  <img 
-    data-src="<?= base_url() ?>/assets/new_img/alcon.png" 
-    alt="Alcon" 
-    class="lazyload"
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/new_img/bank_logo.png" 
-    alt="Bank Logo" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/new_img/canara_logo.jpg" 
-    alt="Canara Logo" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/abbott.png" 
-    alt="Abbott" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/client.jpeg" 
-    alt="Client" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/client2.jpeg" 
-    alt="Client 2" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/crezvatic.png" 
-    alt="Crezvatic" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/ebrandz.png" 
-    alt="Ebrandz" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/toggle.png" 
-    alt="Toggle" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/sun_pharma.png" 
-    alt="Sun Pharma" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/abbott.png" 
-    alt="Abbott" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/flexi-logo.png" 
-    alt="Flexi" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/idolize.jpeg" 
-    alt="Idolize" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/jklogo.jpg" 
-    alt="JK Logo" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/logo-sbfc.png" 
-    alt="SBFC" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/ourpartner1.png" 
-    alt="Our Partner" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/pharmasquire_logo.png" 
-    alt="Pharmasquire Logo" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/promethes_logo.png" 
-    alt="Promethes Logo" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-  <img 
-    data-src="<?= base_url() ?>/assets/placement_partner/public.png" 
-    alt="Public" 
-    class="lazyload" 
-    src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
-  >
-</div>
+
+            <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/new_img/alcon.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/new_img/alcon.png') ?>" alt="Alcon" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/new_img/bank_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/new_img/bank_logo.png') ?>" alt="Bank Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/new_img/canara_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/new_img/canara_logo.jpg') ?>" alt="Canara Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/abbott.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/abbott.png') ?>" alt="Abbott" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/client.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/client.jpeg') ?>" alt="Client" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/client2.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/client2.jpeg') ?>" alt="Client 2" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/crezvatic.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/crezvatic.png') ?>" alt="Crezvatic" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/ebrandz.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/ebrandz.png') ?>" alt="Ebrandz" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/toggle.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/toggle.png') ?>" alt="Toggle" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/sun_pharma.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/sun_pharma.png') ?>" alt="Sun Pharma" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/abbott.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/abbott.png') ?>" alt="Abbott Duplicate" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/flexi-logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/flexi-logo.png') ?>" alt="Flexi" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/idolize.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/idolize.jpeg') ?>" alt="Idolize" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/jklogo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/jklogo.jpg') ?>" alt="JK Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/logo-sbfc.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/logo-sbfc.png') ?>" alt="SBFC Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/ourpartner1.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/ourpartner1.png') ?>" alt="Our Partner" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/pharmasquire_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/pharmasquire_logo.png') ?>" alt="Pharma Squire" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/promethes_logo.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/promethes_logo.png') ?>" alt="Promethes" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="<?= base_url('assets/placement_partner/public.webp') ?>" type="image/webp">
+                    <img data-src="<?= base_url('noWebpAssets/assets/placement_partner/public.png') ?>" alt="Public" class="lazyload img-responsive">
+                </picture>
+
+            </div>
+
 
 
         </div>

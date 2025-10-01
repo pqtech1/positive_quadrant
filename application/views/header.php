@@ -16,9 +16,12 @@
 <!--for google search console-->
     <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
   <link href="<?php echo base_url(); ?>assets/vendors/icons/icon.css" rel="stylesheet">
+<!-- Modern browsers (WebP) -->
+<link rel="icon" type="image/webp" href="<?= base_url(); ?>assets/img/loadernew.webp">
 
-  <link rel="icon" href="<?php echo base_url(); ?>assets/img/loadernew.webp" type="image/x-icon" />
-  <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/loadernew.webp" type="image/x-icon" />
+<!-- Fallback for browsers that don’t support WebP -->
+<link rel="icon" type="image/png" href="<?= base_url(); ?>noWebpAssets/assets/img/loadernew.png">
+
    <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
   <!-- this was added later to make the madal close automatically-->
@@ -780,7 +783,12 @@
           <div class="col-lg-12 col-md-12 col-xs-12">
             <div class="logo">
               <a href="<?php echo base_url(); ?>">
-                <img src="<?php echo base_url(); ?>assets/img/new_logo.webp" alt="company logo">
+              <picture>
+                  <!-- WebP source -->
+                  <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
+                  <!-- Fallback to PNG or JPEG -->
+                  <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/new_logo.png" alt="company logo">
+              </picture>
               </a>
             </div>
             <nav class="navbar navbar-default">
@@ -925,13 +933,21 @@
         <div class="header">
           <div class="logo">
             <a href="<?php echo base_url(); ?>">
-              <img src=" <?php echo base_url(); ?>assets/img/new_logo.webp" alt="company logo">
+              <picture>
+                  <!-- WebP source -->
+                  <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
+                  <!-- Fallback to PNG or JPEG -->
+                  <img src="<?php echo base_url(); ?>assets/img/new_logo.png" alt="company logo">
+              </picture>
             </a>
           </div>
           <div class="navbarBtn">
-
-            <img src=" <?php echo base_url(); ?>assets/img/navBarHamberger.webp" alt="hamberger logo">
-
+            <picture>
+                <!-- WebP source -->
+                <source srcset="<?php echo base_url(); ?>assets/img/navBarHamberger.webp" type="image/webp">
+                <!-- Fallback to PNG or JPEG -->
+                <img src="<?php echo base_url(); ?>assets/img/navBarHamberger.png" alt="hamburger logo">
+            </picture>
           </div>
         </div>
         <nav>

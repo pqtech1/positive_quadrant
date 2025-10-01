@@ -27,12 +27,15 @@
             </p>
         </div>
         <div class="mobile-app-content-image col-md-6">
-            <img 
-  data-src="<?php echo base_url() . 'assets/img/mob-dev2.png' ?>" 
-  alt="Mobile Development" 
-  class="lazyload" 
-/>
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/img/mob-dev2.webp'); ?>" type="image/webp">
 
+                <!-- PNG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/mob-dev2.png'); ?>" 
+                    alt="Mobile Development" 
+                    class="lazyload">
+            </picture>
 
         </div>
     </div>
@@ -126,11 +129,15 @@
         <div class="row mobile-dev-bottom">
             <!-- Left Image -->
             <div class="col-md-4">
-               <img 
-  data-src="<?php echo base_url() . 'assets/img/our-services.jpeg' ?>" 
-  alt="Our Services" 
-  class="lazyload" 
-/>
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?php echo base_url('assets/img/our-services.webp'); ?>" type="image/webp">
+
+                    <!-- PNG fallback -->
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/our-services.png'); ?>" 
+                        alt="Our Services" 
+                        class="lazyload">
+                </picture>
 
             </div>
 

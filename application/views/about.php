@@ -106,8 +106,15 @@
         </div>
     </div>
     <div class="right">
-        <img data-src="<?= base_url() ?>/assets/img/about-us/about-us3.webp" class="lazyload" alt="About Us Main Image" />
+        <picture>
+            <!-- WebP first -->
+            <source data-srcset="<?= base_url('assets/img/about-us/about-us3.webp'); ?>" type="image/webp">
 
+            <!-- JPG fallback -->
+            <img data-src="<?= base_url('noWebpAssets/assets/img/about-us3.jpg'); ?>" 
+                class="lazyload" 
+                alt="About Us Main Image">
+        </picture>
     </div>
 </div>
 
@@ -129,8 +136,17 @@
 
     </div>
     <div class="detailsImage">
-        <img data-src="<?= base_url() ?>/assets/img/about-us/about-us4.webp" class="lazyload"
-            alt="Social Media Marketing" />
+        <picture>
+            <!-- WebP first -->
+            <source data-srcset="<?= base_url('assets/img/about-us/about-us4.webp'); ?>" type="image/webp" 
+            alt="Social Media Marketing" />>
+
+            <!-- PNG fallback -->
+            <img data-src="<?= base_url('noWebpAssets/assets/img/about-us4.png'); ?>" 
+                class="lazyload" 
+                alt="Social Media Marketing">
+        </picture>
+
 
     </div>
 </div>
@@ -162,7 +178,15 @@
             </div>
     </div>
     <div class="right">
-        <img data-src="<?= base_url() ?>/assets/img/aboutusmission.webp" class="lazyload" alt="About Us Mission" />
+        <picture>
+            <!-- WebP first -->
+            <source data-srcset="<?= base_url('assets/img/aboutusmission.webp'); ?>" type="image/webp">
+
+            <!-- PNG fallback -->
+            <img data-src="<?= base_url('noWebpAssets/assets/img/aboutusmission.png'); ?>" 
+                class="lazyload" 
+                alt="About Us Mission">
+        </picture>
 
     </div>
 </div>
@@ -182,8 +206,16 @@
 
                 <article class="scroll-cards__item" aria-label="Wie - 1">
                     <div class="coreStrengthCard">
-                        <img data-src="<?= base_url() ?>/assets/img/collaboration.webp" class="lazyload"
-                            alt="Collaboration" />
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?= base_url('assets/img/collaboration.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?= base_url('noWebpAssets/assets/img/collaboration.png'); ?>" 
+                                class="lazyload" 
+                                alt="Collaboration">
+                        </picture>
+
 
                         <h3>Innovation and R&D</h3>
                         <p class="pq_p">Driving innovation through continuous research and development to deliver
@@ -194,7 +226,15 @@
                 </article>
                 <article class="scroll-cards__item" aria-label="Wie - 1">
                     <div class="coreStrengthCard">
-                        <img src="<?= base_url() ?>/assets/img/scalability.webp" alt="">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?= base_url('assets/img/scalability.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?= base_url('noWebpAssets/assets/img/scalability.png'); ?>" 
+                                class="lazyload" 
+                                alt="Scalability">
+                        </picture>
                         <h3>Scalability</h3>
                         <p class="pq_p">Designing flexible solutions that grow seamlessly with your business, ensuring
                             long-term
@@ -203,8 +243,16 @@
                 </article>
                 <article class="scroll-cards__item" aria-label="Wie - 1">
                     <div class="coreStrengthCard">
-                        <img data-src="<?= base_url() ?>/assets/img/customer_support.webp" class="lazyload"
-                            alt="Customer Support" />
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?= base_url('assets/img/customer_support.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?= base_url('noWebpAssets/assets/img/customer_support.png'); ?>" 
+                                class="lazyload" 
+                                alt="Customer Support">
+                        </picture>
+
 
                         <h3>Customer Support</h3>
                         <p class="pq_p">Providing exceptional support to ensure client success and satisfaction, with a
@@ -223,7 +271,15 @@
 
                 <article class="scroll-cards__item" aria-label="Wie - 1">
                     <div class="coreStrengthCard">
-                        <img data-src="<?= base_url() ?>/assets/img/security.webp" class="lazyload" alt="Security" />
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?= base_url('assets/img/security.webp'); ?>" type="image/webp">
+
+                        <!-- PNG fallback -->
+                        <img data-src="<?= base_url('noWebpAssets/assets/img/security.png'); ?>" 
+                            class="lazyload" 
+                            alt="Security">
+                    </picture>
 
                         <h3>Security and Compliance</h3>
                         <p class="pq_p">Implementation robust security measures and ensuring compliance with industry
@@ -233,8 +289,16 @@
                 </article>
                 <article class="scroll-cards__item" aria-label="Wie - 1">
                     <div class="coreStrengthCard">
-                        <img data-src="<?= base_url() ?>/assets/img/proactive_problem_solving.webp" class="lazyload"
-                            alt="Proactive Problem Solving" />
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?= base_url('assets/img/proactive_problem_solving.webp'); ?>" type="image/webp">
+
+                        <!-- PNG fallback -->
+                        <img data-src="<?= base_url('noWebpAssets/assets/img/proactive_problem_solving.png'); ?>" 
+                            class="lazyload" 
+                            alt="Proactive Problem Solving">
+                    </picture>
+
 
                         <h3>Proactive Problem Solving</h3>
                         <p class="pq_p">Anticipating and resolving challenges swiftly to maintain project momentum and
@@ -244,7 +308,15 @@
                 </article>
                 <article class="scroll-cards__item" aria-label="Wie - 1">
                     <div class="coreStrengthCard">
-                        <img data-src="<?= base_url() ?>/assets/img/deadline.webp" class="lazyload" alt="Deadline" />
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?= base_url('assets/img/deadline.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?= base_url('noWebpAssets/assets/img/deadline.png'); ?>" 
+                                class="lazyload" 
+                                alt="Deadline">
+                        </picture>
 
                         <h3>Commitment to deadlines</h3>
                         <p class="pq_p">Consistently meeting projects deadlines, ensuring timely delivery and client
@@ -392,9 +464,16 @@
         foreach ($industries as $industry) {
             ?>
             <div class="col-xs-12 col-sm-4 col-md-3" style="margin-bottom: 30px;">
-                <img data-src="<?= base_url() ?>/assets/img/<?= $i ?>.webp" class="lazyload" alt="<?= $industry ?>"
-                    style="height: 30px; margin-bottom: 10px;" />
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?= base_url('assets/img/' . $i . '.webp'); ?>" type="image/webp">
 
+                    <!-- PNG fallback -->
+                    <img data-src="<?= base_url('noWebpAssets/assets/img/' . $i . '.png'); ?>" 
+                        class="lazyload" 
+                        alt="<?= $industry ?>" 
+                        style="height: 30px; margin-bottom: 10px;">
+                </picture>
                 <p style="font-size:1.5rem;"><?= $industry ?></p>
             </div>
             <?php $i++;
@@ -700,9 +779,15 @@
 
                 </div>
                 <div class="col-sm-6">
-                    <img data-src="<?php echo base_url('assets/img/our_team.webp') ?>" alt="Positive Quadrant"
-                        class="img-responsive lazyload" />
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/img/our_team.webp'); ?>" type="image/webp">
 
+                        <!-- JPG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/our_team.jpg'); ?>" 
+                            alt="Positive Quadrant" 
+                            class="img-responsive lazyload">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -771,7 +856,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4 col-sm-3">
-                            <img data-src="assets/new_img/developers.webp" class="lazyload" alt="Developers" />
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/developers.webp'); ?>" type="image/webp">
+
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/developers.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Developers">
+                            </picture>
 
                         </div>
                         <div class="col-md-8 col-sm-9">
@@ -786,8 +879,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/conversation.webp" class="lazyload" alt="Conversation" />
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/conversation.webp'); ?>" type="image/webp">
 
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/conversation.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Conversation">
+                            </picture>
                         </div>
                         <div class="col-md-8">
                             <h3>Software Consulting</h3>
@@ -801,7 +901,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/app-development.webp" class="lazyload" alt="App Development" />
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/app-development.webp'); ?>" type="image/webp">
+
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/app-development.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="App Development">
+                            </picture>
 
                         </div>
                         <div class="col-md-8">
@@ -816,8 +924,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/developer.webp" class="lazyload" alt="Developer" />
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/developer.webp'); ?>" type="image/webp">
 
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/developer.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Developer">
+                            </picture>
                         </div>
                         <div class="col-md-8">
                             <h3>Placed Students</h3>
@@ -831,9 +946,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/conversation_one.webp" class="lazyload"
-                                alt="Conversation One" />
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/conversation_one.webp'); ?>" type="image/webp">
 
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/conversation_one.png'); ?>" 
+                                class="lazyload" 
+                                alt="Conversation One">
+                        </picture>
                         </div>
                         <div class="col-md-8">
                             <h3>Clients</h3>
@@ -847,8 +968,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/trustworthiness.webp" class="lazyload" alt="Trustworthiness" />
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/trustworthiness.webp'); ?>" type="image/webp">
 
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/trustworthiness.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Trustworthiness">
+                            </picture>
                         </div>
                         <div class="col-md-8">
                             <h3>Engineering College Tieups</h3>
@@ -862,7 +990,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/soft-skills.webp" class="lazyload" alt="Soft Skills" />
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/soft-skills.webp'); ?>" type="image/webp">
+
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/soft-skills.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Soft Skills">
+                            </picture>
 
                         </div>
                         <div class="col-md-8">

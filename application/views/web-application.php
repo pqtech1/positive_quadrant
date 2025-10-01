@@ -66,11 +66,16 @@
         </div>
 
         <div class="col-md-6 wow animate__animated animate__zoomInDown" data-wow-delay="0.5s">
-            <img 
-  data-src="<?php echo base_url() . 'assets/img/web-app.png' ?>" 
-  alt="Web Application Development" 
-  class="lazyload img-responsive" 
-/>
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/img/web-app.webp'); ?>" type="image/webp">
+
+                <!-- PNG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-app.png'); ?>" 
+                    alt="Web Application Development" 
+                    class="lazyload img-responsive">
+            </picture>
+
 
         </div>
     </div>

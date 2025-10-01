@@ -1,0 +1,538 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .extradiv {
+    height: 10vh;
+  }
+  .hirehireParentContainer {
+    
+    height: auto;
+    overflow: unset;
+  }
+  .hireParentContainer h3 {
+    font-size: 2.5vw;
+  }
+  .hireParentContainer > h1 {
+    font-size: 7vw;
+  }
+  .hireParentContainer > p {
+    font-size: 3.8vw;
+    padding: 5% 0;
+    text-align: justify;
+  }
+  .hireParentContainer > button {
+    width: 100%;
+    padding: 3%;
+    font-size: 4vw;
+    margin-top: 6%;
+    text-align: center;
+  }
+  .hireParentContainer .detailsContainer {
+    flex-direction: column;
+    gap: 5%;
+  }
+  .hireParentContainer .detailsContainer .left,
+  .hireParentContainer .detailsContainer .right {
+    width: 100%;
+  }
+  .hireParentContainer .detailsContainer .left h2,
+  .hireParentContainer .detailsContainer .right h2 {
+    font-size: 30px;
+  }
+  .clientReview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rating {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    border-bottom: solid 2px grey;
+  }
+  .rating > img {
+    width: 30%;
+  }
+  .rating span {
+    font-size: 4vw;
+  }
+  .statData {
+    width: 100%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .statData .statDataLeft {
+    width: 100%;
+    display: flex;
+    padding-top: 10%;
+  }
+  .statData .statDataRight {
+    width: 100%;
+    display: flex;
+    padding-top: 10%;
+  }
+  .stat {
+    width: 100%;
+    border: unset;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .number {
+    font-size: 6vw;
+    padding-left: 4%;
+    border-left: solid 2px grey;
+  }
+  .label {
+    font-size: 4vw;
+    padding-left: 4%;
+  }
+  .clientsSection {
+    height: auto;
+    padding: 10% 5%;
+  }
+  .clientsSection h3 {
+    font-size: 4vw;
+  }
+  .clientsSection h1 {
+    font-size: 5vw;
+  }
+  .image-container img {
+    width: 15%;
+  }
+  .main-section {
+    flex-direction: column;
+    padding: 8%;
+  }
+  .text-section {
+    padding: 5% 0;
+  }
+  .section-heading {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .section-paragraph {
+    font-size: 3vw;
+    text-align: left;
+  }
+  .image-section {
+    width: 100%;
+    padding: 5% 0;
+  }
+  .section-image {
+    width: 100%;
+    object-fit: contain;
+  }
+  .banner {
+    padding: 10%;
+  }
+  .banner h1 {
+    font-size: 5vw;
+    padding: 4%;
+  }
+  .banner p {
+    font-size: 30px;
+  }
+  .hire-button {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+  .whyChooseus h1 {
+    font-size: 5vw;
+    text-align: left;
+    padding-left: unset;
+  }
+  .whyChooseus li {
+    font-size: 4vw;
+    margin: 5px;
+    font-weight: 500;
+  }
+  .benefits-container {
+    flex-direction: column;
+    gap: unset;
+  }
+  .benefit-section span {
+    font-size: 4vw;
+  }
+  .checkmark {
+    margin-right: 8px;
+  }
+  .whyWeContainer .card {
+    width: 90%;
+    margin: 15px 0;
+    padding: 5%;
+  }
+  .whyWeContainer .card h2 {
+    font-size: 1.2rem;
+  }
+  .whyWeContainer .card p {
+    font-size: 0.9rem;
+  }
+  .hero h1 {
+    font-size: 5vw;
+    padding: 5%;
+  }
+  .hero p {
+    font-size: 30px;
+  }
+  .hero button {
+    padding: 8px 16px;
+    font-size: 25px;
+  }
+  .features .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .features > h1 {
+    font-size: 6vw;
+  }
+  .section-header {
+    width: unset;
+    font-weight: 800;
+  }
+  .section-header h2 {
+    font-size: 4vw;
+  }
+  .section ul {
+    width: 100%;
+    padding-left: 1%;
+    justify-content: flex-start;
+  }
+  .features > h1 {
+    font-size: 5vw;
+  }
+  .section-header h2 {
+    font-size: 3.5vw;
+  }
+  .section li {
+    font-size: 21px;
+    padding: 3%;
+  }
+  .ringPart h1 {
+    font-size: 5vw;
+  }
+  .faq-section h1 {
+    font-size: 5vw;
+  }
+  .faq-section h3 {
+    font-size: 3vw;
+  }
+  .faq-item {
+    width: 90%;
+  }
+  .faq-question {
+    font-size: 3.5vw;
+  }
+  .faq-answer {
+    font-size: 3.5vw;
+  }
+  .contactUs {
+    flex-direction: column;
+  }
+  .left-section h1 {
+    font-size: 5vw;
+  }
+  .left-section img {
+    margin-right: 4%;
+  }
+  .left-section p {
+    font-size: 2rem;
+  }
+  .right-section {
+    width: 100%;
+    padding: 15px;
+  }
+  .right-section h3 {
+    font-size: 4vw;
+  }
+  form label {
+    font-size: 3vw;
+  }
+  form input,
+  form select,
+  form textarea {
+    font-size: 3vw;
+  }
+  form button {
+    padding: 10px;
+    font-size: 25px;
+  }
+  .scroll {
+    gap: 10px;
+  }
+  .scroll img {
+    width: 20%;
+    padding-right: 2%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .hireParentContainer {
+   
+    height: auto;
+  }
+  .hireParentContainer h3 {
+    font-size: 4vw;
+  }
+  .hireParentContainer > h1 {
+    font-size: 9vw;
+  }
+  .hireParentContainer > p {
+    font-size: 4.5vw;
+    padding: 4% 0;
+  }
+  .hireParentContainer > button {
+    width: 100%;
+    text-align: center;
+    padding: 3%;
+    font-size: 4.1vw;
+    margin-top: 8%;
+  }
+  .hireParentContainer .detailsContainer {
+    flex-direction: column;
+    gap: 10%;
+  }
+  .hireParentContainer .detailsContainer .left,
+  .hireParentContainer .detailsContainer .right {
+    width: 100%;
+  }
+  .hireParentContainer .detailsContainer span {
+    padding-right: 1.5%;
+    padding-bottom: -5%;
+    width: fit-content;
+  }
+  .hireParentContainer .detailsContainer h2 {
+    font-size: 3.8vw;
+  }
+  .clientReview {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .rating {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    border-bottom: solid 2px grey;
+  }
+  .rating span {
+    font-size: 4vw;
+  }
+  .statData {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .statData .statDataLeft {
+    width: 100%;
+    display: flex;
+    padding-top: 10%;
+  }
+  .statData .statDataRight {
+    width: 100%;
+    display: flex;
+    padding-top: 10%;
+  }
+  .stat {
+    width: 100%;
+    padding-left: 4%;
+    border: unset;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .number {
+    font-size: 6vw;
+    padding-left: 4%;
+    border-left: solid 2px grey;
+  }
+  .label {
+    font-size: 4vw;
+    padding-left: 4%;
+  }
+  .clientsSection {
+    padding: 8% 4%;
+    height: max-content;
+  }
+  .clientsSection h3 {
+    font-size: 3vw;
+  }
+  .clientsSection h1 {
+    font-size: 7vw;
+  }
+  .image-container img {
+    width: 25%;
+  }
+  .main-section {
+   
+    flex-direction: column;
+  }
+  .text-section {
+    padding: 6% 0;
+  }
+  .section-heading {
+    font-size: 7vw;
+    text-align: center;
+  }
+ 
+  .image-section {
+    width: 100% !important;
+  }
+  .section-image {
+    width: 100%;
+    height: auto;
+  }
+  .banner {
+    padding: 5%;
+  }
+  .banner h1 {
+    font-size: 6vw;
+  }
+  .banner p {
+    font-size: 1.6rem;
+  }
+  .hire-button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+  }
+  .whyChooseus {
+    /* padding: 8%; */
+    align-items: flex-start;
+  }
+  .whyChooseus h1 {
+    font-size: 6vw;
+    text-align: left;
+    padding: unset;
+    /* padding-left: 2.2%; */
+  }
+  .whyChooseus ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .whyChooseus li {
+    font-size: 3.7vw;
+    text-align: left;
+  }
+  .benefits-container {
+    gap: unset;
+    display: flex;
+    flex-direction: column;
+  }
+  .benefit-section {
+    width: 100%;
+  }
+  .checkmark {
+    margin-right: 5px;
+  }
+  .whyWeContainer .card {
+    width: 95%;
+    margin: 10px 0;
+    padding: 6%;
+  }
+  .whyWeContainer .card h2 {
+    font-size: 1.1rem;
+  }
+  .whyWeContainer .card p {
+    font-size: 0.85rem;
+  }
+  .hero {
+    padding: 5%;
+    margin: unset;
+    background-color: crimson;
+  }
+  .hero h1 {
+    font-size: 6vw;
+    padding: 3% 0%;
+  }
+  .hero p {
+    font-size: 1.6rem;
+    padding: unset;
+  }
+  .hero button {
+    padding: 10px 20px;
+    font-size: 1.3rem;
+  }
+  .features {
+  }
+  .features .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .features > h1 {
+    font-size: 6vw;
+  }
+  .section-header {
+    width: unset;
+  }
+  .section-header h2 {
+    font-size: 4vw;
+  }
+  .section ul {
+    width: 100%;
+    padding-left: 1%;
+    justify-content: flex-start;
+  }
+  .section li {
+    font-size: 1.1rem;
+    padding: 4%;
+  }
+  .ringPart #desktop-ring-img {
+    display: none;
+  }
+  .ringPart #mobile-ring-img {
+    display: unset;
+  }
+  .ringPart h1 {
+    font-size: 7vw;
+    text-align: center;
+  }
+  .ringPart img {
+    width: 100%;
+    padding: unset;
+  }
+  .faq-section h1 {
+    font-size: 7vw;
+  }
+  .faq-section h3 {
+    font-size: 3vw;
+  }
+  .faq-item {
+    width: 95%;
+  }
+  .faq-question {
+    font-size: 1.5vw;
+  }
+  .faq-answer {
+    font-size: 1.3rem;
+  }
+  .contactUs {
+    flex-direction: column;
+  }
+  .left-section h1 {
+    font-size: 6vw;
+  }
+  .left-section p {
+    font-size: 1.5rem;
+  }
+  .right-section {
+    width: 100%;
+    padding: 10px;
+  }
+  .right-section h3 {
+    font-size: 1.2rem;
+  }
+  form label {
+    font-size: 1.5rem;
+  }
+  form input,
+  form select,
+  form textarea {
+    font-size: 1.5rem;
+  }
+  form button {
+    padding: 12px;
+    font-size: 1.3rem;
+  }
+  .scroll img {
+    width: 30%;
+    padding-right: 5%;
+  }
+}

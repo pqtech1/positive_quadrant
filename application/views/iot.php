@@ -46,12 +46,15 @@
             </ul>
         </div>
         <div class="col-md-6 wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">
-            <img 
-  data-src="<?php echo base_url() . 'assets/img/iot.jpg' ?>" 
-  alt="IoT Services" 
-  class="lazyload img-responsive" 
-/>
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/img/iot.webp'); ?>" type="image/webp">
 
+                <!-- JPG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/iot.jpg'); ?>" 
+                    alt="IoT Services" 
+                    class="lazyload img-responsive">
+            </picture>
         </div>
     </div>
 </div>

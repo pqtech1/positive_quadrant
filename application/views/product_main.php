@@ -96,7 +96,17 @@
 
 	</div>
 	<div class="courseHighlightsRight">
-		<img src="<?= base_url() ?>/assets/img/training_details.jpg" alt="">
+		<picture class="lazyload">
+			<!-- WebP version -->
+			<source data-srcset="<?= base_url('assets/img/training_details.webp') ?>" type="image/webp">
+			
+			<!-- JPG fallback -->
+			<img 
+				data-src="<?= base_url('noWebpAssets/assets/img/training_details.jpg') ?>" 
+				alt="Training Details" 
+				class="lazyload img-responsive" 
+			/>
+		</picture>
 	</div>
 
 </div>

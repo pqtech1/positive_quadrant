@@ -10,12 +10,17 @@
             landscape.</p>
     </div>
     <div class="technologyTopContainerRight">
-       <img 
-  data-src="<?= base_url() ?>/assets/img/our_industries.jpg" 
-  alt="Our Industries" 
-  class="lazyload img-responsive" 
-/>
-
+        <picture class="lazyload">
+            <!-- WebP version -->
+            <source data-srcset="<?= base_url('assets/img/our_industries.webp') ?>" type="image/webp">
+            
+            <!-- JPG fallback -->
+            <img 
+                data-src="<?= base_url('noWebpAssets/assets/img/our_industries.jpg') ?>" 
+                alt="Our Industries" 
+                class="lazyload img-responsive" 
+            />
+        </picture>
     </div>
 
 </div>

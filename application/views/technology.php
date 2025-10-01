@@ -8,12 +8,17 @@
             business stays ahead in the fast-evolving digital landscape.</p>
     </div>
     <div class="technologyTopContainerRight">
-        <img 
-  data-src="<?= base_url() ?>/assets/img/technologyimagebackground.jpg" 
-  alt="Technology Background Image" 
-  class="lazyload" 
-/>
-
+        <picture class="lazyload">
+            <!-- WebP version -->
+            <source data-srcset="<?= base_url('assets/img/technologyimagebackground.webp') ?>" type="image/webp">
+            
+            <!-- JPG fallback -->
+            <img 
+                data-src="<?= base_url('noWebpAssets/assets/img/technologyimagebackground.jpg') ?>" 
+                alt="Technology Background Image" 
+                class="lazyload img-responsive" 
+            />
+        </picture>
     </div>
 
 </div>

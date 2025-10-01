@@ -8,11 +8,18 @@
             through our advanced technology.</p>
     </div>
     <div class="technologyTopContainerRight">
-      <img 
-  class="lazyload img-responsive" 
-  data-src="<?= base_url() ?>/assets/img/technologyimagebackground.jpg" 
-  alt="Technology Background" 
-/>
+        <picture class="lazyload">
+            <!-- WebP version -->
+            <source data-srcset="<?= base_url('assets/img/technologyimagebackground.webp') ?>" type="image/webp">
+            
+            <!-- JPG fallback -->
+            <img 
+                data-src="<?= base_url('noWebpAssets/assets/img/technologyimagebackground.jpg') ?>" 
+                alt="Software Products" 
+                class="lazyload img-responsive" 
+            />
+        </picture>
+
 
     </div>
 

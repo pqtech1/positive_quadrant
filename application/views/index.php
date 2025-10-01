@@ -563,18 +563,34 @@
                 <div class="inner-column wow fadeInLeft">
                     <figure class="image-1">
                         <a href="<?= base_url() ?>/assets/img/aboutus1.webp" class="lightbox-image"
-                            data-fancybox="images">
-                            <img data-src="<?= base_url() ?>/assets/img/aboutus1.webp" class="lazyload"
-                                alt="about us Image">
+                        data-fancybox="images">
+                        
+                            <picture>
+                                <!-- WebP first -->
+                                <source srcset="<?= base_url() ?>/assets/img/aboutus1.webp" type="image/webp">
+                                <!-- JPG fallback -->
+                                <img data-src="<?= base_url() ?>/noWebpAssets/assets/img/aboutus1.jpg" class="lazyload"
+                                    alt="about us Image">
+                            </picture>
+                            
                         </a>
                     </figure>
+
                     <figure class="image-2">
                         <a href="<?= base_url() ?>/assets/img/aboutus2.webp" class="lightbox-image"
-                            data-fancybox="images">
-                            <img data-src="<?= base_url() ?>/assets/img/aboutus2.webp" class="lazyload"
-                                alt="about us Image">
+                        data-fancybox="images">
+                        
+                            <picture>
+                                <!-- WebP first -->
+                                <source srcset="<?= base_url() ?>/assets/img/aboutus2.webp" type="image/webp">
+                                <!-- JPG fallback -->
+                                <img data-src="<?= base_url() ?>/noWebpAssets/assets/img/aboutus2.jpg" class="lazyload"
+                                    alt="about us Image">
+                            </picture>
+                            
                         </a>
                     </figure>
+
                 </div>
 
             </div>
@@ -599,9 +615,15 @@
         <div class="aboutUsCard wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
             <div class="our_mission_vision_goal_card">
                 <div class="our_mission_vision_goal_card_image">
-                    <img data-src="<?= base_url() ?>/assets/img/our_mission_card.webp" class="lazyload"
+                <picture>
+                    <!-- WebP (preferred) -->
+                    <source srcset="<?= base_url() ?>/assets/img/our_mission_card.webp" type="image/webp">
+                    
+                    <!-- PNG fallback -->
+                    <img data-src="<?= base_url() ?>/noWebpAssets/assets/img/our_mission_card.png" 
+                        class="lazyload"
                         alt="Mission Image">
-
+                </picture>
                     <div class="our_mission_vision_goal_overlay"></div>
                     <div class="our_mission_vision_goal_text">
                         <h3><span class="glyphicon glyphicon-send"></span> Mission</h3>
@@ -620,8 +642,16 @@
         <div class="aboutUsCard wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
             <div class="our_mission_vision_goal_card">
                 <div class="our_mission_vision_goal_card_image">
-                    <img data-src="<?= base_url() ?>/assets/img/our_vision_card.webp" class="lazyload"
+                <picture>
+                    <!-- WebP (preferred) -->
+                    <source data-srcset="<?= base_url() ?>/assets/img/our_vision_card.webp" type="image/webp">
+                    
+                    <!-- JPG fallback -->
+                    <img src="<?= base_url() ?>/noWebpAssets/assets/img/our_vision_card.jpg"
+                        class="lazyload"
                         alt="Vision Image">
+                </picture>
+
 
                     <div class="our_mission_vision_goal_overlay"></div>
                     <div class="our_mission_vision_goal_text">
@@ -642,7 +672,16 @@
         <div class="aboutUsCard wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
             <div class="our_mission_vision_goal_card">
                 <div class="our_mission_vision_goal_card_image">
-                    <img data-src="<?= base_url() ?>/assets/img/our_goal_card.webp" class="lazyload" alt="Goal Image">
+                <picture>
+                    <!-- WebP (preferred) -->
+                    <source data-srcset="<?= base_url() ?>/assets/img/our_goal_card.webp" type="image/webp">
+                    
+                    <!-- JPG fallback -->
+                    <img 
+                        data-src="<?= base_url() ?>/noWebpAssets/assets/img/our_goal_card.jpg"
+                        class="lazyload"
+                        alt="Goal Image">
+                </picture>
 
                     <div class="our_mission_vision_goal_overlay"></div>
                     <div class="our_mission_vision_goal_text">
@@ -823,14 +862,26 @@
             ['img' => 'tourism.webp', 'alt' => 'Tourism'],
         ];
 
-        foreach ($industries as $industry): ?>
+        foreach ($industries as $industry):
+            // get filename without extension
+            $imgBase = pathinfo($industry['img'], PATHINFO_FILENAME);
+        ?>
             <div class="industryItem">
-                <img data-src="<?= base_url() ?>/assets/img/<?= $industry['img'] ?>" class="lazyload"
-                    alt="<?= $industry['alt'] ?>">
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?= base_url('assets/img/' . $imgBase . '.webp') ?>" type="image/webp">
+
+                    <!-- JPG fallback -->
+                    <img data-src="<?= base_url('noWebpAssets/assets/img/' . $imgBase . '.jpg') ?>"
+                        class="lazyload"
+                        alt="<?= $industry['alt'] ?>">
+                </picture>
+
                 <div class="overlay"><?= $industry['alt'] ?></div>
             </div>
         <?php endforeach; ?>
     </div>
+
 </div>
 
 
@@ -1129,8 +1180,16 @@
 
                 </div>
                 <div class="col-sm-6">
-                    <img data-src="<?php echo base_url('assets/img/our_team.webp') ?>" alt="Positive Quadrant"
-                        class="img-responsive lazyload" />
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?php echo base_url('assets/img/our_team.webp') ?>" type="image/webp">
+                    
+                    <!-- JPG fallback -->
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/our_team.jpg') ?>" 
+                        alt="Positive Quadrant"
+                        class="img-responsive lazyload">
+                </picture>
+
 
                 </div>
             </div>
@@ -1375,7 +1434,16 @@
                         <div class="item active">
                             <div class="row">
                                 <div class="col-md-3 testimonial_image">
-                                    <img data-src="assets/new_img/sun_pharma.webp" class="lazyload" alt="Sun Pharma">
+                                <picture>
+                                    <!-- WebP first -->
+                                    <source data-srcset="<?php echo base_url('assets/new_img/sun_pharma.webp'); ?>" type="image/webp">
+
+                                    <!-- PNG fallback -->
+                                    <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/sun_pharma.png'); ?>" 
+                                        class="lazyload" 
+                                        alt="Sun Pharma">
+                                </picture>
+
 
 
                                 </div>
@@ -1461,7 +1529,16 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4 col-sm-3">
-                            <img data-src="assets/new_img/developers.webp" class="lazyload" alt="Developers">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/developers.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/developers.png'); ?>" 
+                                class="lazyload" 
+                                alt="Developers">
+                        </picture>
+
 
                         </div>
                         <div class="col-md-8 col-sm-9">
@@ -1476,7 +1553,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/conversation.webp" class="lazyload" alt="Conversation">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/conversation.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/conversation.png'); ?>" 
+                                class="lazyload" 
+                                alt="Conversation">
+                        </picture>
 
                         </div>
                         <div class="col-md-8">
@@ -1491,7 +1576,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/app-development.webp" class="lazyload" alt="App Development">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/app-development.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/app-development.png'); ?>" 
+                                class="lazyload" 
+                                alt="App Development">
+                        </picture>
 
                         </div>
                         <div class="col-md-8">
@@ -1506,8 +1599,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/developer.webp" class="lazyload" alt="Developer">
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/developer.webp'); ?>" type="image/webp">
 
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/developer.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Developer">
+                            </picture>
                         </div>
                         <div class="col-md-8">
                             <h3>Placed Students</h3>
@@ -1521,7 +1621,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/conversation_one.webp" class="lazyload" alt="Conversation One">
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/conversation_one.webp'); ?>" type="image/webp">
+
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/conversation_one.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Conversation One">
+                            </picture>
 
                         </div>
                         <div class="col-md-8">
@@ -1536,7 +1644,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/trustworthiness.webp" class="lazyload" alt="Trustworthiness">
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/trustworthiness.webp'); ?>" type="image/webp">
+
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/trustworthiness.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Trustworthiness">
+                            </picture>
 
                         </div>
                         <div class="col-md-8">
@@ -1551,7 +1667,15 @@
                 <div class="fact-card">
                     <div class="row">
                         <div class="col-md-4">
-                            <img data-src="assets/new_img/soft-skills.webp" class="lazyload" alt="Soft Skills">
+                            <picture>
+                                <!-- WebP first -->
+                                <source data-srcset="<?php echo base_url('assets/new_img/soft-skills.webp'); ?>" type="image/webp">
+
+                                <!-- PNG fallback -->
+                                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/soft-skills.png'); ?>" 
+                                    class="lazyload" 
+                                    alt="Soft Skills">
+                            </picture>
 
                         </div>
                         <div class="col-md-8">
@@ -1576,54 +1700,126 @@
     <div class="container">
         <div class="showcase">
             <div class="slider clearfix">
-                <img data-src="<?php echo base_url('assets/new_img/agile-graphic_0.webp'); ?>" alt="Agile Graphic"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/ang.webp'); ?>" alt="Angular Logo"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Aws-DevOps.webp'); ?>" alt="AWS DevOps"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/AWS.webp'); ?>" alt="AWS"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Azure-Logo-webp-Images.webp'); ?>" alt="Azure Logo"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/datascience.webp'); ?>" alt="Data Science"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/DJANGO.webp'); ?>" alt="Django"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Drupal.webp'); ?>" alt="Drupal"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/flutter.webp'); ?>" alt="Flutter"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/git_gitlab.webp'); ?>" alt="Git & GitLab"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/hybrid-top.webp'); ?>" alt="Hybrid Top"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/iot.webp'); ?>" alt="IoT"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/linux.webp'); ?>" alt="Linux"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/magento.webp'); ?>" alt="Magento"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/meanstack.webp'); ?>" alt="MEAN Stack"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/mongodB.webp'); ?>" alt="MongoDB"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/MS-SQL-Server.webp'); ?>" alt="MS SQL Server"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/MERN-logo.webp'); ?>" alt="MERN Stack"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Node.js_logo_2015.svg.webp'); ?>" alt="Node.js"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Official_unity_logo.webp'); ?>" alt="Unity Logo"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/R.webp'); ?>" alt="R Language"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Tableau-Logo-webp-HD.webp'); ?>" alt="Tableau Logo"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/ux-ui-logo.webp'); ?>" alt="UX UI Logo"
-                    class="itemSlider lazyload" />
-                <img data-src="<?php echo base_url('assets/new_img/Microsoft-Power-BI-Logo.webp'); ?>"
-                    alt="Microsoft Power BI" class="itemSlider lazyload" />
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/agile-graphic_0.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/agile-graphic_0.png'); ?>" alt="Agile Graphic" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/ang.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/ang.png'); ?>" alt="Angular Logo" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Aws-DevOps.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Aws-DevOps.png'); ?>" alt="AWS DevOps" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/AWS.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/AWS.png'); ?>" alt="AWS" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Azure-Logo-PNG-Images.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Azure-Logo-PNG-Images.png'); ?>" alt="Azure Logo" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/datascience.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/datascience.png'); ?>" alt="Data Science" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/DJANGO.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/DJANGO.jpeg'); ?>" alt="Django" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Drupal.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Drupal.png'); ?>" alt="Drupal" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/flutter.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/flutter.jpg'); ?>" alt="Flutter" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/git_gitlab.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/git_gitlab.png'); ?>" alt="Git & GitLab" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/hybrid-top.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/hybrid-top.png'); ?>" alt="Hybrid Top" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/iot.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/iot.jpg'); ?>" alt="IoT" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/linux.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/linux.jpeg'); ?>" alt="Linux" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/magento.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/magento.png'); ?>" alt="Magento" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/meanstack.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/meanstack.png'); ?>" alt="MEAN Stack" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/mongodB.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/mongodB.png'); ?>" alt="MongoDB" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/MS-SQL-Server.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/MS-SQL-Server.png'); ?>" alt="MS SQL Server" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/MERN-logo.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/MERN-logo.png'); ?>" alt="MERN Stack" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Node-js_logo_2015-svg.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Node-js_logo_2015-svg.png'); ?>" alt="Node.js" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Official_unity_logo.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Official_unity_logo.png'); ?>" alt="Unity Logo" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/R.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/R.jpeg'); ?>" alt="R Language" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Tableau-Logo-PNG-HD.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Tableau-Logo-PNG-HD.png'); ?>" alt="Tableau Logo" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/ux-ui-logo.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/ux-ui-logo.png'); ?>" alt="UX UI Logo" class="itemSlider lazyload">
+            </picture>
+
+            <picture>
+                <source data-srcset="<?php echo base_url('assets/new_img/Microsoft-Power-BI-Logo.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Microsoft-Power-BI-Logo.png'); ?>" alt="Microsoft Power BI" class="itemSlider lazyload">
+            </picture>
+
 
             </div>
         </div>
@@ -1803,7 +1999,15 @@
         </div>
         <div class="row">
             <div class="col-sm-8 contact_form_one_index">
-                <img data-src="assets/new_img/contact.webp" class="img-responsive lazyload" alt="Contact Image">
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/new_img/contact.webp'); ?>" type="image/webp">
+
+                <!-- PNG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/contact.jpg'); ?>" 
+                    class="img-responsive lazyload" 
+                    alt="Contact Image">
+            </picture>
             </div>
             <div class="col-sm-4 contact_form_two_index">
                 <div class="section_title">
@@ -1870,8 +2074,19 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
 <!-- what we do code start here  -->
 <div class="what_we_do section-mt-mb main-exper">
-    <div class="what_we_do_title " data-wow-delay="0.3s"
-        style="background-image: url('assets/img/background_what_we_do.webp');">
+    <div class="what_we_do_title" data-wow-delay="0.3s"
+        style="background-image: url('<?php echo base_url('noWebpAssets/assets/img/background_what_we_do.jpg'); ?>');">
+        <script>
+            (function(){
+                var img = new Image();
+                img.onload = function() {
+                    if(img.width > 0){  
+                        document.currentScript.parentNode.style.backgroundImage = "url('<?php echo base_url('assets/img/background_what_we_do.webp'); ?>')";
+                    }
+                };
+                img.src = "<?php echo base_url('assets/img/background_what_we_do.webp'); ?>";
+            })();
+        </script>
         <div class="container">
             <!-- <h1>hi srushti</h1> -->
             <div class="row justify-content-center ">
@@ -1899,8 +2114,16 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
             <div class="row what_we_row exper-auto row exper-auto wow fadeinRight">
                 <div class="col-sm-3 what_we_content_box exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/web-development.webp" class="img-responsive lazyload"
-                            alt="Web Development">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/web-development.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/web-development.jpg'); ?>" 
+                                class="img-responsive lazyload" 
+                                alt="Web Development">
+                        </picture>
+
 
                     </div>
                     <h3>Web Development</h3>
@@ -1916,8 +2139,16 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/DYNAMIC-MOBILE-APPLICATION.webp" class="img-responsive lazyload"
-                            alt="Dynamic Mobile Application">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/DYNAMIC-MOBILE-APPLICATION.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/DYNAMIC-MOBILE-APPLICATION.png'); ?>" 
+                                class="img-responsive lazyload" 
+                                alt="Dynamic Mobile Application">
+                        </picture>
+
 
                     </div>
                     <h3>Mobile App Development</h3>
@@ -1933,8 +2164,16 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/DJANGO.webp" class="img-responsive lazyload"
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/new_img/DJANGO.webp'); ?>" type="image/webp">
+
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/DJANGO.jpeg'); ?>" 
+                            class="img-responsive lazyload" 
                             alt="Django Framework">
+                    </picture>
+
 
                     </div>
                     <h3>Python Django Development</h3>
@@ -1949,7 +2188,15 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/MEAN.webp" class="img-responsive lazyload" alt="MEAN Stack">
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/new_img/MEAN.webp'); ?>" type="image/webp">
+
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/MEAN.png'); ?>" 
+                            class="img-responsive lazyload" 
+                            alt="MEAN Stack">
+                    </picture>
 
                     </div>
                     <h3>MEAN Stack Development</h3>
@@ -1963,7 +2210,15 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/mern.webp" class="img-responsive lazyload" alt="MERN Stack">
+                        <picture>
+                            <!-- WebP first -->
+                            <source data-srcset="<?php echo base_url('assets/new_img/mern.webp'); ?>" type="image/webp">
+
+                            <!-- PNG fallback -->
+                            <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/mern.png'); ?>" 
+                                class="img-responsive lazyload" 
+                                alt="MERN Stack">
+                        </picture>
 
                     </div>
                     <h3>MERN Stack Development</h3>
@@ -1978,8 +2233,16 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/R.webp" class="img-responsive lazyload"
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/new_img/R.webp'); ?>" type="image/webp">
+
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Rjpeg'); ?>" 
+                            class="img-responsive lazyload" 
                             alt="R Programming Language Logo">
+                    </picture>
+
 
                     </div>
                     <h3>R Development</h3>
@@ -1994,9 +2257,15 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/oracle-database-10g-administration-ii.webp"
-                            class="img-responsive lazyload" alt="Oracle Database 10g Administration II">
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/new_img/oracle-database-10g-administration-ii.webp'); ?>" type="image/webp">
 
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/oracle-database-10g-administration-ii.jpeg'); ?>" 
+                            class="img-responsive lazyload" 
+                            alt="Oracle Database 10g Administration II">
+                    </picture>
                     </div>
                     <h3>Oracle 10g Administration</h3>
                     <p class="pq_p">Oracle 10g administration involves managing and maintaining Oracle 10g databases to
@@ -2012,8 +2281,15 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
                 <div class="col-sm-3 what_we_content_box  exper-card">
                     <div class="single_img">
-                        <img data-src="assets/new_img/hybrid-top.webp" class="img-responsive lazyload"
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/new_img/hybrid-top.webp'); ?>" type="image/webp">
+
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/hybrid-top.png'); ?>" 
+                            class="img-responsive lazyload" 
                             alt="Hybrid Technology">
+                    </picture>
 
                     </div>
                     <h3>Hybrid Development</h3>

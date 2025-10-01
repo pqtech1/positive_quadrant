@@ -41,12 +41,18 @@
 
       <div class="row contact_form_one">
          <div class="col-md-6 contact_img">
-<img 
-  data-src="assets/new_img/contact_one.jpg" 
-  alt="image" 
-  class="lazyload" 
-  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
->
+            <picture class="lazyload">
+               <!-- WebP version -->
+               <source data-srcset="assets/new_img/contact_one.webp" type="image/webp">
+               
+               <!-- JPG fallback -->
+               <img 
+                  data-src="noWebpAssets/assets/new_img/contact_one.jpg" 
+                  alt="image" 
+                  class="lazyload" 
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+               />
+            </picture>
          </div>
          <div class="col-md-6 contact_form_two">
             <h4>Bringing Your Vision To Life</h4>
@@ -106,7 +112,18 @@
          <div class="col-sm-4">
             <div class="card">
                <div class="card-body contact_card">
-                  <img src="<?= base_url() ?>/assets/img/homeadress.png" alt="Address Icon">
+                  <picture class="lazyload">
+                     <!-- WebP version -->
+                     <source data-srcset="<?= base_url('assets/img/homeadress.webp') ?>" type="image/webp">
+                     
+                     <!-- PNG fallback -->
+                     <img 
+                        data-src="<?= base_url('noWebpAssets/assets/img/homeadress.png') ?>" 
+                        alt="Address Icon" 
+                        class="lazyload img-responsive"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                     />
+                  </picture>
                   <h3>HEAD OFFICE ADDRESS</h3>
                   <p>
                      Patel’s Prayosha Yogi Niwas Co-Op. Housing Society Limited, Building Number 4, Flat 202, Behind
@@ -119,7 +136,18 @@
          <div class="col-sm-4">
             <div class="card">
                <div class="card-body contact_card">
-                  <img src="<?= base_url() ?>/assets/img/emailimage.png" alt="Email Icon">
+                  <picture class="lazyload">
+                     <!-- WebP version -->
+                     <source data-srcset="<?= base_url('assets/img/emailimage.webp') ?>" type="image/webp">
+                     
+                     <!-- PNG fallback -->
+                     <img 
+                        data-src="<?= base_url('noWebpAssets/assets/img/emailimage.png') ?>" 
+                        alt="Email Icon" 
+                        class="lazyload img-responsive"
+                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                     />
+                  </picture>
                   <h3>HEAD OFFICE ADDRESS</h3>
                   <h2>EMAIL</h2>
                   <p><a href="mailto:info@positivequadrant.in">info@positivequadrant.in</a></p>
@@ -130,7 +158,18 @@
          <div class="col-sm-4">
             <div class="card">
                <div class="card-body contact_card">
-                  <img src="<?= base_url() ?>/assets/img/phonecallimage.png" alt="Phone Icon">
+               <picture class="lazyload">
+                  <!-- WebP version -->
+                  <source data-srcset="<?= base_url('assets/img/phonecallimage.webp') ?>" type="image/webp">
+                  
+                  <!-- PNG fallback -->
+                  <img 
+                     data-src="<?= base_url('noWebpAssets/assets/img/phonecallimage.png') ?>" 
+                     alt="Phone Icon" 
+                     class="lazyload img-responsive"
+                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+                  />
+               </picture>
                   <h3>HEAD OFFICE ADDRESS</h3>
                   <h2>CONTACT US</h2>
                   <p><a href="tel:7219623991">7219623991</a></p>

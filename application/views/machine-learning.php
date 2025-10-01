@@ -29,12 +29,15 @@
             </p>
         </div>
         <div class="col-md-6">
-            <img 
-  data-src="<?php echo base_url() . 'assets/img/ml.jpg' ?>" 
-  alt="Machine Learning" 
-  class="lazyload" 
-/>
+            <picture>
+                <!-- WebP first -->
+                <source data-srcset="<?php echo base_url('assets/img/ml.webp'); ?>" type="image/webp">
 
+                <!-- JPG fallback -->
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/ml.jpg'); ?>" 
+                    alt="Machine Learning" 
+                    class="lazyload">
+            </picture>
 
         </div>
     </div>
@@ -42,7 +45,7 @@
 
     <div class="row machine-learning-middle text-center">
         <!-- <div class="col-md-6">
-            <img src="<?php echo base_url() . 'assets/img/ml2.png' ?>" alt="">
+            <img src="<?php echo base_url() . 'assets/img/ml2.webp' ?>" alt="">
 
         </div> -->
         <div class="col-md-10">

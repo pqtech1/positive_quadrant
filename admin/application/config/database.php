@@ -81,7 +81,7 @@ $db['default'] = array(
 	// 'database' => 'positive_quadrant',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => '123456',
+	'password' => '',
 	'database' => 'positive_quadrant',
 	
 

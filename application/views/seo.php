@@ -20,11 +20,15 @@
     <div class="row">
         <div class="col-md-6">
             <div class="seo-image">
-                <img 
-  data-src="<?php echo base_url() . 'assets/img/seo_image.png' ?>" 
-  alt="SEO Image" 
-  class="lazyload" 
-/>
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?php echo base_url('assets/img/seo_image.webp'); ?>" type="image/webp">
+
+                    <!-- PNG fallback -->
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/seo_image.png'); ?>" 
+                        alt="SEO Image" 
+                        class="lazyload">
+                </picture>
 
             </div>
         </div>
@@ -125,12 +129,15 @@
 
         <div class="col-md-6">
             <div class="seo-image">
-                <img 
-  data-src="<?php echo base_url() . 'assets/img/seo-service.png' ?>" 
-  alt="SEO Service" 
-  class="lazyload" 
-/>
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?php echo base_url('assets/img/seo-service.webp'); ?>" type="image/webp">
 
+                    <!-- PNG fallback -->
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/seo-service.png'); ?>" 
+                        alt="SEO Service" 
+                        class="lazyload">
+                </picture>
             </div>
         </div>
 

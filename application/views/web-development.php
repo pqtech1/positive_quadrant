@@ -24,13 +24,15 @@
 
             </div>
             <div class="col-md-6  d-flex align-items-center justify-content-end ">
-                <img 
-  data-src="<?php echo base_url() . 'assets/img/web-development-services.jpg' ?>" 
-  alt="Web Development Services" 
-  class="lazyload" 
-/>
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?php echo base_url('assets/img/web-development-services.webp'); ?>" type="image/webp">
 
-
+                    <!-- JPG fallback -->
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-development-services.jpg'); ?>" 
+                        alt="Web Development Services" 
+                        class="lazyload">
+                </picture>
             </div>
         </div>
     </div>
@@ -40,12 +42,15 @@
         <div class="row web-development-middle">
             <div class="wow animate__fadeInLeft col-md-6  d-flex align-items-center justify-content-end"
                 data-wow-duration="1s" data-wow-delay="0.5s">
-                <img 
-  data-src="<?php echo base_url() . 'assets/img/web-dev-end-services.jpg' ?>" 
-  alt="Web Dev End Services" 
-  class="lazyload" 
-/>
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="<?php echo base_url('assets/img/web-dev-end-services.webp'); ?>" type="image/webp">
 
+                    <!-- JPG fallback -->
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-dev-end-services.jpg'); ?>" 
+                        alt="Web Dev End Services" 
+                        class="lazyload">
+                </picture>
             </div>
             <div class="col-md-6">
                 <h2 class="pq_h2">Make Your Web Development Goals Come True</h2>
@@ -81,12 +86,15 @@
         <div class="row web-development-parent">
             <div class="col-md-3 web-development-card wow animate__fadeInUp" data-wow-delay="0.1s">
                 <div class="web-development-inner-card">
-                   <img 
-  data-src="<?php echo base_url() . 'assets/img/pq-Authenticity.png' ?>" 
-  alt="Expertise 1" 
-  class="lazyload" 
-/>
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/img/pq-Authenticity.webp'); ?>" type="image/webp">
 
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/pq-Authenticity.png'); ?>" 
+                            alt="Expertise 1" 
+                            class="lazyload">
+                    </picture>
                     <p class="pq_p">We specialize in building responsive, scalable, and user-friendly websites tailored to your
                         business needs.</p>
                 </div>
@@ -94,12 +102,15 @@
 
             <div class="col-md-3 web-development-card wow animate__fadeInUp" data-wow-delay="0.2s">
                 <div class="web-development-inner-card">
-                    <img 
-  data-src="<?php echo base_url() . 'assets/img/pq-Drive.png' ?>" 
-  alt="Expertise 2" 
-  class="lazyload" 
-/>
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/img/pq-Drive.webp'); ?>" type="image/webp">
 
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/pq-Drive.png'); ?>" 
+                            alt="Expertise 2" 
+                            class="lazyload">
+                    </picture>
                     <p class="pq_p">Our design team creates intuitive, aesthetically pleasing interfaces that enhance user experience
                         and engagement.</p>
                 </div>
@@ -107,12 +118,15 @@
 
             <div class="col-md-3 web-development-card wow animate__fadeInUp" data-wow-delay="0.3s">
                 <div class="web-development-inner-card">
-                    <img 
-  data-src="<?php echo base_url() . 'assets/img/pq-Mindfulness.png' ?>" 
-  alt="Expertise 3" 
-  class="lazyload" 
-/>
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/img/pq-Mindfulness.webp'); ?>" type="image/webp">
 
+                        <!-- PNG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/pq-Mindfulness.png'); ?>" 
+                            alt="Expertise 3" 
+                            class="lazyload">
+                    </picture>
                     <p class="pq_p">We provide comprehensive e-commerce solutions, enabling you to reach and engage customers
                         effectively online.</p>
                 </div>

@@ -60,66 +60,67 @@
   .batchname li.active+i {
     color: #ff7043;
   }
-  
-     .slider-wrapper {
-      overflow: hidden;
-      position: relative;
-      max-width: 100%;
-    }
 
-    .slider-track {
-      display: flex;
-      transition: transform 0.6s ease;
-      will-change: transform;
-    }
+  .slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+  }
 
+  .slider-track {
+    display: flex;
+    transition: transform 0.6s ease;
+    will-change: transform;
+  }
+
+  .slider-item {
+    flex: 0 0 100vw;
+    max-width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .slider-item-inner {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: 100%;
+  }
+
+  .slider-item img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+
+  .slider-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .slider-item p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  @media (min-width: 992px) {
     .slider-item {
-      flex: 0 0 100vw;
-      max-width: 100vw;
-      padding: 20px;
-      box-sizing: border-box;
+      flex: 0 0 30%;
+      max-width: 30%;
     }
-
-    .slider-item-inner {
-      background: #fff;
-      border-radius: 10px;
-      padding: 30px 20px;
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      height: 100%;
-    }
-
-    .slider-item img {
-      width: 60px;
-      margin-bottom: 15px;
-    }
-
-    .slider-item h3 {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-    .slider-item p {
-      font-size: 14px;
-      color: #555;
-    }
-
-    @media (min-width: 992px) {
-      .slider-item {
-        flex: 0 0 30%;
-        max-width: 30%;
-      }
-    }
+  }
 </style>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-<br/>
+<br />
 <div class="container trainingPageMainContainer">
   <div class="trainingPageMainContainerTop">
     <div class="trainingPageMainContainerTopLeft">
       <h2 class="pq_h2 pq_left">Unlock Your Potential with Our Expert-Led Training Programs</h2>
-      <p class="pq_p">At Positive Quadrant Technologies, we believe in empowering professionals with the skills they need to thrive
+      <p class="pq_p">At Positive Quadrant Technologies, we believe in empowering professionals with the skills they
+        need to thrive
         in the digital world. Our meticulously designed training programs cover a range of technologies, including MERN
         Stack, MEAN Stack, WordPress, Drupal, PHP, and more, to equip you with the tools and knowledge to succeed.
         Whether you're a beginner aiming to enter the tech industry or an experienced developer looking to upskill, our
@@ -128,11 +129,8 @@
         success.</p>
     </div>
     <div class="trainingPageMainContainerTopRight">
-<img 
-  class="lazyload img-responsive" 
-  data-src="<?= base_url() ?>/assets/img/trainingimage.png" 
-  alt="Training Image" 
-/>
+      <img class="lazyload img-responsive" data-src="<?= base_url() ?>/assets/img/trainingimage.png"
+        alt="Training Image" />
     </div>
   </div>
 </div>
@@ -148,11 +146,9 @@
       ?>
       <div class="trainingAllCoursesContainerCard">
         <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="<?php echo $this->config->item('image_path'); ?>/uploads/courses/<?php echo $training['cimage']; ?>" 
-  alt="Course Image" 
-/>
+          <img class="lazyload img-responsive"
+            data-src="<?php echo $this->config->item('image_path'); ?>/uploads/courses/<?php echo $training['cimage']; ?>"
+            alt="Course Image" />
 
         </div>
         <div class="courseDetailContainer">
@@ -352,7 +348,8 @@
       <!-- Slide 1 -->
       <div class="slider-item">
         <div class="slider-item-inner">
-          <img data-src="assets/new_img/learning.png" alt="Industry-Aligned Practical Knowledge" class="lazyload img-responsive">
+          <img data-src="assets/new_img/learning.png" alt="Industry-Aligned Practical Knowledge"
+            class="lazyload img-responsive">
           <h3>Industry-Aligned Practical Knowledge</h3>
           <p>80% practical & 20% theory to get you job-ready fast.</p>
         </div>

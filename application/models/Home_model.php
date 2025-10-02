@@ -329,6 +329,41 @@ class Home_model extends CI_model
         $this->db->where('status', 1);
         return $this->db->get('our_portfolio')->result_array();
     }
+
+
+    // project and portfolios
+
+    // Get all industries
+    public function get_all_industries()
+    {
+        return $this->db->where('status', 1)
+            ->get('industries_serve')
+            ->result();
+    }
+    // Get all projects
+    public function get_all_projects()
+    {
+        return $this->db->get('project_portfolios')->result();
+    }
+
+    // Get projects by industry
+    public function get_projects_by_industry($industry_id)
+    {
+        return $this->db->where('industry_id', $industry_id)
+            ->get('project_portfolios')
+            ->result();
+    }
+
+    // Get images for project
+    public function get_images_by_project($project_id)
+    {
+        return $this->db->where('project_id', $project_id)
+            ->get('project_images')
+            ->result();
+    }
+
+
+
 }
 
 

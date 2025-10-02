@@ -28,7 +28,7 @@
         </div>
         <div class="mobile-app-content-image col-md-6">
             <img 
-  data-src="<?php echo base_url() . 'assets/img/mob-dev2.png' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/mob-dev2.webp' ?>" 
   alt="Mobile Development" 
   class="lazyload" 
 />
@@ -127,7 +127,7 @@
             <!-- Left Image -->
             <div class="col-md-4">
                <img 
-  data-src="<?php echo base_url() . 'assets/img/our-services.jpeg' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/our-services.webp' ?>" 
   alt="Our Services" 
   class="lazyload" 
 />

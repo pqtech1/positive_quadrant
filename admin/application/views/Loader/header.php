@@ -212,7 +212,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">Manage Invoice</span>
                                 </a>
@@ -222,7 +222,7 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">Career User</span>
@@ -235,7 +235,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">Home</span>
                                 </a>
@@ -245,9 +245,9 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">About Us</span>
                                 </a>
@@ -257,7 +257,7 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </li> -->
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">Our Partner</span>
@@ -269,7 +269,7 @@
 
                                 </ul>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">Our Portfolio</span>
                                 </a>
@@ -279,9 +279,9 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </li> -->
 
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide">Project </span>
                                 </a>
@@ -291,7 +291,7 @@
                                     </li>
 
                                 </ul>
-                            </li>
+                            </li> -->
 
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
@@ -330,7 +330,7 @@
                                 </ul>
                             </li>
 
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
                                     <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide"> Services </span>
                                 </a>
@@ -339,7 +339,7 @@
                                         <a href="<?= base_url() ?>Services">View Services</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li> -->
 
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
@@ -376,11 +376,22 @@
 
                             <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="">
-                                    <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide"> Industries Serve </span>
+                                    <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide"> Industries Serve
+                                    </span>
                                 </a>
                                 <ul>
                                     <li>
                                         <a href="<?= base_url() ?>IndustriesServe">View Industries Serve</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="nav-submenu" data-toggle="nav-submenu" href="">
+                                    <i class="fa fa-leanpub"></i><span class="sidebar-mini-hide"> Projects</span>
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="<?= base_url() ?>Project_portfolios">View Projects</a>
                                     </li>
                                 </ul>
                             </li>
@@ -470,7 +481,7 @@
 
                             <?php
                             // if(in_array(1,$access_rights)){ ?>
-                            <li>
+                            <!-- <li>
                                 <a class="nav-submenu" data-toggle="nav-submenu" href="#"><i
                                         class="si si-badge"></i><span class="sidebar-mini-hide">Masters</span></a>
                                 <ul>
@@ -513,7 +524,7 @@
                                     // } ?>
 
                                 </ul>
-                            </li>
+                            </li> -->
                             <?php
                             // } ?>
 

@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1759209078;s:3:"ttl";i:3600;s:4:"data";a:14:{s:4:"home";a:19:{i:0;a:4:{s:7:"home_id";s:1:"1";s:10:"home_image";s:37:"psychology-4440668_19201584879100.jpg";s:9:"home_desc";s:55:"<p>Artificial Intelligence &amp; Machine Learning</p>
+a:3:{s:4:"time";i:1759332384;s:3:"ttl";i:3600;s:4:"data";a:14:{s:4:"home";a:19:{i:0;a:4:{s:7:"home_id";s:1:"1";s:10:"home_image";s:37:"psychology-4440668_19201584879100.jpg";s:9:"home_desc";s:55:"<p>Artificial Intelligence &amp; Machine Learning</p>
 ";s:6:"status";s:1:"1";}i:1;a:4:{s:7:"home_id";s:1:"8";s:10:"home_image";s:44:"augmented-reality-1957411_12801535908736.jpg";s:9:"home_desc";s:32:"<p>Augmented Reality&nbsp;</p>
 ";s:6:"status";s:1:"1";}i:2;a:4:{s:7:"home_id";s:1:"7";s:10:"home_image";s:36:"simulator-2312973_12801535908660.jpg";s:9:"home_desc";s:20:"<p>Simulations</p>
 ";s:6:"status";s:1:"1";}i:3;a:4:{s:7:"home_id";s:1:"6";s:10:"home_image";s:39:"mobile-phone-1875813_19201629461333.jpg";s:9:"home_desc";s:24:"<p>Virtual Reality</p>

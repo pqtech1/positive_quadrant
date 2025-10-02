@@ -23,7 +23,7 @@
         </div>
         <div class="web-design-image col-md-6">
             <img 
-  data-src="<?php echo base_url() . 'assets/img/web-design.jpg' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/web-design.webp' ?>" 
   alt="Web Design" 
   class="lazyload" 
 />
@@ -36,7 +36,7 @@
     <div class="row web-design-middle">
         <div class="web-design-image2 col-md-6">
            <img 
-  data-src="<?php echo base_url() . 'assets/img/web-design2.jpg' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/web-design2.webp' ?>" 
   alt="Web Design 2" 
   class="lazyload" 
 />

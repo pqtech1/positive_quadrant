@@ -13,13 +13,13 @@
 
   <meta name="author" content="<?= isset($author) ? $author : 'Positive Quadrant Technologies LLP' ?>">
 
-<!--for google search console-->
-    <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
+  <!--for google search console-->
+  <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
   <link href="<?php echo base_url(); ?>assets/vendors/icons/icon.css" rel="stylesheet">
 
   <link rel="icon" href="<?php echo base_url(); ?>assets/img/loadernew.webp" type="image/x-icon" />
   <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/loadernew.webp" type="image/x-icon" />
-   <!-- Google Font -->
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
   <!-- this was added later to make the madal close automatically-->
   <!-- 1. Bootstrap CSS -->
@@ -67,16 +67,16 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/slick-theme.css" />
 
-<!--lazysizes cdn-->
+  <!--lazysizes cdn-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
 
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/lenis@latest"></script> -->
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
-  
+
   <script src="<?php echo base_url(); ?>assets/vendors/wow/wow.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/vendors/fancybox/fancy.js"></script>
 
@@ -108,7 +108,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Darkmode.js/1.0.1/darkmode.min.js"></script>
 
 
 
@@ -127,8 +128,7 @@
 
 
 
- <style>
-
+  <style>
     * {
 
       font-family: "Special Gothic", sans-serif;
@@ -435,7 +435,8 @@
       border: solid 1px #1a9c9b !important;
 
     }
-    .enquiry-button li a{
+
+    .enquiry-button li a {
       color: white !important;
     }
 
@@ -475,15 +476,18 @@
       color: #cccccc;
       /* Different color to distinguish from active */
     }
-    
+
     /*latest custom loader*/
-   
+
     /* Fullscreen Loader Background */
-     .loader-wrapper {
+    .loader-wrapper {
       position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: #fff; /* Background color */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      /* Background color */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -494,8 +498,10 @@
     .spinner {
       width: 80px;
       height: 80px;
-      border: 4px solid #1a9c9b; /* light teal */
-      border-top: 6px solid white; /* teal spinner */
+      border: 4px solid #1a9c9b;
+      /* light teal */
+      border-top: 6px solid white;
+      /* teal spinner */
       border-radius: 50%;
       animation: spin 1.2s linear infinite;
       position: absolute;
@@ -506,35 +512,47 @@
       width: 50px;
       height: auto;
       position: relative;
-      z-index: 10; /* on top of spinner */
+      z-index: 10;
+      /* on top of spinner */
     }
 
     /* Spin Animation */
     @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
+
     /*latest custom loader*/
-    
-    
   </style>
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0SY7GT67ME"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SY7GT67ME"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-0SY7GT67ME');
-</script>
+    gtag('config', 'G-0SY7GT67ME');
+  </script>
+
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
 
   <script>
     new WOW().init();
   </script>
 
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -679,7 +697,7 @@
 </script>
 
 
- 
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -729,14 +747,14 @@
         });
     });
   </script>
-  
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-      document.querySelector(".loader-wrapper").classList.add("hide");
-    }, 500);
-  });
-</script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        document.querySelector(".loader-wrapper").classList.add("hide");
+      }, 500);
+    });
+  </script>
 
 
 
@@ -744,7 +762,7 @@
 
 <body>
 
- 
+
 
 
 
@@ -753,10 +771,10 @@
   <!--  <div class="loader"></div>-->
   <!--</div>-->
 
-<div class="loader-wrapper">
+  <div class="loader-wrapper">
     <div class="spinner"></div>
-      <img src="<?php echo base_url(); ?>assets/img/loadernew.webp" alt="Logo">
-    </div>
+    <img src="<?php echo base_url(); ?>assets/img/loadernew.webp" alt="Logo">
+  </div>
   </div>
 
 
@@ -830,6 +848,8 @@
                           <li><a href="<?php echo base_url() ?>it-training-and-placement">Trainings</a></li>
                         </div>
                       </ul>
+                    </li>
+                    <li><a href="<?php echo base_url(); ?>projects-and-portfolios" class="" id="projects-and-portfolios">Projects</a>
                     </li>
                     <li><a href="<?php echo base_url(); ?>internship-program" class="" id="internship">Internship</a>
                     </li>
@@ -1140,10 +1160,10 @@
       var baseUrl = '<?php echo rtrim(base_url(), '/'); ?>'; // Ensure no trailing slash
       var normalizedCurrentUrl = currentUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
 
-    if (window.location.pathname === '/' || window.location.pathname === '/index.php') {
-  $('.nav a#home').addClass('active-link');
-  return;
-}
+      if (window.location.pathname === '/' || window.location.pathname === '/index.php') {
+        $('.nav a#home').addClass('active-link');
+        return;
+      }
 
 
       // Process other links

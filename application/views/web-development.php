@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-6  d-flex align-items-center justify-content-end ">
                 <img 
-  data-src="<?php echo base_url() . 'assets/img/web-development-services.jpg' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/web-development-services.webp' ?>" 
   alt="Web Development Services" 
   class="lazyload" 
 />
@@ -41,7 +41,7 @@
             <div class="wow animate__fadeInLeft col-md-6  d-flex align-items-center justify-content-end"
                 data-wow-duration="1s" data-wow-delay="0.5s">
                 <img 
-  data-src="<?php echo base_url() . 'assets/img/web-dev-end-services.jpg' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/web-dev-end-services.webp' ?>" 
   alt="Web Dev End Services" 
   class="lazyload" 
 />
@@ -82,7 +82,7 @@
             <div class="col-md-3 web-development-card wow animate__fadeInUp" data-wow-delay="0.1s">
                 <div class="web-development-inner-card">
                    <img 
-  data-src="<?php echo base_url() . 'assets/img/pq-Authenticity.png' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/pq-Authenticity.webp' ?>" 
   alt="Expertise 1" 
   class="lazyload" 
 />
@@ -95,7 +95,7 @@
             <div class="col-md-3 web-development-card wow animate__fadeInUp" data-wow-delay="0.2s">
                 <div class="web-development-inner-card">
                     <img 
-  data-src="<?php echo base_url() . 'assets/img/pq-Drive.png' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/pq-Drive.webp' ?>" 
   alt="Expertise 2" 
   class="lazyload" 
 />
@@ -108,7 +108,7 @@
             <div class="col-md-3 web-development-card wow animate__fadeInUp" data-wow-delay="0.3s">
                 <div class="web-development-inner-card">
                     <img 
-  data-src="<?php echo base_url() . 'assets/img/pq-Mindfulness.png' ?>" 
+  data-src="<?php echo base_url() . 'assets/img/pq-Mindfulness.webp' ?>" 
   alt="Expertise 3" 
   class="lazyload" 
 />

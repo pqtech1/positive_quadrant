@@ -15,32 +15,32 @@ class Home extends CI_Controller
         $this->load->database();
         $this->load->model('home_model'); // Load the model here
         $this->load->driver('cache', array('adapter' => 'file', 'backup' => 'dummy'));
-         $this->limit_requests();
+        $this->limit_requests();
         //  $this->output->enable_profiler(TRUE);
     }
-        private function limit_requests()
-{
-    $ip = $this->input->ip_address();
-    $current_time = time();
+    private function limit_requests()
+    {
+        $ip = $this->input->ip_address();
+        $current_time = time();
 
         // Get request count from session
-    $data = $this->session->userdata('request_limit');
-    $request_data = isset($data) ? $data : ['count' => 0, 'time' => $current_time];
+        $data = $this->session->userdata('request_limit');
+        $request_data = isset($data) ? $data : ['count' => 0, 'time' => $current_time];
 
         // Reset counter after 1 minute
-    if (($current_time - $request_data['time']) > 5) {
-        $request_data = ['count' => 1, 'time' => $current_time];
-    } else {
-        $request_data['count']++;
-    }
+        if (($current_time - $request_data['time']) > 5) {
+            $request_data = ['count' => 1, 'time' => $current_time];
+        } else {
+            $request_data['count']++;
+        }
 
         if ($request_data['count'] > 500) {  // e.g. more than 100 requests/minute
-        show_error('Too many requests. Try again later.', 429);
-        exit;
-    }
+            show_error('Too many requests. Try again later.', 429);
+            exit;
+        }
 
         $this->session->set_userdata('request_limit', $request_data);
-}
+    }
 
     public function clear_all_cache()
     {
@@ -56,109 +56,109 @@ class Home extends CI_Controller
 
 
 
-public function sitemap()
-{
-    header("Content-Type: application/xml; charset=utf-8");
+    public function sitemap()
+    {
+        header("Content-Type: application/xml; charset=utf-8");
 
-    // Static pages
-    $urls = [
-        base_url(),
-        base_url('about-us'),
-        base_url('contact-us'),
-        base_url('projects'),
-        base_url('careers'),
-        base_url('internship-program'),
-    ];
+        // Static pages
+        $urls = [
+            base_url(),
+            base_url('about-us'),
+            base_url('contact-us'),
+            base_url('projects'),
+            base_url('careers'),
+            base_url('internship-program'),
+        ];
 
-    // Services pages
-    $services = [
-        'web-development',
-        'seo',
-        'mobile-development',
-        'web-design',
-        'machine-learning',
-        'e-commerce',
-        'managed-hosting',
-        'website-maintainance',
-        'search-engine-maintenance',
-        'web-application',
-        'iot',
-        'it-development',
-        'it-consultancy',
-        'software-products',
-        'it-training-and-placement',
-    ];
+        // Services pages
+        $services = [
+            'web-development',
+            'seo',
+            'mobile-development',
+            'web-design',
+            'machine-learning',
+            'e-commerce',
+            'managed-hosting',
+            'website-maintainance',
+            'search-engine-maintenance',
+            'web-application',
+            'iot',
+            'it-development',
+            'it-consultancy',
+            'software-products',
+            'it-training-and-placement',
+        ];
 
-    foreach ($services as $service) {
-        $urls[] = base_url($service);
+        foreach ($services as $service) {
+            $urls[] = base_url($service);
+        }
+
+        // Hire pages
+        $hirePages = [
+            'flutter-developer',
+            'react-native-developer',
+            'android-developer',
+            'ios-developer',
+            'swift-developer',
+            'kotlin-developer',
+            'xamarin-developer',
+            'ionic-developer',
+            'data-analyst',
+            'angularjs-developer',
+            'reactjs-developer',
+            'vue.js-developer',
+            'mean-stack-developer',
+            'mern-stack-developer',
+            'full-stack-developer',
+            'nodejs-developer',
+            'java-developer',
+            'php-developer',
+            'laravel-developer',
+            'python-developer',
+            'spring-boot-developer',
+            'asp.net-developer',
+            'golang-developer',
+            'django-developer',
+            'ror-developer',
+            'flutterflow-developer',
+            'flask-developer',
+            'codeigniter-developer',
+            'automation-tester',
+            'aws-cloud-management-developer',
+            'graphql-developers',
+            'manual-software-tester',
+            'meteor-developer',
+            'microsoft-power-bi-developers',
+            'javascript-developer',
+            'salesforce-developer',
+            'symfony-developer',
+            'ui-ux-designer',
+            'vapt-developer',
+            'wordpress-developer',
+            'ai-developer',
+            'machine-learning-engineers',
+            'devops-engineer',
+            'ci-cd-developers'
+        ];
+
+        foreach ($hirePages as $hire) {
+            $urls[] = base_url('hire-' . $hire);
+        }
+
+        // Output XML
+        echo '<?xml version="1.0" encoding="UTF-8"?>';
+        echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+
+        foreach ($urls as $url) {
+            echo '<url>';
+            echo '<loc>' . $url . '</loc>';
+            echo '<changefreq>weekly</changefreq>';
+            echo '<priority>0.8</priority>';
+            echo '</url>';
+        }
+
+        echo '</urlset>';
     }
-
-    // Hire pages
-    $hirePages = [
-        'flutter-developer',
-        'react-native-developer',
-        'android-developer',
-        'ios-developer',
-        'swift-developer',
-        'kotlin-developer',
-        'xamarin-developer',
-        'ionic-developer',
-        'data-analyst',
-        'angularjs-developer',
-        'reactjs-developer',
-        'vue.js-developer',
-        'mean-stack-developer',
-        'mern-stack-developer',
-        'full-stack-developer',
-        'nodejs-developer',
-        'java-developer',
-        'php-developer',
-        'laravel-developer',
-        'python-developer',
-        'spring-boot-developer',
-        'asp.net-developer',
-        'golang-developer',
-        'django-developer',
-        'ror-developer',
-        'flutterflow-developer',
-        'flask-developer',
-        'codeigniter-developer',
-        'automation-tester',
-        'aws-cloud-management-developer',
-        'graphql-developers',
-        'manual-software-tester',
-        'meteor-developer',
-        'microsoft-power-bi-developers',
-        'javascript-developer',
-        'salesforce-developer',
-        'symfony-developer',
-        'ui-ux-designer',
-        'vapt-developer',
-        'wordpress-developer',
-        'ai-developer',
-        'machine-learning-engineers',
-        'devops-engineer',
-        'ci-cd-developers'
-    ];
-
-    foreach ($hirePages as $hire) {
-        $urls[] = base_url('hire-'.$hire);
-    }
-
-    // Output XML
-    echo '<?xml version="1.0" encoding="UTF-8"?>';
-    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
-
-    foreach ($urls as $url) {
-        echo '<url>';
-        echo '<loc>'.$url.'</loc>';
-        echo '<changefreq>weekly</changefreq>';
-        echo '<priority>0.8</priority>';
-        echo '</url>';
-    }
-
-    echo '</urlset>';
-}
 
 
 
@@ -202,10 +202,10 @@ public function sitemap()
             $data['recently_placed'] = $this->db->select('*')->from('recently_placed')->get()->result_array();
             $data['partners'] = $this->db->select('*')->from('our_partner')->get()->result_array();
             $data['clients'] = $this->db->select('*')->from('client')->get()->result_array();
-            
-            
+
+
             $data['team_members'] = $this->home->get_team_members();
-               
+
 
 
 
@@ -301,7 +301,7 @@ public function sitemap()
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Web Development Company in Mumbai | Positive Quadrant Technologies LLP';
         $data['description'] = 'Looking for professional web development in Mumbai? Positive Quadrant Technologies LLP offers affordable, custom web development services including responsive websites, e-commerce platforms, web applications, UI/UX design, and SEO-friendly solutions tailored to your business needs.';
-       $data['keywords'] = 'web development, web development company, custom websites, web design, software development, mobile app development, IT company, UI UX design, e-commerce development, PHP development, Laravel development, React JS development, Node JS development, full stack development, digital transformation, cloud solutions, enterprise software, Android app development, iOS app development, SaaS development, web portal development, technology consulting in Mumbai';
+        $data['keywords'] = 'web development, web development company, custom websites, web design, software development, mobile app development, IT company, UI UX design, e-commerce development, PHP development, Laravel development, React JS development, Node JS development, full stack development, digital transformation, cloud solutions, enterprise software, Android app development, iOS app development, SaaS development, web portal development, technology consulting in Mumbai';
 
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
@@ -360,7 +360,7 @@ public function sitemap()
             $this->cache->save('hire_categories', $data['hire_categories'], 600); // 10 minutes
         }
 
-       // ✅ Dynamic SEO Meta Info
+        // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Web Design Company in Mumbai | Positive Quadrant';
         $data['description'] = 'Professional web design company in Mumbai offering creative, responsive, and user-friendly websites. Transform your online presence with Positive Quadrant.';
         $data['keywords'] = 'web design mumbai, web development, website design company mumbai, creative web design, responsive web design, custom website design, ecommerce web design, wordpress web design, ui ux design, mobile friendly web design, website redesign, full stack web development';
@@ -422,7 +422,7 @@ public function sitemap()
         }
 
         // ✅ Dynamic SEO Meta Info
-       $data['title'] = 'Managed Hosting Company in Mumbai | Positive Quadrant';
+        $data['title'] = 'Managed Hosting Company in Mumbai | Positive Quadrant';
         $data['description'] = 'Secure and reliable managed hosting company in Mumbai offering cloud, VPS, and dedicated hosting solutions. Scalable hosting services tailored for your business.';
         $data['keywords'] = 'managed hosting mumbai, hosting services mumbai, dedicated server hosting, cloud hosting mumbai, managed cloud services, vps hosting mumbai, shared hosting, private cloud hosting, server management, website hosting, cloud infrastructure, scalable hosting services, enterprise hosting, secure hosting solutions, high performance hosting, cloud server hosting';
         $data['author'] = 'Positive Quadrant Technologies LLP';
@@ -463,10 +463,10 @@ public function sitemap()
         }
 
         // ✅ Dynamic SEO Meta Info
-       $data['title'] = 'Search Engine Maintenance Company in Mumbai, Thane & Ambernath | Positive Quadrant';
-       $data['description'] = 'Expert search engine maintenance company in Mumbai, Thane & Ambernath. We provide SEO audits, on-page & off-page optimization, and strategies to boost your rankings.';
-       $data['keywords'] = 'search engine maintenance mumbai, search engine maintenance thane, search engine maintenance ambernath, seo maintenance, seo services mumbai, seo audits, seo strategy, on-page seo, off-page seo, technical seo, keyword research, link building, local seo, seo analysis, content optimization, organic search improvement, seo management services';
-       $data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['title'] = 'Search Engine Maintenance Company in Mumbai, Thane & Ambernath | Positive Quadrant';
+        $data['description'] = 'Expert search engine maintenance company in Mumbai, Thane & Ambernath. We provide SEO audits, on-page & off-page optimization, and strategies to boost your rankings.';
+        $data['keywords'] = 'search engine maintenance mumbai, search engine maintenance thane, search engine maintenance ambernath, seo maintenance, seo services mumbai, seo audits, seo strategy, on-page seo, off-page seo, technical seo, keyword research, link building, local seo, seo analysis, content optimization, organic search improvement, seo management services';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
 
         // Load views
@@ -484,10 +484,10 @@ public function sitemap()
         }
 
         // ✅ Dynamic SEO Meta Info
-      $data['title'] = 'Web Application Development Company in Mumbai, Thane & Ambernath | Positive Quadrant';
-    $data['description'] = 'Custom web application development company in Mumbai, Thane & Ambernath. We deliver scalable, innovative, and secure web app solutions for businesses of all sizes.';
-    $data['keywords'] = 'web application development mumbai, web application development thane, web application development ambernath, custom web applications, web app development services, enterprise web applications, saas development, cloud-based applications, progressive web apps, pwa development, full stack web development, backend development, frontend development, api development, web application design, custom software solutions, web app solutions';
-    $data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['title'] = 'Web Application Development Company in Mumbai, Thane & Ambernath | Positive Quadrant';
+        $data['description'] = 'Custom web application development company in Mumbai, Thane & Ambernath. We deliver scalable, innovative, and secure web app solutions for businesses of all sizes.';
+        $data['keywords'] = 'web application development mumbai, web application development thane, web application development ambernath, custom web applications, web app development services, enterprise web applications, saas development, cloud-based applications, progressive web apps, pwa development, full stack web development, backend development, frontend development, api development, web application design, custom software solutions, web app solutions';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
 
         // Load views
@@ -505,10 +505,10 @@ public function sitemap()
         }
 
         // ✅ Dynamic SEO Meta Info
-       $data['title'] = 'IoT Solutions Company in Mumbai, Thane & Ambernath | Positive Quadrant';
-$data['description'] = 'Innovative IoT solutions company in Mumbai, Thane & Ambernath. We deliver smart automation, connected devices, and industrial IoT services to enhance business efficiency.';
-$data['keywords'] = 'iot solutions mumbai, iot solutions thane, iot solutions ambernath, internet of things, smart devices, iot services, automation solutions, iot development, connected devices, industrial iot, iot consulting, iot platforms, sensor integration, iot applications, smart technology, iot architecture, cloud based iot solutions, real time data processing';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['title'] = 'IoT Solutions Company in Mumbai, Thane & Ambernath | Positive Quadrant';
+        $data['description'] = 'Innovative IoT solutions company in Mumbai, Thane & Ambernath. We deliver smart automation, connected devices, and industrial IoT services to enhance business efficiency.';
+        $data['keywords'] = 'iot solutions mumbai, iot solutions thane, iot solutions ambernath, internet of things, smart devices, iot services, automation solutions, iot development, connected devices, industrial iot, iot consulting, iot platforms, sensor integration, iot applications, smart technology, iot architecture, cloud based iot solutions, real time data processing';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
 
         // Load views
@@ -535,9 +535,9 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Technology Solutions & Innovations for Business Growth | Positive Quadrant';
-$data['description'] = 'Discover innovative technology solutions with Positive Quadrant. We deliver IT consulting, cloud, and digital transformation services to boost efficiency and growth.';
-$data['keywords'] = 'technology solutions, innovative technologies, IT solutions, tech innovations, business technology, digital transformation, IT consulting, enterprise IT solutions, cloud technology, software solutions, technology consulting services, business technology solutions, IT support services, technology infrastructure, IT strategy, custom technology solutions, technology integration';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['description'] = 'Discover innovative technology solutions with Positive Quadrant. We deliver IT consulting, cloud, and digital transformation services to boost efficiency and growth.';
+        $data['keywords'] = 'technology solutions, innovative technologies, IT solutions, tech innovations, business technology, digital transformation, IT consulting, enterprise IT solutions, cloud technology, software solutions, technology consulting services, business technology solutions, IT support services, technology infrastructure, IT strategy, custom technology solutions, technology integration';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
 
         // Load views
@@ -563,10 +563,10 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
         }
 
         // ✅ Dynamic SEO Meta Info
-       $data['title'] = 'Industry Solutions & Services for Business Growth | Positive Quadrant';
-$data['description'] = 'Tailored industry solutions and services by Positive Quadrant. We help businesses in manufacturing, supply chain, and other sectors achieve efficiency and growth.';
-$data['keywords'] = 'industry solutions, industry services, business solutions for industries, industrial IT services, sector specific solutions, industry consulting, industrial automation, enterprise solutions, business process optimization, manufacturing IT solutions, supply chain solutions, industry 4.0 solutions, industrial software, b2b industry services, digital solutions for industries';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['title'] = 'Industry Solutions & Services for Business Growth | Positive Quadrant';
+        $data['description'] = 'Tailored industry solutions and services by Positive Quadrant. We help businesses in manufacturing, supply chain, and other sectors achieve efficiency and growth.';
+        $data['keywords'] = 'industry solutions, industry services, business solutions for industries, industrial IT services, sector specific solutions, industry consulting, industrial automation, enterprise solutions, business process optimization, manufacturing IT solutions, supply chain solutions, industry 4.0 solutions, industrial software, b2b industry services, digital solutions for industries';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
 
         // Load views
@@ -593,9 +593,9 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Software Product Development Services | Positive Quadrant Technologies LLP';
-       $data['description'] = 'Expert software product development services to build scalable, secure, and innovative solutions. Positive Quadrant delivers custom software tailored to your business needs.';
-$data['keywords'] = 'software product development, custom software solutions, software development services, enterprise software products, saas product development, software applications, custom enterprise solutions, software engineering services, business process automation, software consulting, software design and development, software architecture, product lifecycle management, cloud software solutions';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['description'] = 'Expert software product development services to build scalable, secure, and innovative solutions. Positive Quadrant delivers custom software tailored to your business needs.';
+        $data['keywords'] = 'software product development, custom software solutions, software development services, enterprise software products, saas product development, software applications, custom enterprise solutions, software engineering services, business process automation, software consulting, software design and development, software architecture, product lifecycle management, cloud software solutions';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
         // Load views
         $this->load->view('header', $data);
         $this->load->view('softwareProduct', $data);
@@ -614,8 +614,8 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Internship Opportunities at Positive Quadrant Technologies LLP';
         $data['description'] = 'Apply for exciting internships at Positive Quadrant Technologies LLP. Gain hands-on experience in IT, software development, and digital marketing to kickstart your career.';
-$data['keywords'] = 'internship opportunities, IT internships, software development internships, digital marketing internships, technology internships, student internships, paid internships, summer internships, engineering internships, internships for freshers, career opportunities for students, internship programs';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['keywords'] = 'internship opportunities, IT internships, software development internships, digital marketing internships, technology internships, student internships, paid internships, summer internships, engineering internships, internships for freshers, career opportunities for students, internship programs';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
 
         // Load views
@@ -659,9 +659,9 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Hire Technology Experts | Positive Quadrant Technologies LLP';
-       $data['description'] = 'Hire top IT professionals, software developers, and tech experts with Positive Quadrant Technologies LLP. Flexible IT staffing and recruitment solutions for your business needs.';
-$data['keywords'] = 'hire technology experts, hire it professionals, hire software developers, hire tech talent, it staffing services, software development recruitment, tech talent acquisition, it recruitment services, technology recruitment agency, hire web developers, software engineering recruitment, it consultants hiring, tech team outsourcing, freelance tech developers, it workforce solutions';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['description'] = 'Hire top IT professionals, software developers, and tech experts with Positive Quadrant Technologies LLP. Flexible IT staffing and recruitment solutions for your business needs.';
+        $data['keywords'] = 'hire technology experts, hire it professionals, hire software developers, hire tech talent, it staffing services, software development recruitment, tech talent acquisition, it recruitment services, technology recruitment agency, hire web developers, software engineering recruitment, it consultants hiring, tech team outsourcing, freelance tech developers, it workforce solutions';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // Load views
         $this->load->view('header', $data);
@@ -688,10 +688,10 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
         $this->output->cache(10);
 
         // ✅ Dynamic SEO Meta Info
-       $data['title'] = 'Contact Positive Quadrant Technologies LLP | Tech Solutions & Support';
-$data['description'] = 'Reach out to Positive Quadrant Technologies LLP for tech consultations, IT solutions, and business support. Our team is ready to assist with your technology needs.';
-$data['keywords'] = 'contact us, tech solutions, contact Positive Quadrant, inquire tech services, business tech solutions, get in touch, tech service inquiry, IT services contact, technology consulting contact, reach out to Positive Quadrant, business technology services, contact technology experts, tech support inquiry, request tech consultation, inquire about software solutions';
-$data['author'] = 'Positive Quadrant Technologies LLP';
+        $data['title'] = 'Contact Positive Quadrant Technologies LLP | Tech Solutions & Support';
+        $data['description'] = 'Reach out to Positive Quadrant Technologies LLP for tech consultations, IT solutions, and business support. Our team is ready to assist with your technology needs.';
+        $data['keywords'] = 'contact us, tech solutions, contact Positive Quadrant, inquire tech services, business tech solutions, get in touch, tech service inquiry, IT services contact, technology consulting contact, reach out to Positive Quadrant, business technology services, contact technology experts, tech support inquiry, request tech consultation, inquire about software solutions';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // Load views
         $this->load->view('header', $data);
@@ -713,7 +713,7 @@ $data['author'] = 'Positive Quadrant Technologies LLP';
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Our Clients | Positive Quadrant Technologies LLP';
         $data['description'] = 'Discover the clients who trust Positive Quadrant Technologies LLP for their technology and business solutions. We provide top-tier services to a wide range of industries.';
-$data['keywords'] = 'our clients, client portfolio, trusted clients, technology solutions, Positive Quadrant clients, client testimonials, customer success stories, business partnerships, client relationships, satisfied clients, corporate clients, enterprise clients, tech solutions clients, client case studies, technology partnerships';
+        $data['keywords'] = 'our clients, client portfolio, trusted clients, technology solutions, Positive Quadrant clients, client testimonials, customer success stories, business partnerships, client relationships, satisfied clients, corporate clients, enterprise clients, tech solutions clients, client case studies, technology partnerships';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // Load views
@@ -721,6 +721,45 @@ $data['keywords'] = 'our clients, client portfolio, trusted clients, technology 
         $this->load->view('client', $data);
         $this->load->view('footer');
     }
+
+
+    public function ProjectAndPortfolios()
+    {
+        $data['title'] = 'Our Project And Portfolios | Positive Quadrant Technologies LLP';
+        $data['description'] = 'Explore our diverse portfolio of successful projects. Positive Quadrant Technologies LLP delivers exceptional technology and business solutions to clients worldwide.';
+        $data['keywords'] = 'portfolio, tech portfolio, projects, successful projects, Positive Quadrant portfolio, project showcase, completed projects, project case studies, web development portfolio, software development projects, client projects, technology project portfolio, project highlights, digital solutions portfolio, enterprise projects, innovative projects';
+        $data['author'] = 'Positive Quadrant Technologies LLP';
+
+        // Industries
+        $industries = $this->home_model->get_all_industries();
+        $data['industries'] = $industries;
+
+        // All projects + attach images
+        $projects = $this->home_model->get_all_projects();
+        foreach ($projects as &$proj) {
+            $proj->images = $this->home_model->get_images_by_project($proj->id);
+        }
+        $data['projects'] = $projects;
+
+        // Projects grouped by industry
+        $industry_projects = [];
+        foreach ($industries as $ind) {
+            $projs = $this->home_model->get_projects_by_industry($ind->id);
+            foreach ($projs as &$p) {
+                $p->images = $this->home_model->get_images_by_project($p->id);
+            }
+            $industry_projects[$ind->id] = $projs;
+        }
+        $data['industry_projects'] = $industry_projects;
+
+        // Load views
+        $this->load->view('header', $data);
+        $this->load->view('project', $data);
+        $this->load->view('footer');
+    }
+
+
+
 
 
     public function portfolio()
@@ -736,7 +775,7 @@ $data['keywords'] = 'our clients, client portfolio, trusted clients, technology 
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Our Portfolio | Positive Quadrant Technologies LLP';
         $data['description'] = 'Explore our diverse portfolio of successful projects. Positive Quadrant Technologies LLP delivers exceptional technology and business solutions to clients worldwide.';
-$data['keywords'] = 'portfolio, tech portfolio, projects, successful projects, Positive Quadrant portfolio, project showcase, completed projects, project case studies, web development portfolio, software development projects, client projects, technology project portfolio, project highlights, digital solutions portfolio, enterprise projects, innovative projects';
+        $data['keywords'] = 'portfolio, tech portfolio, projects, successful projects, Positive Quadrant portfolio, project showcase, completed projects, project case studies, web development portfolio, software development projects, client projects, technology project portfolio, project highlights, digital solutions portfolio, enterprise projects, innovative projects';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // Load views
@@ -766,7 +805,7 @@ $data['keywords'] = 'portfolio, tech portfolio, projects, successful projects, P
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Career Opportunities | Positive Quadrant Technologies LLP';
         $data['description'] = 'Join the team at Positive Quadrant Technologies LLP! Explore career opportunities, job openings, and learn how you can contribute to our innovative tech solutions.';
-$data['keywords'] = 'career opportunities, job openings, tech jobs, Positive Quadrant careers, work with us, IT job opportunities, software development careers, technology careers, join our team, tech talent hiring, job vacancies, software engineer jobs, career in technology, IT recruitment, tech career growth, job opportunities at Positive Quadrant';
+        $data['keywords'] = 'career opportunities, job openings, tech jobs, Positive Quadrant careers, work with us, IT job opportunities, software development careers, technology careers, join our team, tech talent hiring, job vacancies, software engineer jobs, career in technology, IT recruitment, tech career growth, job opportunities at Positive Quadrant';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // Load views
@@ -834,7 +873,7 @@ $data['keywords'] = 'career opportunities, job openings, tech jobs, Positive Qua
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Software Development Services | Positive Quadrant Technologies LLP';
         $data['description'] = 'Discover our top-notch software development services. Positive Quadrant Technologies LLP provides custom development solutions to meet your business needs.';
-$data['keywords'] = 'software development, custom software development, technology solutions, Positive Quadrant development, enterprise software development, custom software solutions, software development services, IT solutions, software engineering, application development, web application development, software consulting, software development company, business software solutions, bespoke software development';
+        $data['keywords'] = 'software development, custom software development, technology solutions, Positive Quadrant development, enterprise software development, custom software solutions, software development services, IT solutions, software engineering, application development, web application development, software consulting, software development company, business software solutions, bespoke software development';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         $this->load->view('header', $data);
@@ -856,7 +895,7 @@ $data['keywords'] = 'software development, custom software development, technolo
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Professional Training Programs | Positive Quadrant Technologies LLP';
         $data['description'] = 'Enhance your skills with our professional training programs. Positive Quadrant Technologies LLP offers high-quality training in various technical fields.';
-$data['keywords'] = 'professional training, tech training, IT training programs, Positive Quadrant training, software development training, IT certification programs, tech skill development, programming training, corporate training, online tech courses, IT workshops, technical training services, career development programs, tech skills enhancement, technology training services';
+        $data['keywords'] = 'professional training, tech training, IT training programs, Positive Quadrant training, software development training, IT certification programs, tech skill development, programming training, corporate training, online tech courses, IT workshops, technical training services, career development programs, tech skills enhancement, technology training services';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         $this->load->view('header', $data);
@@ -878,7 +917,7 @@ $data['keywords'] = 'professional training, tech training, IT training programs,
         // ✅ Dynamic SEO Meta Info
         $data['title'] = 'Our Projects | Positive Quadrant Technologies LLP';
         $data['description'] = 'Explore our diverse range of projects at Positive Quadrant Technologies LLP. We deliver outstanding tech solutions across various industries.';
-$data['keywords'] = 'projects, tech projects, Positive Quadrant projects, custom tech solutions, innovative projects, technology solutions, custom software projects, IT projects, digital transformation projects, enterprise tech solutions, software development projects, technology implementation, client projects, project portfolio, tech solutions for businesses';
+        $data['keywords'] = 'projects, tech projects, Positive Quadrant projects, custom tech solutions, innovative projects, technology solutions, custom software projects, IT projects, digital transformation projects, enterprise tech solutions, software development projects, technology implementation, client projects, project portfolio, tech solutions for businesses';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         $this->load->view('header', $data);
@@ -924,7 +963,7 @@ $data['keywords'] = 'projects, tech projects, Positive Quadrant projects, custom
             // Dynamic SEO Meta Info based on the course details
             $data['title'] = $course['cname'] . ' - Training Course | Positive Quadrant Technologies LLP';
             $data['description'] = 'Learn ' . $course['cname'] . ' at Positive Quadrant Technologies LLP. Our training program includes a comprehensive syllabus and hands-on experience to enhance your skills.';
-$data['keywords'] = $course['cname'] . ', ' . ', ' . ', Positive Quadrant training, IT training, technology training, professional development, online courses, skill development, career advancement, technical certification, programming training, IT workshops, IT skills development, training for professionals';
+            $data['keywords'] = $course['cname'] . ', ' . ', ' . ', Positive Quadrant training, IT training, technology training, professional development, online courses, skill development, career advancement, technical certification, programming training, IT workshops, IT skills development, training for professionals';
             $data['author'] = 'Positive Quadrant Technologies LLP';
 
             // Store in cache for 30 minutes
@@ -963,7 +1002,7 @@ $data['keywords'] = $course['cname'] . ', ' . ', ' . ', Positive Quadrant traini
             // Dynamic SEO Meta Info
             $data['title'] = 'Consultancy Services | Positive Quadrant Technologies LLP';
             $data['description'] = 'Explore our expert consultancy services designed to help businesses optimize their operations and achieve their goals. Learn more at Positive Quadrant Technologies LLP.';
-$data['keywords'] = 'consultancy services, business consultancy, IT consultancy, Positive Quadrant consultancy, business optimization, consulting services, management consultancy, technology consulting, business strategy, digital transformation consulting, business process improvement, IT strategy consulting, enterprise consultancy, consulting for businesses, operational efficiency, corporate consulting services';
+            $data['keywords'] = 'consultancy services, business consultancy, IT consultancy, Positive Quadrant consultancy, business optimization, consulting services, management consultancy, technology consulting, business strategy, digital transformation consulting, business process improvement, IT strategy consulting, enterprise consultancy, consulting for businesses, operational efficiency, corporate consulting services';
             $data['author'] = 'Positive Quadrant Technologies LLP';
 
             // Load views
@@ -1212,7 +1251,7 @@ $data['keywords'] = 'consultancy services, business consultancy, IT consultancy,
         // Dynamic SEO Meta Info
         $data['title'] = 'Job Openings | Positive Quadrant Technologies LLP';
         $data['description'] = 'Explore the latest job openings at Positive Quadrant Technologies LLP. Join our team and be a part of a forward-thinking and innovative company.';
-$data['keywords'] = 'job openings, career opportunities, Positive Quadrant careers, software jobs, IT jobs, tech jobs, hiring, technology careers, job vacancies, software engineer positions, IT recruitment, tech talent, career growth, job opportunities in tech, software development careers, tech recruitment services';
+        $data['keywords'] = 'job openings, career opportunities, Positive Quadrant careers, software jobs, IT jobs, tech jobs, hiring, technology careers, job vacancies, software engineer positions, IT recruitment, tech talent, career growth, job opportunities in tech, software development careers, tech recruitment services';
         $data['author'] = 'Positive Quadrant Technologies LLP';
 
         // Load views
@@ -1240,8 +1279,8 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
 
     public function saveData()
     {
-         $submitted_from = $this->input->post('submitted_from');
-         
+        $submitted_from = $this->input->post('submitted_from');
+
 
         // Honeypot check (optional field to trap bots)
         if ($this->input->post('website')) {
@@ -1286,7 +1325,7 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
                     'phone' => $phone,
                     'service' => $service,
                     'message' => $message,
-                    'submission_origin'=>$submitted_from,
+                    'submission_origin' => $submitted_from,
                     'status' => 'False',
                 ];
 
@@ -1402,7 +1441,7 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
             return;
         }
 
-  $submitted_from = $this->input->post('submitted_from');
+        $submitted_from = $this->input->post('submitted_from');
 
         // Set validation rules with 'trim' for better cleaning
         $this->form_validation->set_rules('name', 'Name', 'required|trim|min_length[3]');
@@ -1428,7 +1467,7 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
                 'location' => $this->security->xss_clean($this->input->post('location')),
                 'subject' => $this->security->xss_clean($this->input->post('Subject')),
                 'date' => $this->security->xss_clean($this->input->post('date')),
-                  'submission_origin'=>$submitted_from,
+                'submission_origin' => $submitted_from,
                 'status' => 'False'
             ];
 
@@ -1523,13 +1562,13 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
 
 
 
-// dynamic views of crm
+    // dynamic views of crm
 
- public function caseStudy()
+    public function caseStudy()
     {
-       
-       
-       
+
+
+
 
         // ✅ SEO Meta Information for Services Page
         $data['title'] = 'Our Services | Positive Quadrant Technologies LLP';

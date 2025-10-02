@@ -20,11 +20,8 @@
     <div class="row">
         <div class="col-md-6">
             <div class="seo-image">
-                <img 
-  data-src="<?php echo base_url() . 'assets/img/seo_image.png' ?>" 
-  alt="SEO Image" 
-  class="lazyload" 
-/>
+                <img data-src="<?php echo base_url() . 'assets/img/seo_image.webp' ?>" alt="SEO Image"
+                    class="lazyload" />
 
             </div>
         </div>
@@ -70,28 +67,28 @@
 
     <div class="row seo-box">
         <div class="col-sm-4 seo-feature">
-            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Claim Listing Icon">
+            <img src="https://cdn-icons-webp.flaticon.com/512/25/25694.webp" alt="Claim Listing Icon">
             <p><strong>Claim your free Google My Business listing</strong><br>(if you haven’t already)</p>
         </div>
         <div class="col-sm-4 seo-feature">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Optimize Icon">
+            <img src="https://cdn-icons-webp.flaticon.com/512/1828/1828911.webp" alt="Optimize Icon">
             <p><strong>Optimise your listing</strong><br>so it is easily found for relevant local searches</p>
         </div>
         <div class="col-sm-4 seo-feature">
-            <img src="https://cdn-icons-png.flaticon.com/512/616/616401.png" alt="Build Listings Icon">
+            <img src="https://cdn-icons-webp.flaticon.com/512/616/616401.webp" alt="Build Listings Icon">
             <p><strong>Build citations and directory listings</strong><br>about your business</p>
         </div>
 
         <div class="col-sm-4 seo-feature">
-            <img src="https://cdn-icons-png.flaticon.com/512/2456/2456846.png" alt="Reviews Icon">
+            <img src="https://cdn-icons-webp.flaticon.com/512/2456/2456846.webp" alt="Reviews Icon">
             <p><strong>Respond to customer reviews</strong></p>
         </div>
         <div class="col-sm-4 seo-feature">
-            <img src="https://cdn-icons-png.flaticon.com/512/1087/1087920.png" alt="Update Listings Icon">
+            <img src="https://cdn-icons-webp.flaticon.com/512/1087/1087920.webp" alt="Update Listings Icon">
             <p><strong>Keep your listings and business info</strong><br>up-to-date</p>
         </div>
         <div class="col-sm-4 seo-feature">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Upload Content Icon">
+            <img src="https://cdn-icons-webp.flaticon.com/512/1828/1828884.webp" alt="Upload Content Icon">
             <p><strong>Upload pictures, offers and short posts</strong><br>to keep your business fresh in local searches
             </p>
         </div>
@@ -125,11 +122,8 @@
 
         <div class="col-md-6">
             <div class="seo-image">
-                <img 
-  data-src="<?php echo base_url() . 'assets/img/seo-service.png' ?>" 
-  alt="SEO Service" 
-  class="lazyload" 
-/>
+                <img data-src="<?php echo base_url() . 'assets/img/seo-service.webp' ?>" alt="SEO Service"
+                    class="lazyload" />
 
             </div>
         </div>

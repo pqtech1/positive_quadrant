@@ -1,3 +1,9 @@
+<style>
+    body{
+        overflow-x: hidden;
+    }
+</style>
+
 <div class="container technologyTopContainer">
     <div class="technologyTopContainerLeft">
         <h1 class="pq_h1 pq_left">Innovative Solutions, Empowering Industries</h1>
@@ -30,22 +36,29 @@
 </div>
 
 <div class=" container technolgyParentContainer">
-    <?php foreach ($industries as $industry): ?>
-        <div class="technologyCard">
+    <?php
+    $index = 0; // Initialize a counter to track even/odd cards
+    foreach ($industries as $industry):
+        // Determine the animation based on the counter for a zig-zag effect
+        $animation_effect = ($index % 2 == 0) ? 'fade-right' : 'fade-left';
+        ?>
+        <div class="technologyCard" data-aos="<?php echo $animation_effect; ?>" data-aos-duration="800">
             <div class="technologyImage">
                 <img 
-  class="lazyload img-responsive" 
-  data-src="<?php echo base_url('admin/uploads/industries/' . $industry['image']); ?>" 
-  alt="<?php echo htmlspecialchars($industry['image']); ?>"
-/>
-
+                    class="lazyload img-responsive" 
+                    data-src="<?php echo base_url('admin/uploads/industries/' . $industry['image']); ?>" 
+                    alt="<?php echo htmlspecialchars($industry['image']); ?>"
+                />
             </div>
             <div class="technologyDetailContainer">
                 <h2 class="pq_h2"><?php echo $industry['title']; ?></h2>
                 <p class="pq_p"><?php echo $industry['description']; ?></p>
             </div>
         </div>
-    <?php endforeach; ?>
+        <?php
+        $index++; // Increment counter for the next card
+    endforeach;
+    ?>
 </div>
 
 

@@ -30,22 +30,29 @@
 </div>
 
 <div class="container technolgyParentContainer">
-    <?php foreach ($software_products as $sp): ?>
-        <div class="technologyCard">
+    <?php
+    $index = 0; // Initialize a counter to track even/odd cards
+    foreach ($software_products as $sp):
+        // Determine the animation based on the counter for a zig-zag effect
+        $animation_effect = ($index % 2 == 0) ? 'fade-right' : 'fade-left';
+        ?>
+        <div class="technologyCard" data-aos="<?php echo $animation_effect; ?>" data-aos-duration="800">
             <div class="technologyImage">
                 <img 
-  class="lazyload img-responsive" 
-  data-src="<?php echo base_url('admin/uploads/softwareproducts/' . $sp['image']); ?>" 
-  alt="<?php echo htmlspecialchars($sp['image']); ?>" 
-/>
-
+                    class="lazyload img-responsive" 
+                    data-src="<?php echo base_url('admin/uploads/softwareproducts/' . $sp['image']); ?>" 
+                    alt="<?php echo htmlspecialchars($sp['image']); ?>" 
+                />
             </div>
             <div class="technologyDetailContainer">
                 <h2 class="pq_h2"><?php echo $sp['title']; ?></h2>
                 <p class="pq_p"><?php echo $sp['description']; ?></p>
             </div>
         </div>
-    <?php endforeach; ?>
+        <?php
+        $index++; // Increment counter for the next card
+    endforeach;
+    ?>
 </div>
 
 <div class="courseBuy">

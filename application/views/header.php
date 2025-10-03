@@ -15,12 +15,16 @@
 
 <!--for google search console-->
     <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
-  <link href="<?php echo base_url(); ?>assets/vendors/icons/icon.css" rel="stylesheet">
-<!-- Modern browsers (WebP) -->
-<link rel="icon" type="image/webp" href="<?= base_url(); ?>assets/img/loadernew.webp">
 
-<!-- Fallback for browsers that don’t support WebP -->
-<link rel="icon" type="image/png" href="<?= base_url(); ?>noWebpAssets/assets/img/loadernew.png">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+    <link href="<?php echo base_url(); ?>assets/vendors/icons/icon.css" rel="stylesheet">
+  <!-- Modern browsers (WebP) -->
+  <link rel="icon" type="image/webp" href="<?= base_url(); ?>assets/img/loadernew.webp">
+
+  <!-- Fallback for browsers that don’t support WebP -->
+  <link rel="icon" type="image/png" href="<?= base_url(); ?>noWebpAssets/assets/img/loadernew.jpg">
 
    <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
@@ -746,12 +750,6 @@
 </head>
 
 <body>
-
- 
-
-
-
-
   <!--<div id="myDiv"><img src="<?php echo base_url(); ?>assets/img/loadernew.webp">-->
   <!--  <div class="loader"></div>-->
   <!--</div>-->
@@ -933,20 +931,20 @@
         <div class="header">
           <div class="logo">
             <a href="<?php echo base_url(); ?>">
-              <picture>
+              <picture class="float-right"></picture>
                   <!-- WebP source -->
                   <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
                   <!-- Fallback to PNG or JPEG -->
-                  <img src="<?php echo base_url(); ?>assets/img/new_logo.png" alt="company logo">
+                  <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/new_logo.png" alt="company logo">
               </picture>
             </a>
           </div>
           <div class="navbarBtn">
-            <picture>
+            <picture >
                 <!-- WebP source -->
                 <source srcset="<?php echo base_url(); ?>assets/img/navBarHamberger.webp" type="image/webp">
                 <!-- Fallback to PNG or JPEG -->
-                <img src="<?php echo base_url(); ?>assets/img/navBarHamberger.png" alt="hamburger logo">
+                <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/navBarHamberger.png" alt="hamburger logo">
             </picture>
           </div>
         </div>
@@ -1084,6 +1082,20 @@
 
 
 
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+  AOS.init({
+    offset: 120,
+    delay: 0,
+    duration: 400,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+  });
+  </script>
 
 
   <script>

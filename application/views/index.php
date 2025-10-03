@@ -7,6 +7,10 @@
     gtag('config', 'G-68JGDKE8D1');
 </script>
 <style>
+    body {
+    overflow-x: hidden;
+    }
+
     * {
         box-sizing: border-box;
     }
@@ -29,11 +33,7 @@
     .slick-center .work_slider_1 img {
         margin-top: 25px;
         transform: scale(1.2);
-
         transition: transform 0.5s ease;
-
-
-
     }
 
     .slick-center .work_slider_1 p {
@@ -43,21 +43,17 @@
         text-align: justify;
         padding: 10px;
         transition: transform 0.5s ease;
-
     }
 
     .work_slider_1 img {
         transition: transform 0.5s ease;
-
         object-fit: cover;
         border-radius: 10px;
-
     }
 
 
     .work_slider_1 {
         height: 70vh;
-
         padding-left: 30px;
         padding-right: 30px;
         /* Small space between images */
@@ -602,13 +598,12 @@
 
 
 <div class="container aboutUsMiddleContainer section-mt-mb">
-    <h2 class="pq_h1 text-center">Empowering Your Success</h2>
-    <span class="pq_span pq_center">Our Mission, Vision and Goal</span>
-    <p class="pq_p">With a user-centric approach, we're dedicated to delivering solutions that amplify your
-        business
-        value,
-        driving growth and excellence every step of the way. Your success is our ultimate achievement.</p>
-
+    <h2 class="pq_h1 text-center" data-aos="fade-left" data-aos-duration="1000">Empowering Your Success</h2>
+    <span class="pq_span pq_center" data-aos="fade-left" data-aos-duration="1200">Our Mission, Vision and Goal</span>
+    <p class="pq_p" data-aos="fade-left" data-aos-duration="1400">
+        With a user-centric approach, we're dedicated to delivering solutions that amplify your
+        business value, driving growth and excellence every step of the way. Your success is our ultimate achievement.
+    </p>
 
     <!-- Mission Card -->
     <div class="aboutUsCardContainer">
@@ -647,7 +642,7 @@
                     <source data-srcset="<?= base_url() ?>/assets/img/our_vision_card.webp" type="image/webp">
                     
                     <!-- JPG fallback -->
-                    <img src="<?= base_url() ?>/noWebpAssets/assets/img/our_vision_card.jpg"
+                    <img src="<?= base_url() ?>/noWebpAssets/assets/img/our_vision_card.png"
                         class="lazyload"
                         alt="Vision Image">
                 </picture>
@@ -678,7 +673,7 @@
                     
                     <!-- JPG fallback -->
                     <img 
-                        data-src="<?= base_url() ?>/noWebpAssets/assets/img/our_goal_card.jpg"
+                        data-src="<?= base_url() ?>/noWebpAssets/assets/img/our_goal_card.png"
                         class="lazyload"
                         alt="Goal Image">
                 </picture>
@@ -719,108 +714,93 @@
 
     <div class=" container  ">
         <div class="aboutUsBottomContainer">
-            <h2 class="pq_h1">Our <span class="pq_span">Core Strength</span></h2>
-            <p class="pq_p">At Positive Quadrant Technologies, we take great pride in our core strength, which fuel our
-                dedication to
-                quality work and client satisfaction.Our creative approach is driven by ongoing research and
-                development,
-                guaranteeing that we provide the best solutions customized to your particular requirements.</p>
-            <a href="<?php echo base_url(); ?>contact-us">Get in touch today to explore the possibilities. Your success,
-                our
-                commitment <span>&rarr;</span></a>
+            <h2 class="pq_h1" data-aos="fade-up" data-aos-duration="1000">
+                Our <span class="pq_span" data-aos="fade-right" data-aos-duration="1200">Core Strength</span>
+            </h2>
+            <p class="pq_p" data-aos="fade-left" data-aos-duration="1400">
+                At Positive Quadrant Technologies, we take great pride in our core strength, which fuel our
+                dedication to quality work and client satisfaction. Our creative approach is driven by ongoing research and
+                development, guaranteeing that we provide the best solutions customized to your particular requirements.
+            </p>
+            <a href="<?php echo base_url(); ?>contact-us" data-aos="zoom-in" data-aos-duration="1600">
+                Get in touch today to explore the possibilities. Your success, our commitment <span>&rarr;</span>
+            </a>
             <br />
         </div>
-
     </div>
-
 </div>
 
-
-
-
-
-
-
-<div class="aboutus-section">
+<div class="aboutus-section" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-xs-12">
+            <div class="col-sm-6 col-xs-12" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
                 <div class="aboutus">
-                    <h1 class="pq_h1 pq_left pq_center_mobile">Organizational Vision</h1>
-                    <p class="pq_p">At Positive Quadrant Technologies, our vision is to be a global leader in
-                        delivering transformative digital solutions that empower industries and enrich lives. We
-                        envision a future where technology seamlessly enhances every aspect of business and society, and
-                        where our innovations drive sustainable growth, security, and digital excellence across the
-                        globe.</p>
-                    <p class="pq_p">We aspire to continuously push the boundaries of technology—through
-                        immersive digital experiences, secure data solutions, and future-ready platforms—while nurturing
-                        a culture of learning, collaboration, and quality. Our goal is not just to meet client
-                        expectations but to exceed them, shaping a smarter, more connected world.</p>
-
+                    <h1 class="pq_h1 pq_left pq_center_mobile" data-aos="fade-up" data-aos-duration="1200">Organizational Vision</h1>
+                    <p class="pq_p" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
+                        At Positive Quadrant Technologies, our vision is to be a global leader in delivering transformative digital solutions that empower industries and enrich lives. We envision a future where technology seamlessly enhances every aspect of business and society, and where our innovations drive sustainable growth, security, and digital excellence across the globe.
+                    </p>
+                    <p class="pq_p" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+                        We aspire to continuously push the boundaries of technology—through immersive digital experiences, secure data solutions, and future-ready platforms—while nurturing a culture of learning, collaboration, and quality. Our goal is not just to meet client expectations but to exceed them, shaping a smarter, more connected world.
+                    </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+
+            <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                 <div class="aboutus-banner">
-                    <!--<img -->
-                    <!--  data-src="http://themeinnovation.com/demo2/html/build-up/img/home1/about1.webp" -->
-                    <!--  class="lazyload" -->
-                    <!--  alt="About Us Image">-->
-
+                    <!--<img data-src="http://themeinnovation.com/demo2/html/build-up/img/home1/about1.webp" class="lazyload" alt="About Us Image">-->
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+
+            <div class="col-md-6 col-sm-6 col-xs-12" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                 <div class="feature">
-                    <div class="feature-box">
+                    <div class="feature-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                         <div class="clearfix">
                             <div class="iconset">
                                 <span class="glyphicon glyphicon-cog icon"></span>
                             </div>
                             <div class="feature-content">
                                 <h4>Work with Heart</h4>
-                                <p>We bring passion and dedication to every project, ensuring that our solutions reflect
-                                    not only technical excellence but also a deep understanding of our clients’ goals.
-                                </p>
+                                <p>We bring passion and dedication to every project, ensuring that our solutions reflect not only technical excellence but also a deep understanding of our clients’ goals.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="feature-box">
+
+                    <div class="feature-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <div class="clearfix">
                             <div class="iconset">
                                 <span class="glyphicon glyphicon-cog icon"></span>
                             </div>
                             <div class="feature-content">
                                 <h4>Reliable Services</h4>
-                                <p>Our clients trust us for dependable, consistent service delivery backed by strong
-                                    technical expertise and a commitment to excellence in every phase of development.
-                                </p>
+                                <p>Our clients trust us for dependable, consistent service delivery backed by strong technical expertise and a commitment to excellence in every phase of development.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="feature-box">
+
+                    <div class="feature-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="clearfix">
                             <div class="iconset">
                                 <span class="glyphicon glyphicon-cog icon"></span>
                             </div>
                             <div class="feature-content">
                                 <h4>Great Support</h4>
-                                <p>We provide proactive and responsive support to ensure that your digital platforms and
-                                    software solutions run smoothly at all times.</p>
+                                <p>We provide proactive and responsive support to ensure that your digital platforms and software solutions run smoothly at all times.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="feature-box">
+
+                    <div class="feature-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                         <div class="clearfix">
                             <div class="iconset">
                                 <span class="glyphicon glyphicon-cog icon"></span>
                             </div>
                             <div class="feature-content">
                                 <h4>Innovative Solutions</h4>
-                                <p>We stay ahead of the curve by delivering forward-thinking solutions, from immersive
-                                    technologies like AR/VR to secure digital payments and custom enterprise platforms.
-                                </p>
+                                <p>We stay ahead of the curve by delivering forward-thinking solutions, from immersive technologies like AR/VR to secure digital payments and custom enterprise platforms.</p>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -828,11 +808,10 @@
 </div>
 
 
-
 <!-- new about us ends here -->
 
-<div class="container text-center industriesWeServe section-mt-mb">
-    <h2 class="pq_h1" style="margin-bottom: 30px;">
+<div class="container text-center industriesWeServe section-mt-mb" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="pq_h1" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-duration="1200">
         INDUSTRIES SERVED
         <div style="width: 200px; margin: 10px auto; border-bottom: 2px solid teal;"></div>
     </h2>
@@ -862,16 +841,13 @@
             ['img' => 'tourism.webp', 'alt' => 'Tourism'],
         ];
 
+        $delay = 0;
         foreach ($industries as $industry):
-            // get filename without extension
             $imgBase = pathinfo($industry['img'], PATHINFO_FILENAME);
         ?>
-            <div class="industryItem">
+            <div class="industryItem" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="<?= $delay ?>">
                 <picture>
-                    <!-- WebP first -->
                     <source data-srcset="<?= base_url('assets/img/' . $imgBase . '.webp') ?>" type="image/webp">
-
-                    <!-- JPG fallback -->
                     <img data-src="<?= base_url('noWebpAssets/assets/img/' . $imgBase . '.jpg') ?>"
                         class="lazyload"
                         alt="<?= $industry['alt'] ?>">
@@ -879,17 +855,18 @@
 
                 <div class="overlay"><?= $industry['alt'] ?></div>
             </div>
-        <?php endforeach; ?>
+        <?php 
+            $delay += 100; // Increase delay for stagger effect
+        endforeach; ?>
     </div>
-
 </div>
 
 
-<section class="section-services">
+<section class="section-services" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <div class="header-section">
+                <div class="header-section" data-aos="fade-up" data-aos-duration="1200">
                     <h2 class="title pq_h1">Exclusive <span>Services We Provide</span></h2>
                     <p class="description">We offer a wide range of tailored IT solutions designed to streamline
                         operations, enhance efficiency, and drive digital transformation across industries.</p>
@@ -1147,12 +1124,12 @@
 <?php if (!empty($team_members)): ?>
     <section class="team-section text-center">
         <div class="container">
-            <h2 class="pq_h1">
+            <h2 class="pq_h1" data-aos="fade-up" data-aos-duration="1000">
                 Meet Our Team
             </h2>
             <br />
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6" data-aos="fade-right" data-aos-duration="1000">
                     <p class="pq_p text-justify">
                         At <strong>Positive Quadrant</strong>, our team consists of highly skilled and passionate IT
                         professionals
@@ -1176,21 +1153,17 @@
                         Our agile approach ensures rapid delivery and continuous improvement, empowering our clients to stay
                         ahead in a fast-evolving digital world.
                     </p>
-
-
                 </div>
-                <div class="col-sm-6">
-                <picture>
-                    <!-- WebP first -->
-                    <source data-srcset="<?php echo base_url('assets/img/our_team.webp') ?>" type="image/webp">
-                    
-                    <!-- JPG fallback -->
-                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/our_team.jpg') ?>" 
-                        alt="Positive Quadrant"
-                        class="img-responsive lazyload">
-                </picture>
-
-
+                <div class="col-sm-6" data-aos="fade-left" data-aos-duration="1000">
+                    <picture>
+                        <!-- WebP first -->
+                        <source data-srcset="<?php echo base_url('assets/img/our_team.webp') ?>" type="image/webp">
+                        
+                        <!-- JPG fallback -->
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/our_team.jpg') ?>" 
+                            alt="Positive Quadrant"
+                            class="img-responsive lazyload">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -1198,29 +1171,30 @@
 
     <section class="team text-center">
         <div class="container">
-            <h2 class="pq_h1">Our Team</h2>
+            <h2 class="pq_h1" data-aos="fade-up" data-aos-duration="1000">Our Team</h2>
             <br />
             <div class="row">
                 <?php foreach ($team_members as $index => $member): ?>
-                    <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="<?= ($index + 1) * 100 ?>">
+                    <div class="col-md-3 col-sm-6" 
+                        data-aos="fade-up" 
+                        data-aos-duration="1000" 
+                        data-aos-delay="<?= ($index + 1) * 100 ?>">
                         <div class="our-team">
                             <img data-src="<?= base_url('admin/uploads/team_member/' . $member['image']) ?>"
-                                alt="<?= htmlspecialchars($member['name']) ?>" class="img-responsive lazyload" />
+                                alt="<?= htmlspecialchars($member['name']) ?>" 
+                                class="img-responsive lazyload" />
                             <div class="team-content">
                                 <h3 class="title"><?= htmlspecialchars($member['name']) ?></h3>
                                 <span class="post"><?= htmlspecialchars($member['position']) ?></span>
                                 <ul class="social-links">
                                     <?php if (!empty($member['facebook'])): ?>
-                                        <li><a href="<?= htmlspecialchars($member['facebook']) ?>"><i
-                                                    class="fab fa-facebook"></i></a></li>
+                                        <li><a href="<?= htmlspecialchars($member['facebook']) ?>"><i class="fab fa-facebook"></i></a></li>
                                     <?php endif; ?>
                                     <?php if (!empty($member['twitter'])): ?>
-                                        <li><a href="<?= htmlspecialchars($member['twitter']) ?>"><i class="fab fa-twitter"></i></a>
-                                        </li>
+                                        <li><a href="<?= htmlspecialchars($member['twitter']) ?>"><i class="fab fa-twitter"></i></a></li>
                                     <?php endif; ?>
                                     <?php if (!empty($member['linkedinurl'])): ?>
-                                        <li><a href="<?= htmlspecialchars($member['linkedinurl']) ?>"><i
-                                                    class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="<?= htmlspecialchars($member['linkedinurl']) ?>"><i class="fab fa-linkedin"></i></a></li>
                                     <?php endif; ?>
                                 </ul>
                             </div>
@@ -2238,7 +2212,7 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
                         <source data-srcset="<?php echo base_url('assets/new_img/R.webp'); ?>" type="image/webp">
 
                         <!-- PNG fallback -->
-                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/Rjpeg'); ?>" 
+                        <img data-src="<?php echo base_url('noWebpAssets/assets/new_img/R.jpeg'); ?>" 
                             class="img-responsive lazyload" 
                             alt="R Programming Language Logo">
                     </picture>

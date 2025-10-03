@@ -103,6 +103,9 @@
       font-size: 14px;
       color: #555;
     }
+    body{
+      overflow-x: hidden;
+    }
 
     @media (min-width: 992px) {
       .slider-item {
@@ -146,148 +149,142 @@
 
 
 <div class="container trainingPageMainContainerMiddle">
-  <h2>Our Courses</h2>
-  <div id="trainingPageParticlejs"></div>
-  <div class="trainingAllCoursesContainer">
-    <?php foreach ($trainings as $training) {
-      // Generate random rating between 4.0 and 4.9
-      $rating = round(rand(40, 49) / 10, 1);
-      ?>
-      <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="<?php echo $this->config->item('image_path'); ?>/uploads/courses/<?php echo $training['cimage']; ?>" 
-  alt="Course Image" 
-/>
+    <h2 data-aos="fade-up" data-aos-duration="800">Our Courses</h2>
+    <div id="trainingPageParticlejs"></div>
+    <div class="trainingAllCoursesContainer">
+        <?php
+        $index = 0; // Initialize a counter for the stagger effect
+        foreach ($trainings as $training) {
+            // Generate random rating between 4.0 and 4.9
+            $rating = round(rand(40, 49) / 10, 1);
 
-        </div>
-        <div class="courseDetailContainer">
-          <h4><?php echo $training['cname'] ?></h4>
-          <h5>
-            <?php echo $rating; ?>
-            <div class="star-rating">
-              <?php
-              // Display the stars based on rating
-              $fullStars = floor($rating); // Number of full stars
-              $halfStar = ($rating - $fullStars >= 0.5) ? true : false; // Check if half star is needed
-              for ($i = 0; $i < $fullStars; $i++) {
-                echo '<i class="fas fa-star"></i>'; // Full star
-              }
-              if ($halfStar) {
-                echo '<i class="fas fa-star-half-alt"></i>'; // Half star
-              }
-              for ($i = $fullStars + $halfStar; $i < 5; $i++) {
-                echo '<i class="far fa-star"></i>'; // Empty star
-              }
-              ?>
-            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-            <?php
-            // Replace spaces with hyphens while keeping + and & symbols intact
-            $slug = preg_replace('/\s+/', '-', strtolower($training['cname']));
+            // Calculate a delay that resets for each row of 4 items (0, 100, 200, 300...)
+            $delay = ($index % 4) * 100;
             ?>
-            <a href="<?php echo base_url(rawurlencode($slug)); ?>"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-    <?php } ?>
-  </div>
+            <div class="trainingAllCoursesContainerCard" data-aos="zoom-in" data-aos-delay="<?php echo $delay; ?>" data-aos-duration="600">
+                <div class="courseImageContainer">
+                    <img 
+                        class="lazyload img-responsive" 
+                        data-src="<?php echo $this->config->item('image_path'); ?>/uploads/courses/<?php echo $training['cimage']; ?>" 
+                        alt="Course Image" />
+                </div>
+                <div class="courseDetailContainer">
+                    <h4><?php echo $training['cname'] ?></h4>
+                    <h5>
+                        <?php echo $rating; ?>
+                        <div class="star-rating">
+                            <?php
+                            // Display the stars based on rating
+                            $fullStars = floor($rating); // Number of full stars
+                            $halfStar = ($rating - $fullStars >= 0.5) ? true : false; // Check if half star is needed
+                            for ($i = 0; $i < $fullStars; $i++) {
+                                echo '<i class="fas fa-star"></i>'; // Full star
+                            }
+                            if ($halfStar) {
+                                echo '<i class="fas fa-star-half-alt"></i>'; // Half star
+                            }
+                            for ($i = $fullStars + $halfStar; $i < 5; $i++) {
+                                echo '<i class="far fa-star"></i>'; // Empty star
+                            }
+                            ?>
+                        </div>
+                    </h5>
+                    <h3>Mode: Online/Offline</h3>
+                    <div class="buttonContainer">
+                        <?php
+                        // Replace spaces with hyphens while keeping + and & symbols intact
+                        $slug = preg_replace('/\s+/', '-', strtolower($training['cname']));
+                        ?>
+                        <a href="<?php echo base_url(rawurlencode($slug)); ?>"><button>Explore</button></a>
+                    </div>
+                </div>
+            </div>
+            <?php
+            $index++; // Increment the counter for the next card
+        }
+        ?>
+    </div>
 </div>
 
 
 <div class=" container upcomingBatchParentContainerAndSchedule">
-  <h2>Upcoming Batches and Schedule</h2>
-  <div class="upcomingBatchNameAndDetail">
-    <div class="upcomingBatchName">
-      <?php $c = 0;
-      foreach ($trainings as $training) {
-        $active = ($c == 0) ? '' : ''; ?>
-        <div class="batchname">
+    <h2 data-aos="fade-up" data-aos-duration="800">Upcoming Batches and Schedule</h2>
+    <div class="upcomingBatchNameAndDetail">
+        <div class="upcomingBatchName">
+            <?php $c = 0;
+            foreach ($trainings as $training) {
+                $active = ($c == 0) ? '' : ''; ?>
+                <div class="batchname" data-aos="fade-right" data-aos-delay="<?php echo $c * 100; ?>">
+                    <li class="<?php echo $active; ?>"><a data-toggle="tab"
+                            href="#course<?php echo $training['c_id']; ?>"><?php echo strtoupper($training['cname']); ?></a></li>
+                    <i class="fas fa-greater-than"></i>
+                </div>
 
-          <li class="<?php echo $active; ?>"><a data-toggle="tab"
-              href="#course<?php echo $training['c_id']; ?>"><?php echo strtoupper($training['cname']); ?></a></li>
-          <i class="fas fa-greater-than"></i>
+                <?php $c++;
+            } ?>
         </div>
-
-        <?php $c++;
-      } ?>
-    </div>
-    <div class="upcomingBatchDetail">
-      <div class="tab-content">
-        <?php $l = 0;
-        foreach ($trainings as $training2) {
-          $inactive = ''; ?>
-          <div id="course<?php echo $training2['c_id']; ?>" class="tab-pane fade <?php echo $inactive; ?>">
-            <h3><?php echo strtoupper(($training2['cname'])); ?></h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                <?php $upcoming1 = $this->home->view_syllabus($training2['c_id']);
-                foreach ($upcoming1 as $value) { ?>
-                  <tr>
-                    <td><?php echo $value['sname']; ?></td>
-                    <td><?php echo $value['sname']; ?></td>
-                    <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
-                    <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
-                    </td>
-                    <td>
-                      <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
-                    </td>
-                    <!-- <td>
-                      <?php echo ($value['batch_type'] == 1) ? 'Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(' . $value['b_id'] . ')">View Details</a>' : 'Workshop <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(' . $value['b_id'] . ')">View Details</a>'; ?>
-                    </td> -->
-                  </tr>
-                <?php } ?>
-              </tbody>
-            </table>
-          </div>
-          <?php $l++;
-        } ?>
-        <div id="courseAll" class="tab-pane fade in active">
-          <!-- <h3>ALL COURSES</h3> -->
-          <table class="table table-hover">
-            <thead>
-              <th>Course</th>
-              <th>Start Date</th>
-              <th>Days</th>
-              <th>Timing</th>
-              <!-- <th>Batch Type</th> -->
-            </thead>
-            <tbody>
-              <?php $upcoming1 = $this->home->view_syllabus(null);
-              foreach ($upcoming1 as $value) { ?>
-                <tr>
-                  <td><?php echo $value['sname']; ?></td>
-                  <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
-                  <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
-                  </td>
-                  <td>
-                    <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
-                  </td>
-                  <!-- <td>
-                    <?php echo ($value['batch_type'] == 1) ? 'Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(' . $value['b_id'] . ')">View Details</a>' : 'Workshop<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(' . $value['b_id'] . ')">View Details</a>'; ?>
-                  </td> -->
-                  <td></td>
-                </tr>
-              <?php } ?>
-            </tbody>
-          </table>
+        <div class="upcomingBatchDetail" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
+            <div class="tab-content">
+                <?php $l = 0;
+                foreach ($trainings as $training2) {
+                    $inactive = ''; ?>
+                    <div id="course<?php echo $training2['c_id']; ?>" class="tab-pane fade <?php echo $inactive; ?>">
+                        <h3><?php echo strtoupper(($training2['cname'])); ?></h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <th>Course</th>
+                                <th>Start Date</th>
+                                <th>Days</th>
+                                <th>Timing</th>
+                                </thead>
+                            <tbody>
+                                <?php $upcoming1 = $this->home->view_syllabus($training2['c_id']);
+                                foreach ($upcoming1 as $value) { ?>
+                                    <tr>
+                                        <td><?php echo $value['sname']; ?></td>
+                                        <td><?php echo $value['sname']; ?></td>
+                                        <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
+                                        <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
+                                        </td>
+                                        <td>
+                                            <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
+                                        </td>
+                                        </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+                    <?php $l++;
+                } ?>
+                <div id="courseAll" class="tab-pane fade in active">
+                    <table class="table table-hover">
+                        <thead>
+                            <th>Course</th>
+                            <th>Start Date</th>
+                            <th>Days</th>
+                            <th>Timing</th>
+                            </thead>
+                        <tbody>
+                            <?php $upcoming1 = $this->home->view_syllabus(null);
+                            foreach ($upcoming1 as $value) { ?>
+                                <tr>
+                                    <td><?php echo $value['sname']; ?></td>
+                                    <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
+                                    <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
+                                    </td>
+                                    <td>
+                                        <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                            <?php } ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
-
 
 
 

@@ -108,12 +108,15 @@
                 communication, and full ownership and responsibility.</h2>
         </div>
         <div class="careerTopContainerRight">
-<img 
-  data-src="<?= base_url() ?>/assets/img/wearehiring2.webp" 
-  alt="We Are Hiring" 
-  class="lazyload" 
-  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
->
+            <picture>
+            <!-- WebP (preferred) -->
+            <source srcset="<?= base_url() ?>/assets/img/wearehiring2.webp" type="image/webp">
+
+            <!-- JPG fallback -->
+            <source srcset="<?= base_url() ?>/assets/img/wearehiring2.jpg" type="image/jpg">
+
+            </picture>
+
         </div>
     </div>
 

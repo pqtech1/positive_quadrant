@@ -4,6 +4,11 @@
     </div>
 </div>
 <style>
+
+    body{
+        overflow-x: hidden ;
+    }
+
     #about {
         color: #1a9c9b;
     }
@@ -90,30 +95,46 @@
 
 <div class="container aboutUsPageMainContainer">
     <div class="left">
-        <h1 class="pq_h1">About Positive Quadrant Technologies</h1>
-        <p class="pq_p">With a user-centric approach, we're dedicated to delivering solutions that amplify your business
+        <h1 class="pq_h1" 
+            data-aos="fade-right" 
+            data-aos-duration="800">
+            About Positive Quadrant Technologies
+        </h1>
+
+        <p class="pq_p" 
+           data-aos="fade-right" 
+           data-aos-delay="200" 
+           data-aos-duration="800">
+            With a user-centric approach, we're dedicated to delivering solutions that amplify your business
             value,
             driving growth and excellence every step of the way. Your success is our ultimate achievement. We
             collaborate closely with you to understand your unique needs and craft tailored strategies that ensure
             long-term success. Our commitment to innovation and quality empowers you to stay ahead in a rapidly evolving
             market, unlocking new opportunities at every turn. Together, we’ll build a brighter future for your
-            business.</p>
-        <div class="buttonContainer">
+            business.
+        </p>
+
+        <div class="buttonContainer" 
+             data-aos="fade-up" 
+             data-aos-delay="400" 
+             data-aos-duration="600">
             <button onclick="scrollToGoalAndVision()"><i class="fa fa-question"></i>
                 Why Us</button>
             <button><i class="fa fa-phone"></i>
                 <a href="<?php echo base_url(); ?>contact-us">Book a Free Consultation</a></button>
         </div>
     </div>
-    <div class="right">
+
+    <div class="right" 
+         data-aos="zoom-in-left" 
+         data-aos-delay="500" 
+         data-aos-duration="800">
         <picture>
-            <!-- WebP first -->
             <source data-srcset="<?= base_url('assets/img/about-us/about-us3.webp'); ?>" type="image/webp">
 
-            <!-- JPG fallback -->
             <img data-src="<?= base_url('noWebpAssets/assets/img/about-us3.jpg'); ?>" 
-                class="lazyload" 
-                alt="About Us Main Image">
+                 class="lazyload" 
+                 alt="About Us Main Image">
         </picture>
     </div>
 </div>
@@ -121,8 +142,8 @@
 
 <div class="container effectiveEfficient">
     <div class="cardDetails">
-        <h1 class="pq_h1">Effective and Efficient</h1>
-        <p class="pq_p">
+        <h1 class="pq_h1" data-aos="fade-right" data-aos-duration="800">Effective and Efficient</h1>
+        <p class="pq_p" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
             The results speak for themselves—90% of our clients from all corners of the globe choose us again and again.
             But don't just take our word for it—ask them!
 
@@ -131,63 +152,57 @@
             footprint, and engage your audience like never before. Whether you're looking to refine your branding,
             create a powerful website, or leverage digital marketing to expand your reach, we have the tools and
             expertise to help your business thrive in a competitive digital landscape.
-
         </p>
-
     </div>
-    <div class="detailsImage">
+
+    <div class="detailsImage" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="800">
         <picture>
-            <!-- WebP first -->
-            <source data-srcset="<?= base_url('assets/img/about-us/about-us4.webp'); ?>" type="image/webp" 
-            alt="Social Media Marketing" />>
+            <source data-srcset="<?= base_url('assets/img/about-us/about-us4.webp'); ?>" 
+                    type="image/webp" 
+                    alt="Social Media Marketing" />
 
-            <!-- PNG fallback -->
-            <img data-src="<?= base_url('noWebpAssets/assets/img/about-us4.png'); ?>" 
-                class="lazyload" 
-                alt="Social Media Marketing">
+            <img data-src="<?= base_url('noWebpAssets/assets/img/about-us4.jpg'); ?>" 
+                 class="lazyload" 
+                 alt="Social Media Marketing">
         </picture>
-
-
     </div>
 </div>
 
 
-
 <div class="container aboutUsPageMainContainer">
     <div class="left">
-        <h1 class="pq_h1">Our Mission</h2>
-            <p class="pq_p">At Positive Quadrant Technologies, our mission is simple: to provide exactly what your
-                business needs to
-                succeed. We are a dynamic team of creative professionals, dedicated to driving your company’s growth.
+        <h1 class="pq_h1" data-aos="fade-right" data-aos-duration="800">Our Mission</h1>
+        <p class="pq_p" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+            At Positive Quadrant Technologies, our mission is simple: to provide exactly what your
+            business needs to succeed. We are a dynamic team of creative professionals, dedicated to driving 
+            your company’s growth.
 
-                Why waste time and resources working with multiple agencies when we offer everything you need under one
-                roof? From strategy to execution, we provide comprehensive solutions that cover every aspect of your
-                business, all in-house.
+            Why waste time and resources working with multiple agencies when we offer everything you need 
+            under one roof? From strategy to execution, we provide comprehensive solutions that cover every 
+            aspect of your business, all in-house.
 
-                Our team of experts works closely with you to ensure your growth is not only effective and efficient but
-                also sustainable—at a cost that aligns with your business’s needs. With Positive Quadrant Technologies,
-                it's
-                all worry-free, hassle-free, and most importantly, affordable!
-
-            </p>
-            <div class="buttonContainer">
-                <button style="display:none;"><i class="fa fa-question"></i>
-                    Why Us</button>
-                <button><i class="fa fa-phone"></i>
-                    <a href="<?php echo base_url(); ?>contact-us">Book a Free Consultation</a></button>
-            </div>
+            Our team of experts works closely with you to ensure your growth is not only effective and efficient 
+            but also sustainable—at a cost that aligns with your business’s needs. With Positive Quadrant 
+            Technologies, it's all worry-free, hassle-free, and most importantly, affordable!
+        </p>
+        <div class="buttonContainer">
+            <button style="display:none;"><i class="fa fa-question"></i>
+                Why Us</button>
+            <button data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+                <i class="fa fa-phone"></i>
+                <a href="<?php echo base_url(); ?>contact-us">Book a Free Consultation</a>
+            </button>
+        </div>
     </div>
-    <div class="right">
+
+    <div class="right" data-aos="zoom-in-left" data-aos-delay="300" data-aos-duration="800">
         <picture>
-            <!-- WebP first -->
             <source data-srcset="<?= base_url('assets/img/aboutusmission.webp'); ?>" type="image/webp">
 
-            <!-- PNG fallback -->
             <img data-src="<?= base_url('noWebpAssets/assets/img/aboutusmission.png'); ?>" 
-                class="lazyload" 
-                alt="About Us Mission">
+                 class="lazyload" 
+                 alt="About Us Mission">
         </picture>
-
     </div>
 </div>
 
@@ -430,52 +445,43 @@
 
 
 <div class="container text-center industriesWeServe">
-    <h1 class="pq_h1" style="margin-bottom: 30px;">
+    <h1 class="pq_h1" style="margin-bottom: 30px;" data-aos="fade-up" data-aos-duration="800">
         INDUSTRIES SERVED
         <div style="width: 200px; margin: 10px auto; border-bottom: 2px solid teal;"></div>
     </h1>
     <div class="row">
         <?php
         $industries = [
-            "BFSI",
-            "Textiles",
-            "Financial Services",
-            "Logistics",
-            "Media & Entertainment",
-            "Shipping",
-            "Human Resource",
-            "Ecommerce",
-            "Gems & Jewelery",
-            "Infrastructure",
-            "Pharmaceutical",
-            "Renewable Energy",
-            "Manufacturing",
-            "Healthcare",
-            "FMCG",
-            "Real Estate",
-            "Tourism & Hospitality",
-            "Retail",
-            "Oil & Gas",
-            "IT & ITES",
-            "Education & Training"
+            "BFSI", "Textiles", "Financial Services", "Logistics", "Media & Entertainment", "Shipping",
+            "Human Resource", "Ecommerce", "Gems & Jewelery", "Infrastructure", "Pharmaceutical",
+            "Renewable Energy", "Manufacturing", "Healthcare", "FMCG", "Real Estate",
+            "Tourism & Hospitality", "Retail", "Oil & Gas", "IT & ITES", "Education & Training"
         ];
 
         $i = 1;
         foreach ($industries as $industry) {
+            // Calculate a delay that resets for each row of 4 items (0, 100, 200, 300, 0, 100...)
+            // This creates a pleasant cascading "wave" effect as you scroll.
+            $delay = (($i - 1) % 4) * 100;
             ?>
-            <div class="col-xs-12 col-sm-4 col-md-3" style="margin-bottom: 30px;">
+            
+            <div class="col-xs-12 col-sm-4 col-md-3" 
+                 style="margin-bottom: 30px;" 
+                 data-aos="fade-up" 
+                 data-aos-delay="<?= $delay ?>" 
+                 data-aos-duration="600">
+
                 <picture>
-                    <!-- WebP first -->
                     <source data-srcset="<?= base_url('assets/img/' . $i . '.webp'); ?>" type="image/webp">
 
-                    <!-- PNG fallback -->
                     <img data-src="<?= base_url('noWebpAssets/assets/img/' . $i . '.png'); ?>" 
-                        class="lazyload" 
-                        alt="<?= $industry ?>" 
-                        style="height: 30px; margin-bottom: 10px;">
+                         class="lazyload" 
+                         alt="<?= $industry ?>" 
+                         style="height: 30px; margin-bottom: 10px;">
                 </picture>
                 <p style="font-size:1.5rem;"><?= $industry ?></p>
             </div>
+            
             <?php $i++;
         } ?>
     </div>
@@ -488,7 +494,7 @@
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <div class="header-section">
+                <div class="header-section" data-aos="fade-up" data-aos-duration="800">
                     <h1 class="title pq_h1">Exclusive <span>Services We Provide</span></h1>
                     <p class="description">We offer a wide range of tailored IT solutions designed to streamline
                         operations, enhance efficiency, and drive digital transformation across industries.</p>
@@ -496,8 +502,7 @@
             </div>
         </div>
         <div class="row">
-            <!-- Web Development -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-code"></i>
@@ -512,8 +517,7 @@
                 </div>
             </div>
 
-            <!-- SEO -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-search"></i>
@@ -527,8 +531,7 @@
                 </div>
             </div>
 
-            <!-- Mobile Development -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-mobile"></i>
@@ -543,8 +546,7 @@
                 </div>
             </div>
 
-            <!-- Web Design -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-paint-brush"></i>
@@ -559,8 +561,7 @@
                 </div>
             </div>
 
-            <!-- Machine Learning -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-android"></i>
@@ -575,8 +576,7 @@
                 </div>
             </div>
 
-            <!-- E-commerce -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-shopping-cart"></i>
@@ -591,8 +591,7 @@
                 </div>
             </div>
 
-            <!-- Managed Hosting -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-server"></i>
@@ -607,8 +606,7 @@
                 </div>
             </div>
 
-            <!-- Website Maintenance -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-wrench"></i>
@@ -623,8 +621,7 @@
                 </div>
             </div>
 
-            <!-- Search Engine Maintenance -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-line-chart"></i>
@@ -639,8 +636,7 @@
                 </div>
             </div>
 
-            <!-- Web Application -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-desktop"></i>
@@ -655,8 +651,7 @@
                 </div>
             </div>
 
-            <!-- IoT -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-sitemap"></i>
@@ -670,8 +665,7 @@
                 </div>
             </div>
 
-            <!-- Technology Consulting -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-lightbulb-o"></i>
@@ -686,8 +680,7 @@
                 </div>
             </div>
 
-            <!-- Industry Solutions -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-industry"></i>
@@ -702,8 +695,7 @@
                 </div>
             </div>
 
-            <!-- Software Products -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-cubes"></i>
@@ -718,8 +710,7 @@
                 </div>
             </div>
 
-            <!-- Trainings -->
-            <div class="col-sm-6 col-lg-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
                 <div class="single-service">
                     <div class="part-1">
                         <i class="fa fa-graduation-cap"></i>
@@ -733,8 +724,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End Single Services -->
-        </div>
+            </div>
     </div>
 </section>
 <!--welcome positive code end here  -->

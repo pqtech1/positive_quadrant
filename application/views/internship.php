@@ -138,7 +138,7 @@
         <div class="internshipParentContainerRight">
             <div class="message-box">
                 <h6 class="text-white text-capitalize text-center"> <br>Apply for the Program</h6>
-                <form id="internship-enquiry-form">
+                <form id="internship-enquiry-form" action="<?= base_url('Home/internshipEnquiryForm') ?>" method="post">
                     <input type="text" name="website" style="display:none">
 
                     <div class="form-message"></div>
@@ -206,6 +206,7 @@
 
                     <input type="hidden" id="g-recaptcha-response1" name="g-recaptcha-response">
                     <input type="hidden" name="action" value="validate_captcha1">
+                    <div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_SITE_KEY ?>"></div>           
                     <button class="rounded text-capitalize" name="submit_btn" type="submit"
                         value="submit">Apply</button>
                 </form>
@@ -466,6 +467,7 @@
     event.preventDefault(); // Prevent default form submission
 
     var formData = new FormData(this);
+    formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
     formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
 
     var $submitBtn = $("button[name='submit_btn']"); // Select the Apply button

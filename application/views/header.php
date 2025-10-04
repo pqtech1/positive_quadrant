@@ -74,10 +74,12 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/slick-theme.css" />
 
-<!--lazysizes cdn-->
+  <!--lazysizes cdn-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
+  <!-- Load reCAPTCHA script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/lenis@latest"></script> -->
@@ -1053,7 +1055,7 @@
             <img src="<?php echo base_url() . '/assets/img/loader.gif' ?>">
           </div>
           <div class="inqueryfrom_popup">
-            <form method="post" id="createEnquiryForm">
+            <form action="<?= base_url('Home/saveData') ?>" method="post" id="createEnquiryForm">
               <input type="text" name="website" style="display:none">
 
               <input type="text" placeholder="Name" name="name" id="name" required>
@@ -1071,6 +1073,7 @@
                 <option value="Other">Other</option>
               </select>
               <textarea placeholder="Message" name="message"></textarea>
+              <div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_SITE_KEY ?>"></div>
               <input type="submit" class="inqpop_submit" value="SUBMIT">
             </form>
           </div>
@@ -1101,8 +1104,13 @@
   <script>
     $("#createEnquiryForm").submit(function (event) {
       event.preventDefault();
+    if (recaptchaResponse.length === 0) {
+        toastr.error("Please verify you are not a robot.");
+        return false;
+    }
 
       var formData = new FormData(this);
+      formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
       formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
       var $submitBtn = $("#createEnquiryForm input[type='submit']");
       var originalText = $submitBtn.val();

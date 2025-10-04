@@ -1,0 +1,3127 @@
+a:2:{s:6:"expire";i:1759578568;s:7:"headers";a:0:{}}ENDCI---><html>
+
+<head>
+
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+  <title>Hire Technology Experts | Positive Quadrant Technologies LLP</title>
+
+  <meta name="description"
+    content="Hire top IT professionals, software developers, and tech experts with Positive Quadrant Technologies LLP. Flexible IT staffing and recruitment solutions for your business needs." />
+
+  <meta name="keywords"
+    content="hire technology experts, hire it professionals, hire software developers, hire tech talent, it staffing services, software development recruitment, tech talent acquisition, it recruitment services, technology recruitment agency, hire web developers, software engineering recruitment, it consultants hiring, tech team outsourcing, freelance tech developers, it workforce solutions" />
+
+  <meta name="author" content="Positive Quadrant Technologies LLP">
+
+<!--for google search console-->
+    <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
+    <link href="http://localhost/positive_quadrant/assets/vendors/icons/icon.css" rel="stylesheet">
+  <!-- Modern browsers (WebP) -->
+  <link rel="icon" type="image/webp" href="http://localhost/positive_quadrant/assets/img/loadernew.webp">
+
+  <!-- Fallback for browsers that don’t support WebP -->
+  <link rel="icon" type="image/png" href="http://localhost/positive_quadrant/noWebpAssets/assets/img/loadernew.jpg">
+
+   <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
+  <!-- this was added later to make the madal close automatically-->
+  <!-- 1. Bootstrap CSS -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+
+  <!-- 2. jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- 3. Bootstrap JS -->
+  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+
+  <!-- this was added later to make the madal close automatically-->
+  <!-- animate css -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    type="text/css">
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css" />-->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <link href="http://localhost/positive_quadrant/assets/vendors/font-awesome.min.css" rel="stylesheet">
+
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="http://localhost/positive_quadrant/assets/vendors/animate/animate.min.css" rel="stylesheet">
+
+  <link href="http://localhost/positive_quadrant/assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link href="http://localhost/positive_quadrant/assets/vendors/owlCarousel/owl.carousel.min.css" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="http://localhost/positive_quadrant/assets/vendors/owlCarousel/owl.theme.default.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="http://localhost/positive_quadrant/assets/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="http://localhost/positive_quadrant/assets/css/slick-theme.css" />
+
+  <!--lazysizes cdn-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+
+  <!-- Load reCAPTCHA script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/lenis@latest"></script> -->
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
+  
+  <script src="http://localhost/positive_quadrant/assets/vendors/wow/wow.min.js"></script>
+  <script src="http://localhost/positive_quadrant/assets/vendors/fancybox/fancy.js"></script>
+
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="http://localhost/positive_quadrant/assets/vendors/jQuery/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.19.5/jquery.validate.min.js"></script>
+
+
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script src="http://localhost/positive_quadrant/assets/vendors/bootstrap/bootstrap.min.js"></script>
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css"> -->
+
+
+
+  <script src="http://localhost/positive_quadrant/assets/js/slick.min.js"></script>
+  <script
+    src="http://localhost/positive_quadrant/assets/vendors/slickmin/cdnjs.cloudflare.com_ajax_libs_slick-carousel_1.9.0_slick.min.js"></script>
+
+
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+
+
+
+
+  <link href="http://localhost/positive_quadrant/assets/vendors/css.css?v=1759577967" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/style.css?v=1759577967" type="text/css">
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/hire_style.css?v=1759577967"
+    type="text/css">
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/hire_style_responsive.css?v=1759577967"
+    type="text/css">
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/responsive.css?v=1759577967"
+    type="text/css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+
+
+ <style>
+
+    * {
+
+      font-family: "Special Gothic", sans-serif;
+
+      font-weight: 500;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scrollbar-gutter: stable;
+    }
+
+    body {
+      font-size: 15px;
+      /* overflow-y: scroll;
+      background-color: white;
+      background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      background-attachment: fixed;
+      background-position: top left; */
+    }
+
+    .blur-bg {
+      background: rgba(255, 255, 255, 0.85);
+      /* semi-transparent white */
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(2px);
+      padding: 60px;
+      border-radius: 8px;
+    }
+
+    .bg-light-gray {
+      background-color: #f8f9fa !important;
+      /* or #f5f5f5 */
+    }
+
+    .harshactive {
+      color: #1a9c9b;
+    }
+
+    div#myDiv {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: 9999999;
+      background: #fffffff2;
+    }
+
+    #myDiv img {
+      width: 40px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .loader {
+      border: 5px solid #c7bfbf;
+      border-radius: 50%;
+      border-top: 5px solid #1a9c9b;
+      width: 60px;
+      height: 60px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      position: absolute;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    button[type="submit"] {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+      /* Ensure button width remains the same */
+      height: 40px;
+      /* Ensure button height remains the same */
+      font-size: 16px;
+    }
+
+    .custom-spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid white;
+      border-radius: 50%;
+      border-top-color: transparent;
+      animation: custom-rotate 0.6s linear infinite;
+      display: inline-block;
+    }
+
+    @keyframes custom-rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+
+
+    /* Initially hide the category container */
+
+    .header-top .category-container {
+      width: 100vw !important;
+      height: max-content;
+      position: fixed;
+      left: 0;
+      display: none;
+      gap: 5%;
+      z-index: 10;
+
+      background-color: white;
+      overflow: hidden;
+      /* margin-top: 8%; */
+      /* background-color: yellow; */
+
+    }
+
+
+
+    /* Show the category container when hovering over the parent li */
+    li:hover .category-container {
+      /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+      /* 3 columns of equal width */
+      display: unset;
+      /* flex-wrap: wrap; */
+      columns: 380px !important;
+
+      /* columns: 400px; */
+
+    }
+
+    .header-top .category-container .category {
+      /* background-color: red; */
+      width: 100%;
+      /* height: 100%; */
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 10%;
+      padding-top: 3%;
+      padding-bottom: 1%;
+      /* flex-direction: row; */
+      flex-direction: column;
+      overflow: hidden;
+      text-align: left;
+
+    }
+
+
+
+
+    .header-top .category-container h2 {
+      color: #1a9c9b;
+      font-weight: 600;
+      text-align: left;
+      font-size: 1.2vw;
+      /* padding-left: 1%; */
+      /* text-decoration: underline; */
+      text-transform: uppercase;
+
+    }
+
+    .header-top .category-container .category ul {
+      display: flex;
+      flex-direction: column !important;
+      justify-content: flex-start !important;
+      padding-left: 5% !important;
+      border-left: solid 2px #047d8f;
+    }
+
+    .header-top .category-container li {
+      width: 100%;
+      list-style: none;
+      text-align: left;
+    }
+
+    .header-top .category-container a {
+      text-align: left;
+      font-size: 1.1vw;
+      color: black;
+      font-weight: 500;
+    }
+
+    .header-top .category-container a:hover {
+      color: #047d8f;
+      text-decoration: underline;
+    }
+
+    .active {
+      color: coral !important;
+
+      font-weight: 500 !important;
+
+    }
+
+    /* Add this CSS to define the active styles */
+    .active-link {
+      /* font-weight: bold; */
+      text-decoration: underline;
+      /* color: coral !important; */
+      /* Ensure the active link color is blue */
+    }
+
+
+    /* Ensure the default styles are defined */
+    .nav a {
+      font-weight: 500;
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Styles for dropdown parent menus */
+    .dropdown-toggle.active-link {
+      /* color: coral !important; */
+      /* Ensure the parent menu color is #047d8f */
+    }
+
+    /* Styles for <details> summary */
+    details summary.active-link {
+      /* color: coral !important; */
+      /* Ensure the summary color is blue */
+    }
+
+
+    .mobileDropdown {
+      display: none;
+    }
+
+    .mobileDropDown>a {
+      display: none !important;
+    }
+
+    /* Media query for iPhone responsiveness */
+
+
+
+    /* Navbar styling */
+
+    /* Custom styles for the navbar */
+    .navbar-nav>li>a {
+      background-color: transparent !important;
+      color: black !important;
+      /* Default background */
+    }
+
+    .navbar-nav>li>a:hover,
+    .dropdown-menu>li>a:hover {
+      background-color: transparent !important;
+      /* No background on hover */
+      color: #007bff;
+      /* Change to your desired hover text color */
+    }
+
+    /* Specific styles for dropdown menus */
+    .dropdown-menu>li>a {
+      background-color: white !important;
+      /* Set the background of dropdown items */
+    }
+
+    .dropdown-menu>li>a:hover {
+      background-color: transparent !important;
+      /* Remove grey background on hover */
+    }
+
+    .enquiry-button {
+      animation-direction: alternate;
+      animation: pulse-animation 2s infinite;
+      border: solid 1px #1a9c9b !important;
+
+    }
+    .enquiry-button li a{
+      color: white !important;
+    }
+
+    @keyframes pulse-animation {
+      0% {
+        box-shadow: 0 0 0 1px rgb(78, 202, 202);
+      }
+
+      100% {
+        box-shadow: 0 0 0 3px rgb(78, 202, 202);
+      }
+    }
+
+    /* Ensure active-link styles are applied to all relevant elements */
+    .nav a.active-link,
+    .tech-link.active-link,
+    .dropdown-toggle.active-link,
+    .services-parent>a.active-link,
+    .desktopHireView>a.active-link,
+    .mobileDropdown>a.active-link {
+      color: #1a9c9b !important;
+      /* Bright red for visibility; adjust to your theme */
+      background-color: transparent;
+      /* Optional: Remove background if unwanted */
+      font-weight: 500;
+      /* Optional: Emphasize active link */
+    }
+
+    /* Ensure dropdown submenu items are styled */
+    .category-container a.active-link,
+    .dropdown-menu a.active-link {
+      color: #1a9c9b !important;
+    }
+
+    /* Optional: Hover styles to avoid confusion */
+    .nav a:hover {
+      color: #cccccc;
+      /* Different color to distinguish from active */
+    }
+    
+    /*latest custom loader*/
+   
+    /* Fullscreen Loader Background */
+     .loader-wrapper {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: #fff; /* Background color */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    /* Spinner Ring */
+    .spinner {
+      width: 80px;
+      height: 80px;
+      border: 4px solid #1a9c9b; /* light teal */
+      border-top: 6px solid white; /* teal spinner */
+      border-radius: 50%;
+      animation: spin 1.2s linear infinite;
+      position: absolute;
+    }
+
+    /* Static Logo in Center */
+    .loader-wrapper img {
+      width: 50px;
+      height: auto;
+      position: relative;
+      z-index: 10; /* on top of spinner */
+    }
+
+    /* Spin Animation */
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    /*latest custom loader*/
+    
+    
+  </style>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0SY7GT67ME"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0SY7GT67ME');
+</script>
+
+  <script>
+    new WOW().init();
+  </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.positivequadrant.in/#organization",
+      "name": "Positive Quadrant Technologies LLP",
+      "url": "https://www.positivequadrant.in/",
+      "logo": "https://www.positivequadrant.in/assets/img/new_logo.webp",
+      "sameAs": [
+        "https://in.linkedin.com/company/positive-quadrant-technologies",
+        "https://www.facebook.com/positivequadrants/",
+        "https://www.instagram.com/positivequadrant.in/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-7219623991",
+        "contactType": "customer service",
+        "areaServed": ["IN"],
+        "availableLanguage": ["English", "Hindi"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Thane",
+        "addressLocality": "Mumbai",
+        "addressRegion": "MH",
+        "postalCode": "421502",
+        "addressCountry": "IN"
+      },
+      "description": "Positive Quadrant Technologies LLP offers IT solutions, software development, web development, mobile app development, SEO, machine learning services, and IT staffing in Mumbai, Thane, and Ambernath."
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.positivequadrant.in/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.positivequadrant.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://www.positivequadrant.in/technology"
+        }
+      ]
+    },
+
+    {
+      "@type": "Service",
+      "serviceType": "Web Development",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/web-development",
+      "description": "Custom web development services, building responsive, scalable, and SEO-friendly websites."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "SEO Services",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/seo",
+      "description": "Improve search rankings and organic traffic with expert SEO services."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Mobile Development",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/mobile-development",
+      "description": "Custom Android and iOS app development for businesses of all sizes."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Web Design",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/web-design",
+      "description": "Creative, responsive, and user-friendly web design solutions."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Machine Learning",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/machine-learning",
+      "description": "Cutting-edge machine learning solutions to automate and optimize business processes."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "E-Commerce Development",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/e-commerce",
+      "description": "Custom e-commerce solutions to boost online sales and business growth."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Managed Hosting",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/managed-hosting",
+      "description": "Reliable managed hosting solutions for websites and applications."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Website Maintenance",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/website-maintainance",
+      "description": "Expert website maintenance services to keep your site secure and updated."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Search Engine Maintenance",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/search-engine-maintenance",
+      "description": "Maintain and optimize your search engine presence with our services."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Web Application Development",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/web-application",
+      "description": "Custom web application development with scalable and robust solutions."
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Internet of Things (IoT)",
+      "provider": {"@id": "https://www.positivequadrant.in/#organization"},
+      "areaServed": ["Mumbai", "Thane", "Ambernath"],
+      "url": "https://www.positivequadrant.in/iot",
+      "description": "Innovative IoT solutions to enhance connectivity and automation."
+    }
+  ]
+}
+</script>
+
+
+ 
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let toggleBtn = document.querySelector('.parentContainer .navbarBtn img');
+      let navToOpen = document.querySelector('.parentContainer nav');
+
+      if (toggleBtn && navToOpen) {
+        // Check if elements are correctly selected
+        console.log("Toggle button and nav elements found.");
+
+        let isNavOpen = false;
+
+        toggleBtn.addEventListener('click', function () {
+          console.log("Button is clicked");
+
+          if (isNavOpen) {
+            navToOpen.style.display = 'none';
+            isNavOpen = false;
+          } else {
+            navToOpen.style.display = 'block';
+            isNavOpen = true;
+          }
+        });
+      } else {
+        console.error("Toggle button or nav element not found. Check your selectors.");
+      }
+    });
+
+
+
+
+  </script>
+
+
+  <script>
+    $(function () {
+      $(".dropdown").hover(
+        function () {
+          $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+          $(this).toggleClass('open');
+          // $('b', this).toggleClass("caret caret-up");                
+        },
+        function () {
+          $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+          $(this).toggleClass('open');
+          // $('b', this).toggleClass("caret caret-up");                
+        });
+    });
+  </script>
+  
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+      document.querySelector(".loader-wrapper").classList.add("hide");
+    }, 500);
+  });
+</script>
+
+
+
+</head>
+
+<body>
+  <!--<div id="myDiv"><img src="http://localhost/positive_quadrant/assets/img/loadernew.webp">-->
+  <!--  <div class="loader"></div>-->
+  <!--</div>-->
+
+<div class="loader-wrapper">
+    <div class="spinner"></div>
+      <img src="http://localhost/positive_quadrant/assets/img/loadernew.webp" alt="Logo">
+    </div>
+  </div>
+
+
+
+  <div id="staticNavbar">
+    <div class="mainheader">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-5">
+            <a href="tel:7219623991"> <i class="fa fa-phone" aria-hidden="true"></i>7219623991 </a>
+          </div>
+          <div class="col-md-6 col-xs-7 text-right"><a href="mailto:info@positivequadrant.in"> <i class="fa fa-envelope"
+                aria-hidden="true"></i>info@positivequadrant.in</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-top" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="logo">
+              <a href="http://localhost/positive_quadrant/">
+              <picture>
+                  <!-- WebP source -->
+                  <source srcset="http://localhost/positive_quadrant/assets/img/new_logo.webp" type="image/webp">
+                  <!-- Fallback to PNG or JPEG -->
+                  <img src="http://localhost/positive_quadrant/noWebpAssets/assets/img/new_logo.png" alt="company logo">
+              </picture>
+              </a>
+            </div>
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li><a href="http://localhost/positive_quadrant/" class="" id="home">Home</a></li>
+                    <li><a href="http://localhost/positive_quadrant/about-us" class="" id="about">About</a>
+                    </li>
+                    <li class="services-parent">
+                      <a href="#" id="services" class="active-link">Services <b class="caret"></b></a>
+                      <ul class="services-dropdown-menu">
+                        <div class="services-dropdown-menu-options">
+                          <li><a href="http://localhost/positive_quadrant/web-development">Web Development</a></li>
+                          <li><a href="http://localhost/positive_quadrant/seo">SEO</a></li>
+                          <li><a href="http://localhost/positive_quadrant/mobile-development">Mobile Development</a></li>
+                          <li><a href="http://localhost/positive_quadrant/web-design">Web Design</a></li>
+                        </div>
+                        <div class="services-dropdown-menu-options">
+                          <li><a href="http://localhost/positive_quadrant/machine-learning">Machine Learning</a></li>
+                          <li><a href="http://localhost/positive_quadrant/e-commerce">E Commerce</a></li>
+                          <li><a href="http://localhost/positive_quadrant/managed-hosting">Managed Hosting</a></li>
+                          <li><a href="http://localhost/positive_quadrant/website-maintainance">Website Maintainance</a></li>
+                        </div>
+                        <div class="services-dropdown-menu-options">
+                          <li><a href="http://localhost/positive_quadrant/search-engine-maintenance">Search Engine
+                              Maintenance</a>
+                          </li>
+                          <li><a href="http://localhost/positive_quadrant/web-application">Web Application</a></li>
+                          <li><a href="http://localhost/positive_quadrant/iot">IOT</a></li>
+                          <li><a href="http://localhost/positive_quadrant/it-development">Technology</a></li>
+                        </div>
+                        <div class="services-dropdown-menu-options">
+                          <li><a href="http://localhost/positive_quadrant/it-consultancy">Industries</a></li>
+                          <li><a href="http://localhost/positive_quadrant/software-products">Software Products</a></li>
+                          <li><a href="http://localhost/positive_quadrant/it-training-and-placement">Trainings</a></li>
+                        </div>
+                      </ul>
+                    </li>
+                    <li><a href="http://localhost/positive_quadrant/internship-program" class="" id="internship">Internship</a>
+                    </li>
+                    <!-- hiring details html-->
+                    <li class="desktopHireView">
+                      <a href="#" class="">Hire <b class="caret"></b></a>
+                      <div class="category-container">
+                                                                                                        <div class="category">
+                              <h2>Hire Mobile App Developers</h2>
+                              <ul>
+                                                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-flutter-developer"
+                                        class="tech-link ">
+                                        Flutter Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-react-native-developer"
+                                        class="tech-link ">
+                                        React Native Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-android-developer"
+                                        class="tech-link ">
+                                        Android Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-ios-developer"
+                                        class="tech-link ">
+                                        IOS Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-swift-developer"
+                                        class="tech-link ">
+                                        Swift Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-kotlin-developer"
+                                        class="tech-link ">
+                                        Kotlin Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-xamarin-developer"
+                                        class="tech-link ">
+                                        Xamarin Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-ionic-developer"
+                                        class="tech-link ">
+                                        Ionic Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-data-analyst"
+                                        class="tech-link ">
+                                        Data Analyst <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </div>
+                                                      <div class="category">
+                              <h2>Hire Frontend Developers</h2>
+                              <ul>
+                                                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-angularjs-developer"
+                                        class="tech-link ">
+                                        AngularJS Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-reactjs-developer"
+                                        class="tech-link ">
+                                        ReactJS Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-vue.js-developer"
+                                        class="tech-link ">
+                                        Vue.js Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-mean-stack-developer"
+                                        class="tech-link ">
+                                        MEAN Stack Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-mern-stack-developer"
+                                        class="tech-link ">
+                                        MERN Stack Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-full-stack-developer"
+                                        class="tech-link ">
+                                        Full Stack Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </div>
+                                                      <div class="category">
+                              <h2>Hire Backend Developers</h2>
+                              <ul>
+                                                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-nodejs-developer"
+                                        class="tech-link ">
+                                        NodeJs Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-java-developer"
+                                        class="tech-link ">
+                                        Java Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-php-developer"
+                                        class="tech-link ">
+                                        PHP Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-laravel-developer"
+                                        class="tech-link ">
+                                        Laravel Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-python-developer"
+                                        class="tech-link ">
+                                        Python Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-spring-boot-developer"
+                                        class="tech-link ">
+                                        Spring Boot Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-asp.net-developer"
+                                        class="tech-link ">
+                                        ASP.NET Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-golang-developer"
+                                        class="tech-link ">
+                                        Golang Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-django-developer"
+                                        class="tech-link ">
+                                        Django Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-ror-developer"
+                                        class="tech-link ">
+                                        RoR Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-flutterflow-developer"
+                                        class="tech-link ">
+                                        FlutterFlow Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-flask-developer"
+                                        class="tech-link ">
+                                        Flask Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-codeigniter-developer"
+                                        class="tech-link ">
+                                        CodeIgniter Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </div>
+                                                      <div class="category">
+                              <h2>Other Services</h2>
+                              <ul>
+                                                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-automation-tester"
+                                        class="tech-link ">
+                                        Automation Tester <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-aws-cloud-management-developer"
+                                        class="tech-link ">
+                                        AWS Cloud Management Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-graphql-developers"
+                                        class="tech-link ">
+                                        GraphQL Developers <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-manual-software-tester"
+                                        class="tech-link ">
+                                        Manual Software Tester <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-meteor-developer"
+                                        class="tech-link ">
+                                        Meteor Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-microsoft-power-bi-developers"
+                                        class="tech-link ">
+                                        Microsoft Power BI Developers <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-javascript-developer"
+                                        class="tech-link ">
+                                        Javascript Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-salesforce-developer"
+                                        class="tech-link ">
+                                        Salesforce Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-symfony-developer"
+                                        class="tech-link ">
+                                        Symfony Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-ui-ux-designer"
+                                        class="tech-link ">
+                                        UI/UX Designer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-vapt-developer"
+                                        class="tech-link ">
+                                        VAPT Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-wordpress-developer"
+                                        class="tech-link ">
+                                        WordPress Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </div>
+                                                      <div class="category">
+                              <h2>Hire AI Engineers</h2>
+                              <ul>
+                                                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-ai-developer"
+                                        class="tech-link ">
+                                        AI Developer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-machine-learning-engineers"
+                                        class="tech-link ">
+                                        Machine Learning Engineers <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </div>
+                                                      <div class="category">
+                              <h2>Hire DevOps Engineer</h2>
+                              <ul>
+                                                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-devops-engineer"
+                                        class="tech-link ">
+                                        DevOps Engineer <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                      <li>
+                                                                            <a href="http://localhost/positive_quadrant/hire-ci-cd-developers"
+                                        class="tech-link ">
+                                        CI/CD Developers <!-- Displaying the tech_name -->
+                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </div>
+                                                                        </div>
+                    </li>
+                    <li class="dropdown mobileDropdown">
+                      <a href="#" class="dropdown-toggle " data-toggle="dropdown" id="hire">
+                        Hire <b class="caret"></b>
+                      </a>
+                      <ul class="dropdown-menu">
+                                                                              <li class="dropdown-submenu">
+                              <a href="#">Hire Mobile App Developers</a>
+                              <ul class="dropdown-menu">
+                                                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-flutter-developer"
+                                        class="tech-link">
+                                        Flutter Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-react-native-developer"
+                                        class="tech-link">
+                                        React Native Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-android-developer"
+                                        class="tech-link">
+                                        Android Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-ios-developer"
+                                        class="tech-link">
+                                        IOS Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-swift-developer"
+                                        class="tech-link">
+                                        Swift Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-kotlin-developer"
+                                        class="tech-link">
+                                        Kotlin Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-xamarin-developer"
+                                        class="tech-link">
+                                        Xamarin Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-ionic-developer"
+                                        class="tech-link">
+                                        Ionic Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-data-analyst"
+                                        class="tech-link">
+                                        Data Analyst                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </li>
+                                                      <li class="dropdown-submenu">
+                              <a href="#">Hire Frontend Developers</a>
+                              <ul class="dropdown-menu">
+                                                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-angularjs-developer"
+                                        class="tech-link">
+                                        AngularJS Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-reactjs-developer"
+                                        class="tech-link">
+                                        ReactJS Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-vue.js-developer"
+                                        class="tech-link">
+                                        Vue.js Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-mean-stack-developer"
+                                        class="tech-link">
+                                        MEAN Stack Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-mern-stack-developer"
+                                        class="tech-link">
+                                        MERN Stack Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-full-stack-developer"
+                                        class="tech-link">
+                                        Full Stack Developer                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </li>
+                                                      <li class="dropdown-submenu">
+                              <a href="#">Hire Backend Developers</a>
+                              <ul class="dropdown-menu">
+                                                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-nodejs-developer"
+                                        class="tech-link">
+                                        NodeJs Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-java-developer"
+                                        class="tech-link">
+                                        Java Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-php-developer"
+                                        class="tech-link">
+                                        PHP Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-laravel-developer"
+                                        class="tech-link">
+                                        Laravel Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-python-developer"
+                                        class="tech-link">
+                                        Python Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-spring-boot-developer"
+                                        class="tech-link">
+                                        Spring Boot Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-asp.net-developer"
+                                        class="tech-link">
+                                        ASP.NET Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-golang-developer"
+                                        class="tech-link">
+                                        Golang Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-django-developer"
+                                        class="tech-link">
+                                        Django Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-ror-developer"
+                                        class="tech-link">
+                                        RoR Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-flutterflow-developer"
+                                        class="tech-link">
+                                        FlutterFlow Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-flask-developer"
+                                        class="tech-link">
+                                        Flask Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-codeigniter-developer"
+                                        class="tech-link">
+                                        CodeIgniter Developer                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </li>
+                                                      <li class="dropdown-submenu">
+                              <a href="#">Other Services</a>
+                              <ul class="dropdown-menu">
+                                                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-automation-tester"
+                                        class="tech-link">
+                                        Automation Tester                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-aws-cloud-management-developer"
+                                        class="tech-link">
+                                        AWS Cloud Management Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-graphql-developers"
+                                        class="tech-link">
+                                        GraphQL Developers                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-manual-software-tester"
+                                        class="tech-link">
+                                        Manual Software Tester                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-meteor-developer"
+                                        class="tech-link">
+                                        Meteor Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-microsoft-power-bi-developers"
+                                        class="tech-link">
+                                        Microsoft Power BI Developers                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-javascript-developer"
+                                        class="tech-link">
+                                        Javascript Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-salesforce-developer"
+                                        class="tech-link">
+                                        Salesforce Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-symfony-developer"
+                                        class="tech-link">
+                                        Symfony Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-ui-ux-designer"
+                                        class="tech-link">
+                                        UI/UX Designer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-vapt-developer"
+                                        class="tech-link">
+                                        VAPT Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-wordpress-developer"
+                                        class="tech-link">
+                                        WordPress Developer                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </li>
+                                                      <li class="dropdown-submenu">
+                              <a href="#">Hire AI Engineers</a>
+                              <ul class="dropdown-menu">
+                                                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-ai-developer"
+                                        class="tech-link">
+                                        AI Developer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-machine-learning-engineers"
+                                        class="tech-link">
+                                        Machine Learning Engineers                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </li>
+                                                      <li class="dropdown-submenu">
+                              <a href="#">Hire DevOps Engineer</a>
+                              <ul class="dropdown-menu">
+                                                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-devops-engineer"
+                                        class="tech-link">
+                                        DevOps Engineer                                      </a>
+                                    </li>
+                                                                      <li>
+                                      <a href="http://localhost/positive_quadrant/hire-ci-cd-developers"
+                                        class="tech-link">
+                                        CI/CD Developers                                      </a>
+                                    </li>
+                                                                                                </ul>
+                            </li>
+                                                                        </ul>
+                    </li>
+                    <!-- hiring details html ends-->
+                    <!-- <li><a href="http://localhost/positive_quadrant/projects" class="" id="project">Projects</a></li> -->
+                    <li><a href="http://localhost/positive_quadrant/careers" class="" id="career">Careers</a></li>
+                    <li><a href="http://localhost/positive_quadrant/contact-us" class="" id="contact">Contact Us</a></li>
+                    <li class="enquiry-button" onmouseover="this.style.backgroundColor = 'white';"
+                      onmouseout="this.style.backgroundColor = '#2bb0ae';" style="color:white;"><a data-toggle="modal"
+                        data-target="#inqueryform" style="color:white;">Enquiry</a></li>
+
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tablet view responsiveness starts here -->
+
+    <div class="parentContainer">
+      <div class="navParentContainer">
+
+        <div class="header">
+          <div class="logo">
+            <a href="http://localhost/positive_quadrant/">
+              <picture class="float-right"></picture>
+                  <!-- WebP source -->
+                  <source srcset="http://localhost/positive_quadrant/assets/img/new_logo.webp" type="image/webp">
+                  <!-- Fallback to PNG or JPEG -->
+                  <img src="http://localhost/positive_quadrant/noWebpAssets/assets/img/new_logo.png" alt="company logo">
+              </picture>
+            </a>
+          </div>
+          <div class="navbarBtn">
+            <picture >
+                <!-- WebP source -->
+                <source srcset="http://localhost/positive_quadrant/assets/img/navBarHamberger.webp" type="image/webp">
+                <!-- Fallback to PNG or JPEG -->
+                <img src="http://localhost/positive_quadrant/noWebpAssets/assets/img/navBarHamberger.png" alt="hamburger logo">
+            </picture>
+          </div>
+        </div>
+        <nav>
+          <div class="">
+            <ul class="">
+              <li><a href="http://localhost/positive_quadrant/" class=" " id="home">Home</a></li>
+              <li><a href="http://localhost/positive_quadrant/about-us" class="" id="about">About</a>
+              </li>
+              <details class="summaryDetails">
+                <summary id="services">Services <b class="caret"></b></summary>
+                <li><a href="http://localhost/positive_quadrant/web-development">Web Development</a></li>
+                <li><a href="http://localhost/positive_quadrant/seo">SEO</a></li>
+                <li><a href="http://localhost/positive_quadrant/mobile-development">Mobile Development</a></li>
+                <li><a href="http://localhost/positive_quadrant/web-design">Web Design</a></li>
+                <li><a href="http://localhost/positive_quadrant/machine-learning">Machine Learning</a></li>
+                <li><a href="http://localhost/positive_quadrant/e-commerce">E Commerce</a></li>
+                <li><a href="http://localhost/positive_quadrant/managed-hosting">Managed Hosting</a></li>
+                <li><a href="http://localhost/positive_quadrant/website-maintainance">Website-Maintainance</a></li>
+                <li><a href="http://localhost/positive_quadrant/search-engine-maintenance">Search Engine Maintenance</a></li>
+                <li><a href="http://localhost/positive_quadrant/web-application">Web-Application</a></li>
+                <li><a href="http://localhost/positive_quadrant/iot">IOT</a></li>
+
+
+
+
+
+                <li><a href="http://localhost/positive_quadrant/it-development">Technology</a>
+                </li>
+                <li><a href="http://localhost/positive_quadrant/it-consultancy">Industries</a></li>
+                <li><a href="http://localhost/positive_quadrant/software-products">Software Products</a></li>
+                <li><a href="http://localhost/positive_quadrant/it-training-and-placement">Trainings</a></li>
+
+              </details>
+
+              <li><a href="http://localhost/positive_quadrant/internship-program" class="" id="internship">Internship</a></li>
+              <!-- hiring details html-->
+              <details>
+                <summary>Hire<b class="caret"></b></summary>
+                <div class="category-container">
+                                                            <details>
+                        <summary class="category-name">Hire Mobile App Developers<b class="caret"></b>
+                        </summary>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/positive_quadrant/hire-flutter-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Flutter Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-react-native-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  React Native Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-android-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Android Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-ios-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  IOS Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-swift-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Swift Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-kotlin-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Kotlin Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-xamarin-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Xamarin Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-ionic-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Ionic Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-data-analyst" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Data Analyst                                </a>
+                              </li>
+                                                                              </ul>
+                      </details>
+                                          <details>
+                        <summary class="category-name">Hire Frontend Developers<b class="caret"></b>
+                        </summary>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/positive_quadrant/hire-angularjs-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  AngularJS Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-reactjs-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  ReactJS Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-vue.js-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Vue.js Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-mean-stack-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  MEAN Stack Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-mern-stack-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  MERN Stack Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-full-stack-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Full Stack Developer                                </a>
+                              </li>
+                                                                              </ul>
+                      </details>
+                                          <details>
+                        <summary class="category-name">Hire Backend Developers<b class="caret"></b>
+                        </summary>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/positive_quadrant/hire-nodejs-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  NodeJs Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-java-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Java Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-php-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  PHP Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-laravel-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Laravel Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-python-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Python Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-spring-boot-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Spring Boot Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-asp.net-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  ASP.NET Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-golang-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Golang Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-django-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Django Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-ror-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  RoR Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-flutterflow-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  FlutterFlow Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-flask-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Flask Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-codeigniter-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  CodeIgniter Developer                                </a>
+                              </li>
+                                                                              </ul>
+                      </details>
+                                          <details>
+                        <summary class="category-name">Other Services<b class="caret"></b>
+                        </summary>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/positive_quadrant/hire-automation-tester" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Automation Tester                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-aws-cloud-management-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  AWS Cloud Management Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-graphql-developers" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  GraphQL Developers                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-manual-software-tester" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Manual Software Tester                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-meteor-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Meteor Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-microsoft-power-bi-developers" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Microsoft Power BI Developers                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-javascript-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Javascript Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-salesforce-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Salesforce Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-symfony-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Symfony Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-ui-ux-designer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  UI/UX Designer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-vapt-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  VAPT Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-wordpress-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  WordPress Developer                                </a>
+                              </li>
+                                                                              </ul>
+                      </details>
+                                          <details>
+                        <summary class="category-name">Hire AI Engineers<b class="caret"></b>
+                        </summary>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/positive_quadrant/hire-ai-developer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  AI Developer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-machine-learning-engineers" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  Machine Learning Engineers                                </a>
+                              </li>
+                                                                              </ul>
+                      </details>
+                                          <details>
+                        <summary class="category-name">Hire DevOps Engineer<b class="caret"></b>
+                        </summary>
+                        <ul>
+                                                                                    <li>
+                                <a href="http://localhost/positive_quadrant/hire-devops-engineer" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  DevOps Engineer                                </a>
+                              </li>
+                                                          <li>
+                                <a href="http://localhost/positive_quadrant/hire-ci-cd-developers" class="tech-link">
+                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                  CI/CD Developers                                </a>
+                              </li>
+                                                                              </ul>
+                      </details>
+                                                      </div>
+              </details>
+
+
+              <!-- hiring details html ends-->
+              <!-- <li><a href="http://localhost/positive_quadrant/projects" class="" id="project">Projects</a> -->
+              </li>
+              <li><a href="http://localhost/positive_quadrant/careers" class="" id="career">Careers</a>
+              </li>
+              <li><a href="http://localhost/positive_quadrant/contact-us" class="" id="contact">Contact
+                  Us</a></li>
+
+              <li class="enquiry-button"><a data-toggle="modal" data-target="#inqueryform">Enquiry</a></li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+
+        </nav>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="extradiv"></div>
+
+  <!-- Tablet view responsiveness ends here -->
+
+
+
+
+
+
+  <!-- Modal -->
+  <div id="inqueryform" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body enquiry_modal">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 class="inqfrom_header">Enquiry </h3>
+          <div id="enquiery_loader" class="text-center" style="margin-bottom: 22px;display:none;">
+            <img src="http://localhost/positive_quadrant//assets/img/loader.gif">
+          </div>
+          <div class="inqueryfrom_popup">
+            <form action="http://localhost/positive_quadrant/Home/saveData" method="post" id="createEnquiryForm">
+              <input type="text" name="website" style="display:none">
+
+              <input type="text" placeholder="Name" name="name" id="name" required>
+              <input type="email" placeholder="Email" name="email" id="email" required>
+              <input type="number" placeholder="Phone" name="phone" id="phone" required>
+              <select required name="services" id="services" required>
+                <option value="Select Enquiry">Select Enquiry</option>
+                <option value="Development">Development</option>
+                <option value="Consultancy">Consultancy</option>
+                <option value="Tranings">Training</option>
+                <option value="Manufacturing">Manufacturing</option>
+                <option value="Technology">Technology</option>
+                <option value="Software_Products">Software Products</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Other">Other</option>
+              </select>
+              <textarea placeholder="Message" name="message"></textarea>
+              <div class="g-recaptcha" data-sitekey="6LdL-90rAAAAAJ3FNQUinyAyIu0RigI70GuhzrTr"></div>
+              <input type="submit" class="inqpop_submit" value="SUBMIT">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+  AOS.init({
+    offset: 120,
+    delay: 0,
+    duration: 400,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom',
+  });
+  </script>
+
+
+  <script>
+    $("#createEnquiryForm").submit(function (event) {
+      event.preventDefault();
+    if (recaptchaResponse.length === 0) {
+        toastr.error("Please verify you are not a robot.");
+        return false;
+    }
+
+      var formData = new FormData(this);
+      formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
+      formData.append('csrf_46a4f21d8e9b', 'fc71128742b3cef1c7765c234860e0c4');
+      var $submitBtn = $("#createEnquiryForm input[type='submit']");
+      var originalText = $submitBtn.val();
+
+      $submitBtn.prop("disabled", true).val("Submitting...");
+
+      $.ajax({
+        url: "http://localhost/positive_quadrant/Home/saveData",
+        data: formData,
+        type: "post",
+        processData: false,
+        contentType: false,
+        dataType: 'json',
+        success: function (response) {
+          //   console.log("AJAX success callback:", response);
+
+          $submitBtn.prop("disabled", false).val(originalText);
+
+          if (response.status === 'success') {
+            toastr.success(response.message);
+            $("#createEnquiryForm")[0].reset();
+
+            // Hide modal
+            setTimeout(function () {
+              $("#inqueryform").modal('hide');
+              $("#inqueryform").removeClass('in').hide();
+              $("body").removeClass('modal-open');
+              $(".modal-backdrop").remove();
+            }, 200);
+          } else {
+            toastr.error(response.message);
+          }
+          if (response.csrf_token) {
+            $('input[name="csrf_46a4f21d8e9b"]').val(response.csrf_token);
+          }
+        },
+        error: function (xhr, status, error) {
+          $submitBtn.prop("disabled", false).val(originalText);
+          toastr.error("Unexpected error: " + xhr.responseText);
+        }
+      });
+    });
+
+  </script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      // Get the current URL
+      var currentUrl = window.location.href;
+      //   console.log('Current URL:', currentUrl);
+
+      // Flags for dropdowns
+      var isServicesActive = false;
+      var isHireActive = false;
+
+      // Clear all active-link classes
+      $('.nav a, details summary').removeClass('active-link');
+      //   console.log('Cleared all active-link classes');
+
+      // Normalize URLs
+      var baseUrl = 'http://localhost/positive_quadrant'; // Ensure no trailing slash
+      var normalizedCurrentUrl = currentUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
+
+    if (window.location.pathname === '/' || window.location.pathname === '/index.php') {
+  $('.nav a#home').addClass('active-link');
+  return;
+}
+
+
+      // Process other links
+      $('.nav a').each(function () {
+        var linkUrl = $(this).attr('href');
+        // console.log('Checking link:', linkUrl);
+
+        // Skip invalid or Home link
+        if (!linkUrl || linkUrl === '#' || linkUrl === 'javascript:void(0)' || $(this).attr('id') === 'home') {
+          return;
+        }
+
+        // Normalize link URL
+        var normalizedLinkUrl = linkUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
+
+        // Exact match for non-dropdown links, partial for dropdown sublinks
+        if (normalizedCurrentUrl === normalizedLinkUrl) {
+          //   console.log('Exact match for:', linkUrl);
+          $(this).addClass('active-link');
+        } else if (
+          $(this).closest('.services-dropdown-menu, .category-container, .dropdown-menu').length &&
+          normalizedCurrentUrl.includes(normalizedLinkUrl)
+        ) {
+          //   console.log('Submenu match for:', linkUrl);
+          $(this).addClass('active-link');
+        } else {
+          return;
+        }
+
+        // Flag dropdowns
+        if ($(this).closest('.services-dropdown-menu').length) {
+          isServicesActive = true;
+        }
+        if ($(this).closest('.category-container').length || $(this).closest('.dropdown-menu').length) {
+          isHireActive = true;
+        }
+
+        // Highlight mobile dropdown toggle
+        if ($(this).closest('.dropdown-menu').length) {
+          $(this).closest('.dropdown').children('a.dropdown-toggle').addClass('active-link');
+        }
+      });
+
+      // Highlight parent links
+      if (isServicesActive) {
+        $('.services-parent > a').addClass('active-link');
+        // console.log('Services parent highlighted');
+      }
+      if (isHireActive) {
+        $('.desktopHireView > a, .mobileDropdown > a').addClass('active-link');
+        // console.log('Hire parent highlighted');
+      }
+
+      // Handle base Hire page
+      if (normalizedCurrentUrl === baseUrl + '/hire') {
+        $('.desktopHireView > a, .mobileDropdown > a').addClass('active-link');
+        // console.log('Base Hire page highlighted');
+      }
+
+      //   console.log('Services active:', isServicesActive, 'Hire active:', isHireActive);
+    });
+
+
+  </script><style>
+    button[type="submit"] {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        /* Fixed width to prevent shifting */
+        height: 40px;
+        /* Fixed height */
+        font-size: 16px;
+    }
+
+    .loader {
+        width: 16px;
+        height: 16px;
+        border: 2px solid white;
+        border-radius: 50%;
+        border-top-color: transparent;
+        animation: spin 0.6s linear infinite;
+        display: inline-block;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<br/>
+
+    <div class="hireParentContainer"
+        style="background-image: url('http://localhost/positive_quadrant/admin/uploads/tech_banner_img/best-nodeJS-databases-for-web-apps_1732187131.png');">
+        <h3>HIRE A DEVELOPER</h3>
+        <h1>Hire
+            NodeJs Developer        </h1>
+        <p>Node.js is an open-source JavaScript runtime built on Chrome's V8 engine, designed for building fast, scalable network applications. It uses an event-driven, non-blocking I/O model, making it ideal for real-time applications and APIs.</p>
+        <div class="detailsContainer">
+            <div class="left">
+                <h2>
+                    <span>
+                        <i class="ri-time-line"></i>
+                    </span>1 HOUR ON-DEMAND SOFTWARE EXPERT
+                </h2>
+                <h2>
+                    <span>
+                        <i class="ri-calendar-line"></i>
+                    </span>FAST ONBOARD, ONLY IF SATISFIED
+                </h2>
+
+            </div>
+
+            <div class="right">
+                <h2>
+                    <span>
+                        <i class="ri-timer-flash-fill"></i>
+                    </span>1 WEEK RISK-FREE TRIALS
+                </h2>
+                <h2>
+                    <span>
+                        <i class="ri-time-line"></i>
+                    </span>SAVE 40% ON DEVELOPMENT COST & TIME
+                </h2>
+
+            </div>
+
+
+        </div>
+        <button>Hire
+            NodeJs Developer            Now</button>
+    </div>
+
+    <div class="clientReview">
+
+        <div class="rating">
+            <img src="http://localhost/positive_quadrant//assets/img/review.gif" alt="Clutch Logo">
+            <!-- <span class="stars">★★★★★</span>
+                <span class="reviews">31 Reviews</span> -->
+        </div>
+        <div class="statData">
+            <div class="statDataLeft">
+                <div class="stat">
+                    <span class="number">8+</span>
+                    <span class="label">Years</span>
+                </div>
+                <div class="stat">
+                    <span class="number">60+</span>
+                    <span class="label">Global Clients</span>
+                </div>
+            </div>
+            <div class="statDataRight">
+                <div class="stat">
+                    <span class="number">1000+</span>
+                    <span class="label">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="number">200+</span>
+                    <span class="label">Strong Developers</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clientsSection">
+        <h3>Trusted By</h3>
+        <h1>Our Clients</h1>
+        <div class="clientsImages">
+            <div class="image-container">
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/new_img/alcon.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/new_img/alcon.png" alt="Alcon" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/new_img/bank_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/new_img/bank_logo.png" alt="Bank Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/new_img/canara_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/new_img/canara_logo.jpg" alt="Canara Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/abbott.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/abbott.png" alt="Abbott" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/client.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/client.jpeg" alt="Client" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/client2.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/client2.jpeg" alt="Client 2" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/crezvatic.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/crezvatic.png" alt="Crezvatic" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/ebrandz.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/ebrandz.png" alt="Ebrandz" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/toggle.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/toggle.png" alt="Toggle" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/sun_pharma.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/sun_pharma.png" alt="Sun Pharma" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/abbott.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/abbott.png" alt="Abbott Duplicate" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/flexi-logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/flexi-logo.png" alt="Flexi" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/idolize.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/idolize.jpeg" alt="Idolize" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/jklogo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/jklogo.jpg" alt="JK Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/logo-sbfc.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/logo-sbfc.png" alt="SBFC Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/ourpartner1.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/ourpartner1.png" alt="Our Partner" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/pharmasquire_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/pharmasquire_logo.png" alt="Pharma Squire" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/promethes_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/promethes_logo.png" alt="Promethes" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/public.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/public.png" alt="Public" class="lazyload img-responsive">
+                </picture>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="text-section">
+            <h2 class="pq_h2 section-heading pq_left">Hire Dedicated
+                NodeJs Developer            </h2>
+            <p class="pq_p section-paragraph">Node.js is a powerful, open-source runtime environment that allows developers to run JavaScript code outside the browser, typically for building server-side applications. It is built on the V8 JavaScript engine, providing fast performance for handling numerous concurrent connections. Node.js utilizes an event-driven, non-blocking I/O model, which makes it highly efficient for building real-time applications, such as chat apps or APIs. With its large package ecosystem (npm), Node.js enables easy integration of third-party modules and libraries. It is widely used for building scalable applications, microservices, and server-side applications in JavaScript.</p>
+        </div>
+        <div class="image-section">
+
+            <img 
+  data-src="http://localhost/positive_quadrant/admin/uploads/tech_main_img/1670687859701_1732187131.png" 
+  alt="NodeJs Developer" 
+  class="section-image lazyload" 
+  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" 
+/>
+
+        </div>
+    </div>
+
+    <div class="call_banner">
+        <div class="banner-content">
+            <h1 class="pq_h1" style="color: white;">Arrange a Call Now & Benefit From a 40-hour Risk-free Trial, With Zero Commitment.</h1>
+            <p class="pq_p " style="text-align: center;color:white;">Fast onboarding, guaranteed satisfaction. Explore multiple industry expertise. NDA protected.</p>
+            <button class="hire-button">Hire Your
+                NodeJs Developer                Confidently</button>
+        </div>
+    </div>
+
+    <div class="whyChooseus">
+        <h1>Why Every Company Chooses Our Solutions</h1>
+        <div class="benefits-container">
+            <div class="benefit-section">
+                <ul>
+                    <li>
+                        <span class="checkmark"></span>
+                        1 Hour Hiring Developer Policy
+                    </li>
+                    <li>
+                        <span class="checkmark"></span>
+                        Zero Developer Backout
+                    </li>
+                    <li>
+                        <span class="checkmark"></span>
+                        30+ Technology Expertise
+                    </li>
+                </ul>
+            </div>
+
+            <div class="benefit-section">
+                <ul>
+                    <li>
+                        <span class="checkmark"></span>
+                        40 Hours Risk-Free Trial
+                    </li>
+                    <li>
+                        <span class="checkmark"></span>
+                        Regular Client Updates
+                    </li>
+                    <li>
+                        <span class="checkmark"></span>
+                        Dedicated Project Manager
+                    </li>
+                </ul>
+            </div>
+
+            <div class="benefit-section">
+                <ul>
+                    <li>
+                        <span class="checkmark"></span>
+                        Extremely Competitive Costs
+                    </li>
+                    <li>
+                        <span class="checkmark"></span>
+                        Flexible Contracts
+                    </li>
+                    <li>
+                        <span class="checkmark"></span>
+                        Hassle-Free Design & Development
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="hero">
+        <h1 class="pq_h1" style="color: white;">Need Bug-free Software Development? Hire Our Expert
+            NodeJs Developer            and Save 40%
+            on Costs.
+        </h1>
+        <p class="pq_p " style="text-align: center;color:white;">Confidentiality assured through legal agreements. Round-the-clock assistance spanning various time zones.</p>
+        <button>Now Let's Talk About Your Project</button>
+    </div>
+
+
+    <div class="features">
+        <h1>Technical Expertise of Our
+            NodeJs Developer        </h1>
+
+                                    <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Plugins</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    Express                                </li>
+                                                                                                                <li>
+                                    Mongoose                                </li>
+                                                                                                                <li>
+                                    Passport.js                                </li>
+                                                                                                                <li>
+                                    Socket.io                                </li>
+                                                                                                                <li>
+                                    Sequelize                                </li>
+                                                                                                                <li>
+                                    Nodemon                                </li>
+                                                                                                                <li>
+                                    Multer                                </li>
+                                                                                                                <li>
+                                    Bcrypt.js                                </li>
+                                                                                                                <li>
+                                    Winston                                </li>
+                                                                                                                <li>
+                                    Cors                                </li>
+                                                                                                                <li>
+                                    Joi                                </li>
+                                                                                                                <li>
+                                    EJS                                </li>
+                                                                                                                <li>
+                                    Pug                                </li>
+                                                                        </ul>
+                </div>
+                            <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Frameworks</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    Express.js                                </li>
+                                                                                                                <li>
+                                    Koa.js                                </li>
+                                                                                                                <li>
+                                    Hapi.js                                </li>
+                                                                                                                <li>
+                                    NestJS                                </li>
+                                                                                                                <li>
+                                    Sails.js                                </li>
+                                                                                                                <li>
+                                    LoopBack                                </li>
+                                                                                                                <li>
+                                    Next.js                                </li>
+                                                                                                                <li>
+                                    Meteor.js                                </li>
+                                                                        </ul>
+                </div>
+                            <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Tools &amp; Utilities
+</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    NPM                                </li>
+                                                                                                                <li>
+                                    Yarn                                </li>
+                                                                                                                <li>
+                                    Postman                                </li>
+                                                                                                                <li>
+                                    Docker                                </li>
+                                                                                                                <li>
+                                    Visual Studio Code                                </li>
+                                                                                                                <li>
+                                    Webpack                                </li>
+                                                                                                                <li>
+                                    Babel                                </li>
+                                                                                                                <li>
+                                    PM2                                </li>
+                                                                                                                <li>
+                                    Jest                                </li>
+                                                                                                                <li>
+                                    Mocha                                </li>
+                                                                                                                <li>
+                                    Supertest                                </li>
+                                                                        </ul>
+                </div>
+                            <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Databases</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    MongoDB                                </li>
+                                                                                                                <li>
+                                    MySQL                                </li>
+                                                                                                                <li>
+                                    PostgreSQL                                </li>
+                                                                                                                <li>
+                                    SQLite                                </li>
+                                                                                                                <li>
+                                    Redis                                </li>
+                                                                                                                <li>
+                                    CouchDB                                </li>
+                                                                                                                <li>
+                                    MariaDB                                </li>
+                                                                                                                <li>
+                                    Firebase                                </li>
+                                                                        </ul>
+                </div>
+                            <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Design</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    EJS                                </li>
+                                                                                                                <li>
+                                    Pug                                </li>
+                                                                                                                <li>
+                                    Handlebars                                </li>
+                                                                                                                <li>
+                                    Bootstrap                                </li>
+                                                                                                                <li>
+                                    Tailwind CSS                                </li>
+                                                                                                                <li>
+                                    Materialize                                </li>
+                                                                        </ul>
+                </div>
+                            <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Deployment</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    Heroku                                </li>
+                                                                                                                <li>
+                                    AWS Elastic Beanstalk                                </li>
+                                                                                                                <li>
+                                    Docker                                </li>
+                                                                                                                <li>
+                                    Kubernetes                                </li>
+                                                                                                                <li>
+                                    DigitalOcean                                </li>
+                                                                                                                <li>
+                                    Google Cloud Platform                                </li>
+                                                                                                                <li>
+                                    AWS Lambda                                </li>
+                                                                                                                <li>
+                                    Netlify                                </li>
+                                                                                                                <li>
+                                    Vercel                                </li>
+                                                                        </ul>
+                </div>
+                            <div class="section">
+                    <div class="section-header">
+                        <!-- <span class="icon">🌟</span> -->
+                        <h2>Management</h2>
+                    </div>
+                    <ul>
+                                                                                    <li>
+                                    Jira                                </li>
+                                                                                                                <li>
+                                    Trello                                </li>
+                                                                                                                <li>
+                                    Asana                                </li>
+                                                                                                                <li>
+                                    GitLab                                </li>
+                                                                                                                <li>
+                                    Bitbucket                                </li>
+                                                                        </ul>
+                </div>
+                        </div>
+
+
+    <div class="ringPart">
+        <h1>Hire a Top
+            NodeJs Developer            in 1 Hour
+        </h1>
+
+        <!-- Desktop Image -->
+        <picture class="lazyload">
+            <!-- WebP version -->
+            <source data-srcset="http://localhost/positive_quadrant/assets/img/onboarding-infographic-updated-new.webp" type="image/webp">
+            
+            <!-- SVG fallback -->
+            <img 
+                id="desktop-ring-img"
+                data-src="http://localhost/positive_quadrant/noWebpAssets/assets/img/onboarding-infographic-updated-new.svg" 
+                alt="" 
+                class="lazyload" 
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            />
+        </picture>
+
+        <!-- Mobile Image -->
+        <picture class="lazyload">
+            <source data-srcset="http://localhost/positive_quadrant/assets/img/onboardin1hrmobile.webp" type="image/webp">
+            
+            <img 
+                id="mobile-ring-img"
+                data-src="http://localhost/positive_quadrant/noWebpAssets/assets/img/onboardin1hrmobile.jpg" 
+                alt="" 
+                class="lazyload" 
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            />
+        </picture>
+
+
+    </div>
+
+   <div class="faq-section">
+        <h3>FAQ's</h3>
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-item">
+            <h3 class="faq-question">
+                40 Hours risk-free trials completely free?
+                <span class="icon">+</span>
+            </h3>
+            <p class="faq-answer">
+                Our 40-hour risk-free trial period is absolutely free. You can assess the necessary developer throughout
+                these 40 hours to determine whether he fits your project requirements well.
+            </p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">
+                What is your payment method after Hiring?
+                <span class="icon">+</span>
+            </h3>
+            <p class="faq-answer">
+                Once you have hired a developer of your choice you can pay the cost via wire transfer debit or credit
+                card.
+            </p>
+        </div>
+        <!-- Add more faq-item sections as needed -->
+    </div>
+
+
+    <div id="contactUs" class="contactUs">
+        <div class="left-section">
+            <h2>Step Into the Future of Innovative</h2>
+            <h1>Software Development &
+                <br>
+                IT Outsourcing
+            </h1>
+            <p>Utilize the advanced expertise of Positive Quadrant to confidently develop, implement, test, and maintain
+                future-ready software, web, and mobile applications.</p>
+            <h3>Join The Elite Force</h3>
+            <div class="client-logos">
+
+            <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/new_img/alcon.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/new_img/alcon.png" alt="Alcon" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/new_img/bank_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/new_img/bank_logo.png" alt="Bank Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/new_img/canara_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/new_img/canara_logo.jpg" alt="Canara Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/abbott.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/abbott.png" alt="Abbott" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/client.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/client.jpeg" alt="Client" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/client2.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/client2.jpeg" alt="Client 2" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/crezvatic.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/crezvatic.png" alt="Crezvatic" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/ebrandz.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/ebrandz.png" alt="Ebrandz" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/toggle.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/toggle.png" alt="Toggle" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/sun_pharma.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/sun_pharma.png" alt="Sun Pharma" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/abbott.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/abbott.png" alt="Abbott Duplicate" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/flexi-logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/flexi-logo.png" alt="Flexi" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/idolize.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/idolize.jpeg" alt="Idolize" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/jklogo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/jklogo.jpg" alt="JK Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/logo-sbfc.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/logo-sbfc.png" alt="SBFC Logo" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/ourpartner1.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/ourpartner1.png" alt="Our Partner" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/pharmasquire_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/pharmasquire_logo.png" alt="Pharma Squire" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/promethes_logo.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/promethes_logo.png" alt="Promethes" class="lazyload img-responsive">
+                </picture>
+
+                <picture class="lazyload">
+                    <source data-srcset="http://localhost/positive_quadrant/assets/placement_partner/public.webp" type="image/webp">
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/placement_partner/public.png" alt="Public" class="lazyload img-responsive">
+                </picture>
+
+            </div>
+
+
+
+        </div>
+
+        <!-- Right Section - Consultation Form -->
+        <div class="right-section">
+            <h3>Schedule a Free Consultation</h3>
+            <form action="http://localhost/positive_quadrant/Home/saveData" method="post" class="contact_frm" id="createHireForm">
+                <input type="hidden" name="submitted_from" value="http://localhost/positive_quadrant/hire-nodejs-developer">
+
+                <input type="text" name="website" style="display:none">
+
+                <label for="name">Name *</label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+
+
+                <label for="email">Company Email *</label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+
+
+               
+
+            <label for="phone">Phone *</label>
+            <input type="number" name="phone" id="phone" placeholder="Phone" required>
+
+
+            <select name="services" id="services" onchange="change_myselect(this.value)" required>
+                <option value="">
+                    Select Services
+                </option>
+                <option value="Development"> Development </option>
+                <option value="Consultancy"> Consultancy </option>
+                <option value="Training"> Training </option>
+                <option value="Manufacturing"> Manufacturing </option>
+                <option value="Technology"> Technology </option>
+                <option value="Software_Products"> Software Products </option>
+
+                <option value="Other"> Other </option>
+            </select>
+
+
+            <label for="message">Message </label>
+            <textarea type="text" placeholder="Message" name="message"></textarea>
+            <input type="hidden" name="services2" id="services2" value="">
+            <div class="g-recaptcha" data-sitekey="6LdL-90rAAAAAJ3FNQUinyAyIu0RigI70GuhzrTr"></div>           
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+<script>
+    $("#createHireForm").submit(function (event) {
+        event.preventDefault(); // Prevent default form submission
+
+        var formData = new FormData(this);
+        formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
+        formData.append('csrf_46a4f21d8e9b', 'fc71128742b3cef1c7765c234860e0c4');
+        var $submitBtn = $("button[type='submit']"); // Select the submit button
+
+        // Store original button text and replace it with a loader
+        var originalText = $submitBtn.html();
+        $submitBtn.prop("disabled", true).html('<span class="loader"></span><span class="hidden">' + originalText + '</span>');
+
+        $.ajax({
+            url: "http://localhost/positive_quadrant/Home/saveData",
+            data: formData,
+            type: "post",
+            processData: false,
+            contentType: false,
+            dataType: 'json', // Expect JSON response
+            success: function (response) {
+                // Restore original button text and enable button
+                $submitBtn.prop("disabled", false).html(originalText);
+
+                if (response.status === 'success') {
+                    $('#createHireForm')[0].reset();
+                    toastr.success(response.message); // Show success message
+                } else if (response.status === 'error') {
+                    toastr.error(response.message); // Show error message
+                }
+                if (response.csrf_token) {
+                    $('input[name="csrf_46a4f21d8e9b"]').val(response.csrf_token);
+                }
+            },
+            error: function (xhr, status, error) {
+                // Restore original button text and enable button
+                $submitBtn.prop("disabled", false).html(originalText);
+
+                // Display error details for debugging
+                toastr.error("Unexpected error: " + xhr.responseText);
+            }
+        });
+    });
+
+</script>
+
+
+
+
+<script>
+    function redirectToContactUs() { // Scroll to the contactUs section smoothly
+        document.getElementById('contactUs').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // Attach click event listeners to all buttons on the page
+    document.querySelector('.hireParentContainer button').addEventListener('click', function () {
+        redirectToContactUs()
+    })
+
+    document.querySelector('.hire-button').addEventListener('click', function () {
+        redirectToContactUs()
+    })
+
+    document.querySelector('.hero button').addEventListener('click', function () {
+        redirectToContactUs()
+    })
+
+
+    document.querySelectorAll(".faq-question").forEach((question) => {
+        question.addEventListener("click", () => {
+            const faqItem = question.parentElement;
+            faqItem.classList.toggle("active");
+
+            // Close other open items (optional)
+            document.querySelectorAll(".faq-item").forEach((item) => {
+                if (item !== faqItem) {
+                    item.classList.remove("active");
+                }
+            });
+        });
+    });
+</script><a href="" id="movetop" onclick="toTop()"><img src="http://localhost/positive_quadrant/assets/img/arrow_top.webp"></a>
+<style>
+    #movetop {
+        position: fixed;
+        width: 39px;
+        bottom: 1%;
+        right: 2px;
+    }
+
+    #movetop {
+        transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -webkit-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        opacity: 0.8;
+        display: none;
+        cursor: pointer;
+    }
+
+    #movetop:hover {
+        opacity: 1;
+    }
+
+    @keyframes glowEffectTelephone {
+        0% {
+            /* background: #ff284d; */
+            box-shadow: 0 0 6px green;
+        }
+
+        50% {
+            /* background: pink; */
+            /* Glow effect gets stronger */
+            box-shadow: 0 0 15px green;
+        }
+
+        100% {
+            /* background: #ff284d; */
+            box-shadow: 0 0 6px green;
+        }
+    }
+    @keyframes glowEffectWhatsapp {
+        0% {
+            background: #00d757;
+        }
+
+        50% {
+            background:rgb(2, 134, 55);
+        }
+
+        100% {
+            background: #00d757;
+        }
+    }
+
+
+    .telephone {
+        position: fixed;
+        top: 45%;
+        /* Adjust as needed */
+        right: 2px;
+        width: 50px;
+        height: 50px;
+        /* aspect-ratio: 3/2; */
+        height: auto;
+        /*border: solid 2px green;*/
+        border-radius: 50%;
+
+        animation: glowEffectTelephone 1.5s ease-in-out infinite alternate;
+        /* Animation */
+        z-index: 9999999999;
+
+
+    }
+
+    .whatsapp {
+        position: fixed;
+        top: 60%;
+        width: 50px;
+        height: 50px;
+
+        right: 2px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 20px;
+        z-index: 9999999999;
+        animation: glowEffectWhatsapp 1.5s ease-in-out infinite alternate;
+        /* Animation */
+
+    }
+
+
+    .whatsapp:hover {
+        color: #fff;
+    }
+
+    .my-float {
+        margin-top: 16px;
+    }
+
+    .tidio-5hhiig {
+        display: none !important;
+    }
+
+    .awesome-iframe .widget-position-right.bubbleWithLabel .widgetLabel {
+        display: none !important;
+    }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $("#movetop").hide();
+        $(function toTop() {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#movetop').fadeIn();
+                } else {
+                    $('#movetop').fadeOut();
+                }
+            });
+
+            $('#movetop').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+
+    });
+</script>
+<div class="footer" style="visibility: visible; animation-name: fadeInUp;">
+    <div class="container">
+        <div class="row footerInfo">
+            <a href="tel:917219623991" target="_blank">
+                <picture>
+                    <!-- WebP first -->
+                    <source data-srcset="http://localhost/positive_quadrant/assets/img/phone.webp" type="image/webp">
+
+                    <!-- PNG fallback -->
+                    <img data-src="http://localhost/positive_quadrant/noWebpAssets/assets/img/phone.png" 
+                        class="telephone lazyload" 
+                        alt="Telephone">
+                </picture>            
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=917219623991" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="positiveFooter">
+    <div class="footerLeft">
+        <picture>
+            <!-- WebP source -->
+            <source srcset="http://localhost/positive_quadrant//assets/img/new_logo.webp" type="image/webp">
+            <!-- Fallback image -->
+            <img src="http://localhost/positive_quadrant/noWebpAssets/assets/img/new_logo.png" alt="Company Logo">
+        </picture>
+        <!-- <h3>Positive quadrant</h3> -->
+        <p>At Positive Quadrant Technologies we are a IT Company which brings and develops the best software
+            development,digital services for clients ranging from reale-state,pharmaceuticals,banking
+            &finance,ecommerce ,industrial solutions,public sectors & government at the best prices.
+            .</p>
+    </div>
+    <div class="footerRight">
+        <div class="footerRightLeft">
+            <div class="footer_quick_links">
+                <h3>Quick Links</h3>
+                <a href="http://localhost/positive_quadrant/">Home</a>
+                <a href="http://localhost/positive_quadrant/about-us">About</a>
+                <!-- <a href="http://localhost/positive_quadrant/android-app-development-&-web-development">Services</a> -->
+                <a href="http://localhost/positive_quadrant/careers" class="" id="career">Careers</a>
+                <a href="http://localhost/positive_quadrant/contact-us">Contact Us</a>
+            </div>
+        </div>
+        <div class="footerRightMiddle">
+            <div class="footer_quick_links">
+                <h3>Our Services</h3>
+
+                <a href="http://localhost/positive_quadrant/it-development">Technology</a>
+                <a href="http://localhost/positive_quadrant/it-training-and-placement">Trainings</a>
+                <a href="http://localhost/positive_quadrant/software-products">Software Products</a>
+                <a href="http://localhost/positive_quadrant/it-consultancy">Industries</a>
+            </div>
+        </div>
+        <div class="footerRightRight">
+            <div class="footer_quick_links">
+                <h3>Contact Us</h3>
+                <div class="address">
+                    <ul class="list-unstyled">
+                        <li>
+
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel:7219623991">
+                                <span>
+                                    7219623991
+                                </span>
+                            </a>
+
+
+                        </li>
+                        <li>
+
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+
+                            <a href="mailto:info@positivequadrant.in">
+                                <span>
+                                    info@positivequadrant.in
+                                </span>
+                            </a>
+
+
+                        </li>
+                        <li>
+
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span style="color: white;">
+                                Ambernath West , Thane–421501
+                            </span>
+
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="copy_right text-center">
+    <div class="container">
+        <p>©
+            2016
+            Positive Quadrant Technologie LLP.
+        </p>
+    </div>
+</div>
+
+<!--link of the chatbot-->
+<!--<script src="//code.tidio.co/wufsp5j7yklsazepemx6tfch1zjhv5rw.js" async></script>-->
+<!--link of the chatbot-->
+
+
+
+<script>
+    particlesJS("inner_main_header", {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff" // Particle color
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 100,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+</script>
+</body>
+
+</html>

@@ -167,7 +167,7 @@
             <div class="card">
 
                 <div class="card-body bg-light">
-                    <form id="jobApplicationForm" method="POST" enctype="multipart/form-data">
+                    <form action="<?= base_url('Home/submit_job_application') ?>" id="jobApplicationForm" method="POST" enctype="multipart/form-data">
                         <input type="hidden" id="job_id" name="job_id">
                         <input type="hidden" id="job_title" name="job_title">
 
@@ -219,6 +219,8 @@
                                 <input type="file" class="form-control" id="resume" name="resume" required>
                             </div>
                         </div>
+
+                        <div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_SITE_KEY ?>"></div>           
 
                         <!-- Submit Button -->
                         <div class="text-center mt-4">
@@ -292,8 +294,10 @@
             $("#loader").show();
 
             // Create FormData object
-            var formData = new FormData(this);
-            formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
+                var formData = new FormData(this);
+                formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
+                formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
+
             
 
             // Perform AJAX request

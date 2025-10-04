@@ -524,7 +524,7 @@
         <!-- Right Section - Consultation Form -->
         <div class="right-section">
             <h3>Schedule a Free Consultation</h3>
-            <form class="contact_frm" id="createHireForm">
+            <form action="<?= base_url('Home/saveData') ?>" method="post" class="contact_frm" id="createHireForm">
                 <input type="hidden" name="submitted_from" value="<?= current_url() ?>">
 
                 <input type="text" name="website" style="display:none">
@@ -561,6 +561,7 @@
             <label for="message">Message </label>
             <textarea type="text" placeholder="Message" name="message"></textarea>
             <input type="hidden" name="services2" id="services2" value="">
+            <div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_SITE_KEY ?>"></div>           
             <button type="submit">Submit</button>
         </form>
     </div>
@@ -575,8 +576,8 @@
         event.preventDefault(); // Prevent default form submission
 
         var formData = new FormData(this);
+        formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
         formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
-
         var $submitBtn = $("button[type='submit']"); // Select the submit button
 
         // Store original button text and replace it with a loader

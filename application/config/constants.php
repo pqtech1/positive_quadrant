@@ -104,3 +104,7 @@ define('CC_EMAIL', 'naimishdwivedi1307@gmail.com,uttamvishwakarma99@gmail.com,ra
 defined('EMAIL_ADMIN_TO') or define('EMAIL_ADMIN_TO', 'naimishdwivedi1307@gmail.com');
 defined('EMAIL_ADMIN_BCC') or define('EMAIL_ADMIN_BCC', 'svskumar932@gmail.com, uttamvishwakarma99@gmail.com, ykvishwakarma555@gmail.com');
 
+// RECAPTCHA 
+defined('RECAPTCHA_SECRET_KEY') or define('RECAPTCHA_SECRET_KEY', '6LdL-90rAAAAAKVSu6u8ZtQ6L8vy7iFzcJ_pqr_c');
+defined('RECAPTCHA_SITE_KEY') or define('RECAPTCHA_SITE_KEY', '6LdL-90rAAAAAJ3FNQUinyAyIu0RigI70GuhzrTr');
+

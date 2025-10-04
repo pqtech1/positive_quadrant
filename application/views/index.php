@@ -1991,7 +1991,7 @@
                         Everything IT — from strategy and design to support and solutions. Trusted by those who prefer
                         the best.
                     </p>
-                    <form class="contact_frm" id="createIndexForm">
+                    <form action="<?= base_url('Home/saveData') ?>" method="post" class="contact_frm" id="createIndexForm">
                         <input type="hidden" name="submitted_from" value="<?= current_url() ?>">
 
                         <input type="text" name="website" style="display:none">
@@ -2029,12 +2029,11 @@
 
                         <input type="hidden" name="services2" id="services2" value="">
 
-                        <div class="col-md-12 text-center">
-                            <button type="submit" id="singlebutton" name="singlebutton" class="btn btn-info" style="padding: 7px 44px;margin-top:17px; background-color: #1a9c9b;
-border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
+                        <div class="col-md-12 text-center" >
+                            <div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_SITE_KEY ?>"></div>
+                            <button type="submit" id="singlebutton" name="singlebutton" class="btn btn-info" style="padding: 7px 44px;margin-top:17px; background-color: #1a9c9b;border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
                                 SUBMIT
                             </button>
-
 
                         </div>
                     </form>
@@ -2536,67 +2535,76 @@ border-radius: 1.64rem 0 1.64rem 0;border-color: #1a9c9b;">
 
 
 <script>
-    $("#createIndexForm").submit(function (event) {
-        event.preventDefault(); // Prevent default form submission
+$("#createIndexForm").submit(function (event) {
+    event.preventDefault(); // Stop normal form submission
 
-        var formData = new FormData(this);
-        formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
-        var $submitBtn = $("#singlebutton");
+    var recaptchaResponse = grecaptcha.getResponse(); // ✅ get token
 
-        // Store original text and change it to 'Sending...'
-        var originalText = $submitBtn.html();
-        $submitBtn.prop("disabled", true).html("Sending...");
+    if (recaptchaResponse.length === 0) {
+        toastr.error("Please verify you are not a robot.");
+        return false;
+    }
 
-        // Optional loader in center of screen
-        var loader = $('<div>', {
-            id: 'ajax-loader',
-            text: 'Processing...',
-            css: {
-                position: 'fixed',
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
-                background: 'rgba(0, 0, 0, 0.7)',
-                color: 'white',
-                padding: '10px 20px',
-                borderRadius: '5px',
-                zIndex: '9999',
-                fontSize: '16px',
-                fontWeight: 'bold',
-                textAlign: 'center',
+    var formData = new FormData(this);
+    formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
+    formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
+
+    var $submitBtn = $("#singlebutton");
+    var originalText = $submitBtn.html();
+    $submitBtn.prop("disabled", true).html("Sending...");
+
+    var loader = $('<div>', {
+        id: 'ajax-loader',
+        text: 'Processing...',
+        css: {
+            position: 'fixed',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            background: 'rgba(0, 0, 0, 0.7)',
+            color: 'white',
+            padding: '10px 20px',
+            borderRadius: '5px',
+            zIndex: '9999',
+            fontSize: '16px',
+            fontWeight: 'bold',
+            textAlign: 'center',
+        }
+    }).appendTo('body');
+
+    $.ajax({
+        url: "<?= base_url('Home/saveData') ?>",
+        data: formData,
+        type: "POST",
+        processData: false,
+        contentType: false,
+        dataType: 'json',
+        success: function (response) {
+            $('#ajax-loader').remove();
+            $submitBtn.prop("disabled", false).html(originalText);
+
+            if (response.status === 'success') {
+                $('#createIndexForm')[0].reset();
+                toastr.success(response.message);
+                grecaptcha.reset(); // ✅ reset reCAPTCHA after success
+            } else {
+                toastr.error(response.message);
+                grecaptcha.reset(); // ✅ reset after failure
             }
-        }).appendTo('body');
 
-        $.ajax({
-            url: "<?php echo base_url('Home/saveData'); ?>",
-            data: formData,
-            type: "post",
-            processData: false,
-            contentType: false,
-            dataType: 'json',
-            success: function (response) {
-                $('#ajax-loader').remove();
-                $submitBtn.prop("disabled", false).html(originalText);
-
-                if (response.status === 'success') {
-                    $('#createIndexForm')[0].reset();
-                    toastr.success(response.message);
-                } else if (response.status === 'error') {
-                    toastr.error(response.message);
-                }
-                if (response.csrf_token) {
-                    $('input[name="<?= $this->security->get_csrf_token_name(); ?>"]').val(response.csrf_token);
-                }
-            },
-            error: function (xhr, status, error) {
-                $('#ajax-loader').remove();
-                $submitBtn.prop("disabled", false).html(originalText);
-                toastr.error("Unexpected error: " + xhr.responseText);
+            if (response.csrf_token) {
+                $('input[name="<?= $this->security->get_csrf_token_name(); ?>"]').val(response.csrf_token);
             }
-        });
+        },
+        error: function (xhr) {
+            $('#ajax-loader').remove();
+            $submitBtn.prop("disabled", false).html(originalText);
+            toastr.error("Unexpected error: " + xhr.responseText);
+        }
     });
-
+});
 </script>
+
 
 
 <script>

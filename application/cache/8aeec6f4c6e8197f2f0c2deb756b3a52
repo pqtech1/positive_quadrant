@@ -1,15 +1,15 @@
-a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
+a:2:{s:6:"expire";i:1759578577;s:7:"headers";a:0:{}}ENDCI---><html>
 
 <head>
 
   <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
-  <title>Professional Training Programs | Positive Quadrant Technologies LLP</title>
+  <title>Career Opportunities | Positive Quadrant Technologies LLP</title>
 
   <meta name="description"
-    content="Enhance your skills with our professional training programs. Positive Quadrant Technologies LLP offers high-quality training in various technical fields." />
+    content="Join the team at Positive Quadrant Technologies LLP! Explore career opportunities, job openings, and learn how you can contribute to our innovative tech solutions." />
 
   <meta name="keywords"
-    content="professional training, tech training, IT training programs, Positive Quadrant training, software development training, IT certification programs, tech skill development, programming training, corporate training, online tech courses, IT workshops, technical training services, career development programs, tech skills enhancement, technology training services" />
+    content="career opportunities, job openings, tech jobs, Positive Quadrant careers, work with us, IT job opportunities, software development careers, technology careers, join our team, tech talent hiring, job vacancies, software engineer jobs, career in technology, IT recruitment, tech career growth, job opportunities at Positive Quadrant" />
 
   <meta name="author" content="Positive Quadrant Technologies LLP">
 
@@ -74,10 +74,12 @@ a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
   <link rel="stylesheet" type="text/css" href="http://localhost/positive_quadrant/assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="http://localhost/positive_quadrant/assets/css/slick-theme.css" />
 
-<!--lazysizes cdn-->
+  <!--lazysizes cdn-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
+  <!-- Load reCAPTCHA script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/lenis@latest"></script> -->
@@ -120,13 +122,13 @@ a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
 
 
 
-  <link href="http://localhost/positive_quadrant/assets/vendors/css.css?v=1759494995" rel="stylesheet">
-  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/style.css?v=1759494995" type="text/css">
-  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/hire_style.css?v=1759494995"
+  <link href="http://localhost/positive_quadrant/assets/vendors/css.css?v=1759577977" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/style.css?v=1759577977" type="text/css">
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/hire_style.css?v=1759577977"
     type="text/css">
-  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/hire_style_responsive.css?v=1759494995"
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/hire_style_responsive.css?v=1759577977"
     type="text/css">
-  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/responsive.css?v=1759494995"
+  <link rel="stylesheet" href="http://localhost/positive_quadrant/assets/css/responsive.css?v=1759577977"
     type="text/css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -1775,7 +1777,7 @@ a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
             <img src="http://localhost/positive_quadrant//assets/img/loader.gif">
           </div>
           <div class="inqueryfrom_popup">
-            <form method="post" id="createEnquiryForm">
+            <form action="http://localhost/positive_quadrant/Home/saveData" method="post" id="createEnquiryForm">
               <input type="text" name="website" style="display:none">
 
               <input type="text" placeholder="Name" name="name" id="name" required>
@@ -1793,6 +1795,7 @@ a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
                 <option value="Other">Other</option>
               </select>
               <textarea placeholder="Message" name="message"></textarea>
+              <div class="g-recaptcha" data-sitekey="6LdL-90rAAAAAJ3FNQUinyAyIu0RigI70GuhzrTr"></div>
               <input type="submit" class="inqpop_submit" value="SUBMIT">
             </form>
           </div>
@@ -1823,9 +1826,14 @@ a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
   <script>
     $("#createEnquiryForm").submit(function (event) {
       event.preventDefault();
+    if (recaptchaResponse.length === 0) {
+        toastr.error("Please verify you are not a robot.");
+        return false;
+    }
 
       var formData = new FormData(this);
-      formData.append('csrf_46a4f21d8e9b', '470fb6caca50265f957805406bf19374');
+      formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
+      formData.append('csrf_46a4f21d8e9b', 'fc71128742b3cef1c7765c234860e0c4');
       var $submitBtn = $("#createEnquiryForm input[type='submit']");
       var originalText = $submitBtn.val();
 
@@ -1957,2475 +1965,340 @@ a:2:{s:6:"expire";i:1759495595;s:7:"headers";a:0:{}}ENDCI---><html>
     });
 
 
-  </script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<!-- Toastr CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<!-- jQuery (If not already included) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Toastr JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 <style type="text/css">
-  #services {
-    color: #1a9c9b;
-  }
-
-  #services.hvr-underline-from-center:before {
-    left: 0;
-    right: 0;
-  }
-
-  .star-rating {
-    display: inline-block;
-    font-size: 1.2rem;
-    /* Adjust star size */
-    color: gold;
-    /* Color for filled stars */
-  }
-
-  /* Full stars */
-  .star-rating .fas.fa-star {
-    color: #C59E01;
-    /* Full star color */
-  }
-
-  /* Half stars */
-  .star-rating .fas.fa-star-half-alt {
-    color: #C59E01;
-  }
-
-  /* Empty stars */
-  .star-rating .far.fa-star {
-    color: gray;
-    /* Empty star color */
-  }
-
-  .batchname li.active {
-    background-color: #ff7043;
-    /* Highlight color */
-    color: white;
-    /* Text color for the highlighted item */
-    border-radius: 4px;
-    /* Optional */
-    font-weight: bold;
-    /* Optional */
-  }
-
-  .batchname li.active a {
-    background-color: #ff7043;
-    /* Highlight color */
-    color: white;
-    /* Text color for the highlighted item */
-    border-radius: 4px;
-    /* Optional */
-    font-weight: bold;
-    /* Optional */
-  }
-
-  .batchname li.active+i {
-    color: #ff7043;
-  }
-  
-     .slider-wrapper {
-      overflow: hidden;
-      position: relative;
-      max-width: 100%;
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
     }
 
-    .slider-track {
-      display: flex;
-      transition: transform 0.6s ease;
-      will-change: transform;
+    #career {
+        color: #1a9c9b;
     }
 
-    .slider-item {
-      flex: 0 0 100vw;
-      max-width: 100vw;
-      padding: 20px;
-      box-sizing: border-box;
+    #career.hvr-underline-from-center:before {
+        left: 0;
+        right: 0;
     }
 
-    .slider-item-inner {
-      background: #fff;
-      border-radius: 10px;
-      padding: 30px 20px;
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      height: 100%;
+    .hidden {
+        display: none;
     }
 
-    .slider-item img {
-      width: 60px;
-      margin-bottom: 15px;
+    .popupContainer {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
     }
 
-    .slider-item h3 {
-      font-size: 18px;
-      margin-bottom: 10px;
+    .popupContent {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: max-content;
+        text-align: center;
     }
 
-    .slider-item p {
-      font-size: 14px;
-      color: #555;
+    .popupContent p {
+        padding: 2rem 0rem;
     }
 
-    @media (min-width: 992px) {
-      .slider-item {
-        flex: 0 0 30%;
-        max-width: 30%;
-      }
+
+
+    .popupContent button {
+        padding: 10px 15px;
+        background: #1a9c9b;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .popupContent button:hover {
+        background: #138d85;
+    }
+
+    .popupContent {
+        position: relative;
+        z-index: 1000;
+    }
+
+    .popupContent a {
+        color: white;
+        text-transform: none;
+    }
+
+    .closePopup {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1001;
+        font-size: 3rem;
+
+
+    }
+
+
+    .closePopup:hover {
+        color: red;
+    }
+
+
+    .form-group-custom {
+        margin-bottom: 10px;
+        /* Adjust spacing between fields */
     }
 </style>
 
-<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<div class="careerContainer">
+    <div class="careerTopContainer">
+        <div class="careerTopContainerLeft">
+            <h3>We're hiring!</h3>
+            <h1 class="pq_h1 pq_left">Be part of our mission </h1>
+            <h2 class="pq_h2">We're looking for passionate people to join us on our mission.
+                We value flat hierarchies, clear
+                communication, and full ownership and responsibility.</h2>
+        </div>
+        <div class="careerTopContainerRight">
+            <picture>
+            <!-- WebP (preferred) -->
+            <source srcset="http://localhost/positive_quadrant//assets/img/wearehiring2.webp" type="image/webp">
 
-<br/>
-<div class="container trainingPageMainContainer">
-  <div class="trainingPageMainContainerTop">
-    <div class="trainingPageMainContainerTopLeft">
-      <h2 class="pq_h2 pq_left">Unlock Your Potential with Our Expert-Led Training Programs</h2>
-      <p class="pq_p">At Positive Quadrant Technologies, we believe in empowering professionals with the skills they need to thrive
-        in the digital world. Our meticulously designed training programs cover a range of technologies, including MERN
-        Stack, MEAN Stack, WordPress, Drupal, PHP, and more, to equip you with the tools and knowledge to succeed.
-        Whether you're a beginner aiming to enter the tech industry or an experienced developer looking to upskill, our
-        hands-on, industry-relevant courses will guide you through real-world projects and challenges. Join us to take
-        your career to the next level with cutting-edge technologies and expert instructors who are committed to your
-        success.</p>
-    </div>
-    <div class="trainingPageMainContainerTopRight">
-    <picture class="lazyload">
-        <!-- WebP version -->
-        <source data-srcset="http://localhost/positive_quadrant/assets/img/trainingimage.webp" type="image/webp">
-        
-        <!-- PNG fallback -->
-        <img 
-            data-src="http://localhost/positive_quadrant/noWebpAssets/assets/img/trainingimage.png" 
-            alt="Training Image" 
-            class="lazyload img-responsive" 
-        />
-    </picture>
+            <!-- JPG fallback -->
+            <source srcset="http://localhost/positive_quadrant//assets/img/wearehiring2.jpg" type="image/jpg">
 
+            </picture>
+
+        </div>
     </div>
-  </div>
+
+    <div class="careerMiddleContainer">
+                                     <!-- Check status here -->
+                    <div class="jobOpeningCard">
+                        <div class="jobOpeningCardLeft">
+
+                            <h2>Full Stack Developer</h2>
+                            <p>Full stack developer</p>
+                            <div class="jobTypeLocation">
+                                <h2><i class="fas fa-briefcase"></i>
+                                    intern</h2>
+                                <h2><i class="fas fa-map-pin"></i>
+                                    Remote and Onsite</h2>
+                                <h2><i class="fas fa-star"></i>
+                                    0</h2>
+                                <h2><i class="fas fa-calendar"></i>
+                                    2025-09-10</h2>
+                            </div>
+                        </div>
+
+                        <div class="jobOpeningCardRight">
+                            <button class="applyButton" data-job-id="5"
+                                data-job="Full Stack Developer">
+                                Apply &#8599;
+                            </button>
+                        </div>
+                    </div>
+                 <!-- End status check -->
+                        </div>
+
 </div>
 
-
-<div class="container trainingPageMainContainerMiddle">
-  <h2>Our Courses</h2>
-  <div id="trainingPageParticlejs"></div>
-  <div class="trainingAllCoursesContainer">
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/Android1540115298.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Android App Development</h4>
-          <h5>
-            4.4            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/android-app-development"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/ogimg1540115324.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Unity Development</h4>
-          <h5>
-            4.6            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/unity-development"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/php21540115383.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>PHP</h4>
-          <h5>
-            4.6            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/php"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/ws11540115400.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>BackEnd WebServices Web APIs</h4>
-          <h5>
-            4.6            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/backend-webservices-web-apis"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/VR1540115411.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Virtual Reality And Python</h4>
-          <h5>
-            4.1            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/virtual-reality-and-python"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/codo21540115431.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Hybrid App Development </h4>
-          <h5>
-            4.7            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/hybrid-app-development-"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/1_nwOxJyhq5dBgWuXqoFTcSw1540131092.jpeg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Android Native Augmented Reality</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/android-native-augmented-reality"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/1_SSutxOFoBUaUmgeNWAPeBA1540130377.jpeg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Python</h4>
-          <h5>
-            4.3            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/python"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/virtualreality-walkthrough1540131485.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Android Native Virtual Reality</h4>
-          <h5>
-            4.7            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/android-native-virtual-reality"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/maxresdefault1540131578.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Magneto Ecommerce Platform Development</h4>
-          <h5>
-            4.1            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/magneto-ecommerce-platform-development"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/maxresdefault1540132015.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Drupal Ecommerce Platform Development</h4>
-          <h5>
-            4.9            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/drupal-ecommerce-platform-development"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/kk1540655598.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>iOS Iphone Apps Development</h4>
-          <h5>
-            4.6            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/ios-iphone-apps-development"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/node-js-main1546770979.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Node JS</h4>
-          <h5>
-            4.1            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/node-js"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/reactjs-tutorial1546771625.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>React JS</h4>
-          <h5>
-            4.2            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/react-js"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/hqdefault1546772358.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Data Science with  Python</h4>
-          <h5>
-            4.7            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/data-science-with-python"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/9a_Angular-JS-development1546772950.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Angular JS</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/angular-js"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/prod-art-aws-6001547381899.width-1200" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Amazon Web Services Cloud</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/amazon-web-services-cloud"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/prod-art-aws-6001547381735.width-1200" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Amazon Web Services Solutions Architect</h4>
-          <h5>
-            4.1            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/amazon-web-services-solutions-architect"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/prod-art-aws-6001547381823.width-1200" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Amazon Web Services System Administration</h4>
-          <h5>
-            4.9            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/amazon-web-services-system-administration"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/c1584979451.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>C Training</h4>
-          <h5>
-            4.7            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/c-training"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/C-3-More-on-C-Syntax1584979539.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>C++ Training</h4>
-          <h5>
-            4.2            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/c%2B%2B-training"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/CandCPlus1584979572.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>C And C++ Training</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/c-and-c%2B%2B-training"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/DATA-STRUCTURES-with-Python1584979652.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Data Structures And Algorithms</h4>
-          <h5>
-            4.2            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/data-structures-and-algorithms"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/dbms-logo1584979813.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>DBMS </h4>
-          <h5>
-            4.7            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/dbms-"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/net_top-650x3001584979864.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>.NET Technology </h4>
-          <h5>
-            4.2            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/.net-technology-"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/images1584980108.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Agile Methodology</h4>
-          <h5>
-            4.9            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/agile-methodology"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/ai-power-ml-driven-devops-trend1584980142.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>AI & ML </h4>
-          <h5>
-            4.2            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/ai-%26-ml-"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/1_92OdlxNqI3iChI5kNl1MFg1584980172.jpeg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>IoT Technology</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/iot-technology"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/images1584980205.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Project Management</h4>
-          <h5>
-            4.8            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/project-management"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/Tableau-Logo-PNG-HD1694185252.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Tableau</h4>
-          <h5>
-            4.8            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/tableau"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/Fullstack Development_ How To Hire Full Stack Developer_1695713183.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Full Stack Development</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/full-stack-development"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/Microsoft-Power-BI-Logo1695717410.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Power BI</h4>
-          <h5>
-            4.8            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/power-bi"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/sql logo11695716984.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>MS SQL Server</h4>
-          <h5>
-            4.5            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/ms-sql-server"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/R1697601466.jpeg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>R Programming</h4>
-          <h5>
-            4.6            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/r-programming"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/data-science-r-programming-certification-training-course1697601870.png" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Data Science with R</h4>
-          <h5>
-            4.3            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/data-science-with-r"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/0_lt2TK6YDIYPoQmFZ1697603223.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Data Science</h4>
-          <h5>
-            4            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/data-science"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-          <div class="trainingAllCoursesContainerCard">
-        <div class="courseImageContainer">
-          <img 
-  class="lazyload img-responsive" 
-  data-src="http://localhost/positive_quadrant/admin/uploads/courses/data-analyst1697604145.jpg" 
-  alt="Course Image" 
-/>
-
-        </div>
-        <div class="courseDetailContainer">
-          <h4>Data Analyst</h4>
-          <h5>
-            4.2            <div class="star-rating">
-              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>            </div>
-          </h5>
-          <h3>Mode: Online/Offline</h3>
-          <div class="buttonContainer">
-                        <a href="http://localhost/positive_quadrant/data-analyst"><button>Explore</button></a>
-          </div>
-
-        </div>
-      </div>
-      </div>
-</div>
-
-
-<div class=" container upcomingBatchParentContainerAndSchedule">
-  <h2>Upcoming Batches and Schedule</h2>
-  <div class="upcomingBatchNameAndDetail">
-    <div class="upcomingBatchName">
-              <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course2">ANDROID APP DEVELOPMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course3">UNITY DEVELOPMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course4">PHP</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course5">BACKEND WEBSERVICES WEB APIS</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course6">VIRTUAL REALITY AND PYTHON</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course7">HYBRID APP DEVELOPMENT </a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course14">ANDROID NATIVE AUGMENTED REALITY</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course13">PYTHON</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course15">ANDROID NATIVE VIRTUAL REALITY</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course16">MAGNETO ECOMMERCE PLATFORM DEVELOPMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course17">DRUPAL ECOMMERCE PLATFORM DEVELOPMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course18">IOS IPHONE APPS DEVELOPMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course19">NODE JS</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course20">REACT JS</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course21">DATA SCIENCE WITH  PYTHON</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course22">ANGULAR JS</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course23">AMAZON WEB SERVICES CLOUD</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course24">AMAZON WEB SERVICES SOLUTIONS ARCHITECT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course25">AMAZON WEB SERVICES SYSTEM ADMINISTRATION</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course27">C TRAINING</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course28">C++ TRAINING</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course29">C AND C++ TRAINING</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course30">DATA STRUCTURES AND ALGORITHMS</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course31">DBMS </a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course32">.NET TECHNOLOGY </a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course33">AGILE METHODOLOGY</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course34">AI & ML </a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course35">IOT TECHNOLOGY</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course36">PROJECT MANAGEMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course39">TABLEAU</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course40">FULL STACK DEVELOPMENT</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course42">POWER BI</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course43">MS SQL SERVER</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course44">R PROGRAMMING</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course45">DATA SCIENCE WITH R</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course46">DATA SCIENCE</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
-
-                <div class="batchname">
-
-          <li class=""><a data-toggle="tab"
-              href="#course47">DATA ANALYST</a></li>
-          <i class="fas fa-greater-than"></i>
-        </div>
+<!-- Modal Structure -->
+<div id="popupContainer" class="popupContainer hidden">
+    <div class="popupContent container-fluid">
+        <!-- Close button -->
+        <span id="closePopup" class="closePopup">&times;</span>
+        <h3 id="popupJobTitle"></h3>
+        <div class="container mt-5">
+            <div class="card">
+
+                <div class="card-body bg-light">
+                    <form action="http://localhost/positive_quadrant/Home/submit_job_application" id="jobApplicationForm" method="POST" enctype="multipart/form-data">
+                        <input type="hidden" id="job_id" name="job_id">
+                        <input type="hidden" id="job_title" name="job_title">
+
+                        <!-- <h2>5</h2> -->
+                        <!-- Name -->
+                        <div class="mt-4 mb-3 row form-group-custom">
+                            <label class="col-md-4 col-form-label">Name</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="mt-4 mb-3 row form-group-custom">
+                            <label class="col-md-4 col-form-label">Email</label>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="mt-4 mb-3 row form-group-custom">
+                            <label class="col-md-4 col-form-label">Phone</label>
+                            <div class="col-md-6">
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="mt-4 mb-3 row form-group-custom">
+                            <label class="col-md-4 col-form-label">Address</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="address" name="address" required>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn URL (Optional) -->
+                        <div class="mt-4 mb-3 row form-group-custom">
+                            <label class="col-md-4 col-form-label">LinkedIn URL</label>
+                            <div class="col-md-6">
+                                <input type="url" class="form-control" id="linkedin" name="linkedin">
+                            </div>
+                        </div>
+
+                        <!-- Resume -->
+                        <div class="mt-4 mb-3 row form-group-custom">
+                            <label class="col-md-4 col-form-label">Resume</label>
+                            <div class="col-md-6">
+                                <input type="file" class="form-control" id="resume" name="resume" required>
+                            </div>
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="6LdL-90rAAAAAJ3FNQUinyAyIu0RigI70GuhzrTr"></div>           
+
+                        <!-- Submit Button -->
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary w-50">Submit</button>
+                        </div>
+
+                    </form>
+                    <div id="loader" style="display:none;">
+                        Sending...
+                    </div>
+                </div>
 
             </div>
-    <div class="upcomingBatchDetail">
-      <div class="tab-content">
-                  <div id="course2" class="tab-pane fade ">
-            <h3>ANDROID APP DEVELOPMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Android WorkShop</td>
-                    <td>Android WorkShop</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Sunday                    </td>
-                    <td>
-                      9:00 am to 6:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(5)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>Android Intermediate</td>
-                    <td>Android Intermediate</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      8:00 am to 1:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(6)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>Android Advanced</td>
-                    <td>Android Advanced</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      8:00 am to 1:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(7)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course3" class="tab-pane fade ">
-            <h3>UNITY DEVELOPMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Unity Game Development</td>
-                    <td>Unity Game Development</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      8:00 am to 10:00 am                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(8)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>Unity Development with Augmented Reality</td>
-                    <td>Unity Development with Augmented Reality</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Sunday                    </td>
-                    <td>
-                      10:00 am to 6:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(12)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>Unity Development with Virtual Reality</td>
-                    <td>Unity Development with Virtual Reality</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Sunday                    </td>
-                    <td>
-                      10:00 am to 6:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(13)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course4" class="tab-pane fade ">
-            <h3>PHP</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>PHP Workshop</td>
-                    <td>PHP Workshop</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Sunday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(9)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>PHP Basics 30 Hours</td>
-                    <td>PHP Basics 30 Hours</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      8:00 am to 12:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(10)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>PHP Basic & Advanced Course 60 hours</td>
-                    <td>PHP Basic & Advanced Course 60 hours</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      8:00 am to 12:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(11)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course5" class="tab-pane fade ">
-            <h3>BACKEND WEBSERVICES WEB APIS</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>WebServices workshop</td>
-                    <td>WebServices workshop</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Sunday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(14)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>Webservices Basic Course 30 Hours</td>
-                    <td>Webservices Basic Course 30 Hours</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Saturday                    </td>
-                    <td>
-                      8:00 am to 12:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(15)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course6" class="tab-pane fade ">
-            <h3>VIRTUAL REALITY AND PYTHON</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course7" class="tab-pane fade ">
-            <h3>HYBRID APP DEVELOPMENT </h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course14" class="tab-pane fade ">
-            <h3>ANDROID NATIVE AUGMENTED REALITY</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Android Native Augmented Reality Syllabus</td>
-                    <td>Android Native Augmented Reality Syllabus</td>
-                    <td>12 Dec 2025</td>
-                    <td>Friday To Saturday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(20)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course13" class="tab-pane fade ">
-            <h3>PYTHON</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course15" class="tab-pane fade ">
-            <h3>ANDROID NATIVE VIRTUAL REALITY</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Android Native Virtual Reality</td>
-                    <td>Android Native Virtual Reality</td>
-                    <td>12 Dec 2025</td>
-                    <td>Friday To Saturday                    </td>
-                    <td>
-                      9:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(21)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course16" class="tab-pane fade ">
-            <h3>MAGNETO ECOMMERCE PLATFORM DEVELOPMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Magento Ecommerce Workshop</td>
-                    <td>Magento Ecommerce Workshop</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(18)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course17" class="tab-pane fade ">
-            <h3>DRUPAL ECOMMERCE PLATFORM DEVELOPMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Drupal Intermediate 30 Hours</td>
-                    <td>Drupal Intermediate 30 Hours</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(19)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course18" class="tab-pane fade ">
-            <h3>IOS IPHONE APPS DEVELOPMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>iOS Iphone App Development Basic Intermediate Semi Advanced 60 Hours</td>
-                    <td>iOS Iphone App Development Basic Intermediate Semi Advanced 60 Hours</td>
-                    <td>13 Dec 2025</td>
-                    <td>Saturday To Sunday                    </td>
-                    <td>
-                      9:00 am to 6:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(16)">View Details</a>                    </td> -->
-                  </tr>
-                                  <tr>
-                    <td>iOS Iphone App Development Basic Intermediate Advanced 90 Hours</td>
-                    <td>iOS Iphone App Development Basic Intermediate Advanced 90 Hours</td>
-                    <td>14 Dec 2025</td>
-                    <td>Sunday To Sunday                    </td>
-                    <td>
-                      8:00 am to 11:00 am                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(17)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course19" class="tab-pane fade ">
-            <h3>NODE JS</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>NodeJs Workshop </td>
-                    <td>NodeJs Workshop </td>
-                    <td>12 Dec 2025</td>
-                    <td>Friday To Saturday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(25)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course20" class="tab-pane fade ">
-            <h3>REACT JS</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course21" class="tab-pane fade ">
-            <h3>DATA SCIENCE WITH  PYTHON</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course22" class="tab-pane fade ">
-            <h3>ANGULAR JS</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Angular JS Workshop </td>
-                    <td>Angular JS Workshop </td>
-                    <td>12 Dec 2025</td>
-                    <td>Friday To Saturday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(24)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course23" class="tab-pane fade ">
-            <h3>AMAZON WEB SERVICES CLOUD</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Amazon Web Services Cloud Workshop</td>
-                    <td>Amazon Web Services Cloud Workshop</td>
-                    <td>12 Dec 2025</td>
-                    <td>Friday To Saturday                    </td>
-                    <td>
-                      10:00 am to 6:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(22)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course24" class="tab-pane fade ">
-            <h3>AMAZON WEB SERVICES SOLUTIONS ARCHITECT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                                  <tr>
-                    <td>Amazon Web Services Cloud Solutions Architect</td>
-                    <td>Amazon Web Services Cloud Solutions Architect</td>
-                    <td>15 Dec 2025</td>
-                    <td>Monday To Sunday                    </td>
-                    <td>
-                      10:00 am to 5:00 pm                    </td>
-                    <!-- <td>
-                      Training / <a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(23)">View Details</a>                    </td> -->
-                  </tr>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course25" class="tab-pane fade ">
-            <h3>AMAZON WEB SERVICES SYSTEM ADMINISTRATION</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course27" class="tab-pane fade ">
-            <h3>C TRAINING</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course28" class="tab-pane fade ">
-            <h3>C++ TRAINING</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course29" class="tab-pane fade ">
-            <h3>C AND C++ TRAINING</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course30" class="tab-pane fade ">
-            <h3>DATA STRUCTURES AND ALGORITHMS</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course31" class="tab-pane fade ">
-            <h3>DBMS </h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course32" class="tab-pane fade ">
-            <h3>.NET TECHNOLOGY </h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course33" class="tab-pane fade ">
-            <h3>AGILE METHODOLOGY</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course34" class="tab-pane fade ">
-            <h3>AI & ML </h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course35" class="tab-pane fade ">
-            <h3>IOT TECHNOLOGY</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course36" class="tab-pane fade ">
-            <h3>PROJECT MANAGEMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course39" class="tab-pane fade ">
-            <h3>TABLEAU</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course40" class="tab-pane fade ">
-            <h3>FULL STACK DEVELOPMENT</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course42" class="tab-pane fade ">
-            <h3>POWER BI</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course43" class="tab-pane fade ">
-            <h3>MS SQL SERVER</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course44" class="tab-pane fade ">
-            <h3>R PROGRAMMING</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course45" class="tab-pane fade ">
-            <h3>DATA SCIENCE WITH R</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course46" class="tab-pane fade ">
-            <h3>DATA SCIENCE</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                    <div id="course47" class="tab-pane fade ">
-            <h3>DATA ANALYST</h3>
-            <table class="table table-hover">
-              <thead>
-                <th>Course</th>
-                <th>Start Date</th>
-                <th>Days</th>
-                <th>Timing</th>
-                <!-- <th>Batch Type</th> -->
-              </thead>
-              <tbody>
-                              </tbody>
-            </table>
-          </div>
-                  <div id="courseAll" class="tab-pane fade in active">
-          <!-- <h3>ALL COURSES</h3> -->
-          <table class="table table-hover">
-            <thead>
-              <th>Course</th>
-              <th>Start Date</th>
-              <th>Days</th>
-              <th>Timing</th>
-              <!-- <th>Batch Type</th> -->
-            </thead>
-            <tbody>
-                              <tr>
-                  <td>Android WorkShop</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Sunday                  </td>
-                  <td>
-                    9:00 am to 6:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(5)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>iOS Iphone App Development Basic Intermediate Semi Advanced 60 Hours</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Sunday                  </td>
-                  <td>
-                    9:00 am to 6:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(16)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Unity Game Development</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    8:00 am to 10:00 am                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(8)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Android Intermediate</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    8:00 am to 1:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(6)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Android Advanced</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    8:00 am to 1:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(7)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>PHP Workshop</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Sunday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(9)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>PHP Basics 30 Hours</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    8:00 am to 12:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(10)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>PHP Basic & Advanced Course 60 hours</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    8:00 am to 12:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(11)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Unity Development with Augmented Reality</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Sunday                  </td>
-                  <td>
-                    10:00 am to 6:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(12)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Unity Development with Virtual Reality</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Sunday                  </td>
-                  <td>
-                    10:00 am to 6:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(13)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>WebServices workshop</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Sunday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(14)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Webservices Basic Course 30 Hours</td>
-                  <td>13 Dec 2025</td>
-                  <td>Saturday To Saturday                  </td>
-                  <td>
-                    8:00 am to 12:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(15)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>iOS Iphone App Development Basic Intermediate Advanced 90 Hours</td>
-                  <td>14 Dec 2025</td>
-                  <td>Sunday To Sunday                  </td>
-                  <td>
-                    8:00 am to 11:00 am                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(17)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Magento Ecommerce Workshop</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(18)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Drupal Intermediate 30 Hours</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(19)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Android Native Augmented Reality Syllabus</td>
-                  <td>12 Dec 2025</td>
-                  <td>Friday To Saturday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(20)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Android Native Virtual Reality</td>
-                  <td>12 Dec 2025</td>
-                  <td>Friday To Saturday                  </td>
-                  <td>
-                    9:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(21)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Amazon Web Services Cloud Workshop</td>
-                  <td>12 Dec 2025</td>
-                  <td>Friday To Saturday                  </td>
-                  <td>
-                    10:00 am to 6:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(22)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Amazon Web Services Cloud Solutions Architect</td>
-                  <td>15 Dec 2025</td>
-                  <td>Monday To Sunday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(23)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>Angular JS Workshop </td>
-                  <td>12 Dec 2025</td>
-                  <td>Friday To Saturday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(24)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                              <tr>
-                  <td>NodeJs Workshop </td>
-                  <td>12 Dec 2025</td>
-                  <td>Friday To Saturday                  </td>
-                  <td>
-                    10:00 am to 5:00 pm                  </td>
-                  <!-- <td>
-                    Training /<a href="javascript:void(0)" class="traningsachview" data-toggle="tooltip" title="View Venue Detail" onclick="openAddress(25)">View Details</a>                  </td> -->
-                  <td></td>
-                </tr>
-                          </tbody>
-          </table>
         </div>
-      </div>
+
+        <!-- <p>Send Your Resume along with a proper, relevant subject and details.</p>
+        <button id="sendResumeButton">
+            <a href="mailto:info@positivequadrant.in">Send Resume <i class="fas fa-paper-plane"></i></a>
+        </button> -->
     </div>
-  </div>
 </div>
 
 
 
-
-
-
 <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const applyButtons = document.querySelectorAll(".applyButton");
+    const popupContainer = document.getElementById("popupContainer");
+    const popupJobTitle = document.getElementById("popupJobTitle");
+    const closePopup = document.getElementById("closePopup");
 
-  document.addEventListener("DOMContentLoaded", function () {
-    // Event listener for tab shown event
-    $(document).on('shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
-      // Remove active class from all <li> elements
-      $('.batchname li').removeClass('active');
+    applyButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            const jobId = this.getAttribute("data-job-id"); // Get job ID
+            const jobTitle = this.getAttribute("data-job"); // Get job title
 
-      // Add active class to the parent <li> of the clicked <a>
-      $(e.target).parent().addClass('active');
+            // Set job title inside modal
+            popupJobTitle.textContent = `Applying for: ${jobTitle}`;
 
-      // AJAX call to fetch data
-      var target = $(e.target).attr("href");
-      var courseId = target.replace('#course', '');
+            // Set job ID in the hidden input field
+            document.getElementById("job_id").value = jobId;
 
-      if (courseId) {
-        // Make an AJAX call to fetch data for the selected course
-        $.ajax({
-          type: 'GET',
-          url: 'http://localhost/positive_quadrant/Home/getVenue/' + courseId,
-          dataType: 'json',
-          success: function (data) {
-            console.log(data);
-            if (data['b_venue'] != '') {
-              $('.addres').text(data['b_venue']);
-            } else {
-              $('.addres').text('Venue not given, will update soon');
-            }
-          },
-          error: function (data) {
-            console.error('Error fetching venue data', data);
-          }
+            // Set job title in the hidden input field (Correcting the ID)
+            document.getElementById("job_title").value = jobTitle;
+
+            // Show the modal
+            popupContainer.classList.remove("hidden");
         });
-      }
     });
-  });
 
-
-
-
-</script>
-
-
-
-<script type="text/javascript">
-
-
-
-  function openAddress(b_id) {
-
-    $('#myModal').modal('show');
-
-
-  }
-
-</script>
-
-<!-- why choose it courses code start here -->
-<div class="container">
-  <h2 class="text-center">Why Choose Us to Learn IT Courses?</h2>
-  <div class="slider-wrapper">
-    <div class="slider-track" id="slider">
-
-    <!-- Slide 1 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <!-- WebP version -->
-          <source data-srcset="assets/new_img/learning.webp" type="image/webp">
-          <!-- PNG fallback -->
-          <img data-src="assets/new_img/learning.png" alt="Industry-Aligned Practical Knowledge" class="lazyload img-responsive">
-        </picture>
-        <h3>Industry-Aligned Practical Knowledge</h3>
-        <p>80% practical & 20% theory to get you job-ready fast.</p>
-      </div>
-    </div>
-
-    <!-- Slide 2 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/network.webp" type="image/webp">
-          <img data-src="assets/new_img/network.png" alt="Real-World Applications" class="lazyload img-responsive">
-        </picture>
-        <h3>Real-World Applications</h3>
-        <p>Skills aligned with real industry problems and roles.</p>
-      </div>
-    </div>
-
-    <!-- Slide 3 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/soft-skills.webp" type="image/webp">
-          <img data-src="assets/new_img/soft-skills.png" alt="Placement Assistance" class="lazyload img-responsive">
-        </picture>
-        <h3>Placement Assistance</h3>
-        <p>Ongoing support from our committed placement cell.</p>
-      </div>
-    </div>
-
-    <!-- Slide 4 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/career-development.webp" type="image/webp">
-          <img data-src="assets/new_img/career-development.png" alt="Tailored Guidance" class="lazyload img-responsive">
-        </picture>
-        <h3>Tailored Guidance</h3>
-        <p>Dedicated career coach throughout your learning journey.</p>
-      </div>
-    </div>
-
-    <!-- Slide 5 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/route.webp" type="image/webp">
-          <img data-src="assets/new_img/route.png" alt="Career Roadmap" class="lazyload img-responsive">
-        </picture>
-        <h3>Career Roadmap</h3>
-        <p>Guided path to upskilling and achieving career goals.</p>
-      </div>
-    </div>
-
-    <!-- Slide 6 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/flexible.webp" type="image/webp">
-          <img data-src="assets/new_img/flexible.png" alt="Flexible Learning" class="lazyload img-responsive">
-        </picture>
-        <h3>Flexible Learning</h3>
-        <p>Access course materials anytime, from any device.</p>
-      </div>
-    </div>
-
-
-    </div>
-  </div>
-</div>
-
-
-<!-- why choose it courses code end here -->
-
-
-<!-- JavaScript -->
-<script>
-  const slider = document.getElementById('slider');
-  let isPaused = false;
-  let slideIndex = 0;
-  const speed = 3000;
-
-  function cloneSlides() {
-    const items = [...slider.children];
-    items.forEach(item => {
-      const clone = item.cloneNode(true);
-      slider.appendChild(clone);
+    // Close modal when clicking the close button
+    closePopup.addEventListener("click", function () {
+        popupContainer.classList.add("hidden");
     });
-  }
 
-  function moveSlider() {
-    if (!isPaused) {
-      slideIndex++;
-      const itemWidth = slider.children[0].offsetWidth;
-      slider.style.transform = `translateX(-${slideIndex * itemWidth}px)`;
+    // Close modal when clicking outside of the popup content
+    document.addEventListener("click", function (e) {
+        if (e.target === popupContainer) {
+            popupContainer.classList.add("hidden");
+        }
+    });
+});
 
-      if (slideIndex >= slider.children.length / 2) {
-        setTimeout(() => {
-          slider.style.transition = 'none';
-          slideIndex = 0;
-          slider.style.transform = 'translateX(0)';
-          setTimeout(() => {
-            slider.style.transition = 'transform 0.6s ease';
-          }, 50);
-        }, 600);
-      }
-    }
-  }
 
-  cloneSlides();
-  setInterval(moveSlider, speed);
 
-  slider.addEventListener('mouseenter', () => isPaused = true);
-  slider.addEventListener('mouseleave', () => isPaused = false);
-</script>
+    $(document).ready(function () {
+        $("#jobApplicationForm").on("submit", function (e) {
+            e.preventDefault();  // Prevent default form submission
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script type="text/javascript">
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 20,
-    nav: true,
-    dots: false,
-    autoplay: true,
-    autoWidth: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    stagePadding: 50,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 3
-      },
-      1000: {
-        items: 5
-      }
-    }
-  })
-</script>
+            // Show loader
+            $("#loader").show();
 
-<script>
-  particlesJS("trainingPageParticlejs", {
-    particles: {
-      number: {
-        value: 80,
-        density: {
-          enable: true,
-          value_area: 800,
-        },
-      },
-      color: {
-        value: "#ff5733",
-      },
-      shape: {
-        type: "circle",
-        stroke: {
-          width: 0,
-          color: "#000000",
-        },
-        polygon: {
-          nb_sides: 5,
-        },
-      },
-      opacity: {
-        value: 0.5,
-        random: false,
-      },
-      size: {
-        value: 3,
-        random: true,
-      },
-      line_linked: {
-        enable: true,
-        distance: 150,
-        color: "#33c3ff",
-        opacity: 0.4,
-        width: 1,
-      },
-      move: {
-        enable: true,
-        speed: 6,
-        direction: "none",
-      },
-    },
-    interactivity: {
-      detect_on: "canvas",
-      events: {
-        onhover: {
-          enable: true,
-          mode: "grab",
-        },
-        onclick: {
-          enable: true,
-          mode: "push",
-        },
-      },
-    },
-    retina_detect: true,
-  });
+            // Create FormData object
+                var formData = new FormData(this);
+                formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
+                formData.append('csrf_46a4f21d8e9b', 'fc71128742b3cef1c7765c234860e0c4');
+
+            
+
+            // Perform AJAX request
+            $.ajax({
+                url: "http://localhost/positive_quadrant/Home/submit_job_application",  // Controller method
+                type: "POST",
+                data: formData,
+                dataType: "json", // Expect JSON response
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    // Hide loader
+                    $("#loader").hide();
+
+                    if (response.status === 'success') {
+                        toastr.success(response.message, "Success");
+
+                        // Reset form after submission
+                        $('#jobApplicationForm')[0].reset();
+
+                        // Optional: Close modal if form is inside one
+                        $("#popupContainer").modal("hide");
+                    } else {
+                        toastr.error(response.message, "Error");
+                    }
+                     if (response.csrf_token) {
+                        $('input[name="csrf_46a4f21d8e9b"]').val(response.csrf_token);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    $("#loader").hide();
+                    toastr.error("There was an error processing your request. Please try again.", "Error");
+                    console.error("AJAX Error:", status, error);
+                }
+            });
+        });
+    });
+
+
+
 
 </script><a href="" id="movetop" onclick="toTop()"><img src="http://localhost/positive_quadrant/assets/img/arrow_top.webp"></a>
 <style>

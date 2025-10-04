@@ -778,6 +778,41 @@ $data['keywords'] = 'career opportunities, job openings, tech jobs, Positive Qua
 
     public function submit_job_application()
     {
+        $recaptchaResponse = $this->input->post('g-recaptcha-response');
+        $secretKey = RECAPTCHA_SECRET_KEY;
+
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $data = [
+            'secret' => $secretKey,
+            'response' => $recaptchaResponse,
+            'remoteip' => $this->input->ip_address(),
+        ];
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $verify = curl_exec($ch);
+        curl_close($ch);
+
+        $responseData = json_decode($verify, true);
+
+        if (!empty($responseData['success']) && $responseData['success'] == true) {
+            echo json_encode([
+                'status' => 'success',
+                'message' => 'reCAPTCHA verified successfully!',
+                'csrf_token' => $this->security->get_csrf_hash()
+            ]);
+        } else {
+            echo json_encode([
+                'status' => 'error',
+                'message' => 'reCAPTCHA verification failed. Please try again.',
+                'csrf_token' => $this->security->get_csrf_hash()
+            ]);
+        }
+
+
         $this->form_validation->set_rules('name', 'Name', 'required');
         $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
         $this->form_validation->set_rules('phone', 'Phone', 'required');
@@ -1240,17 +1275,38 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
 
     public function saveData()
     {
-         $submitted_from = $this->input->post('submitted_from');
-         
+        $recaptchaResponse = $this->input->post('g-recaptcha-response');
+        $secretKey = RECAPTCHA_SECRET_KEY;
 
-        // Honeypot check (optional field to trap bots)
-        if ($this->input->post('website')) {
-            return $this->output
-                ->set_content_type('application/json')
-                ->set_output(json_encode([
-                    'status' => 'error',
-                    'message' => 'Bot detected.',
-                ]));
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $data = [
+            'secret' => $secretKey,
+            'response' => $recaptchaResponse,
+            'remoteip' => $this->input->ip_address(),
+        ];
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $verify = curl_exec($ch);
+        curl_close($ch);
+
+        $responseData = json_decode($verify, true);
+
+        if (!empty($responseData['success']) && $responseData['success'] == true) {
+            echo json_encode([
+                'status' => 'success',
+                'message' => 'reCAPTCHA verified successfully!',
+                'csrf_token' => $this->security->get_csrf_hash()
+            ]);
+        } else {
+            echo json_encode([
+                'status' => 'error',
+                'message' => 'reCAPTCHA verification failed. Please try again.',
+                'csrf_token' => $this->security->get_csrf_hash()
+            ]);
         }
 
         // Validation rules
@@ -1396,6 +1452,40 @@ $data['keywords'] = 'job openings, career opportunities, Positive Quadrant caree
 
     public function internshipEnquiryForm()
     {
+        $recaptchaResponse = $this->input->post('g-recaptcha-response');
+        $secretKey = RECAPTCHA_SECRET_KEY;
+
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $data = [
+            'secret' => $secretKey,
+            'response' => $recaptchaResponse,
+            'remoteip' => $this->input->ip_address(),
+        ];
+
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $verify = curl_exec($ch);
+        curl_close($ch);
+
+        $responseData = json_decode($verify, true);
+
+        if (!empty($responseData['success']) && $responseData['success'] == true) {
+            echo json_encode([
+                'status' => 'success',
+                'message' => 'reCAPTCHA verified successfully!',
+                'csrf_token' => $this->security->get_csrf_hash()
+            ]);
+        } else {
+            echo json_encode([
+                'status' => 'error',
+                'message' => 'reCAPTCHA verification failed. Please try again.',
+                'csrf_token' => $this->security->get_csrf_hash()
+            ]);
+        }
+
         // Only allow POST requests
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
             show_error('Method Not Allowed', 405);

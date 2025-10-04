@@ -56,7 +56,7 @@
          </div>
          <div class="col-md-6 contact_form_two">
             <h4>Bringing Your Vision To Life</h4>
-            <form class="contact_frm" id="createContactForm">
+            <form action="<?= base_url('Home/saveData') ?>" method="post" class="contact_frm" id="createContactForm">
                <input type="text" name="website" style="display:none">
 
                <div class="row">
@@ -89,7 +89,7 @@
                   <textarea type="text" placeholder="Message" name="message"></textarea>
                </div>
                <!-- <input type="hidden" name="services2" id="services2" value=""> -->
-
+              <div class="g-recaptcha" data-sitekey="<?= RECAPTCHA_SITE_KEY ?>"></div>
                <div class="col-md-12 text-center">
                   <button type="submit" id="singlebutton" name="singlebutton" class="btn btn-info"
                      style="padding: 7px 44px;margin-top:10px;">SUBMIT</button>
@@ -235,7 +235,9 @@
    $("#createContactForm").submit(function (event) {
       event.preventDefault(); // Prevent default form submission
 
+
       var formData = new FormData(this);
+      formData.append('g-recaptcha-response', recaptchaResponse); // ✅ add recaptcha token
       formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
       var $submitBtn = $("#singlebutton");
       var originalText = $submitBtn.html(); // Store the original button text

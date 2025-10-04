@@ -42,9 +42,9 @@ $hostname = $_SERVER['HTTP_HOST'];
 $base_url = '';
 
 // Set the base URL based on the hostname
-if ($hostname == 'localhost' || $hostname == '127.0.0.1') {
+if ($_SERVER['HTTP_HOST'] === 'localhost' || $_SERVER['HTTP_HOST'] === 'positivequadrant.test') {
     // Localhost or local environment
-    $base_url = 'http://localhost/positive_quadrant';
+    $base_url = 'http://positivequadrant.test/';
 } elseif ($hostname == 'www.positivequadrant.in') {
     // Production environment
     $base_url = 'https://www.positivequadrant.in';
@@ -484,10 +484,10 @@ $config['global_xss_filtering'] = TRUE;
 */
 
 $config['csrf_protection'] = TRUE;
-$config['csrf_token_name'] = 'csrf_46a4f21d8e9b';          
-$config['csrf_cookie_name'] = 'csrf_cookie';      
-$config['csrf_expire'] = 7200;                     
-$config['csrf_regenerate'] = TRUE;  
+$config['csrf_token_name'] = 'csrf_46a4f21d8e9b';
+$config['csrf_cookie_name'] = 'csrf_cookie';
+$config['csrf_expire'] = 7200;
+$config['csrf_regenerate'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------

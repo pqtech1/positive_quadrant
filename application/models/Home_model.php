@@ -341,20 +341,24 @@ class Home_model extends CI_model
             ->result();
     }
     // Get all projects
+    // Get all active projects
     public function get_all_projects()
     {
-        return $this->db->get('project_portfolios')->result();
-    }
-
-    // Get projects by industry
-    public function get_projects_by_industry($industry_id)
-    {
-        return $this->db->where('industry_id', $industry_id)
+        return $this->db->where('status', 'active')
             ->get('project_portfolios')
             ->result();
     }
 
-    // Get images for project
+    // Get active projects by industry
+    public function get_projects_by_industry($industry_id)
+    {
+        return $this->db->where('industry_id', $industry_id)
+            ->where('status', 'active')   // <-- add this
+            ->get('project_portfolios')
+            ->result();
+    }
+
+    // Get images for project (no change needed)
     public function get_images_by_project($project_id)
     {
         return $this->db->where('project_id', $project_id)
@@ -362,6 +366,26 @@ class Home_model extends CI_model
             ->result();
     }
 
+    // Get all active projects with industry name
+    public function get_all_projects_with_industry()
+    {
+        $this->db->select('project_portfolios.*, industries_serve.name as industry_name');
+        $this->db->from('project_portfolios');
+        $this->db->join('industries_serve', 'project_portfolios.industry_id = industries_serve.id', 'left');
+        $this->db->where('project_portfolios.status', 'active');   // <-- add this
+        return $this->db->get()->result();
+    }
+
+    // Get active projects by industry with industry name
+    public function get_projects_by_industry_with_name($industry_id)
+    {
+        $this->db->select('project_portfolios.*, industries_serve.name as industry_name');
+        $this->db->from('project_portfolios');
+        $this->db->join('industries_serve', 'project_portfolios.industry_id = industries_serve.id', 'left');
+        $this->db->where('project_portfolios.industry_id', $industry_id);
+        $this->db->where('project_portfolios.status', 'active');   // <-- add this
+        return $this->db->get()->result();
+    }
 
 
 }

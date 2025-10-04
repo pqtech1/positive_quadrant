@@ -734,17 +734,17 @@ class Home extends CI_Controller
         $industries = $this->home_model->get_all_industries();
         $data['industries'] = $industries;
 
-        // All projects + attach images
-        $projects = $this->home_model->get_all_projects();
+        // All projects + attach images (with industry name)
+        $projects = $this->home_model->get_all_projects_with_industry();
         foreach ($projects as &$proj) {
             $proj->images = $this->home_model->get_images_by_project($proj->id);
         }
         $data['projects'] = $projects;
 
-        // Projects grouped by industry
+        // Projects grouped by industry (with industry name)
         $industry_projects = [];
         foreach ($industries as $ind) {
-            $projs = $this->home_model->get_projects_by_industry($ind->id);
+            $projs = $this->home_model->get_projects_by_industry_with_name($ind->id);
             foreach ($projs as &$p) {
                 $p->images = $this->home_model->get_images_by_project($p->id);
             }
@@ -757,7 +757,6 @@ class Home extends CI_Controller
         $this->load->view('project', $data);
         $this->load->view('footer');
     }
-
 
 
 

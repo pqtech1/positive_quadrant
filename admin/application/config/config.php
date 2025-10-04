@@ -29,7 +29,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 // $config['base_url'] = 'https://www.positivequadrant.in/admin/';
 
 // $base_url = 'http://localhost/positive_quadrant/admin';
-$config['base_url'] = 'http://localhost/positive_quadrant/admin';
+// $config['base_url'] = 'http://positivequadrant.test/admin';
+$config['base_url'] = 'http://positivequadrant.test/admin/';
+
 
 
 

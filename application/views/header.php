@@ -13,20 +13,27 @@
 
   <meta name="author" content="<?= isset($author) ? $author : 'Positive Quadrant Technologies LLP' ?>">
 
-<!--for google search console-->
-    <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
+
+  <!--for google search console-->
+  <meta name="google-site-verification" content="N47khI7b15AndljvLuU_TcshBlekDHoaDBG8FEecNTA" />
 
   <!-- AOS CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
-    <link href="<?php echo base_url(); ?>assets/vendors/icons/icon.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/vendors/icons/icon.css" rel="stylesheet">
   <!-- Modern browsers (WebP) -->
   <link rel="icon" type="image/webp" href="<?= base_url(); ?>assets/img/loadernew.webp">
 
   <!-- Fallback for browsers that don’t support WebP -->
   <link rel="icon" type="image/png" href="<?= base_url(); ?>noWebpAssets/assets/img/loadernew.jpg">
 
-   <!-- Google Font -->
+  <!-- Google Font -->
+
+
+  <link rel="icon" href="<?php echo base_url(); ?>assets/img/loadernew.webp" type="image/x-icon" />
+  <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/img/loadernew.webp" type="image/x-icon" />
+  <!-- Google Font -->
+
   <link href="https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap" rel="stylesheet">
   <!-- this was added later to make the madal close automatically-->
   <!-- 1. Bootstrap CSS -->
@@ -74,16 +81,16 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/slick-theme.css" />
 
-<!--lazysizes cdn-->
+  <!--lazysizes cdn-->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
 
 
 
   <!-- <script src="https://cdn.jsdelivr.net/npm/lenis@latest"></script> -->
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
-  
+
   <script src="<?php echo base_url(); ?>assets/vendors/wow/wow.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/vendors/fancybox/fancy.js"></script>
 
@@ -115,7 +122,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Darkmode.js/1.0.1/darkmode.min.js"></script>
 
 
 
@@ -134,8 +142,7 @@
 
 
 
- <style>
-
+  <style>
     * {
 
       font-family: "Special Gothic", sans-serif;
@@ -442,7 +449,8 @@
       border: solid 1px #1a9c9b !important;
 
     }
-    .enquiry-button li a{
+
+    .enquiry-button li a {
       color: white !important;
     }
 
@@ -482,15 +490,18 @@
       color: #cccccc;
       /* Different color to distinguish from active */
     }
-    
+
     /*latest custom loader*/
-   
+
     /* Fullscreen Loader Background */
-     .loader-wrapper {
+    .loader-wrapper {
       position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: #fff; /* Background color */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      /* Background color */
       display: flex;
       align-items: center;
       justify-content: center;
@@ -501,8 +512,10 @@
     .spinner {
       width: 80px;
       height: 80px;
-      border: 4px solid #1a9c9b; /* light teal */
-      border-top: 6px solid white; /* teal spinner */
+      border: 4px solid #1a9c9b;
+      /* light teal */
+      border-top: 6px solid white;
+      /* teal spinner */
       border-radius: 50%;
       animation: spin 1.2s linear infinite;
       position: absolute;
@@ -513,35 +526,47 @@
       width: 50px;
       height: auto;
       position: relative;
-      z-index: 10; /* on top of spinner */
+      z-index: 10;
+      /* on top of spinner */
     }
 
     /* Spin Animation */
     @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
     }
+
     /*latest custom loader*/
-    
-    
   </style>
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0SY7GT67ME"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0SY7GT67ME"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-0SY7GT67ME');
-</script>
+    gtag('config', 'G-0SY7GT67ME');
+  </script>
+
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode().showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
 
   <script>
     new WOW().init();
   </script>
 
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -686,7 +711,7 @@
 </script>
 
 
- 
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -736,503 +761,508 @@
         });
     });
   </script>
-  
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    setTimeout(function() {
-      document.querySelector(".loader-wrapper").classList.add("hide");
-    }, 500);
-  });
-</script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function () {
+        document.querySelector(".loader-wrapper").classList.add("hide");
+      }, 500);
+    });
+  </script>
 
 
 
 </head>
 
 <body>
-  <!--<div id="myDiv"><img src="<?php echo base_url(); ?>assets/img/loadernew.webp">-->
-  <!--  <div class="loader"></div>-->
-  <!--</div>-->
+ 
+    <!--<div id="myDiv"><img src="<?php echo base_url(); ?>assets/img/loadernew.webp">-->
+    <!--  <div class="loader"></div>-->
+    <!--</div>-->
 
-<div class="loader-wrapper">
-    <div class="spinner"></div>
+    <div class="loader-wrapper">
+      <div class="spinner"></div>
       <img src="<?php echo base_url(); ?>assets/img/loadernew.webp" alt="Logo">
     </div>
-  </div>
-
-
-
-  <div id="staticNavbar">
-    <div class="mainheader">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-xs-5">
-            <a href="tel:7219623991"> <i class="fa fa-phone" aria-hidden="true"></i>7219623991 </a>
-          </div>
-          <div class="col-md-6 col-xs-7 text-right"><a href="mailto:info@positivequadrant.in"> <i class="fa fa-envelope"
-                aria-hidden="true"></i>info@positivequadrant.in</a></div>
-        </div>
-      </div>
     </div>
 
-    <div class="header-top" id="top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-xs-12">
+
+
+    <div id="staticNavbar">
+      <div class="mainheader">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xs-5">
+              <a href="tel:7219623991"> <i class="fa fa-phone" aria-hidden="true"></i>7219623991 </a>
+            </div>
+            <div class="col-md-6 col-xs-7 text-right"><a href="mailto:info@positivequadrant.in"> <i
+                  class="fa fa-envelope" aria-hidden="true"></i>info@positivequadrant.in</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-top" id="top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12">
+              <div class="logo">
+                <a href="<?php echo base_url(); ?>">
+                  <picture>
+                    <!-- WebP source -->
+                    <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
+                    <!-- Fallback to PNG or JPEG -->
+                    <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/new_logo.png" alt="company logo">
+                  </picture>
+                </a>
+              </div>
+              <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                      data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li><a href="<?php echo base_url(); ?>" class="" id="home">Home</a></li>
+                      <li><a href="<?php echo base_url(); ?>about-us" class="" id="about">About</a>
+                      </li>
+                      <li class="services-parent">
+                        <a href="#" id="services" class="active-link">Services <b class="caret"></b></a>
+                        <ul class="services-dropdown-menu">
+                          <div class="services-dropdown-menu-options">
+                            <li><a href="<?php echo base_url() ?>web-development">Web Development</a></li>
+                            <li><a href="<?php echo base_url() ?>seo">SEO</a></li>
+                            <li><a href="<?php echo base_url() ?>mobile-development">Mobile Development</a></li>
+                            <li><a href="<?php echo base_url() ?>web-design">Web Design</a></li>
+                          </div>
+                          <div class="services-dropdown-menu-options">
+                            <li><a href="<?php echo base_url() ?>machine-learning">Machine Learning</a></li>
+                            <li><a href="<?php echo base_url() ?>e-commerce">E Commerce</a></li>
+                            <li><a href="<?php echo base_url() ?>managed-hosting">Managed Hosting</a></li>
+                            <li><a href="<?php echo base_url() ?>website-maintainance">Website Maintainance</a></li>
+                          </div>
+                          <div class="services-dropdown-menu-options">
+                            <li><a href="<?php echo base_url() ?>search-engine-maintenance">Search Engine
+                                Maintenance</a>
+                            </li>
+                            <li><a href="<?php echo base_url() ?>web-application">Web Application</a></li>
+                            <li><a href="<?php echo base_url() ?>iot">IOT</a></li>
+                            <li><a href="<?php echo base_url() ?>it-development">Technology</a></li>
+                          </div>
+                          <div class="services-dropdown-menu-options">
+                            <li><a href="<?php echo base_url() ?>it-consultancy">Industries</a></li>
+                            <li><a href="<?php echo base_url() ?>software-products">Software Products</a></li>
+                            <li><a href="<?php echo base_url() ?>it-training-and-placement">Trainings</a></li>
+                          </div>
+                        </ul>
+                      </li>
+                      <li><a href="<?php echo base_url(); ?>projects-and-portfolios" class=""
+                          id="projects-and-portfolios">Projects</a>
+                      </li>
+                      <li><a href="<?php echo base_url(); ?>internship-program" class="" id="internship">Internship</a>
+                      </li>
+                      <!-- hiring details html-->
+                      <li class="desktopHireView">
+                        <a href="#" class="">Hire <b class="caret"></b></a>
+                        <div class="category-container">
+                          <?php if (!empty($hire_categories) && is_array($hire_categories)): ?>
+                            <?php
+                            // Assuming the slug is part of the URI, for example: /NodeJs-Developer
+                            $current_slug = $this->uri->segment(1); // Get the first URI segment as the slug
+                            ?>
+                            <?php foreach ($hire_categories as $category_name => $tech_details): ?>
+                              <div class="category">
+                                <h2><?php echo htmlspecialchars($category_name); ?></h2>
+                                <ul>
+                                  <?php if (is_array($tech_details)): ?>
+                                    <?php foreach ($tech_details as $tech): ?>
+                                      <li>
+                                        <?php
+                                        // Determine if this link is the active one
+                                        $is_active = ($tech['slug_url'] === $current_slug) ? 'active' : '';
+                                        ?>
+                                        <a href="<?php echo base_url('hire-' . strtolower($tech['slug_url'])); ?>"
+                                          class="tech-link <?php echo $is_active; ?>">
+                                          <?php echo htmlspecialchars($tech['tech_name']); ?> <!-- Displaying the tech_name -->
+                                        </a>
+                                      </li>
+                                    <?php endforeach; ?>
+                                  <?php else: ?>
+                                    <p>No tech names available for this category.</p>
+                                  <?php endif; ?>
+                                </ul>
+                              </div>
+                            <?php endforeach; ?>
+                          <?php else: ?>
+                            <p>No categories found.</p>
+                          <?php endif; ?>
+                        </div>
+                      </li>
+                      <li class="dropdown mobileDropdown">
+                        <a href="#" class="dropdown-toggle " data-toggle="dropdown" id="hire">
+                          Hire <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <?php if (!empty($hire_categories) && is_array($hire_categories)): ?>
+                            <?php foreach ($hire_categories as $category_name => $tech_details): ?>
+                              <li class="dropdown-submenu">
+                                <a href="#"><?php echo htmlspecialchars($category_name); ?></a>
+                                <ul class="dropdown-menu">
+                                  <?php if (is_array($tech_details)): ?>
+                                    <?php foreach ($tech_details as $tech): ?>
+                                      <li>
+                                        <a href="<?php echo base_url('hire-' . strtolower($tech['slug_url'])); ?>"
+                                          class="tech-link">
+                                          <?php echo htmlspecialchars($tech['tech_name']); ?>
+                                        </a>
+                                      </li>
+                                    <?php endforeach; ?>
+                                  <?php else: ?>
+                                    <li>No tech names available for this category.</li>
+                                  <?php endif; ?>
+                                </ul>
+                              </li>
+                            <?php endforeach; ?>
+                          <?php else: ?>
+                            <li>No categories found.</li>
+                          <?php endif; ?>
+                        </ul>
+                      </li>
+                      <!-- hiring details html ends-->
+                      <!-- <li><a href="<?php echo base_url(); ?>projects" class="" id="project">Projects</a></li> -->
+                      <li><a href="<?php echo base_url(); ?>careers" class="" id="career">Careers</a></li>
+                      <li><a href="<?php echo base_url(); ?>contact-us" class="" id="contact">Contact Us</a></li>
+                      <li class="enquiry-button" onmouseover="this.style.backgroundColor = 'white';"
+                        onmouseout="this.style.backgroundColor = '#2bb0ae';" style="color:white;"><a data-toggle="modal"
+                          data-target="#inqueryform" style="color:white;">Enquiry</a></li>
+
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tablet view responsiveness starts here -->
+
+      <div class="parentContainer">
+        <div class="navParentContainer">
+
+          <div class="header">
             <div class="logo">
               <a href="<?php echo base_url(); ?>">
-              <picture>
-                  <!-- WebP source -->
-                  <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
-                  <!-- Fallback to PNG or JPEG -->
-                  <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/new_logo.png" alt="company logo">
-              </picture>
+                <picture class="float-right"></picture>
+                <!-- WebP source -->
+                <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
+                <!-- Fallback to PNG or JPEG -->
+                <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/new_logo.png" alt="company logo">
+                </picture>
               </a>
             </div>
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                    <li><a href="<?php echo base_url(); ?>" class="" id="home">Home</a></li>
-                    <li><a href="<?php echo base_url(); ?>about-us" class="" id="about">About</a>
-                    </li>
-                    <li class="services-parent">
-                      <a href="#" id="services" class="active-link">Services <b class="caret"></b></a>
-                      <ul class="services-dropdown-menu">
-                        <div class="services-dropdown-menu-options">
-                          <li><a href="<?php echo base_url() ?>web-development">Web Development</a></li>
-                          <li><a href="<?php echo base_url() ?>seo">SEO</a></li>
-                          <li><a href="<?php echo base_url() ?>mobile-development">Mobile Development</a></li>
-                          <li><a href="<?php echo base_url() ?>web-design">Web Design</a></li>
-                        </div>
-                        <div class="services-dropdown-menu-options">
-                          <li><a href="<?php echo base_url() ?>machine-learning">Machine Learning</a></li>
-                          <li><a href="<?php echo base_url() ?>e-commerce">E Commerce</a></li>
-                          <li><a href="<?php echo base_url() ?>managed-hosting">Managed Hosting</a></li>
-                          <li><a href="<?php echo base_url() ?>website-maintainance">Website Maintainance</a></li>
-                        </div>
-                        <div class="services-dropdown-menu-options">
-                          <li><a href="<?php echo base_url() ?>search-engine-maintenance">Search Engine
-                              Maintenance</a>
-                          </li>
-                          <li><a href="<?php echo base_url() ?>web-application">Web Application</a></li>
-                          <li><a href="<?php echo base_url() ?>iot">IOT</a></li>
-                          <li><a href="<?php echo base_url() ?>it-development">Technology</a></li>
-                        </div>
-                        <div class="services-dropdown-menu-options">
-                          <li><a href="<?php echo base_url() ?>it-consultancy">Industries</a></li>
-                          <li><a href="<?php echo base_url() ?>software-products">Software Products</a></li>
-                          <li><a href="<?php echo base_url() ?>it-training-and-placement">Trainings</a></li>
-                        </div>
-                      </ul>
-                    </li>
-                    <li><a href="<?php echo base_url(); ?>internship-program" class="" id="internship">Internship</a>
-                    </li>
-                    <!-- hiring details html-->
-                    <li class="desktopHireView">
-                      <a href="#" class="">Hire <b class="caret"></b></a>
-                      <div class="category-container">
-                        <?php if (!empty($hire_categories) && is_array($hire_categories)): ?>
-                          <?php
-                          // Assuming the slug is part of the URI, for example: /NodeJs-Developer
-                          $current_slug = $this->uri->segment(1); // Get the first URI segment as the slug
-                          ?>
-                          <?php foreach ($hire_categories as $category_name => $tech_details): ?>
-                            <div class="category">
-                              <h2><?php echo htmlspecialchars($category_name); ?></h2>
-                              <ul>
-                                <?php if (is_array($tech_details)): ?>
-                                  <?php foreach ($tech_details as $tech): ?>
-                                    <li>
-                                      <?php
-                                      // Determine if this link is the active one
-                                      $is_active = ($tech['slug_url'] === $current_slug) ? 'active' : '';
-                                      ?>
-                                      <a href="<?php echo base_url('hire-' . strtolower($tech['slug_url'])); ?>"
-                                        class="tech-link <?php echo $is_active; ?>">
-                                        <?php echo htmlspecialchars($tech['tech_name']); ?> <!-- Displaying the tech_name -->
-                                      </a>
-                                    </li>
-                                  <?php endforeach; ?>
-                                <?php else: ?>
-                                  <p>No tech names available for this category.</p>
-                                <?php endif; ?>
-                              </ul>
-                            </div>
-                          <?php endforeach; ?>
-                        <?php else: ?>
-                          <p>No categories found.</p>
-                        <?php endif; ?>
-                      </div>
-                    </li>
-                    <li class="dropdown mobileDropdown">
-                      <a href="#" class="dropdown-toggle " data-toggle="dropdown" id="hire">
-                        Hire <b class="caret"></b>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <?php if (!empty($hire_categories) && is_array($hire_categories)): ?>
-                          <?php foreach ($hire_categories as $category_name => $tech_details): ?>
-                            <li class="dropdown-submenu">
-                              <a href="#"><?php echo htmlspecialchars($category_name); ?></a>
-                              <ul class="dropdown-menu">
-                                <?php if (is_array($tech_details)): ?>
-                                  <?php foreach ($tech_details as $tech): ?>
-                                    <li>
-                                      <a href="<?php echo base_url('hire-' . strtolower($tech['slug_url'])); ?>"
-                                        class="tech-link">
-                                        <?php echo htmlspecialchars($tech['tech_name']); ?>
-                                      </a>
-                                    </li>
-                                  <?php endforeach; ?>
-                                <?php else: ?>
-                                  <li>No tech names available for this category.</li>
-                                <?php endif; ?>
-                              </ul>
-                            </li>
-                          <?php endforeach; ?>
-                        <?php else: ?>
-                          <li>No categories found.</li>
-                        <?php endif; ?>
-                      </ul>
-                    </li>
-                    <!-- hiring details html ends-->
-                    <!-- <li><a href="<?php echo base_url(); ?>projects" class="" id="project">Projects</a></li> -->
-                    <li><a href="<?php echo base_url(); ?>careers" class="" id="career">Careers</a></li>
-                    <li><a href="<?php echo base_url(); ?>contact-us" class="" id="contact">Contact Us</a></li>
-                    <li class="enquiry-button" onmouseover="this.style.backgroundColor = 'white';"
-                      onmouseout="this.style.backgroundColor = '#2bb0ae';" style="color:white;"><a data-toggle="modal"
-                        data-target="#inqueryform" style="color:white;">Enquiry</a></li>
-
-                  </ul>
-                </div><!-- /.navbar-collapse -->
-              </div><!-- /.container-fluid -->
-            </nav>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Tablet view responsiveness starts here -->
-
-    <div class="parentContainer">
-      <div class="navParentContainer">
-
-        <div class="header">
-          <div class="logo">
-            <a href="<?php echo base_url(); ?>">
-              <picture class="float-right"></picture>
-                  <!-- WebP source -->
-                  <source srcset="<?php echo base_url(); ?>assets/img/new_logo.webp" type="image/webp">
-                  <!-- Fallback to PNG or JPEG -->
-                  <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/new_logo.png" alt="company logo">
-              </picture>
-            </a>
-          </div>
-          <div class="navbarBtn">
-            <picture >
+            <div class="navbarBtn">
+              <picture>
                 <!-- WebP source -->
                 <source srcset="<?php echo base_url(); ?>assets/img/navBarHamberger.webp" type="image/webp">
                 <!-- Fallback to PNG or JPEG -->
                 <img src="<?php echo base_url(); ?>noWebpAssets/assets/img/navBarHamberger.png" alt="hamburger logo">
-            </picture>
+              </picture>
+            </div>
           </div>
-        </div>
-        <nav>
-          <div class="">
-            <ul class="">
-              <li><a href="<?php echo base_url(); ?>" class=" " id="home">Home</a></li>
-              <li><a href="<?php echo base_url(); ?>about-us" class="" id="about">About</a>
-              </li>
-              <details class="summaryDetails">
-                <summary id="services">Services <b class="caret"></b></summary>
-                <li><a href="<?php echo base_url() ?>web-development">Web Development</a></li>
-                <li><a href="<?php echo base_url() ?>seo">SEO</a></li>
-                <li><a href="<?php echo base_url() ?>mobile-development">Mobile Development</a></li>
-                <li><a href="<?php echo base_url() ?>web-design">Web Design</a></li>
-                <li><a href="<?php echo base_url() ?>machine-learning">Machine Learning</a></li>
-                <li><a href="<?php echo base_url() ?>e-commerce">E Commerce</a></li>
-                <li><a href="<?php echo base_url() ?>managed-hosting">Managed Hosting</a></li>
-                <li><a href="<?php echo base_url() ?>website-maintainance">Website-Maintainance</a></li>
-                <li><a href="<?php echo base_url() ?>search-engine-maintenance">Search Engine Maintenance</a></li>
-                <li><a href="<?php echo base_url() ?>web-application">Web-Application</a></li>
-                <li><a href="<?php echo base_url() ?>iot">IOT</a></li>
-
-
-
-
-
-                <li><a href="<?php echo base_url() ?>it-development">Technology</a>
+          <nav>
+            <div class="">
+              <ul class="">
+                <li><a href="<?php echo base_url(); ?>" class=" " id="home">Home</a></li>
+                <li><a href="<?php echo base_url(); ?>about-us" class="" id="about">About</a>
                 </li>
-                <li><a href="<?php echo base_url() ?>it-consultancy">Industries</a></li>
-                <li><a href="<?php echo base_url() ?>software-products">Software Products</a></li>
-                <li><a href="<?php echo base_url() ?>it-training-and-placement">Trainings</a></li>
-
-              </details>
-
-              <li><a href="<?php echo base_url(); ?>internship-program" class="" id="internship">Internship</a></li>
-              <!-- hiring details html-->
-              <details>
-                <summary>Hire<b class="caret"></b></summary>
-                <div class="category-container">
-                  <?php if (!empty($hire_categories) && is_array($hire_categories)): ?>
-                    <?php foreach ($hire_categories as $category_name => $tech_details): ?>
-                      <details>
-                        <summary class="category-name"><?php echo htmlspecialchars($category_name); ?><b class="caret"></b>
-                        </summary>
-                        <ul>
-                          <?php if (is_array($tech_details)): ?>
-                            <?php foreach ($tech_details as $tech): ?>
-                              <li>
-                                <a href="<?php echo base_url('hire-' . strtolower($tech['slug_url'])); ?>" class="tech-link">
-                                  <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
-                                  <?php echo htmlspecialchars($tech['tech_name']); ?>
-                                </a>
-                              </li>
-                            <?php endforeach; ?>
-                          <?php else: ?>
-                            <li>No tech names available for this category.</li>
-                          <?php endif; ?>
-                        </ul>
-                      </details>
-                    <?php endforeach; ?>
-                  <?php else: ?>
-                    <p>No categories found.</p>
-                  <?php endif; ?>
-                </div>
-              </details>
+                <details class="summaryDetails">
+                  <summary id="services">Services <b class="caret"></b></summary>
+                  <li><a href="<?php echo base_url() ?>web-development">Web Development</a></li>
+                  <li><a href="<?php echo base_url() ?>seo">SEO</a></li>
+                  <li><a href="<?php echo base_url() ?>mobile-development">Mobile Development</a></li>
+                  <li><a href="<?php echo base_url() ?>web-design">Web Design</a></li>
+                  <li><a href="<?php echo base_url() ?>machine-learning">Machine Learning</a></li>
+                  <li><a href="<?php echo base_url() ?>e-commerce">E Commerce</a></li>
+                  <li><a href="<?php echo base_url() ?>managed-hosting">Managed Hosting</a></li>
+                  <li><a href="<?php echo base_url() ?>website-maintainance">Website-Maintainance</a></li>
+                  <li><a href="<?php echo base_url() ?>search-engine-maintenance">Search Engine Maintenance</a></li>
+                  <li><a href="<?php echo base_url() ?>web-application">Web-Application</a></li>
+                  <li><a href="<?php echo base_url() ?>iot">IOT</a></li>
 
 
-              <!-- hiring details html ends-->
-              <!-- <li><a href="<?php echo base_url(); ?>projects" class="" id="project">Projects</a> -->
-              </li>
-              <li><a href="<?php echo base_url(); ?>careers" class="" id="career">Careers</a>
-              </li>
-              <li><a href="<?php echo base_url(); ?>contact-us" class="" id="contact">Contact
-                  Us</a></li>
-
-              <li class="enquiry-button"><a data-toggle="modal" data-target="#inqueryform">Enquiry</a></li>
-
-            </ul>
-          </div><!-- /.navbar-collapse -->
-
-        </nav>
 
 
+
+                  <li><a href="<?php echo base_url() ?>it-development">Technology</a>
+                  </li>
+                  <li><a href="<?php echo base_url() ?>it-consultancy">Industries</a></li>
+                  <li><a href="<?php echo base_url() ?>software-products">Software Products</a></li>
+                  <li><a href="<?php echo base_url() ?>it-training-and-placement">Trainings</a></li>
+
+                </details>
+
+                <li><a href="<?php echo base_url(); ?>internship-program" class="" id="internship">Internship</a></li>
+                <!-- hiring details html-->
+                <details>
+                  <summary>Hire<b class="caret"></b></summary>
+                  <div class="category-container">
+                    <?php if (!empty($hire_categories) && is_array($hire_categories)): ?>
+                      <?php foreach ($hire_categories as $category_name => $tech_details): ?>
+                        <details>
+                          <summary class="category-name"><?php echo htmlspecialchars($category_name); ?><b
+                              class="caret"></b>
+                          </summary>
+                          <ul>
+                            <?php if (is_array($tech_details)): ?>
+                              <?php foreach ($tech_details as $tech): ?>
+                                <li>
+                                  <a href="<?php echo base_url('hire-' . strtolower($tech['slug_url'])); ?>" class="tech-link">
+                                    <span style='font-size:15px;color:#047d8f;'>&#10149;</span>
+                                    <?php echo htmlspecialchars($tech['tech_name']); ?>
+                                  </a>
+                                </li>
+                              <?php endforeach; ?>
+                            <?php else: ?>
+                              <li>No tech names available for this category.</li>
+                            <?php endif; ?>
+                          </ul>
+                        </details>
+                      <?php endforeach; ?>
+                    <?php else: ?>
+                      <p>No categories found.</p>
+                    <?php endif; ?>
+                  </div>
+                </details>
+
+
+                <!-- hiring details html ends-->
+                <!-- <li><a href="<?php echo base_url(); ?>projects" class="" id="project">Projects</a> -->
+                </li>
+                <li><a href="<?php echo base_url(); ?>careers" class="" id="career">Careers</a>
+                </li>
+                <li><a href="<?php echo base_url(); ?>contact-us" class="" id="contact">Contact
+                    Us</a></li>
+
+                <li class="enquiry-button"><a data-toggle="modal" data-target="#inqueryform">Enquiry</a></li>
+
+              </ul>
+            </div><!-- /.navbar-collapse -->
+
+          </nav>
+
+
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="extradiv"></div>
+    <div class="extradiv"></div>
 
-  <!-- Tablet view responsiveness ends here -->
-
+    <!-- Tablet view responsiveness ends here -->
 
 
 
 
 
-  <!-- Modal -->
-  <div id="inqueryform" class="modal fade" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body enquiry_modal">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h3 class="inqfrom_header">Enquiry </h3>
-          <div id="enquiery_loader" class="text-center" style="margin-bottom: 22px;display:none;">
-            <img src="<?php echo base_url() . '/assets/img/loader.gif' ?>">
-          </div>
-          <div class="inqueryfrom_popup">
-            <form method="post" id="createEnquiryForm">
-              <input type="text" name="website" style="display:none">
 
-              <input type="text" placeholder="Name" name="name" id="name" required>
-              <input type="email" placeholder="Email" name="email" id="email" required>
-              <input type="number" placeholder="Phone" name="phone" id="phone" required>
-              <select required name="services" id="services" required>
-                <option value="Select Enquiry">Select Enquiry</option>
-                <option value="Development">Development</option>
-                <option value="Consultancy">Consultancy</option>
-                <option value="Tranings">Training</option>
-                <option value="Manufacturing">Manufacturing</option>
-                <option value="Technology">Technology</option>
-                <option value="Software_Products">Software Products</option>
-                <option value="Workshop">Workshop</option>
-                <option value="Other">Other</option>
-              </select>
-              <textarea placeholder="Message" name="message"></textarea>
-              <input type="submit" class="inqpop_submit" value="SUBMIT">
-            </form>
+    <!-- Modal -->
+    <div id="inqueryform" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body enquiry_modal">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="inqfrom_header">Enquiry </h3>
+            <div id="enquiery_loader" class="text-center" style="margin-bottom: 22px;display:none;">
+              <img src="<?php echo base_url() . '/assets/img/loader.gif' ?>">
+            </div>
+            <div class="inqueryfrom_popup">
+              <form method="post" id="createEnquiryForm">
+                <input type="text" name="website" style="display:none">
+
+                <input type="text" placeholder="Name" name="name" id="name" required>
+                <input type="email" placeholder="Email" name="email" id="email" required>
+                <input type="number" placeholder="Phone" name="phone" id="phone" required>
+                <select required name="services" id="services" required>
+                  <option value="Select Enquiry">Select Enquiry</option>
+                  <option value="Development">Development</option>
+                  <option value="Consultancy">Consultancy</option>
+                  <option value="Tranings">Training</option>
+                  <option value="Manufacturing">Manufacturing</option>
+                  <option value="Technology">Technology</option>
+                  <option value="Software_Products">Software Products</option>
+                  <option value="Workshop">Workshop</option>
+                  <option value="Other">Other</option>
+                </select>
+                <textarea placeholder="Message" name="message"></textarea>
+                <input type="submit" class="inqpop_submit" value="SUBMIT">
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 
 
 
-  <!-- AOS JS -->
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <script>
-  AOS.init({
-    offset: 120,
-    delay: 0,
-    duration: 400,
-    easing: 'ease',
-    once: false,
-    mirror: false,
-    anchorPlacement: 'top-bottom',
-  });
-  </script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 120,
+        delay: 0,
+        duration: 400,
+        easing: 'ease',
+        once: false,
+        mirror: false,
+        anchorPlacement: 'top-bottom',
+      });
+    </script>
 
 
-  <script>
-    $("#createEnquiryForm").submit(function (event) {
-      event.preventDefault();
+    <script>
+      $("#createEnquiryForm").submit(function (event) {
+        event.preventDefault();
 
-      var formData = new FormData(this);
-      formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
-      var $submitBtn = $("#createEnquiryForm input[type='submit']");
-      var originalText = $submitBtn.val();
+        var formData = new FormData(this);
+        formData.append('<?= $this->security->get_csrf_token_name(); ?>', '<?= $this->security->get_csrf_hash(); ?>');
+        var $submitBtn = $("#createEnquiryForm input[type='submit']");
+        var originalText = $submitBtn.val();
 
-      $submitBtn.prop("disabled", true).val("Submitting...");
+        $submitBtn.prop("disabled", true).val("Submitting...");
 
-      $.ajax({
-        url: "<?php echo base_url('Home/saveData'); ?>",
-        data: formData,
-        type: "post",
-        processData: false,
-        contentType: false,
-        dataType: 'json',
-        success: function (response) {
-          //   console.log("AJAX success callback:", response);
+        $.ajax({
+          url: "<?php echo base_url('Home/saveData'); ?>",
+          data: formData,
+          type: "post",
+          processData: false,
+          contentType: false,
+          dataType: 'json',
+          success: function (response) {
+            //   console.log("AJAX success callback:", response);
 
-          $submitBtn.prop("disabled", false).val(originalText);
+            $submitBtn.prop("disabled", false).val(originalText);
 
-          if (response.status === 'success') {
-            toastr.success(response.message);
-            $("#createEnquiryForm")[0].reset();
+            if (response.status === 'success') {
+              toastr.success(response.message);
+              $("#createEnquiryForm")[0].reset();
 
-            // Hide modal
-            setTimeout(function () {
-              $("#inqueryform").modal('hide');
-              $("#inqueryform").removeClass('in').hide();
-              $("body").removeClass('modal-open');
-              $(".modal-backdrop").remove();
-            }, 200);
+              // Hide modal
+              setTimeout(function () {
+                $("#inqueryform").modal('hide');
+                $("#inqueryform").removeClass('in').hide();
+                $("body").removeClass('modal-open');
+                $(".modal-backdrop").remove();
+              }, 200);
+            } else {
+              toastr.error(response.message);
+            }
+            if (response.csrf_token) {
+              $('input[name="<?= $this->security->get_csrf_token_name(); ?>"]').val(response.csrf_token);
+            }
+          },
+          error: function (xhr, status, error) {
+            $submitBtn.prop("disabled", false).val(originalText);
+            toastr.error("Unexpected error: " + xhr.responseText);
+          }
+        });
+      });
+
+    </script>
+
+
+
+    <script>
+      $(document).ready(function () {
+        // Get the current URL
+        var currentUrl = window.location.href;
+        //   console.log('Current URL:', currentUrl);
+
+        // Flags for dropdowns
+        var isServicesActive = false;
+        var isHireActive = false;
+
+        // Clear all active-link classes
+        $('.nav a, details summary').removeClass('active-link');
+        //   console.log('Cleared all active-link classes');
+
+        // Normalize URLs
+        var baseUrl = '<?php echo rtrim(base_url(), '/'); ?>'; // Ensure no trailing slash
+        var normalizedCurrentUrl = currentUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
+
+        if (window.location.pathname === '/' || window.location.pathname === '/index.php') {
+          $('.nav a#home').addClass('active-link');
+          return;
+        }
+
+
+        // Process other links
+        $('.nav a').each(function () {
+          var linkUrl = $(this).attr('href');
+          // console.log('Checking link:', linkUrl);
+
+          // Skip invalid or Home link
+          if (!linkUrl || linkUrl === '#' || linkUrl === 'javascript:void(0)' || $(this).attr('id') === 'home') {
+            return;
+          }
+
+          // Normalize link URL
+          var normalizedLinkUrl = linkUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
+
+          // Exact match for non-dropdown links, partial for dropdown sublinks
+          if (normalizedCurrentUrl === normalizedLinkUrl) {
+            //   console.log('Exact match for:', linkUrl);
+            $(this).addClass('active-link');
+          } else if (
+            $(this).closest('.services-dropdown-menu, .category-container, .dropdown-menu').length &&
+            normalizedCurrentUrl.includes(normalizedLinkUrl)
+          ) {
+            //   console.log('Submenu match for:', linkUrl);
+            $(this).addClass('active-link');
           } else {
-            toastr.error(response.message);
+            return;
           }
-          if (response.csrf_token) {
-            $('input[name="<?= $this->security->get_csrf_token_name(); ?>"]').val(response.csrf_token);
+
+          // Flag dropdowns
+          if ($(this).closest('.services-dropdown-menu').length) {
+            isServicesActive = true;
           }
-        },
-        error: function (xhr, status, error) {
-          $submitBtn.prop("disabled", false).val(originalText);
-          toastr.error("Unexpected error: " + xhr.responseText);
+          if ($(this).closest('.category-container').length || $(this).closest('.dropdown-menu').length) {
+            isHireActive = true;
+          }
+
+          // Highlight mobile dropdown toggle
+          if ($(this).closest('.dropdown-menu').length) {
+            $(this).closest('.dropdown').children('a.dropdown-toggle').addClass('active-link');
+          }
+        });
+
+        // Highlight parent links
+        if (isServicesActive) {
+          $('.services-parent > a').addClass('active-link');
+          // console.log('Services parent highlighted');
         }
-      });
-    });
-
-  </script>
-
-
-
-  <script>
-    $(document).ready(function () {
-      // Get the current URL
-      var currentUrl = window.location.href;
-      //   console.log('Current URL:', currentUrl);
-
-      // Flags for dropdowns
-      var isServicesActive = false;
-      var isHireActive = false;
-
-      // Clear all active-link classes
-      $('.nav a, details summary').removeClass('active-link');
-      //   console.log('Cleared all active-link classes');
-
-      // Normalize URLs
-      var baseUrl = '<?php echo rtrim(base_url(), '/'); ?>'; // Ensure no trailing slash
-      var normalizedCurrentUrl = currentUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
-
-    if (window.location.pathname === '/' || window.location.pathname === '/index.php') {
-  $('.nav a#home').addClass('active-link');
-  return;
-}
-
-
-      // Process other links
-      $('.nav a').each(function () {
-        var linkUrl = $(this).attr('href');
-        // console.log('Checking link:', linkUrl);
-
-        // Skip invalid or Home link
-        if (!linkUrl || linkUrl === '#' || linkUrl === 'javascript:void(0)' || $(this).attr('id') === 'home') {
-          return;
+        if (isHireActive) {
+          $('.desktopHireView > a, .mobileDropdown > a').addClass('active-link');
+          // console.log('Hire parent highlighted');
         }
 
-        // Normalize link URL
-        var normalizedLinkUrl = linkUrl.split('?')[0].split('#')[0].replace(/\/$/, '');
-
-        // Exact match for non-dropdown links, partial for dropdown sublinks
-        if (normalizedCurrentUrl === normalizedLinkUrl) {
-          //   console.log('Exact match for:', linkUrl);
-          $(this).addClass('active-link');
-        } else if (
-          $(this).closest('.services-dropdown-menu, .category-container, .dropdown-menu').length &&
-          normalizedCurrentUrl.includes(normalizedLinkUrl)
-        ) {
-          //   console.log('Submenu match for:', linkUrl);
-          $(this).addClass('active-link');
-        } else {
-          return;
+        // Handle base Hire page
+        if (normalizedCurrentUrl === baseUrl + '/hire') {
+          $('.desktopHireView > a, .mobileDropdown > a').addClass('active-link');
+          // console.log('Base Hire page highlighted');
         }
 
-        // Flag dropdowns
-        if ($(this).closest('.services-dropdown-menu').length) {
-          isServicesActive = true;
-        }
-        if ($(this).closest('.category-container').length || $(this).closest('.dropdown-menu').length) {
-          isHireActive = true;
-        }
-
-        // Highlight mobile dropdown toggle
-        if ($(this).closest('.dropdown-menu').length) {
-          $(this).closest('.dropdown').children('a.dropdown-toggle').addClass('active-link');
-        }
+        //   console.log('Services active:', isServicesActive, 'Hire active:', isHireActive);
       });
 
-      // Highlight parent links
-      if (isServicesActive) {
-        $('.services-parent > a').addClass('active-link');
-        // console.log('Services parent highlighted');
-      }
-      if (isHireActive) {
-        $('.desktopHireView > a, .mobileDropdown > a').addClass('active-link');
-        // console.log('Hire parent highlighted');
-      }
 
-      // Handle base Hire page
-      if (normalizedCurrentUrl === baseUrl + '/hire') {
-        $('.desktopHireView > a, .mobileDropdown > a').addClass('active-link');
-        // console.log('Base Hire page highlighted');
-      }
-
-      //   console.log('Services active:', isServicesActive, 'Hire active:', isHireActive);
-    });
-
-
-  </script>
+    </script>

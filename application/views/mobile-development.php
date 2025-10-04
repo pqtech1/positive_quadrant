@@ -26,13 +26,14 @@
                 solutions.
             </p>
         </div>
-        <div class="mobile-app-content-image col-md-6" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
+
+        <div class="mobile-app-content-image col-md-6" data-aos="fade-left" data-aos-delay="200"
+            data-aos-duration="800">
             <picture>
                 <source data-srcset="<?php echo base_url('assets/img/mob-dev2.webp'); ?>" type="image/webp">
 
-                <img data-src="<?php echo base_url('noWebpAssets/assets/img/mob-dev2.png'); ?>" 
-                     alt="Mobile Development" 
-                     class="lazyload">
+                <img data-src="<?php echo base_url('noWebpAssets/assets/img/mob-dev2.png'); ?>" alt="Mobile Development"
+                    class="lazyload">
             </picture>
 
         </div>
@@ -53,22 +54,26 @@
                     performance.
                 </p>
 
-                <h4 style="margin-top: 30px;" data-aos="fade-up"><strong>Providing Exceptional Mobile App Development Solutions</strong>
+                <h4 style="margin-top: 30px;" data-aos="fade-up"><strong>Providing Exceptional Mobile App Development
+                        Solutions</strong>
                 </h4>
                 <ul data-aos="fade-up" data-aos-delay="100">
-                    <p class="pq_p"><span>📲</span>We’ve partnered with leading global brands to expand their digital presence and
+                    <p class="pq_p"><span>📲</span>We’ve partnered with leading global brands to expand their digital
+                        presence and
                         deliver
                         consistent user experiences across platforms and devices.</p>
                     <p><span>📲</span>Our services include fully integrated design and data solutions. Whether your need
                         is for
                         enterprise-level software or customer-focused apps, we handle everything from planning to final
                         deployment on time.</p>
-                    <p class="pq_p"><span>📲</span>In addition to native app development, we also offer robust and user-friendly
+                    <p class="pq_p"><span>📲</span>In addition to native app development, we also offer robust and
+                        user-friendly
                         hybrid application
                         solutions.</p>
                 </ul>
 
-                <h4 style="margin-top: 30px;" data-aos="fade-up"><strong>Cross-Platform Mobile App Development</strong></h4>
+                <h4 style="margin-top: 30px;" data-aos="fade-up"><strong>Cross-Platform Mobile App Development</strong>
+                </h4>
                 <p class="pq_p" data-aos="fade-up" data-aos-delay="100">
                     Our expert developers are skilled in creating cross-platform apps that operate seamlessly in diverse
                     environments by leveraging a combination of web and native technologies.
@@ -123,13 +128,16 @@
 
     <div>
         <div class="row mobile-dev-bottom">
-            <div class="col-md-4" data-aos="zoom-in-right" data-aos-duration="800">
+
+
+
+            <!-- Left Image -->
+            <div class="col-md-4">
                 <picture>
                     <source data-srcset="<?php echo base_url('assets/img/our-services.webp'); ?>" type="image/webp">
 
-                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/our-services.jpeg'); ?>" 
-                         alt="Our Services" 
-                         class="lazyload">
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/our-services.jpeg'); ?>"
+                        alt="Our Services" class="lazyload">
                 </picture>
 
             </div>

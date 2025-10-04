@@ -60,20 +60,53 @@
   .batchname li.active+i {
     color: #ff7043;
   }
-  
-     .slider-wrapper {
-      overflow: hidden;
-      position: relative;
-      max-width: 100%;
-    }
 
-    .slider-track {
-      display: flex;
-      transition: transform 0.6s ease;
-      will-change: transform;
-    }
+  .slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+  }
 
+  .slider-track {
+    display: flex;
+    transition: transform 0.6s ease;
+    will-change: transform;
+  }
+
+  .slider-item {
+    flex: 0 0 100vw;
+    max-width: 100vw;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .slider-item-inner {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: 100%;
+  }
+
+  .slider-item img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+
+  .slider-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .slider-item p {
+    font-size: 14px;
+    color: #555;
+  }
+
+  @media (min-width: 992px) {
     .slider-item {
+
       flex: 0 0 100vw;
       max-width: 100vw;
       padding: 20px;
@@ -103,7 +136,8 @@
       font-size: 14px;
       color: #555;
     }
-    body{
+
+    body {
       overflow-x: hidden;
     }
 
@@ -112,17 +146,23 @@
         flex: 0 0 30%;
         max-width: 30%;
       }
+
+      flex: 0 0 30%;
+      max-width: 30%;
+
     }
+  }
 </style>
 
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-<br/>
+<br />
 <div class="container trainingPageMainContainer">
   <div class="trainingPageMainContainerTop">
     <div class="trainingPageMainContainerTopLeft">
       <h2 class="pq_h2 pq_left">Unlock Your Potential with Our Expert-Led Training Programs</h2>
-      <p class="pq_p">At Positive Quadrant Technologies, we believe in empowering professionals with the skills they need to thrive
+      <p class="pq_p">At Positive Quadrant Technologies, we believe in empowering professionals with the skills they
+        need to thrive
         in the digital world. Our meticulously designed training programs cover a range of technologies, including MERN
         Stack, MEAN Stack, WordPress, Drupal, PHP, and more, to equip you with the tools and knowledge to succeed.
         Whether you're a beginner aiming to enter the tech industry or an experienced developer looking to upskill, our
@@ -131,17 +171,15 @@
         success.</p>
     </div>
     <div class="trainingPageMainContainerTopRight">
-    <picture class="lazyload">
+
+      <picture class="lazyload">
         <!-- WebP version -->
         <source data-srcset="<?= base_url('assets/img/trainingimage.webp') ?>" type="image/webp">
-        
+
         <!-- PNG fallback -->
-        <img 
-            data-src="<?= base_url('noWebpAssets/assets/img/trainingimage.png') ?>" 
-            alt="Training Image" 
-            class="lazyload img-responsive" 
-        />
-    </picture>
+        <img data-src="<?= base_url('noWebpAssets/assets/img/trainingimage.png') ?>" alt="Training Image"
+          class="lazyload img-responsive" />
+      </picture>
 
     </div>
   </div>
@@ -149,141 +187,143 @@
 
 
 <div class="container trainingPageMainContainerMiddle">
-    <h2 data-aos="fade-up" data-aos-duration="800">Our Courses</h2>
-    <div id="trainingPageParticlejs"></div>
-    <div class="trainingAllCoursesContainer">
-        <?php
-        $index = 0; // Initialize a counter for the stagger effect
-        foreach ($trainings as $training) {
-            // Generate random rating between 4.0 and 4.9
-            $rating = round(rand(40, 49) / 10, 1);
 
-            // Calculate a delay that resets for each row of 4 items (0, 100, 200, 300...)
-            $delay = ($index % 4) * 100;
-            ?>
-            <div class="trainingAllCoursesContainerCard" data-aos="zoom-in" data-aos-delay="<?php echo $delay; ?>" data-aos-duration="600">
-                <div class="courseImageContainer">
-                    <img 
-                        class="lazyload img-responsive" 
-                        data-src="<?php echo $this->config->item('image_path'); ?>/uploads/courses/<?php echo $training['cimage']; ?>" 
-                        alt="Course Image" />
-                </div>
-                <div class="courseDetailContainer">
-                    <h4><?php echo $training['cname'] ?></h4>
-                    <h5>
-                        <?php echo $rating; ?>
-                        <div class="star-rating">
-                            <?php
-                            // Display the stars based on rating
-                            $fullStars = floor($rating); // Number of full stars
-                            $halfStar = ($rating - $fullStars >= 0.5) ? true : false; // Check if half star is needed
-                            for ($i = 0; $i < $fullStars; $i++) {
-                                echo '<i class="fas fa-star"></i>'; // Full star
-                            }
-                            if ($halfStar) {
-                                echo '<i class="fas fa-star-half-alt"></i>'; // Half star
-                            }
-                            for ($i = $fullStars + $halfStar; $i < 5; $i++) {
-                                echo '<i class="far fa-star"></i>'; // Empty star
-                            }
-                            ?>
-                        </div>
-                    </h5>
-                    <h3>Mode: Online/Offline</h3>
-                    <div class="buttonContainer">
-                        <?php
-                        // Replace spaces with hyphens while keeping + and & symbols intact
-                        $slug = preg_replace('/\s+/', '-', strtolower($training['cname']));
-                        ?>
-                        <a href="<?php echo base_url(rawurlencode($slug)); ?>"><button>Explore</button></a>
-                    </div>
-                </div>
+  <h2 data-aos="fade-up" data-aos-duration="800">Our Courses</h2>
+  <div id="trainingPageParticlejs"></div>
+  <div class="trainingAllCoursesContainer">
+    <?php
+    $index = 0; // Initialize a counter for the stagger effect
+    foreach ($trainings as $training) {
+      // Generate random rating between 4.0 and 4.9
+      $rating = round(rand(40, 49) / 10, 1);
+
+
+      // Calculate a delay that resets for each row of 4 items (0, 100, 200, 300...)
+      $delay = ($index % 4) * 100;
+      ?>
+      <div class="trainingAllCoursesContainerCard" data-aos="zoom-in" data-aos-delay="<?php echo $delay; ?>"
+        data-aos-duration="600">
+        <div class="courseImageContainer">
+          <img class="lazyload img-responsive"
+            data-src="<?php echo $this->config->item('image_path'); ?>/uploads/courses/<?php echo $training['cimage']; ?>"
+            alt="Course Image" />
+        </div>
+        <div class="courseDetailContainer">
+          <h4><?php echo $training['cname'] ?></h4>
+          <h5>
+            <?php echo $rating; ?>
+            <div class="star-rating">
+              <?php
+              // Display the stars based on rating
+              $fullStars = floor($rating); // Number of full stars
+              $halfStar = ($rating - $fullStars >= 0.5) ? true : false; // Check if half star is needed
+              for ($i = 0; $i < $fullStars; $i++) {
+                echo '<i class="fas fa-star"></i>'; // Full star
+              }
+              if ($halfStar) {
+                echo '<i class="fas fa-star-half-alt"></i>'; // Half star
+              }
+              for ($i = $fullStars + $halfStar; $i < 5; $i++) {
+                echo '<i class="far fa-star"></i>'; // Empty star
+              }
+              ?>
             </div>
+          </h5>
+          <h3>Mode: Online/Offline</h3>
+          <div class="buttonContainer">
             <?php
-            $index++; // Increment the counter for the next card
-        }
-        ?>
-    </div>
+            // Replace spaces with hyphens while keeping + and & symbols intact
+            $slug = preg_replace('/\s+/', '-', strtolower($training['cname']));
+            ?>
+            <a href="<?php echo base_url(rawurlencode($slug)); ?>"><button>Explore</button></a>
+          </div>
+        </div>
+      </div>
+      <?php
+      $index++; // Increment the counter for the next card
+    }
+    ?>
+  </div>
 </div>
 
 
 <div class=" container upcomingBatchParentContainerAndSchedule">
-    <h2 data-aos="fade-up" data-aos-duration="800">Upcoming Batches and Schedule</h2>
-    <div class="upcomingBatchNameAndDetail">
-        <div class="upcomingBatchName">
-            <?php $c = 0;
-            foreach ($trainings as $training) {
-                $active = ($c == 0) ? '' : ''; ?>
-                <div class="batchname" data-aos="fade-right" data-aos-delay="<?php echo $c * 100; ?>">
-                    <li class="<?php echo $active; ?>"><a data-toggle="tab"
-                            href="#course<?php echo $training['c_id']; ?>"><?php echo strtoupper($training['cname']); ?></a></li>
-                    <i class="fas fa-greater-than"></i>
-                </div>
+  <h2 data-aos="fade-up" data-aos-duration="800">Upcoming Batches and Schedule</h2>
+  <div class="upcomingBatchNameAndDetail">
+    <div class="upcomingBatchName">
+      <?php $c = 0;
+      foreach ($trainings as $training) {
+        $active = ($c == 0) ? '' : ''; ?>
+        <div class="batchname" data-aos="fade-right" data-aos-delay="<?php echo $c * 100; ?>">
+          <li class="<?php echo $active; ?>"><a data-toggle="tab"
+              href="#course<?php echo $training['c_id']; ?>"><?php echo strtoupper($training['cname']); ?></a></li>
+          <i class="fas fa-greater-than"></i>
+        </div>
 
-                <?php $c++;
-            } ?>
-        </div>
-        <div class="upcomingBatchDetail" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
-            <div class="tab-content">
-                <?php $l = 0;
-                foreach ($trainings as $training2) {
-                    $inactive = ''; ?>
-                    <div id="course<?php echo $training2['c_id']; ?>" class="tab-pane fade <?php echo $inactive; ?>">
-                        <h3><?php echo strtoupper(($training2['cname'])); ?></h3>
-                        <table class="table table-hover">
-                            <thead>
-                                <th>Course</th>
-                                <th>Start Date</th>
-                                <th>Days</th>
-                                <th>Timing</th>
-                                </thead>
-                            <tbody>
-                                <?php $upcoming1 = $this->home->view_syllabus($training2['c_id']);
-                                foreach ($upcoming1 as $value) { ?>
-                                    <tr>
-                                        <td><?php echo $value['sname']; ?></td>
-                                        <td><?php echo $value['sname']; ?></td>
-                                        <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
-                                        <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
-                                        </td>
-                                        <td>
-                                            <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
-                                        </td>
-                                        </tr>
-                                <?php } ?>
-                            </tbody>
-                        </table>
-                    </div>
-                    <?php $l++;
-                } ?>
-                <div id="courseAll" class="tab-pane fade in active">
-                    <table class="table table-hover">
-                        <thead>
-                            <th>Course</th>
-                            <th>Start Date</th>
-                            <th>Days</th>
-                            <th>Timing</th>
-                            </thead>
-                        <tbody>
-                            <?php $upcoming1 = $this->home->view_syllabus(null);
-                            foreach ($upcoming1 as $value) { ?>
-                                <tr>
-                                    <td><?php echo $value['sname']; ?></td>
-                                    <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
-                                    <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
-                                    </td>
-                                    <td>
-                                        <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
-                                    </td>
-                                    <td></td>
-                                </tr>
-                            <?php } ?>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
+        <?php $c++;
+      } ?>
     </div>
+    <div class="upcomingBatchDetail" data-aos="fade-left" data-aos-delay="300" data-aos-duration="800">
+      <div class="tab-content">
+        <?php $l = 0;
+        foreach ($trainings as $training2) {
+          $inactive = ''; ?>
+          <div id="course<?php echo $training2['c_id']; ?>" class="tab-pane fade <?php echo $inactive; ?>">
+            <h3><?php echo strtoupper(($training2['cname'])); ?></h3>
+            <table class="table table-hover">
+              <thead>
+                <th>Course</th>
+                <th>Start Date</th>
+                <th>Days</th>
+                <th>Timing</th>
+              </thead>
+              <tbody>
+                <?php $upcoming1 = $this->home->view_syllabus($training2['c_id']);
+                foreach ($upcoming1 as $value) { ?>
+                  <tr>
+                    <td><?php echo $value['sname']; ?></td>
+                    <td><?php echo $value['sname']; ?></td>
+                    <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
+                    <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
+                    </td>
+                    <td>
+                      <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
+                    </td>
+                  </tr>
+                <?php } ?>
+              </tbody>
+            </table>
+          </div>
+          <?php $l++;
+        } ?>
+        <div id="courseAll" class="tab-pane fade in active">
+          <table class="table table-hover">
+            <thead>
+              <th>Course</th>
+              <th>Start Date</th>
+              <th>Days</th>
+              <th>Timing</th>
+            </thead>
+            <tbody>
+              <?php $upcoming1 = $this->home->view_syllabus(null);
+              foreach ($upcoming1 as $value) { ?>
+                <tr>
+                  <td><?php echo $value['sname']; ?></td>
+                  <td><?php echo date('d M Y', strtotime($value['b_date'])); ?></td>
+                  <td><?php echo $this->home->getWeekendName($value['b_from'], $value['b_to']) ?>
+                  </td>
+                  <td>
+                    <?php echo date("g:i a", strtotime($value['batch_time_from'])) . ' to ' . date("g:i a", strtotime($value['batch_time_to'])) ?>
+                  </td>
+                  <td></td>
+                </tr>
+              <?php } ?>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -353,79 +393,83 @@
   <div class="slider-wrapper">
     <div class="slider-track" id="slider">
 
-    <!-- Slide 1 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <!-- WebP version -->
-          <source data-srcset="assets/new_img/learning.webp" type="image/webp">
-          <!-- PNG fallback -->
-          <img data-src="assets/new_img/learning.png" alt="Industry-Aligned Practical Knowledge" class="lazyload img-responsive">
-        </picture>
-        <h3>Industry-Aligned Practical Knowledge</h3>
-        <p>80% practical & 20% theory to get you job-ready fast.</p>
-      </div>
-    </div>
 
-    <!-- Slide 2 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/network.webp" type="image/webp">
-          <img data-src="assets/new_img/network.png" alt="Real-World Applications" class="lazyload img-responsive">
-        </picture>
-        <h3>Real-World Applications</h3>
-        <p>Skills aligned with real industry problems and roles.</p>
-      </div>
-    </div>
+      <!-- Slide 1 -->
+      <div class="slider-item">
+        <div class="slider-item-inner">
+          <picture class="lazyload">
+            <!-- WebP version -->
+            <source data-srcset="assets/new_img/learning.webp" type="image/webp">
+            <!-- PNG fallback -->
+            <img data-src="assets/new_img/learning.png" alt="Industry-Aligned Practical Knowledge"
+              class="lazyload img-responsive">
+          </picture>
+          <h3>Industry-Aligned Practical Knowledge</h3>
+          <p>80% practical & 20% theory to get you job-ready fast.</p>
 
-    <!-- Slide 3 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/soft-skills.webp" type="image/webp">
-          <img data-src="assets/new_img/soft-skills.png" alt="Placement Assistance" class="lazyload img-responsive">
-        </picture>
-        <h3>Placement Assistance</h3>
-        <p>Ongoing support from our committed placement cell.</p>
+        </div>
       </div>
-    </div>
 
-    <!-- Slide 4 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/career-development.webp" type="image/webp">
-          <img data-src="assets/new_img/career-development.png" alt="Tailored Guidance" class="lazyload img-responsive">
-        </picture>
-        <h3>Tailored Guidance</h3>
-        <p>Dedicated career coach throughout your learning journey.</p>
+      <!-- Slide 2 -->
+      <div class="slider-item">
+        <div class="slider-item-inner">
+          <picture class="lazyload">
+            <source data-srcset="assets/new_img/network.webp" type="image/webp">
+            <img data-src="assets/new_img/network.png" alt="Real-World Applications" class="lazyload img-responsive">
+          </picture>
+          <h3>Real-World Applications</h3>
+          <p>Skills aligned with real industry problems and roles.</p>
+        </div>
       </div>
-    </div>
 
-    <!-- Slide 5 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/route.webp" type="image/webp">
-          <img data-src="assets/new_img/route.png" alt="Career Roadmap" class="lazyload img-responsive">
-        </picture>
-        <h3>Career Roadmap</h3>
-        <p>Guided path to upskilling and achieving career goals.</p>
+      <!-- Slide 3 -->
+      <div class="slider-item">
+        <div class="slider-item-inner">
+          <picture class="lazyload">
+            <source data-srcset="assets/new_img/soft-skills.webp" type="image/webp">
+            <img data-src="assets/new_img/soft-skills.png" alt="Placement Assistance" class="lazyload img-responsive">
+          </picture>
+          <h3>Placement Assistance</h3>
+          <p>Ongoing support from our committed placement cell.</p>
+        </div>
       </div>
-    </div>
 
-    <!-- Slide 6 -->
-    <div class="slider-item">
-      <div class="slider-item-inner">
-        <picture class="lazyload">
-          <source data-srcset="assets/new_img/flexible.webp" type="image/webp">
-          <img data-src="assets/new_img/flexible.png" alt="Flexible Learning" class="lazyload img-responsive">
-        </picture>
-        <h3>Flexible Learning</h3>
-        <p>Access course materials anytime, from any device.</p>
+      <!-- Slide 4 -->
+      <div class="slider-item">
+        <div class="slider-item-inner">
+          <picture class="lazyload">
+            <source data-srcset="assets/new_img/career-development.webp" type="image/webp">
+            <img data-src="assets/new_img/career-development.png" alt="Tailored Guidance"
+              class="lazyload img-responsive">
+          </picture>
+          <h3>Tailored Guidance</h3>
+          <p>Dedicated career coach throughout your learning journey.</p>
+        </div>
       </div>
-    </div>
+
+      <!-- Slide 5 -->
+      <div class="slider-item">
+        <div class="slider-item-inner">
+          <picture class="lazyload">
+            <source data-srcset="assets/new_img/route.webp" type="image/webp">
+            <img data-src="assets/new_img/route.png" alt="Career Roadmap" class="lazyload img-responsive">
+          </picture>
+          <h3>Career Roadmap</h3>
+          <p>Guided path to upskilling and achieving career goals.</p>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="slider-item">
+        <div class="slider-item-inner">
+          <picture class="lazyload">
+            <source data-srcset="assets/new_img/flexible.webp" type="image/webp">
+            <img data-src="assets/new_img/flexible.png" alt="Flexible Learning" class="lazyload img-responsive">
+          </picture>
+          <h3>Flexible Learning</h3>
+          <p>Access course materials anytime, from any device.</p>
+        </div>
+      </div>
 
 
     </div>

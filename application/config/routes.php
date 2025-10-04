@@ -54,7 +54,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 $route['sitemap.xml'] = 'Home/sitemap';
 
-$route['book-free-trial'] = 'Home/caseStudy'; 
+$route['book-free-trial'] = 'Home/caseStudy';
 
 
 
@@ -66,6 +66,7 @@ $route['it-consultancy'] = 'Home/industry';
 $route['software-products'] = 'Home/SoftwareProduct';
 $route['it-training-and-placement'] = 'Home/training';
 $route['internship-program'] = 'Home/Internship';
+$route['projects-and-portfolios'] = 'Home/ProjectAndPortfolios';
 $route['projects'] = 'Home/project';
 $route['careers'] = 'Home/career';
 // $route['careers'] = 'Home/jobopenings';
@@ -99,7 +100,7 @@ $route['hire-(:any)'] = 'home/Hire/$1';
 
 $route['(:any)'] = 'Home/training_details/$1';
 $route['hire'] = 'Home/Hire';            // For the main hire page
-           // For the main hire page
+// For the main hire page
 // $route['hire/(:any)'] = 'home/Hire/$1';
 // For hire page with specific ID
 

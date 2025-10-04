@@ -20,13 +20,14 @@
     <div class="row">
         <div class="col-md-6" data-aos="fade-right" data-aos-duration="800">
             <div class="seo-image">
+
                 <picture>
                     <source data-srcset="<?php echo base_url('assets/img/seo_image.webp'); ?>" type="image/webp">
 
-                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/seo_image.png'); ?>" 
-                         alt="SEO Image" 
-                         class="lazyload">
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/seo_image.png'); ?>" alt="SEO Image"
+                        class="lazyload">
                 </picture>
+
 
             </div>
         </div>
@@ -68,9 +69,11 @@
         We provide expert support to boost your visibility in the local pack and stay ahead of your competitors.
     </p>
 
-    <h4 class="section-heading" data-aos="fade-up" data-aos-delay="300">Here’s how we can help manage your Local SEO:</h4>
+    <h4 class="section-heading" data-aos="fade-up" data-aos-delay="300">Here’s how we can help manage your Local SEO:
+    </h4>
 
     <div class="row seo-box">
+
         <div class="col-sm-4 seo-feature" data-aos="zoom-in" data-aos-delay="100">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Claim Listing Icon">
             <p><strong>Claim your free Google My Business listing</strong><br>(if you haven’t already)</p>
@@ -94,6 +97,7 @@
         </div>
         <div class="col-sm-4 seo-feature" data-aos="zoom-in" data-aos-delay="300">
             <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Upload Content Icon">
+
             <p><strong>Upload pictures, offers and short posts</strong><br>to keep your business fresh in local searches
             </p>
         </div>
@@ -127,13 +131,16 @@
 
         <div class="col-md-6" data-aos="fade-left" data-aos-duration="800">
             <div class="seo-image">
-                <picture>
+                <<<<<<< HEAD <picture>
                     <source data-srcset="<?php echo base_url('assets/img/seo-service.webp'); ?>" type="image/webp">
+                    =======
+                    <img data-src="<?php echo base_url() . 'assets/img/seo-service.webp' ?>" alt="SEO Service"
+                        class="lazyload" />
+                    >>>>>>> feature/project-and-portfolio
 
-                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/seo-service.png'); ?>" 
-                         alt="SEO Service" 
-                         class="lazyload">
-                </picture>
+                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/seo-service.png'); ?>" alt="SEO Service"
+                        class="lazyload">
+                    </picture>
             </div>
         </div>
 

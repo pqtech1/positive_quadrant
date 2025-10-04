@@ -134,15 +134,7 @@
     <div class="container">
         <div class="row footerInfo">
             <a href="tel:917219623991" target="_blank">
-                <picture>
-                    <!-- WebP first -->
-                    <source data-srcset="<?= base_url('assets/img/phone.webp'); ?>" type="image/webp">
-
-                    <!-- PNG fallback -->
-                    <img data-src="<?= base_url('noWebpAssets/assets/img/phone.png'); ?>" 
-                        class="telephone lazyload" 
-                        alt="Telephone">
-                </picture>            
+                <img class="telephone" src="<?= base_url() ?>/assets/img/phone.png">
             </a>
             <a href="https://api.whatsapp.com/send?phone=917219623991" class="whatsapp" target="_blank">
                 <i class="fa fa-whatsapp my-float"></i>
@@ -154,12 +146,7 @@
 
 <div class="positiveFooter">
     <div class="footerLeft">
-        <picture>
-            <!-- WebP source -->
-            <source srcset="<?= base_url() ?>/assets/img/new_logo.webp" type="image/webp">
-            <!-- Fallback image -->
-            <img src="<?= base_url() ?>noWebpAssets/assets/img/new_logo.png" alt="Company Logo">
-        </picture>
+        <img src="<?= base_url() ?>/assets/img/new_logo.png">
         <!-- <h3>Positive quadrant</h3> -->
         <p>At Positive Quadrant Technologies we are a IT Company which brings and develops the best software
             development,digital services for clients ranging from reale-state,pharmaceuticals,banking

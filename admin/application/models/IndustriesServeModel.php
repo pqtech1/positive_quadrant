@@ -1,32 +1,55 @@
 <?php
 
-
 class IndustriesServeModel extends CI_Model
 {
-
-    protected $table = 'industries_serve';
+    public function createData($data)
+    {
+        return $this->db->insert('industries_serve', $data);
+    }
 
     public function get_all()
     {
-        return $this->db->get($this->table)->result();
+        return $this->db->get('industries_serve')->result();
     }
-
-    public function insert($data)
+    public function fetchAllData($data, $tablename, $where, $orderBy = '', $orderType = 'ASC')
     {
-        $this->db->insert($this->table, $data);
-        return $this->db->insert_id();
+        $this->db->select($data)
+            ->from($tablename)
+            ->where($where);
+
+        // Add ordering if specified
+        if (!empty($orderBy)) {
+            $this->db->order_by($orderBy, $orderType);
+        }
+
+        $query = $this->db->get();
+        return $query->result_array();
     }
 
-    public function update($id, $data)
+    public function fetchSingleData($data, $tablename, $where)
     {
-        $this->db->where('id', $id);
-        return $this->db->update($this->table, $data);
+        $query = $this->db->select($data)
+            ->from($tablename)
+            ->where($where)
+            ->get();
+        return $query->row_array();
     }
 
-    public function delete($id)
+    public function updateData($tablename, $data, $where)
     {
-        $this->db->where('id', $id);
-        return $this->db->delete($this->table);
+        $query = $this->db->update($tablename, $data, $where);
+        return $query;
     }
 
+    public function deleteData($tablename, $where)
+    {
+        $query = $this->db->delete($tablename, $where);
+        return $query;
+    }
+
+    public function insertDynamicData($tablename, $data)
+    {
+        $query = $this->db->insert($tablename, $data);
+        return $query;
+    }
 }

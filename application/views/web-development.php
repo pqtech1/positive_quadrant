@@ -26,12 +26,13 @@
             <div class="col-md-6  d-flex align-items-center justify-content-end ">
                 <picture>
                     <!-- WebP first -->
-                    <source data-srcset="<?php echo base_url('assets/img/web-development-services.webp'); ?>" type="image/webp">
+                    <source data-srcset="<?php echo base_url('assets/img/web-development-services.webp'); ?>"
+                        type="image/webp">
 
-                    <!-- JPG fallback -->
-                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-development-services.jpg'); ?>" 
-                        alt="Web Development Services" 
-                        class="lazyload">
+                    <img data-src="<?php echo base_url() . 'assets/img/web-development-services.webp' ?>"
+                        alt="Web Development Services" class="lazyload" />
+
+
                 </picture>
             </div>
         </div>
@@ -44,12 +45,12 @@
                 data-wow-duration="1s" data-wow-delay="0.5s">
                 <picture>
                     <!-- WebP first -->
-                    <source data-srcset="<?php echo base_url('assets/img/web-dev-end-services.webp'); ?>" type="image/webp">
+                    <source data-srcset="<?php echo base_url('assets/img/web-dev-end-services.webp'); ?>"
+                        type="image/webp">
 
-                    <!-- JPG fallback -->
-                    <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-dev-end-services.jpg'); ?>" 
-                        alt="Web Dev End Services" 
-                        class="lazyload">
+                    <img data-src="<?php echo base_url() . 'assets/img/web-dev-end-services.webp' ?>"
+                        alt="Web Dev End Services" class="lazyload" />
+
                 </picture>
             </div>
             <div class="col-md-6">
@@ -88,14 +89,15 @@
                 <div class="web-development-inner-card">
                     <picture>
                         <!-- WebP first -->
-                        <source data-srcset="<?php echo base_url('assets/img/pq-Authenticity.webp'); ?>" type="image/webp">
+                        <source data-srcset="<?php echo base_url('assets/img/pq-Authenticity.webp'); ?>"
+                            type="image/webp">
 
-                        <!-- PNG fallback -->
-                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/pq-Authenticity.png'); ?>" 
-                            alt="Expertise 1" 
-                            class="lazyload">
+                        <img data-src="<?php echo base_url() . 'assets/img/pq-Authenticity.webp' ?>" alt="Expertise 1"
+                            class="lazyload" />
+
                     </picture>
-                    <p class="pq_p">We specialize in building responsive, scalable, and user-friendly websites tailored to your
+                    <p class="pq_p">We specialize in building responsive, scalable, and user-friendly websites
+                        tailored to your
                         business needs.</p>
                 </div>
             </div>
@@ -106,13 +108,12 @@
                         <!-- WebP first -->
                         <source data-srcset="<?php echo base_url('assets/img/pq-Drive.webp'); ?>" type="image/webp">
 
-                        <!-- PNG fallback -->
-                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/pq-Drive.png'); ?>" 
-                            alt="Expertise 2" 
-                            class="lazyload">
-                    </picture>
-                    <p class="pq_p">Our design team creates intuitive, aesthetically pleasing interfaces that enhance user experience
-                        and engagement.</p>
+                        <img data-src="<?php echo base_url() . 'assets/img/pq-Drive.webp' ?>" alt="Expertise 2"
+                            class="lazyload" />
+
+                        <p class="pq_p">Our design team creates intuitive, aesthetically pleasing interfaces that
+                            enhance user experience
+                            and engagement.</p>
                 </div>
             </div>
 
@@ -120,14 +121,15 @@
                 <div class="web-development-inner-card">
                     <picture>
                         <!-- WebP first -->
-                        <source data-srcset="<?php echo base_url('assets/img/pq-Mindfulness.webp'); ?>" type="image/webp">
+                        <source data-srcset="<?php echo base_url('assets/img/pq-Mindfulness.webp'); ?>"
+                            type="image/webp">
 
-                        <!-- PNG fallback -->
-                        <img data-src="<?php echo base_url('noWebpAssets/assets/img/pq-Mindfulness.png'); ?>" 
-                            alt="Expertise 3" 
-                            class="lazyload">
+                        <img data-src="<?php echo base_url() . 'assets/img/pq-Mindfulness.webp' ?>" alt="Expertise 3"
+                            class="lazyload" />
+
                     </picture>
-                    <p class="pq_p">We provide comprehensive e-commerce solutions, enabling you to reach and engage customers
+                    <p class="pq_p">We provide comprehensive e-commerce solutions, enabling you to reach and engage
+                        customers
                         effectively online.</p>
                 </div>
             </div>

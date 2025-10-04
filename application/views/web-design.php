@@ -22,14 +22,14 @@
             </p>
         </div>
         <div class="web-design-image col-md-6">
+
             <picture>
                 <!-- WebP first -->
                 <source data-srcset="<?php echo base_url('assets/img/web-design.webp'); ?>" type="image/webp">
+                <img data-src="<?php echo base_url() . 'assets/img/web-design.webp' ?>" alt="Web Design"
+                    class="lazyload" />
 
-                <!-- JPG fallback -->
-                <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-design.jpg'); ?>" 
-                    alt="Web Design" 
-                    class="lazyload">
+
             </picture>
         </div>
     </div>
@@ -37,14 +37,15 @@
 
     <div class="row web-design-middle">
         <div class="web-design-image2 col-md-6">
+
             <picture>
                 <!-- WebP first -->
                 <source data-srcset="<?php echo base_url('assets/img/web-design2.webp'); ?>" type="image/webp">
 
-                <!-- JPG fallback -->
-                <img data-src="<?php echo base_url('noWebpAssets/assets/img/web-design2.jpg'); ?>" 
-                    alt="Web Design 2" 
-                    class="lazyload">
+                <img data-src="<?php echo base_url() . 'assets/img/web-design2.webp' ?>" alt="Web Design 2"
+                    class="lazyload" />
+
+
             </picture>
         </div>
         <div class="col-md-6">
@@ -104,7 +105,7 @@
                         aesthetically appealing and practical, we prepare drafts and templates in different formats to
                         ensure compatibility with a range of platforms.
                     </p>
-                    
+
                 </div>
             </div>
         </div>
